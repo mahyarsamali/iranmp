@@ -19,7 +19,7 @@
 #define NATIVE_RES_Y    1024.0f
 
 #define NATIVE_BG_X     1280.0f
-#define NATIVE_BG_Y     649.0f
+#define NATIVE_BG_Y     720.0f
 
 #define NATIVE_LOGO_X     1058.0f
 #define NATIVE_LOGO_Y     540.0f
@@ -48,6 +48,7 @@
 #define CORE_MTA_LOGO               "cgui\\images\\background_logo.png"
 #define CORE_MTA_FILLER             "cgui\\images\\mta_filler.png"
 #define CORE_MTA_VERSION            "cgui\\images\\version.png"
+#define CORE_MTA_CONTAINER          "cgui\\images\\container.png"
 
 static const SColor headlineColors[] = {SColorRGBA(233, 234, 106, 255), SColorRGBA(233 / 6 * 4, 234 / 6 * 4, 106 / 6 * 4, 255),
                                         SColorRGBA(233 / 7 * 3, 234 / 7 * 3, 106 / 7 * 3, 255)};
@@ -134,6 +135,18 @@ CMainMenu::CMainMenu(CGUI* pManager)
     m_pBackground->SetAlpha(0);
     m_pBackground->SetVisible(false);
 
+    // Background image
+    m_pContainer = reinterpret_cast<CGUIStaticImage*>(pManager->CreateStaticImage());
+    m_pContainer->LoadFromFile(CORE_MTA_CONTAINER);
+    m_pContainer->SetProperty("InheritsAlpha", "False");
+    m_pContainer->SetPosition(CVector2D(iBackgroundX, iBackgroundY), false);
+    m_pContainer->SetSize(CVector2D(iBackgroundSizeX, iBackgroundSizeY), false);
+    m_pContainer->SetZOrderingEnabled(false);
+    m_pContainer->SetAlwaysOnTop(true);
+    m_pContainer->MoveToBack();
+    m_pContainer->SetAlpha(0);
+    m_pContainer->SetVisible(false);
+
     m_pFiller2 = reinterpret_cast<CGUIStaticImage*>(pManager->CreateStaticImage());
     m_pFiller2->LoadFromFile(CORE_MTA_FILLER);
     m_pFiller2->SetVisible(false);
@@ -162,12 +175,12 @@ CMainMenu::CMainMenu(CGUI* pManager)
     m_pLogo->SetZOrderingEnabled(false);
 
     // Create the image showing the version number
-    m_pVersion = reinterpret_cast<CGUIStaticImage*>(pManager->CreateStaticImage());
-    m_pVersion->LoadFromFile(CORE_MTA_VERSION);
-    m_pVersion->SetParent(m_pCanvas);
-    m_pVersion->SetPosition(CVector2D(0.855f, 0.512f), true);
-    m_pVersion->SetSize(CVector2D((32 / NATIVE_RES_X) * m_iMenuSizeX, (32 / NATIVE_RES_Y) * m_iMenuSizeY), false);
-    m_pVersion->SetProperty("InheritsAlpha", "False");
+    //m_pVersion = reinterpret_cast<CGUIStaticImage*>(pManager->CreateStaticImage());
+    //m_pVersion->LoadFromFile(CORE_MTA_VERSION);
+    //m_pVersion->SetParent(m_pCanvas);
+    //m_pVersion->SetPosition(CVector2D(0.855f, 0.512f), true);
+    //m_pVersion->SetSize(CVector2D((32 / NATIVE_RES_X) * m_iMenuSizeX, (32 / NATIVE_RES_Y) * m_iMenuSizeY), false);
+    //m_pVersion->SetProperty("InheritsAlpha", "False");
 
     float fBase = 0.613f;
     float fGap = 0.043f;
@@ -178,13 +191,13 @@ CMainMenu::CMainMenu(CGUI* pManager)
     // Create the menu items
     // Filepath, Relative position, absolute native size
     // And the font for the graphics is ?
-    m_menuItems.push_back(CreateItem(MENU_ITEM_QUICK_CONNECT, "menu_quick_connect.png", CVector2D(0.168f, fBase + fGap * 0)));
-    m_menuItems.push_back(CreateItem(MENU_ITEM_BROWSE_SERVERS, "menu_browse_servers.png", CVector2D(0.168f, fBase + fGap * 1)));
-    m_menuItems.push_back(CreateItem(MENU_ITEM_HOST_GAME, "menu_host_game.png", CVector2D(0.168f, fBase + fGap * 2)));
-    m_menuItems.push_back(CreateItem(MENU_ITEM_MAP_EDITOR, "menu_map_editor.png", CVector2D(0.168f, fBase + fGap * 3)));
-    m_menuItems.push_back(CreateItem(MENU_ITEM_SETTINGS, "menu_settings.png", CVector2D(0.168f, fBase + fGap * 4)));
-    m_menuItems.push_back(CreateItem(MENU_ITEM_ABOUT, "menu_about.png", CVector2D(0.168f, fBase + fGap * 5)));
-    m_menuItems.push_back(CreateItem(MENU_ITEM_QUIT, "menu_quit.png", CVector2D(0.168f, fBase + fGap * 6)));
+    m_menuItems.push_back(CreateItem(MENU_ITEM_QUICK_CONNECT, "menu_quick_connect.png", CVector2D(0.43f, fBase + fGap * 0)));
+    m_menuItems.push_back(CreateItem(MENU_ITEM_BROWSE_SERVERS, "menu_browse_servers.png", CVector2D(0.43f, fBase + fGap * 1)));
+   // m_menuItems.push_back(CreateItem(MENU_ITEM_HOST_GAME, "menu_host_game.png", CVector2D(0.168f, fBase + fGap * 2)));
+    //m_menuItems.push_back(CreateItem(MENU_ITEM_MAP_EDITOR, "menu_map_editor.png", CVector2D(0.168f, fBase + fGap * 3)));
+    m_menuItems.push_back(CreateItem(MENU_ITEM_SETTINGS, "menu_settings.png", CVector2D(0.168f, fBase + fGap * 2)));
+    //m_menuItems.push_back(CreateItem(MENU_ITEM_ABOUT, "menu_about.png", CVector2D(0.168f, fBase + fGap * 5)));
+    m_menuItems.push_back(CreateItem(MENU_ITEM_QUIT, "menu_quit.png", CVector2D(0.168f, fBase + fGap * 3)));
 
     // We store the position of the top item, and the second item.  These will be useful later
     float fFirstItemSize = m_menuItems.front()->image->GetSize(false).fY;
@@ -288,7 +301,7 @@ CMainMenu::CMainMenu(CGUI* pManager)
     m_Settings.SetVisible(false);
     m_Credits.SetVisible(false);
     m_pNewsBrowser->SetVisible(false);
-    m_pLanguageSelector = new CLanguageSelector(m_pCanvas);
+    //m_pLanguageSelector = new CLanguageSelector(m_pCanvas);
 
     // We're not ingame
     SetIsIngame(false);
@@ -360,12 +373,13 @@ CMainMenu::~CMainMenu()
 {
     // Destroy GUI items
     delete m_pBackground;
+    delete m_pContainer;
     delete m_pCanvas;
     delete m_pFiller;
     delete m_pFiller2;
     delete m_pLogo;
     delete m_pLatestNews;
-    delete m_pVersion;
+    //delete m_pVersion;
     delete m_pMenuArea;
 
     // Destroy the menu items. Note: The disconnect item isn't always in the
@@ -384,7 +398,7 @@ CMainMenu::~CMainMenu()
 
     delete m_pDisconnect->image;
     delete m_pDisconnect;
-    delete m_pLanguageSelector;
+    //delete m_pLanguageSelector;
 }
 
 void CMainMenu::SetMenuVerticalPosition(int iPosY)
@@ -436,6 +450,7 @@ void CMainMenu::Update()
         m_pFiller->SetVisible(false);
         m_pFiller2->SetVisible(false);
         m_pBackground->SetVisible(false);
+        m_pContainer->SetVisible(false);
         m_bHideGame = false;
     }
 
@@ -591,6 +606,7 @@ void CMainMenu::Update()
         m_pFiller2->SetAlpha(Clamp<float>(0.f, m_fFader, CORE_MTA_BG_MAX_ALPHA));
         m_pCanvas->SetAlpha(Clamp<float>(0.f, m_fFader, CORE_MTA_BG_MAX_ALPHA));
         m_pBackground->SetAlpha(Clamp<float>(0.f, m_fFader, CORE_MTA_BG_MAX_ALPHA));
+        m_pContainer->SetAlpha(Clamp<float>(0.f, m_fFader, CORE_MTA_BG_MAX_ALPHA));
 
         if (m_fFader > 0.0f)
         {
@@ -626,6 +642,7 @@ void CMainMenu::Update()
         m_pFiller2->SetAlpha(Clamp(0.f, m_fFader, CORE_MTA_BG_MAX_ALPHA));
         m_pCanvas->SetAlpha(Clamp(0.f, m_fFader, CORE_MTA_BG_MAX_ALPHA));
         m_pBackground->SetAlpha(Clamp(0.f, m_fFader, CORE_MTA_BG_MAX_ALPHA));
+        m_pContainer->SetAlpha(Clamp(0.f, m_fFader, CORE_MTA_BG_MAX_ALPHA));
 
         if (m_fFader < 1.0f)
         {
@@ -646,6 +663,7 @@ void CMainMenu::Update()
             m_pFiller2->SetVisible(false);
             m_pCanvas->SetVisible(false);
             m_pBackground->SetVisible(false);
+            m_pContainer->SetVisible(false);
         }
     }
 
@@ -697,7 +715,7 @@ void CMainMenu::Update()
     // Call subdialog pulses
     m_ServerBrowser.Update();
     m_ServerInfo.DoPulse();
-    m_pLanguageSelector->DoPulse();
+   // m_pLanguageSelector->DoPulse();
 }
 
 void CMainMenu::Show(bool bOverlay)
@@ -758,6 +776,7 @@ void CMainMenu::SetVisible(bool bVisible, bool bOverlay, bool bFrameDelay)
         m_pFiller2->SetVisible(true);
         m_pCanvas->SetVisible(true);
         m_pBackground->SetVisible(true);
+        m_pContainer->SetVisible(true);
     }
 
     m_bHideGame = !bOverlay;
@@ -1129,41 +1148,41 @@ void CMainMenu::SetNewsHeadline(int iIndex, const SString& strHeadline, const SS
     if (iIndex < 0 || iIndex > 2)
         return;
 
-    m_pLatestNews->SetVisible(true);
+    //m_pLatestNews->SetVisible(true);
 
     // Headline
-    CGUILabel* pItem = m_pNewsItemLabels[iIndex];
-    CGUILabel* pItemShadow = m_pNewsItemShadowLabels[iIndex];
-    SColor     color = headlineColors[iIndex];
-    pItem->SetTextColor(color.R, color.G, color.B);
-    pItem->SetText(strHeadline);
-    pItemShadow->SetText(strHeadline);
+    //CGUILabel* pItem = m_pNewsItemLabels[iIndex];
+    //CGUILabel* pItemShadow = m_pNewsItemShadowLabels[iIndex];
+   // SColor     color = headlineColors[iIndex];
+    //pItem->SetTextColor(color.R, color.G, color.B);
+    //pItem->SetText(strHeadline);
+    //pItemShadow->SetText(strHeadline);
 
     // Switch font if it's too big
-    if (pItem->GetSize(false).fX < pItem->GetTextExtent())
-    {
-        const char* szFontName = "default-bold-small";
-        for (char i = 0; i < CORE_MTA_NEWS_ITEMS; i++)
-        {
+    //if (pItem->GetSize(false).fX < pItem->GetTextExtent())
+    //{
+    //    const char* szFontName = "default-bold-small";
+    //    for (char i = 0; i < CORE_MTA_NEWS_ITEMS; i++)
+    //    {
             // Try default-bold-small first, if that's too big use default-small
-            m_pNewsItemLabels[i]->SetFont(szFontName);
-            m_pNewsItemShadowLabels[i]->SetFont(szFontName);
-            if (strcmp(szFontName, "default-small") && (m_pNewsItemLabels[i]->GetSize(false).fX < m_pNewsItemLabels[i]->GetTextExtent()))
-            {
-                szFontName = "default-small";
-                i = -1;
-            }
-        }
-    }
+     //       m_pNewsItemLabels[i]->SetFont(szFontName);
+     //       m_pNewsItemShadowLabels[i]->SetFont(szFontName);
+     //       if (strcmp(szFontName, "default-small") && (m_pNewsItemLabels[i]->GetSize(false).fX < m_pNewsItemLabels[i]->GetTextExtent()))
+     //       {
+     //           szFontName = "default-small";
+     //           i = -1;
+     //       }
+     //   }
+    //}
 
     // Set our Date labels
-    CGUILabel* pItemDate = m_pNewsItemDateLabels[iIndex];
-    pItemDate->SetText(strDate);
+    //CGUILabel* pItemDate = m_pNewsItemDateLabels[iIndex];
+    //pItemDate->SetText(strDate);
 
     // 'NEW' sticker
-    CGUILabel* pNewLabel = m_pNewsItemNEWLabels[iIndex];
-    pNewLabel->SetVisible(bIsNew);
-    pNewLabel->SetPosition(CVector2D(pItem->GetPosition().fX + 4, pItem->GetPosition().fY - 4));
+    //CGUILabel* pNewLabel = m_pNewsItemNEWLabels[iIndex];
+    //pNewLabel->SetVisible(bIsNew);
+    //pNewLabel->SetPosition(CVector2D(pItem->GetPosition().fX + 4, pItem->GetPosition().fY - 4));
 }
 
 void CMainMenu::ReloadNews()
