@@ -98,7 +98,7 @@
 #define ROOTNODE_SETTINGS   "settings"
 
 // Settings prefixes and delimiters
-#define SETTINGS_PREFIX_PRIVATE     '@'                     // Private prefix
+#define SETTINGS_PREFIX_PRIVATE     '!'                     // Private prefix
 #define SETTINGS_PREFIX_PROTECTED   '#'                     // Protected prefix
 #define SETTINGS_PREFIX_PUBLIC      '*'                     // Public prefix
 #define SETTINGS_NO_PREFIX          CSettings::Private      // Access type when no prefix is used

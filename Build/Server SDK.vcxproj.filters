@@ -1,40 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Headers">
-      <UniqueIdentifier>{C196CD9C-2D76-4C38-368E-D70EA2ECB299}</UniqueIdentifier>
+    <Filter Include="core">
+      <UniqueIdentifier>{4E40957C-3A77-960D-E363-7C10CF79120F}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Headers\core">
-      <UniqueIdentifier>{D9A77950-C50A-09F5-6E90-41AB5AD2D477}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Headers\net">
-      <UniqueIdentifier>{77B668E3-E36B-E1D8-6C60-DBAFD814D8DC}</UniqueIdentifier>
+    <Filter Include="net">
+      <UniqueIdentifier>{4C94880B-B89D-887C-4119-9F7CAD21947C}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Server\sdk\MTAPlatform.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
+    <ClInclude Include="..\Server\sdk\MTAPlatform.h" />
     <ClInclude Include="..\Server\sdk\core\CExceptionInformation.h">
-      <Filter>Headers\core</Filter>
+      <Filter>core</Filter>
     </ClInclude>
     <ClInclude Include="..\Server\sdk\core\CModManager.h">
-      <Filter>Headers\core</Filter>
+      <Filter>core</Filter>
     </ClInclude>
     <ClInclude Include="..\Server\sdk\core\CServerBase.h">
-      <Filter>Headers\core</Filter>
+      <Filter>core</Filter>
     </ClInclude>
     <ClInclude Include="..\Server\sdk\core\CServerInterface.h">
-      <Filter>Headers\core</Filter>
+      <Filter>core</Filter>
     </ClInclude>
     <ClInclude Include="..\Server\sdk\net\CNetServer.h">
-      <Filter>Headers\net</Filter>
+      <Filter>net</Filter>
     </ClInclude>
     <ClInclude Include="..\Server\sdk\net\ns_common.h">
-      <Filter>Headers\net</Filter>
+      <Filter>net</Filter>
     </ClInclude>
     <ClInclude Include="..\Server\sdk\net\ns_playerid.h">
-      <Filter>Headers\net</Filter>
+      <Filter>net</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
