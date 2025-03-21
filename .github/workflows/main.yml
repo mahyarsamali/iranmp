@@ -3,7 +3,7 @@ name: Notify Discord
 on:
   push:
     branches:
-      - master  # agar branch digei dari, avaz kon
+      - iranmp:multitheftauto/iran-mp  # agar branch digei dari, avaz kon
 
 jobs:
   notify:
