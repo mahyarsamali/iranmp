@@ -101,6 +101,7 @@ private:
     CGUI* m_pManager;
 
     // Images
+    //identifier "m_pContainer" is undefined
     CGUIStaticImage* m_pBackground;
     CGUIStaticImage* m_pLogo;
     CGUIStaticImage* m_pLatestNews;
@@ -108,6 +109,7 @@ private:
     CGUIStaticImage* m_pFiller2;
     CGUIStaticImage* m_pVersion;
     CGUIStaticImage* m_pMenuArea;
+    CGUIStaticImage* m_pContainer;
 
     CGUIScrollPane* m_pCanvas;
 
