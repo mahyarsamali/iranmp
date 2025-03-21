@@ -110,6 +110,7 @@ private:
     CGUIStaticImage* m_pVersion;
     CGUIStaticImage* m_pMenuArea;
     CGUIStaticImage* m_pContainer;
+    CGUIStaticImage* m_pCopyRight;
 
     CGUIScrollPane* m_pCanvas;
 
