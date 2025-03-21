@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{C196CD9C-2D76-4C38-368E-D70EA2ECB299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{89565304-F535-D29F-FE4D-5D766AAC3801}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\vendor\tinygettext\dictionary.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\tinygettext\dictionary_manager.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\tinygettext\file_system.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\tinygettext\language.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\tinygettext\log.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\tinygettext\log_stream.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\tinygettext\plural_forms.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\tinygettext\po_parser.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\tinygettext\tinygettext.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\tinygettext\unix_file_system.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\vendor\tinygettext\dictionary.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\tinygettext\dictionary_manager.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\tinygettext\language.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\tinygettext\log.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\tinygettext\plural_forms.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\tinygettext\po_parser.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\tinygettext\tinygettext.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\tinygettext\unix_file_system.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\vendor\tinygettext\premake5.lua" />
+  </ItemGroup>
+</Project>

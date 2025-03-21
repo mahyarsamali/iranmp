@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{C196CD9C-2D76-4C38-368E-D70EA2ECB299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{89565304-F535-D29F-FE4D-5D766AAC3801}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\vendor\zlib\crc32.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\zlib\deflate.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\zlib\gzguts.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\zlib\inffast.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\zlib\inffixed.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\zlib\inflate.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\zlib\inftrees.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\zlib\trees.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\zlib\zconf.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\zlib\zlib.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\zlib\zutil.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\vendor\zlib\adler32.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\zlib\compress.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\zlib\crc32.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\zlib\deflate.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\zlib\gzclose.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\zlib\gzlib.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\zlib\gzread.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\zlib\gzwrite.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\zlib\infback.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\zlib\inffast.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\zlib\inflate.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\zlib\inftrees.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\zlib\trees.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\zlib\uncompr.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\zlib\zutil.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\vendor\zlib\premake5.lua" />
+  </ItemGroup>
+</Project>

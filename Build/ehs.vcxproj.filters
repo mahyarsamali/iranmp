@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{C196CD9C-2D76-4C38-368E-D70EA2ECB299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{89565304-F535-D29F-FE4D-5D766AAC3801}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\vendor\ehs\CPollFdSet.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\ehs\contentdisposition.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\ehs\datum.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\ehs\dynamicssllocking.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\ehs\ehs.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\ehs\ehstypes.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\ehs\formvalue.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\ehs\httprequest.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\ehs\httpresponse.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\ehs\networkabstraction.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\ehs\securesocket.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\ehs\socket.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\ehs\sslerror.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\ehs\staticssllocking.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\ehs\stats.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\ehs\threadabstractionlayer.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\vendor\ehs\datum.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\ehs\ehs.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\ehs\httprequest.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\ehs\httpresponse.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\ehs\socket.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\vendor\ehs\premake5.lua" />
+  </ItemGroup>
+</Project>

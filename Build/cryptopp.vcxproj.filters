@@ -1,0 +1,1139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assembly">
+      <UniqueIdentifier>{A5017620-91CE-D02B-BAE7-BED3A61306BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{C196CD9C-2D76-4C38-368E-D70EA2ECB299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{89565304-F535-D29F-FE4D-5D766AAC3801}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\vendor\cryptopp\3way.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\adler32.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\adv_simd.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\aes.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\aes_armv4.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\algebra.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\algparam.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\allocate.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\arc4.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\argnames.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\aria.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\arm_simd.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\asn.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\authenc.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\base32.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\base64.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\basecode.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\blake2.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\blowfish.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\blumshub.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\camellia.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\cast.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\cbcmac.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\ccm.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\chacha.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\chachapoly.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\cham.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\channels.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\cmac.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\config.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\config_align.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\config_asm.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\config_cpu.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\config_cxx.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\config_dll.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\config_int.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\config_misc.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\config_ns.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\config_os.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\config_ver.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\cpu.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\crc.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\cryptlib.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\darn.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\default.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\des.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\dh.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\dh2.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\dll.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\dmac.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\donna.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\donna_32.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\donna_64.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\donna_sse.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\drbg.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\dsa.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\eax.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\ec2n.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\eccrypto.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\ecp.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\ecpoint.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\elgamal.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\emsa2.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\eprecomp.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\esign.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\factory.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\fhmqv.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\files.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\filters.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\fips140.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\fltrimpl.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\gcm.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\gf256.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\gf2_32.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\gf2n.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\gfpcrypt.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\gost.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\gzip.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\hashfwd.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\hc128.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\hc256.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\hex.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\hight.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\hkdf.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\hmac.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\hmqv.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\hrtimer.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\ida.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\idea.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\integer.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\iterhash.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\kalyna.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\keccak.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\lea.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\lsh.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\lubyrack.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\luc.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\mars.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\md2.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\md4.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\md5.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\mdc.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\mersenne.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\misc.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\modarith.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\modes.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\modexppc.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\mqueue.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\mqv.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\naclite.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\nbtheory.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\nr.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\oaep.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\oids.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\osrng.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\ossig.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\padlkrng.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\panama.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\pch.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\pkcspad.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\poly1305.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\polynomi.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\ppc_simd.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\pssr.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\pubkey.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\pwdbased.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\queue.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\rabbit.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\rabin.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\randpool.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\rc2.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\rc5.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\rc6.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\rdrand.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\resource.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\rijndael.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\ripemd.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\rng.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\rsa.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\rw.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\safer.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\salsa.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\scrypt.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\seal.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\secblock.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\secblockfwd.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\seckey.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\seed.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\serpent.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\serpentp.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\sha.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\sha1_armv4.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\sha256_armv4.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\sha3.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\sha512_armv4.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\shacal2.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\shake.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\shark.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\simeck.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\simon.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\simple.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\siphash.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\skipjack.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\sm3.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\sm4.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\smartptr.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\sosemanuk.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\speck.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\square.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\stdcpp.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\strciphr.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\tea.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\threefish.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\tiger.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\trap.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\trunhash.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\ttmac.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\tweetnacl.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\twofish.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\vmac.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\wake.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\whrlpool.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\words.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\xed25519.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\xtr.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\xtrcrypt.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\xts.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\zdeflate.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\zinflate.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\cryptopp\zlib.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\vendor\cryptopp\3way.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\adler32.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\algebra.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\algparam.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\allocate.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\arc4.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\aria.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\ariatab.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\asn.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\authenc.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\base32.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\base64.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\basecode.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\bfinit.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\blake2.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\blake2b_simd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\blake2s_simd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\blowfish.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\blumshub.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\camellia.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\cast.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\casts.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\cbcmac.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\ccm.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\chacha.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\chacha_avx.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\chacha_simd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\chachapoly.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\cham.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\cham_simd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\channels.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\cmac.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\cpu.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\crc.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\crc_simd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\cryptlib.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\darn.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\default.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\des.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\dessp.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\dh.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\dh2.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\dll.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\donna_32.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\donna_64.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\donna_sse.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\dsa.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\eax.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\ec2n.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\eccrypto.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\ecp.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\elgamal.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\emsa2.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\eprecomp.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\esign.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\files.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\filters.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\fips140.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\gcm.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\gcm_simd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\gf256.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\gf2_32.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\gf2n.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\gf2n_simd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\gfpcrypt.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\gost.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\gzip.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\hc128.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\hc256.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\hex.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\hight.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\hmac.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\hrtimer.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\ida.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\idea.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\integer.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\iterhash.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\kalyna.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\kalynatab.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\keccak.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\keccak_core.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\keccak_simd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\lea.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\lea_simd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\lsh256.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\lsh256_avx.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\lsh256_sse.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\lsh512.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\lsh512_avx.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\lsh512_sse.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\luc.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\mars.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\marss.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\md2.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\md4.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\md5.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\misc.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\modes.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\mqueue.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\mqv.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\nbtheory.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\neon_simd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\oaep.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\osrng.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\padlkrng.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\panama.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\pch.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\pkcspad.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\poly1305.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\polynomi.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\power7_ppc.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\power8_ppc.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\power9_ppc.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\ppc_simd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\primetab.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\pssr.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\pubkey.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\queue.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\rabbit.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\rabin.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\randpool.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\rc2.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\rc5.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\rc6.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\rdrand.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\rdtables.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\rijndael.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\rijndael_simd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\ripemd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\rng.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\rsa.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\rw.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\safer.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\salsa.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\scrypt.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\seal.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\seed.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\serpent.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\sha.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\sha3.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\sha_simd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\shacal2.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\shacal2_simd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\shake.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\shark.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\sharkbox.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\simeck.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\simon.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\simon128_simd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\simple.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\skipjack.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\sm3.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\sm4.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\sm4_simd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\sosemanuk.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\speck.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\speck128_simd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\square.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\squaretb.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\sse_simd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\strciphr.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\tea.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\tftables.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\threefish.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\tiger.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\tigertab.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\ttmac.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\tweetnacl.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\twofish.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\vmac.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\wake.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\whrlpool.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\xed25519.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\xtr.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\xtrcrypt.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\xts.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\zdeflate.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\zinflate.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\cryptopp\zlib.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\vendor\cryptopp\premake5.lua" />
+  </ItemGroup>
+  <ItemGroup>
+    <Masm Include="..\vendor\cryptopp\cpuid64.asm">
+      <Filter>Assembly</Filter>
+    </Masm>
+    <Masm Include="..\vendor\cryptopp\x64dll.asm">
+      <Filter>Assembly</Filter>
+    </Masm>
+    <Masm Include="..\vendor\cryptopp\x64masm.asm">
+      <Filter>Assembly</Filter>
+    </Masm>
+  </ItemGroup>
+</Project>

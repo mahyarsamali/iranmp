@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{C196CD9C-2D76-4C38-368E-D70EA2ECB299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{89565304-F535-D29F-FE4D-5D766AAC3801}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Client\multiplayer_sa\CLimitsSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\multiplayer_sa\CMultiplayerSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\multiplayer_sa\CRemoteDataSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\multiplayer_sa\StdInc.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\multiplayer_sa\multiplayer_hooksystem.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\multiplayer_sa\multiplayer_keysync.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\multiplayer_sa\multiplayer_shotsync.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\multiplayer_sa\multiplayersa_init.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Client\multiplayer_sa\CLimitsSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CMultiplayerSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CMultiplayerSA_1.3.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CMultiplayerSA_ClothesCache.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CMultiplayerSA_ClothesMemFix.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CMultiplayerSA_ClothesSpeedUp.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CMultiplayerSA_CrashFixHacks.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CMultiplayerSA_CustomAnimations.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CMultiplayerSA_DeviceSelection.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CMultiplayerSA_Direct3D.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CMultiplayerSA_Files.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CMultiplayerSA_FixBadAnimId.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CMultiplayerSA_FixLineOfSightArgs.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CMultiplayerSA_FrameRateFixes.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CMultiplayerSA_HookDestructors.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CMultiplayerSA_LicensePlate.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CMultiplayerSA_ObjectCollision.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CMultiplayerSA_ObjectLODSystem.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CMultiplayerSA_ObjectStreamerOptimization.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CMultiplayerSA_Peds.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CMultiplayerSA_Postprocess.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CMultiplayerSA_ProjectileCollisionFix.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CMultiplayerSA_Rendering.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CMultiplayerSA_RwResources.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CMultiplayerSA_Streaming.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CMultiplayerSA_VehicleCollision.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CMultiplayerSA_VehicleDamage.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CMultiplayerSA_VehicleDummies.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CMultiplayerSA_VehicleLights.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CMultiplayerSA_VehicleWeapons.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CMultiplayerSA_Vehicles.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CMultiplayerSA_Weapons.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\CRemoteDataSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\StdInc.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\multiplayer_hooksystem.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\multiplayer_keysync.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\multiplayer_shotsync.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\multiplayer_sa\multiplayersa_init.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Client\multiplayer_sa\premake5.lua" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{C196CD9C-2D76-4C38-368E-D70EA2ECB299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{89565304-F535-D29F-FE4D-5D766AAC3801}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Server\core\CCrashHandler.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Server\core\CCrashHandlerAPI.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Server\core\CDynamicLibrary.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Server\core\CExceptionInformation_Impl.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Server\core\CModManagerImpl.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Server\core\CServerImpl.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Server\core\CThreadCommandQueue.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Server\core\ErrorCodes.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Server\core\StdInc.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Server\core\CCrashHandler.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server\core\CCrashHandlerAPI.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server\core\CDynamicLibrary.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server\core\CExceptionInformation_Impl.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server\core\CModManagerImpl.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server\core\CServerImpl.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server\core\CThreadCommandQueue.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server\core\Server.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server\core\StdInc.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Server\core\premake5.lua" />
+  </ItemGroup>
+</Project>

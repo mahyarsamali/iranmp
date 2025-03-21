@@ -1,0 +1,885 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{C196CD9C-2D76-4C38-368E-D70EA2ECB299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{89565304-F535-D29F-FE4D-5D766AAC3801}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Client\game_sa\BoneNode_cSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\C3DMarkerSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\C3DMarkersSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CAEAudioHardwareSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CAERadioTrackManagerSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CAESoundManagerSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CAEVehicleAudioEntitySA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CAEWeaponAudioEntitySA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CAnimBlendAssocGroupSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CAnimBlendAssociationSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CAnimBlendHierarchySA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CAnimBlendNodeSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CAnimBlendSequenceSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CAnimBlendStaticAssociationSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CAnimBlockSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CAnimManagerSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CAudioContainerLookupTableSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CAudioContainerSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CAudioEngineSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CAutomobileSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CBikeHandlingEntrySA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CBikeSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CBmxSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CBoatHandlingEntrySA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CBoatSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CBuildingRemovalSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CBuildingSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CBuildingsPoolSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CCamSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CCameraSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CCarEnterExitSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CCheckpointSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CCheckpointsSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CClockSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CColModelSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CColPointSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CColStoreSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CCollisionSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CCompressedVectorSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CControllerConfigManagerSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CCoronasSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CCoverManagerSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CDamageManagerSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CDirectorySA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CDoorSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CDummyPoolSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CDynamicPool.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CEntitySA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CEventDamageSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CEventListSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CExplosionManagerSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CExplosionSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CFileLoaderSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CFireManagerSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CFireSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CFlyingHandlingEntrySA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CFontSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CFxManagerSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CFxSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CFxSystemBPSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CFxSystemSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CGameSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CGarageSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CGaragesSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CHandlingEntrySA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CHandlingManagerSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CHeliSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CHudSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CIplSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CIplStoreSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CKeyGenSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CMarkerSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CMatrixLinkSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CMatrixSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CModelInfoSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CMonsterTruckSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CObjectGroupPhysicalPropertiesSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CObjectSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CPadSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CPedDamageResponseCalculatorSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CPedDamageResponseSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CPedIKSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CPedIntelligenceSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CPedModelInfoSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CPedSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CPedSoundSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CPhysicalSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CPickupSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CPickupsSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CPlaceableSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CPlaneSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CPlantManagerSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CPlayerInfoSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CPlayerPedSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CPointLightsSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CPoolSAInterface.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CPoolsSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CProjectileInfoSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CProjectileSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CPtrNodeDoubleListSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CPtrNodeSingleLinkPoolSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CPtrNodeSingleListSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CQuadBikeSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CQuadTreeNodeSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CRadarSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CRegisteredCoronaSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CRenderWareSA.ShaderMatching.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CRenderWareSA.ShaderSupport.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CRenderWareSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CRendererSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CRopesSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CSettingsSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CStatsSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CStreamingSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CTaskManagementSystemSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CTaskManagerSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CTasksSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CTextureDictonarySA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CTrailerSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CTrainSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CTxdPoolSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CVehicleSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CVisibilityPluginsSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CWantedSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CWaterManagerSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CWaterSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CWeaponInfoSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CWeaponSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CWeaponStatManagerSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CWeaponStatSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CWeatherSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\CWorldSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\D3DResourceSystemSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\HeapTrace.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\HookSystem.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\MemSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\StdInc.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\TaskAttackSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\TaskBasicSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\TaskCarAccessoriesSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\TaskCarSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\TaskGoToSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\TaskIKSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\TaskJumpFallSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\TaskNamesSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\TaskPhysicalResponseSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\TaskSA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\TaskSecondarySA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\gamesa_init.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\gamesa_renderware.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\game_sa\gamesa_renderware.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Client\game_sa\BoneNode_cSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\C3DMarkerSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\C3DMarkersSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CAEAudioHardwareSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CAERadioTrackManagerSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CAESoundManagerSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CAEVehicleAudioEntitySA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CAnimBlendAssocGroupSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CAnimBlendAssociationSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CAnimBlendHierarchySA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CAnimBlendSequenceSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CAnimBlendStaticAssociationSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CAnimBlockSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CAnimManagerSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CAudioContainerLookupTableSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CAudioContainerSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CAudioEngineSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CAutomobileSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CBikeHandlingEntrySA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CBikeSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CBmxSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CBoatHandlingEntrySA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CBoatSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CBuildingRemovalSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CBuildingSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CBuildingsPoolSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CCamSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CCameraSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CCarEnterExitSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CCheckpointSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CCheckpointsSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CClockSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CColModelSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CColPointSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CColStoreSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CCollisionSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CControllerConfigManagerSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CCoronasSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CCoverManagerSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CDamageManagerSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CDirectorySA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CDoorSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CDummyPoolSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CEntitySA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CEventDamageSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CEventListSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CExplosionManagerSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CExplosionSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CFileLoaderSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CFireManagerSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CFireSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CFlyingHandlingEntrySA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CFontSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CFxManagerSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CFxSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CFxSystemSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CGameSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CGarageSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CGaragesSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CHandlingEntrySA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CHandlingManagerSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CHeliSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CHudSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CIplStoreSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CKeyGenSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CMarkerSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CMatrixSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CModelInfoSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CMonsterTruckSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CObjectGroupPhysicalPropertiesSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CObjectSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CPadSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CPedDamageResponseCalculatorSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CPedDamageResponseSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CPedIKSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CPedIntelligenceSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CPedModelInfoSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CPedSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CPedSoundSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CPhysicalSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CPickupSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CPickupsSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CPlaneSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CPlantManagerSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CPlayerInfoSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CPlayerPedSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CPointLightsSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CPoolsSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CProjectileInfoSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CProjectileSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CPtrNodeSingleLinkPoolSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CQuadBikeSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CRadarSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CRegisteredCoronaSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CRenderWareSA.ClothesReplacing.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CRenderWareSA.ShaderMatching.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CRenderWareSA.ShaderSupport.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CRenderWareSA.TextureReplacing.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CRenderWareSA.TxdRightSizing.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CRenderWareSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CRendererSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CRopesSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CSettingsSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CStatsSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CStreamingSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CTaskManagementSystemSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CTaskManagerSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CTasksSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CTrailerSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CTrainSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CTxdPoolSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CVehicleSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CVisibilityPluginsSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CWantedSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CWaterManagerSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CWaterSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CWeaponInfoSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CWeaponSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CWeaponStatManagerSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CWeaponStatSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CWeatherSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\CWorldSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\D3DResourceSystemSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\HeapTrace.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\HookSystem.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\StdInc.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\TaskAttackSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\TaskBasicSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\TaskCarAccessoriesSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\TaskCarSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\TaskGoToSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\TaskIKSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\TaskJumpFallSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\TaskNamesSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\TaskPhysicalResponseSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\TaskSA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\TaskSecondarySA.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\game_sa\gamesa_init.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Client\game_sa\premake5.lua" />
+  </ItemGroup>
+</Project>

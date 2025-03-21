@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="discord">
+      <UniqueIdentifier>{8D35C612-F914-45AE-022D-D0846E8BAB0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="discord\src">
+      <UniqueIdentifier>{24F2EBCE-90A7-64C4-199C-5E9B85505BC8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\vendor\discord-rpc\discord\src\connection_win.cpp">
+      <Filter>discord\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\discord-rpc\discord\src\discord_register_win.cpp">
+      <Filter>discord\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\discord-rpc\discord\src\discord_rpc.cpp">
+      <Filter>discord\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\discord-rpc\discord\src\rpc_connection.cpp">
+      <Filter>discord\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\discord-rpc\discord\src\serialization.cpp">
+      <Filter>discord\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\vendor\discord-rpc\premake5.lua" />
+  </ItemGroup>
+</Project>
