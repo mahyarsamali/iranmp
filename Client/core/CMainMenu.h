@@ -51,6 +51,8 @@ public:
     void Show(bool bOverlay);
     void Hide();
 
+    void FadeEffect(bool bVisible);
+
     void SetVisible(bool bVisible, bool bOverlay = true, bool bFrameDelay = true);
     bool IsVisible();
     bool IsFading() { return m_ucFade == FADE_IN || m_ucFade == FADE_OUT; }
@@ -111,6 +113,12 @@ private:
     CGUIStaticImage* m_pMenuArea;
     CGUIStaticImage* m_pContainer;
     CGUIStaticImage* m_pCopyRight;
+
+    // In Game Menu
+    CGUIStaticImage* m_p_ING_Background;
+    CGUIStaticImage* m_p_ING_Reconnect;
+    CGUIStaticImage* m_p_ING_Settings;
+    CGUIStaticImage* m_p_ING_Disconnect;
 
     CGUIScrollPane* m_pCanvas;
 

@@ -1,4 +1,4 @@
-/*****************************************************************************
+﻿/*****************************************************************************
  *
  *  PROJECT:     Multi Theft Auto v1.0
  *  LICENSE:     See LICENSE in the top level directory
@@ -50,6 +50,12 @@
 #define CORE_MTA_VERSION            "cgui\\images\\version.png"
 #define CORE_MTA_CONTAINER          "cgui\\images\\container.png"
 #define CORE_MTA_COPYRIGHT          "cgui\\images\\copyright.png"
+
+#define CORE_ING_MTA_BG          "cgui\\images\\ingame_menu.png"
+#define CORE_ING_MTA_RECONNECT          "cgui\\images\\ingame_reconnect.png"
+#define CORE_ING_MTA_SETTING          "cgui\\images\\ingame_setting.png"
+#define CORE_ING_MTA_EXIT          "cgui\\images\\ingame_exit.png"
+
 
 static const SColor headlineColors[] = {SColorRGBA(233, 234, 106, 255), SColorRGBA(233 / 6 * 4, 234 / 6 * 4, 106 / 6 * 4, 255),
                                         SColorRGBA(233 / 7 * 3, 234 / 7 * 3, 106 / 7 * 3, 255)};
@@ -114,6 +120,8 @@ CMainMenu::CMainMenu(CGUI* pManager)
         iBackgroundSizeX = m_iMenuSizeX;
         iBackgroundSizeY = NATIVE_BG_Y * iRatioSizeX;
     }
+
+
     // First create our filler black background image, which covers the whole screen
     m_pFiller = reinterpret_cast<CGUIStaticImage*>(pManager->CreateStaticImage());
     m_pFiller->LoadFromFile(CORE_MTA_FILLER);
@@ -234,6 +242,78 @@ CMainMenu::CMainMenu(CGUI* pManager)
     m_pMenuArea->SetClickHandler(GUI_CALLBACK_MOUSE(&CMainMenu::OnMenuClick, this));
     m_pMenuArea->SetMouseEnterHandler(GUI_CALLBACK(&CMainMenu::OnMenuEnter, this));
     m_pMenuArea->SetMouseLeaveHandler(GUI_CALLBACK(&CMainMenu::OnMenuExit, this));
+
+
+    // In Game Menu
+
+    // BG
+    CVector2D bgSize = CVector2D(ScreenSize.fX, ScreenSize.fY);
+    CVector2D bgPos = CVector2D(0, 0);
+
+    m_p_ING_Background = reinterpret_cast<CGUIStaticImage*>(pManager->CreateStaticImage());
+    m_p_ING_Background->LoadFromFile(CORE_ING_MTA_BG);
+    m_p_ING_Background->SetProperty("InheritsAlpha", "False");
+    m_p_ING_Background->SetPosition(bgPos, false);
+    m_p_ING_Background->SetSize(bgSize, false);
+    m_p_ING_Background->SetZOrderingEnabled(false);
+    m_p_ING_Background->SetAlwaysOnTop(true);
+    m_p_ING_Background->MoveToBack();
+
+    // Reconnect
+    float scale = std::min(static_cast<float>(ScreenSize.fX) / NATIVE_RES_X, static_cast<float>(ScreenSize.fY) / NATIVE_RES_Y);
+
+    CVector2D ingame_recsize = CVector2D(177 * scale, 39 * scale);
+
+    float posX = (ScreenSize.fX - ingame_recsize.fX) * 0.385f;
+    float posY = (ScreenSize.fY - ingame_recsize.fY) * 0.51f;
+
+    m_p_ING_Reconnect = reinterpret_cast<CGUIStaticImage*>(pManager->CreateStaticImage());
+    m_p_ING_Reconnect->LoadFromFile(CORE_ING_MTA_RECONNECT);
+    m_p_ING_Reconnect->SetProperty("InheritsAlpha", "False");
+    m_p_ING_Reconnect->SetPosition(CVector2D(posX, posY), false);
+    m_p_ING_Reconnect->SetSize(ingame_recsize, false);
+    m_p_ING_Reconnect->SetZOrderingEnabled(false);
+    m_p_ING_Reconnect->SetAlwaysOnTop(true);
+    m_p_ING_Reconnect->MoveToBack();
+
+
+    // Setting
+    float posXset = (ScreenSize.fX - ingame_recsize.fX) * 0.5f;
+
+    m_p_ING_Settings = reinterpret_cast<CGUIStaticImage*>(pManager->CreateStaticImage());
+    m_p_ING_Settings->LoadFromFile(CORE_ING_MTA_SETTING);
+    m_p_ING_Settings->SetProperty("InheritsAlpha", "False");
+    m_p_ING_Settings->SetPosition(CVector2D(posXset, posY), false);
+    m_p_ING_Settings->SetSize(ingame_recsize, false);
+    m_p_ING_Settings->SetZOrderingEnabled(false);
+    m_p_ING_Settings->SetAlwaysOnTop(true);
+    m_p_ING_Settings->MoveToBack();
+
+    // Disconnect
+    float posXex = (ScreenSize.fX - ingame_recsize.fX) * 0.615f;
+
+    m_p_ING_Disconnect = reinterpret_cast<CGUIStaticImage*>(pManager->CreateStaticImage());
+    m_p_ING_Disconnect->LoadFromFile(CORE_ING_MTA_EXIT);
+    m_p_ING_Disconnect->SetProperty("InheritsAlpha", "False");
+    m_p_ING_Disconnect->SetPosition(CVector2D(posXex, posY), false);
+    m_p_ING_Disconnect->SetSize(ingame_recsize, false);
+    m_p_ING_Disconnect->SetZOrderingEnabled(false);
+    m_p_ING_Disconnect->SetAlwaysOnTop(true);
+    m_p_ING_Disconnect->MoveToBack();
+
+
+
+
+    m_p_ING_Background->SetVisible(false);
+    m_p_ING_Reconnect->SetVisible(false);
+    m_p_ING_Settings->SetVisible(false);
+    m_p_ING_Disconnect->SetVisible(false);
+
+    m_p_ING_Reconnect->SetClickHandler(GUI_CALLBACK_MOUSE(&CMainMenu::OnMenuClick, this));
+    m_p_ING_Settings->SetClickHandler(GUI_CALLBACK_MOUSE(&CMainMenu::OnMenuClick, this));
+    m_p_ING_Disconnect->SetClickHandler(GUI_CALLBACK_MOUSE(&CMainMenu::OnMenuClick, this));
+
+
 
     m_pLatestNews = reinterpret_cast<CGUIStaticImage*>(pManager->CreateStaticImage());
     if (!m_pLatestNews->LoadFromFile(PathJoin(g_pCore->GetLocalization()->GetLanguageDirectory(), "latest_news.png")))
@@ -457,8 +537,13 @@ void CMainMenu::SetMenuUnhovered()            // Dehighlight all our items
     }
 }
 
+bool showmenuingame = false;
+bool hideonce = false;
 void CMainMenu::Update()
 {
+
+
+
     if (g_pCore->GetDiagnosticDebug() == EDiagnosticDebug::JOYSTICK_0000)
     {
         m_pFiller->SetVisible(false);
@@ -740,7 +825,6 @@ void CMainMenu::Show(bool bOverlay)
 {
     SetVisible(true, bOverlay);
 }
-
 void CMainMenu::Hide()
 {
     SetVisible(false);
@@ -753,6 +837,48 @@ void CMainMenu::OnEscapePressedOffLine()
     m_Credits.SetVisible(false);
     m_pNewsBrowser->SetVisible(false);
 }
+
+
+#include <thread>
+#include <chrono>
+
+void CMainMenu::FadeEffect(bool bVisible)
+{
+    float alpha = bVisible ? 0.0f : 1.0f;
+    float targetAlpha = bVisible ? 1.0f : 0.0f;
+    float step = 0.05f;
+
+    if (bVisible)
+    {
+        m_p_ING_Background->SetVisible(true);
+        m_p_ING_Reconnect->SetVisible(true);
+        m_p_ING_Settings->SetVisible(true);
+        m_p_ING_Disconnect->SetVisible(true);
+    }
+
+    while ((bVisible && alpha < targetAlpha) || (!bVisible && alpha > targetAlpha))
+    {
+        alpha += (bVisible ? step : -step);
+        alpha = std::clamp(alpha, 0.0f, 1.0f);
+
+        m_p_ING_Background->SetAlpha(alpha);
+        m_p_ING_Reconnect->SetAlpha(alpha);
+        m_p_ING_Settings->SetAlpha(alpha);
+        m_p_ING_Disconnect->SetAlpha(alpha);
+
+        std::this_thread::sleep_for(std::chrono::milliseconds(5));
+    }
+
+    if (!bVisible)
+    {
+        m_p_ING_Background->SetVisible(false);
+        m_p_ING_Reconnect->SetVisible(false);
+        m_p_ING_Settings->SetVisible(false);
+        m_p_ING_Disconnect->SetVisible(false);
+    }
+}
+
+
 
 void CMainMenu::SetVisible(bool bVisible, bool bOverlay, bool bFrameDelay)
 {
@@ -767,6 +893,19 @@ void CMainMenu::SetVisible(bool bVisible, bool bOverlay, bool bFrameDelay)
     else if ((m_ucFade == FADE_INVISIBLE || m_ucFade == FADE_OUT) && bVisible == true)
     {
         m_ucFade = FADE_IN;
+    }
+
+    if (hideonce)
+    {
+        if (m_bIsIngame)
+        {
+            std::thread(std::bind(&CMainMenu::FadeEffect, this, bVisible)).detach();
+            return;
+        }
+        else
+        {
+            hideonce = false;
+        }
     }
 
     // If we're hiding, hide any subwindows we might've had (prevent escaping hiding mousecursor issue)
@@ -785,6 +924,7 @@ void CMainMenu::SetVisible(bool bVisible, bool bOverlay, bool bFrameDelay)
             pQuestionBox->Hide();
         }
         //        m_bIsInSubWindow = false;
+        hideonce = true;
     }
     else
     {
@@ -861,6 +1001,27 @@ bool CMainMenu::OnMenuClick(CGUIMouseEventArgs Args)
 {
     CGUIElement* pElement = Args.pWindow;
 
+
+    if (Args.button == LeftButton)
+    {
+        if (dynamic_cast<CGUIStaticImage*>(pElement) == m_p_ING_Reconnect)
+        {
+            g_pCore->GetCommands()->Execute("reconnect", "");
+        }
+        else if (dynamic_cast<CGUIStaticImage*>(pElement) == m_p_ING_Disconnect)
+        {
+            m_p_ING_Background->SetVisible(false);
+            m_p_ING_Reconnect->SetVisible(false);
+            m_p_ING_Settings->SetVisible(false);
+            m_p_ING_Disconnect->SetVisible(false);
+            OnDisconnectButtonClick(pElement);
+        }
+        else if (dynamic_cast<CGUIStaticImage*>(pElement) == m_p_ING_Settings)
+        {
+            OnSettingsButtonClick(pElement);
+        }
+    }
+
     // Only handle all our clicks to the menu from here
     if (!m_pHoveredItem)
         return true;
@@ -868,8 +1029,11 @@ bool CMainMenu::OnMenuClick(CGUIMouseEventArgs Args)
     if (Args.button != LeftButton && m_pHoveredItem->menuType != MENU_ITEM_QUICK_CONNECT)
         return true;
 
+
     // For detecting startup problems
     WatchDogUserDidInteractWithMenu();
+
+
 
     // Possible disconnect question for user
     if (g_pCore->IsConnected())
