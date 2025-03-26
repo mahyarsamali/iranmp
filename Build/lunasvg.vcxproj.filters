@@ -1,144 +1,150 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="3rdparty">
-      <UniqueIdentifier>{3E7DA5C5-2A4A-00D1-5363-EE783F8F355F}</UniqueIdentifier>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{C196CD9C-2D76-4C38-368E-D70EA2ECB299}</UniqueIdentifier>
     </Filter>
-    <Filter Include="3rdparty\plutovg">
-      <UniqueIdentifier>{9E5FFAA5-8A58-19F8-B38A-FE7C9FE2F803}</UniqueIdentifier>
+    <Filter Include="Headers\3rdparty">
+      <UniqueIdentifier>{49B2383D-35AB-578F-5EDD-3C144A35379B}</UniqueIdentifier>
     </Filter>
-    <Filter Include="include">
-      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    <Filter Include="Headers\3rdparty\plutovg">
+      <UniqueIdentifier>{A96F4BC5-9594-9A45-BEDF-7FD5AA639963}</UniqueIdentifier>
     </Filter>
-    <Filter Include="source">
-      <UniqueIdentifier>{76FF3A1C-62A1-65F2-4B5C-7946379DEC42}</UniqueIdentifier>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{89565304-F535-D29F-FE4D-5D766AAC3801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\3rdparty">
+      <UniqueIdentifier>{11B3E6F4-FDAB-0547-26DE-EACB1236E552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\3rdparty\plutovg">
+      <UniqueIdentifier>{71B8314C-5DDD-80CC-8628-665C72AC7FEA}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\vendor\lunasvg\3rdparty\plutovg\plutovg-ft-math.h">
-      <Filter>3rdparty\plutovg</Filter>
+      <Filter>Headers\3rdparty\plutovg</Filter>
     </ClInclude>
     <ClInclude Include="..\vendor\lunasvg\3rdparty\plutovg\plutovg-ft-raster.h">
-      <Filter>3rdparty\plutovg</Filter>
+      <Filter>Headers\3rdparty\plutovg</Filter>
     </ClInclude>
     <ClInclude Include="..\vendor\lunasvg\3rdparty\plutovg\plutovg-ft-stroker.h">
-      <Filter>3rdparty\plutovg</Filter>
+      <Filter>Headers\3rdparty\plutovg</Filter>
     </ClInclude>
     <ClInclude Include="..\vendor\lunasvg\3rdparty\plutovg\plutovg-ft-types.h">
-      <Filter>3rdparty\plutovg</Filter>
+      <Filter>Headers\3rdparty\plutovg</Filter>
     </ClInclude>
     <ClInclude Include="..\vendor\lunasvg\3rdparty\plutovg\plutovg-private.h">
-      <Filter>3rdparty\plutovg</Filter>
+      <Filter>Headers\3rdparty\plutovg</Filter>
     </ClInclude>
     <ClInclude Include="..\vendor\lunasvg\3rdparty\plutovg\plutovg-stb-image-write.h">
-      <Filter>3rdparty\plutovg</Filter>
+      <Filter>Headers\3rdparty\plutovg</Filter>
     </ClInclude>
     <ClInclude Include="..\vendor\lunasvg\3rdparty\plutovg\plutovg-stb-image.h">
-      <Filter>3rdparty\plutovg</Filter>
+      <Filter>Headers\3rdparty\plutovg</Filter>
     </ClInclude>
     <ClInclude Include="..\vendor\lunasvg\3rdparty\plutovg\plutovg-stb-truetype.h">
-      <Filter>3rdparty\plutovg</Filter>
+      <Filter>Headers\3rdparty\plutovg</Filter>
     </ClInclude>
     <ClInclude Include="..\vendor\lunasvg\3rdparty\plutovg\plutovg-utils.h">
-      <Filter>3rdparty\plutovg</Filter>
+      <Filter>Headers\3rdparty\plutovg</Filter>
     </ClInclude>
     <ClInclude Include="..\vendor\lunasvg\3rdparty\plutovg\plutovg.h">
-      <Filter>3rdparty\plutovg</Filter>
+      <Filter>Headers\3rdparty\plutovg</Filter>
     </ClInclude>
     <ClInclude Include="..\vendor\lunasvg\include\lunasvg.h">
-      <Filter>include</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="..\vendor\lunasvg\source\graphics.h">
-      <Filter>source</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="..\vendor\lunasvg\source\svgelement.h">
-      <Filter>source</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="..\vendor\lunasvg\source\svggeometryelement.h">
-      <Filter>source</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="..\vendor\lunasvg\source\svglayoutstate.h">
-      <Filter>source</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="..\vendor\lunasvg\source\svgpaintelement.h">
-      <Filter>source</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="..\vendor\lunasvg\source\svgparserutils.h">
-      <Filter>source</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="..\vendor\lunasvg\source\svgproperty.h">
-      <Filter>source</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="..\vendor\lunasvg\source\svgrenderstate.h">
-      <Filter>source</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="..\vendor\lunasvg\source\svgtextelement.h">
-      <Filter>source</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\vendor\lunasvg\3rdparty\plutovg\plutovg-blend.c">
-      <Filter>3rdparty\plutovg</Filter>
+      <Filter>Sources\3rdparty\plutovg</Filter>
     </ClCompile>
     <ClCompile Include="..\vendor\lunasvg\3rdparty\plutovg\plutovg-canvas.c">
-      <Filter>3rdparty\plutovg</Filter>
+      <Filter>Sources\3rdparty\plutovg</Filter>
     </ClCompile>
     <ClCompile Include="..\vendor\lunasvg\3rdparty\plutovg\plutovg-font.c">
-      <Filter>3rdparty\plutovg</Filter>
+      <Filter>Sources\3rdparty\plutovg</Filter>
     </ClCompile>
     <ClCompile Include="..\vendor\lunasvg\3rdparty\plutovg\plutovg-ft-math.c">
-      <Filter>3rdparty\plutovg</Filter>
+      <Filter>Sources\3rdparty\plutovg</Filter>
     </ClCompile>
     <ClCompile Include="..\vendor\lunasvg\3rdparty\plutovg\plutovg-ft-raster.c">
-      <Filter>3rdparty\plutovg</Filter>
+      <Filter>Sources\3rdparty\plutovg</Filter>
     </ClCompile>
     <ClCompile Include="..\vendor\lunasvg\3rdparty\plutovg\plutovg-ft-stroker.c">
-      <Filter>3rdparty\plutovg</Filter>
+      <Filter>Sources\3rdparty\plutovg</Filter>
     </ClCompile>
     <ClCompile Include="..\vendor\lunasvg\3rdparty\plutovg\plutovg-matrix.c">
-      <Filter>3rdparty\plutovg</Filter>
+      <Filter>Sources\3rdparty\plutovg</Filter>
     </ClCompile>
     <ClCompile Include="..\vendor\lunasvg\3rdparty\plutovg\plutovg-paint.c">
-      <Filter>3rdparty\plutovg</Filter>
+      <Filter>Sources\3rdparty\plutovg</Filter>
     </ClCompile>
     <ClCompile Include="..\vendor\lunasvg\3rdparty\plutovg\plutovg-path.c">
-      <Filter>3rdparty\plutovg</Filter>
+      <Filter>Sources\3rdparty\plutovg</Filter>
     </ClCompile>
     <ClCompile Include="..\vendor\lunasvg\3rdparty\plutovg\plutovg-rasterize.c">
-      <Filter>3rdparty\plutovg</Filter>
+      <Filter>Sources\3rdparty\plutovg</Filter>
     </ClCompile>
     <ClCompile Include="..\vendor\lunasvg\3rdparty\plutovg\plutovg-surface.c">
-      <Filter>3rdparty\plutovg</Filter>
+      <Filter>Sources\3rdparty\plutovg</Filter>
     </ClCompile>
     <ClCompile Include="..\vendor\lunasvg\source\graphics.cpp">
-      <Filter>source</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="..\vendor\lunasvg\source\lunasvg.cpp">
-      <Filter>source</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="..\vendor\lunasvg\source\svgelement.cpp">
-      <Filter>source</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="..\vendor\lunasvg\source\svggeometryelement.cpp">
-      <Filter>source</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="..\vendor\lunasvg\source\svglayoutstate.cpp">
-      <Filter>source</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="..\vendor\lunasvg\source\svgpaintelement.cpp">
-      <Filter>source</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="..\vendor\lunasvg\source\svgparser.cpp">
-      <Filter>source</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="..\vendor\lunasvg\source\svgproperty.cpp">
-      <Filter>source</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="..\vendor\lunasvg\source\svgrenderstate.cpp">
-      <Filter>source</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="..\vendor\lunasvg\source\svgtextelement.cpp">
-      <Filter>source</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

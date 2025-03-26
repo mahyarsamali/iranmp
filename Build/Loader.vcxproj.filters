@@ -1,51 +1,118 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="resource">
-      <UniqueIdentifier>{0D091A24-F9D5-742F-22EF-62D70E1BAABD}</UniqueIdentifier>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{C196CD9C-2D76-4C38-368E-D70EA2ECB299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{000BCD17-6C75-818E-B5B3-3234215D5FE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\resource">
+      <UniqueIdentifier>{37E9E8AD-23CD-A903-8C2D-A45678309485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{89565304-F535-D29F-FE4D-5D766AAC3801}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Client\loader\CInstallManager.h" />
-    <ClInclude Include="..\Client\loader\CSequencer.h" />
-    <ClInclude Include="..\Client\loader\D3DStuff.h" />
-    <ClInclude Include="..\Client\loader\Dialogs.h" />
-    <ClInclude Include="..\Client\loader\FileGenerator.h" />
-    <ClInclude Include="..\Client\loader\FileHash.h" />
-    <ClInclude Include="..\Client\loader\FileSystem.h" />
-    <ClInclude Include="..\Client\loader\GameExecutablePatcher.h" />
-    <ClInclude Include="..\Client\loader\Install.h" />
-    <ClInclude Include="..\Client\loader\Main.h" />
-    <ClInclude Include="..\Client\loader\MainFunctions.h" />
-    <ClInclude Include="..\Client\loader\StdInc.h" />
-    <ClInclude Include="..\Client\loader\Utils.h" />
-    <ClInclude Include="..\Client\loader\resource.h" />
+    <ClInclude Include="..\Client\loader\CInstallManager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\loader\CSequencer.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\loader\D3DStuff.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\loader\Dialogs.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\loader\FileGenerator.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\loader\FileHash.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\loader\FileSystem.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\loader\GameExecutablePatcher.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\loader\Install.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\loader\Main.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\loader\MainFunctions.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\loader\StdInc.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\loader\Utils.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client\loader\resource.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Client\loader\CInstallManager.cpp" />
-    <ClCompile Include="..\Client\loader\D3DStuff.cpp" />
-    <ClCompile Include="..\Client\loader\Dialogs.cpp" />
-    <ClCompile Include="..\Client\loader\FileGenerator.cpp" />
-    <ClCompile Include="..\Client\loader\FileHash.cpp" />
-    <ClCompile Include="..\Client\loader\FileSystem.cpp" />
-    <ClCompile Include="..\Client\loader\GameExecutablePatcher.cpp" />
-    <ClCompile Include="..\Client\loader\Install.Manifest.cpp" />
-    <ClCompile Include="..\Client\loader\Install.cpp" />
-    <ClCompile Include="..\Client\loader\Main.cpp" />
-    <ClCompile Include="..\Client\loader\MainFunctions.cpp" />
-    <ClCompile Include="..\Client\loader\SplashWindow.cpp" />
-    <ClCompile Include="..\Client\loader\StdInc.cpp" />
-    <ClCompile Include="..\Client\loader\Utils.cpp" />
+    <ClCompile Include="..\Client\loader\CInstallManager.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\loader\D3DStuff.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\loader\Dialogs.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\loader\FileGenerator.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\loader\FileHash.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\loader\FileSystem.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\loader\GameExecutablePatcher.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\loader\Install.Manifest.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\loader\Install.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\loader\Main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\loader\MainFunctions.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\loader\SplashWindow.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\loader\StdInc.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client\loader\Utils.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Client\loader\premake5.lua" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="..\Client\loader\loader.rc" />
+    <ResourceCompile Include="..\Client\loader\loader.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\Client\loader\resource\splash.bmp">
-      <Filter>resource</Filter>
+      <Filter>Resources\resource</Filter>
     </Image>
   </ItemGroup>
 </Project>

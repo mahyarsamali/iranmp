@@ -193,7 +193,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;NOMINMAX;_TIMESPEC_DEFINED;MTA_DEBUG;WIN32;_WIN32;_WIN32_WINNT=0x601;_MSC_PLATFORM_TOOLSET=$(PlatformToolsetVersion);DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\vendor;..\Include;..\vendor\google-breakpad\src;..\vendor\google-breakpad\src\third_party\glog\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\vendor;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;..\vendor\google-breakpad\src;..\vendor\google-breakpad\src\third_party\glog\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
       <MinimalRebuild>false</MinimalRebuild>
@@ -208,7 +208,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <Lib>
-      <AdditionalLibraryDirectories>..\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -216,7 +216,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;NOMINMAX;_TIMESPEC_DEFINED;MTA_DEBUG;WIN32;_WIN32;_WIN32_WINNT=0x601;_MSC_PLATFORM_TOOLSET=$(PlatformToolsetVersion);DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\vendor;..\Include;..\vendor\google-breakpad\src;..\vendor\google-breakpad\src\third_party\glog\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\vendor;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;..\vendor\google-breakpad\src;..\vendor\google-breakpad\src\third_party\glog\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
       <MinimalRebuild>false</MinimalRebuild>
@@ -231,7 +231,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <Lib>
-      <AdditionalLibraryDirectories>..\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
@@ -239,7 +239,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;NOMINMAX;_TIMESPEC_DEFINED;MTA_DEBUG;WIN32;_WIN32;_WIN32_WINNT=0x601;_MSC_PLATFORM_TOOLSET=$(PlatformToolsetVersion);DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\vendor;..\Include;..\vendor\google-breakpad\src;..\vendor\google-breakpad\src\third_party\glog\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\vendor;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;..\vendor\google-breakpad\src;..\vendor\google-breakpad\src\third_party\glog\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
       <MinimalRebuild>false</MinimalRebuild>
@@ -254,7 +254,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <Lib>
-      <AdditionalLibraryDirectories>..\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -262,7 +262,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;NOMINMAX;_TIMESPEC_DEFINED;WIN32;_WIN32;_WIN32_WINNT=0x601;_MSC_PLATFORM_TOOLSET=$(PlatformToolsetVersion);%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\vendor;..\Include;..\vendor\google-breakpad\src;..\vendor\google-breakpad\src\third_party\glog\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\vendor;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;..\vendor\google-breakpad\src;..\vendor\google-breakpad\src\third_party\glog\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -282,7 +282,7 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
     <Lib>
-      <AdditionalLibraryDirectories>..\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -290,7 +290,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;NOMINMAX;_TIMESPEC_DEFINED;WIN32;_WIN32;_WIN32_WINNT=0x601;_MSC_PLATFORM_TOOLSET=$(PlatformToolsetVersion);%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\vendor;..\Include;..\vendor\google-breakpad\src;..\vendor\google-breakpad\src\third_party\glog\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\vendor;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;..\vendor\google-breakpad\src;..\vendor\google-breakpad\src\third_party\glog\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -310,7 +310,7 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
     <Lib>
-      <AdditionalLibraryDirectories>..\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
@@ -318,7 +318,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;NOMINMAX;_TIMESPEC_DEFINED;WIN32;_WIN32;_WIN32_WINNT=0x601;_MSC_PLATFORM_TOOLSET=$(PlatformToolsetVersion);%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\vendor;..\Include;..\vendor\google-breakpad\src;..\vendor\google-breakpad\src\third_party\glog\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\vendor;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;..\vendor\google-breakpad\src;..\vendor\google-breakpad\src\third_party\glog\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -338,7 +338,7 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
     <Lib>
-      <AdditionalLibraryDirectories>..\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Nightly|Win32'">
@@ -346,7 +346,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;NOMINMAX;_TIMESPEC_DEFINED;WIN32;_WIN32;_WIN32_WINNT=0x601;_MSC_PLATFORM_TOOLSET=$(PlatformToolsetVersion);%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\vendor;..\Include;..\vendor\google-breakpad\src;..\vendor\google-breakpad\src\third_party\glog\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\vendor;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;..\vendor\google-breakpad\src;..\vendor\google-breakpad\src\third_party\glog\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -366,7 +366,7 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
     <Lib>
-      <AdditionalLibraryDirectories>..\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Nightly|x64'">
@@ -374,7 +374,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;NOMINMAX;_TIMESPEC_DEFINED;WIN32;_WIN32;_WIN32_WINNT=0x601;_MSC_PLATFORM_TOOLSET=$(PlatformToolsetVersion);%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\vendor;..\Include;..\vendor\google-breakpad\src;..\vendor\google-breakpad\src\third_party\glog\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\vendor;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;..\vendor\google-breakpad\src;..\vendor\google-breakpad\src\third_party\glog\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -394,7 +394,7 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
     <Lib>
-      <AdditionalLibraryDirectories>..\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Nightly|ARM64'">
@@ -402,7 +402,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;NOMINMAX;_TIMESPEC_DEFINED;WIN32;_WIN32;_WIN32_WINNT=0x601;_MSC_PLATFORM_TOOLSET=$(PlatformToolsetVersion);%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\vendor;..\Include;..\vendor\google-breakpad\src;..\vendor\google-breakpad\src\third_party\glog\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\vendor;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;..\vendor\google-breakpad\src;..\vendor\google-breakpad\src\third_party\glog\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -422,7 +422,7 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
     <Lib>
-      <AdditionalLibraryDirectories>..\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -442,6 +442,7 @@
     <ClInclude Include="..\vendor\google-breakpad\src\client\linux\handler\exception_handler.h" />
     <ClInclude Include="..\vendor\google-breakpad\src\client\linux\handler\microdump_extra_info.h" />
     <ClInclude Include="..\vendor\google-breakpad\src\client\linux\handler\minidump_descriptor.h" />
+    <ClInclude Include="..\vendor\google-breakpad\src\client\linux\log\log.h" />
     <ClInclude Include="..\vendor\google-breakpad\src\client\linux\microdump_writer\microdump_writer.h" />
     <ClInclude Include="..\vendor\google-breakpad\src\client\linux\minidump_writer\cpu_set.h" />
     <ClInclude Include="..\vendor\google-breakpad\src\client\linux\minidump_writer\directory_reader.h" />
@@ -465,16 +466,11 @@
     <ClInclude Include="..\vendor\google-breakpad\src\client\mac\handler\mach_vm_compat.h" />
     <ClInclude Include="..\vendor\google-breakpad\src\client\mac\handler\minidump_generator.h" />
     <ClInclude Include="..\vendor\google-breakpad\src\client\mac\handler\protected_memory_allocator.h" />
-    <ClInclude Include="..\vendor\google-breakpad\src\client\mac\handler\testcases\DynamicImagesTests.h" />
-    <ClInclude Include="..\vendor\google-breakpad\src\client\mac\handler\testcases\breakpad_nlist_test.h" />
-    <ClInclude Include="..\vendor\google-breakpad\src\client\mac\handler\testcases\dwarftests.h" />
     <ClInclude Include="..\vendor\google-breakpad\src\client\mac\handler\ucontext_compat.h" />
     <ClInclude Include="..\vendor\google-breakpad\src\client\mac\sender\crash_report_sender.h" />
     <ClInclude Include="..\vendor\google-breakpad\src\client\mac\sender\uploader.h" />
     <ClInclude Include="..\vendor\google-breakpad\src\client\mac\testapp\Controller.h" />
     <ClInclude Include="..\vendor\google-breakpad\src\client\mac\testapp\TestClass.h" />
-    <ClInclude Include="..\vendor\google-breakpad\src\client\mac\tests\spawn_child_process.h" />
-    <ClInclude Include="..\vendor\google-breakpad\src\client\mac\tests\testlogging.h" />
     <ClInclude Include="..\vendor\google-breakpad\src\client\minidump_file_writer-inl.h" />
     <ClInclude Include="..\vendor\google-breakpad\src\client\minidump_file_writer.h" />
     <ClInclude Include="..\vendor\google-breakpad\src\client\solaris\handler\exception_handler.h" />
@@ -737,73 +733,43 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\vendor\google-breakpad\src\client\minidump_file_writer.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\client\minidump_file_writer_unittest.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\common\byte_cursor_unittest.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\common\convert_UTF.c" />
     <ClCompile Include="..\vendor\google-breakpad\src\common\dwarf_cfi_to_module.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\common\dwarf_cfi_to_module_unittest.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\common\dwarf_cu_to_module.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\common\dwarf_cu_to_module_unittest.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\common\dwarf_line_to_module.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\common\dwarf_line_to_module_unittest.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\common\language.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\common\long_string_dictionary.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\common\long_string_dictionary_unittest.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\common\md5.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\common\memory_allocator_unittest.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\common\memory_range_unittest.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\common\module.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\common\module_unittest.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\common\path_helper.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\common\simple_string_dictionary.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\common\simple_string_dictionary_unittest.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\common\stabs_reader.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\common\stabs_reader_unittest.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\common\stabs_to_module.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\common\stabs_to_module_unittest.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\common\string_conversion.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\common\test_assembler.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\common\test_assembler_unittest.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\processor\address_map_unittest.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\basic_code_modules.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\basic_source_line_resolver.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\processor\basic_source_line_resolver_unittest.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\call_stack.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\cfi_frame_info.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\processor\cfi_frame_info_unittest.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\processor\contained_range_map_unittest.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\disassembler_x86.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\processor\disassembler_x86_unittest.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\dump_context.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\dump_object.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\exploitability.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\exploitability_linux.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\processor\exploitability_unittest.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\exploitability_win.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\fast_source_line_resolver.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\processor\fast_source_line_resolver_unittest.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\logging.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\processor\map_serializers_unittest.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\microdump.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\microdump_processor.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\processor\microdump_processor_unittest.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\microdump_stackwalk.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\minidump.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\minidump_dump.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\minidump_processor.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\processor\minidump_processor_unittest.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\minidump_stackwalk.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\processor\minidump_unittest.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\module_comparer.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\module_serializer.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\pathname_stripper.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\processor\pathname_stripper_unittest.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\processor\postfix_evaluator_unittest.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\proc_maps_linux.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\processor\proc_maps_linux_unittest.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\process_state.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\processor\range_map_shrink_down_unittest.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\processor\range_map_unittest.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\simple_symbol_supplier.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\source_line_resolver_base.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\stack_frame_cpu.cc" />
@@ -811,29 +777,16 @@
     <ClCompile Include="..\vendor\google-breakpad\src\processor\stackwalk_common.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\stackwalker.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\stackwalker_address_list.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\processor\stackwalker_address_list_unittest.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\stackwalker_amd64.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\processor\stackwalker_amd64_unittest.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\stackwalker_arm.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\stackwalker_arm64.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\processor\stackwalker_arm64_unittest.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\processor\stackwalker_arm_unittest.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\stackwalker_mips.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\processor\stackwalker_mips64_unittest.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\processor\stackwalker_mips_unittest.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\stackwalker_ppc.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\stackwalker_ppc64.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\processor\stackwalker_selftest.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\stackwalker_sparc.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\stackwalker_x86.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\processor\stackwalker_x86_unittest.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\processor\static_address_map_unittest.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\processor\static_contained_range_map_unittest.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\processor\static_map_unittest.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\processor\static_range_map_unittest.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\symbolic_constants_win.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\synth_minidump.cc" />
-    <ClCompile Include="..\vendor\google-breakpad\src\processor\synth_minidump_unittest.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\processor\tokenize.cc" />
     <ClCompile Include="..\vendor\google-breakpad\src\third_party\libdisasm\ia32_implicit.c" />
     <ClCompile Include="..\vendor\google-breakpad\src\third_party\libdisasm\ia32_insn.c" />

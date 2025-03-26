@@ -63,9 +63,6 @@
     <ClInclude Include="..\vendor\curl\lib\altsvc.h">
       <Filter>lib</Filter>
     </ClInclude>
-    <ClInclude Include="..\vendor\curl\lib\amigaos.h">
-      <Filter>lib</Filter>
-    </ClInclude>
     <ClInclude Include="..\vendor\curl\lib\arpa_telnet.h">
       <Filter>lib</Filter>
     </ClInclude>
@@ -96,34 +93,13 @@
     <ClInclude Include="..\vendor\curl\lib\cfilters.h">
       <Filter>lib</Filter>
     </ClInclude>
-    <ClInclude Include="..\vendor\curl\lib\config-amigaos.h">
-      <Filter>lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\vendor\curl\lib\config-dos.h">
-      <Filter>lib</Filter>
-    </ClInclude>
     <ClInclude Include="..\vendor\curl\lib\config-linux.h">
-      <Filter>lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\vendor\curl\lib\config-mac.h">
       <Filter>lib</Filter>
     </ClInclude>
     <ClInclude Include="..\vendor\curl\lib\config-macos.h">
       <Filter>lib</Filter>
     </ClInclude>
-    <ClInclude Include="..\vendor\curl\lib\config-os400.h">
-      <Filter>lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\vendor\curl\lib\config-plan9.h">
-      <Filter>lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\vendor\curl\lib\config-riscos.h">
-      <Filter>lib</Filter>
-    </ClInclude>
     <ClInclude Include="..\vendor\curl\lib\config-win32.h">
-      <Filter>lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\vendor\curl\lib\config-win32ce.h">
       <Filter>lib</Filter>
     </ClInclude>
     <ClInclude Include="..\vendor\curl\lib\conncache.h">
@@ -408,12 +384,6 @@
     <ClInclude Include="..\vendor\curl\lib\setopt.h">
       <Filter>lib</Filter>
     </ClInclude>
-    <ClInclude Include="..\vendor\curl\lib\setup-os400.h">
-      <Filter>lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\vendor\curl\lib\setup-vms.h">
-      <Filter>lib</Filter>
-    </ClInclude>
     <ClInclude Include="..\vendor\curl\lib\setup-win32.h">
       <Filter>lib</Filter>
     </ClInclude>
@@ -594,9 +564,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\vendor\curl\lib\altsvc.c">
-      <Filter>lib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\vendor\curl\lib\amigaos.c">
       <Filter>lib</Filter>
     </ClCompile>
     <ClCompile Include="..\vendor\curl\lib\asyn-ares.c">
