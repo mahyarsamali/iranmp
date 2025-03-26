@@ -1,4 +1,4 @@
-﻿/*****************************************************************************
+/*****************************************************************************
  *
  *  PROJECT:     Multi Theft Auto v1.0
  *  LICENSE:     See LICENSE in the top level directory
@@ -15,47 +15,47 @@
 #include "CLanguageSelector.h"
 #include "CDiscordRichPresence.h"
 
-#define NATIVE_RES_X    1280.0f
-#define NATIVE_RES_Y    1024.0f
+#define NATIVE_RES_X 1280.0f
+#define NATIVE_RES_Y 1024.0f
 
-#define NATIVE_BG_X     1280.0f
-#define NATIVE_BG_Y     720.0f
+#define NATIVE_BG_X 1280.0f
+#define NATIVE_BG_Y 720.0f
 
-#define NATIVE_LOGO_X     1058.0f
-#define NATIVE_LOGO_Y     540.0f
+#define NATIVE_LOGO_X 1058.0f
+#define NATIVE_LOGO_Y 540.0f
 
-#define CORE_MTA_MENUITEMS_START_X  0.39f
+#define CORE_MTA_MENUITEMS_START_X 0.39f
 
-#define CORE_MTA_BG_MAX_ALPHA       1.00f   //ACHTUNG: Set to 1 for now due to GTA main menu showing through (no delay inserted between Entering game... and loading screen)
-#define CORE_MTA_BG_INGAME_ALPHA    0.90f
-#define CORE_MTA_FADER              0.05f // 1/20
-#define CORE_MTA_FADER_CREDITS      0.01f
+#define CORE_MTA_BG_MAX_ALPHA \
+    1.00f            // ACHTUNG: Set to 1 for now due to GTA main menu showing through (no delay inserted between Entering game... and loading screen)
+#define CORE_MTA_BG_INGAME_ALPHA 0.90f
+#define CORE_MTA_FADER           0.05f            // 1/20
+#define CORE_MTA_FADER_CREDITS   0.01f
 
-#define CORE_MTA_HOVER_SCALE        1.0f
-#define CORE_MTA_NORMAL_SCALE       0.8f
-#define CORE_MTA_HOVER_ALPHA        1.0f
-#define CORE_MTA_NORMAL_ALPHA       0.6f
+#define CORE_MTA_HOVER_SCALE  1.0f
+#define CORE_MTA_NORMAL_SCALE 0.8f
+#define CORE_MTA_HOVER_ALPHA  1.0f
+#define CORE_MTA_NORMAL_ALPHA 0.6f
 
-#define CORE_MTA_HIDDEN_ALPHA       0.0f
-#define CORE_MTA_DISABLED_ALPHA     0.4f
-#define CORE_MTA_ENABLED_ALPHA      1.0f
+#define CORE_MTA_HIDDEN_ALPHA   0.0f
+#define CORE_MTA_DISABLED_ALPHA 0.4f
+#define CORE_MTA_ENABLED_ALPHA  1.0f
 
 #define CORE_MTA_ANIMATION_TIME_IN  200
 #define CORE_MTA_ANIMATION_TIME_OUT 100
 #define CORE_MTA_MOVE_ANIM_TIME     600
 
-#define CORE_MTA_STATIC_BG          "cgui\\images\\background.png"
-#define CORE_MTA_LOGO               "cgui\\images\\background_logo.png"
-#define CORE_MTA_FILLER             "cgui\\images\\mta_filler.png"
-#define CORE_MTA_VERSION            "cgui\\images\\version.png"
-#define CORE_MTA_CONTAINER          "cgui\\images\\container.png"
-#define CORE_MTA_COPYRIGHT          "cgui\\images\\copyright.png"
+#define CORE_MTA_STATIC_BG "cgui\\images\\background.png"
+#define CORE_MTA_LOGO      "cgui\\images\\background_logo.png"
+#define CORE_MTA_FILLER    "cgui\\images\\mta_filler.png"
+#define CORE_MTA_VERSION   "cgui\\images\\version.png"
+#define CORE_MTA_CONTAINER "cgui\\images\\container.png"
+#define CORE_MTA_COPYRIGHT "cgui\\images\\copyright.png"
 
-#define CORE_ING_MTA_BG          "cgui\\images\\ingame_menu.png"
-#define CORE_ING_MTA_RECONNECT          "cgui\\images\\ingame_reconnect.png"
-#define CORE_ING_MTA_SETTING          "cgui\\images\\ingame_setting.png"
-#define CORE_ING_MTA_EXIT          "cgui\\images\\ingame_exit.png"
-
+#define CORE_ING_MTA_BG        "cgui\\images\\ingame_menu.png"
+#define CORE_ING_MTA_RECONNECT "cgui\\images\\ingame_reconnect.png"
+#define CORE_ING_MTA_SETTING   "cgui\\images\\ingame_setting.png"
+#define CORE_ING_MTA_EXIT      "cgui\\images\\ingame_exit.png"
 
 static const SColor headlineColors[] = {SColorRGBA(233, 234, 106, 255), SColorRGBA(233 / 6 * 4, 234 / 6 * 4, 106 / 6 * 4, 255),
                                         SColorRGBA(233 / 7 * 3, 234 / 7 * 3, 106 / 7 * 3, 255)};
@@ -120,7 +120,6 @@ CMainMenu::CMainMenu(CGUI* pManager)
         iBackgroundSizeX = m_iMenuSizeX;
         iBackgroundSizeY = NATIVE_BG_Y * iRatioSizeX;
     }
-
 
     // First create our filler black background image, which covers the whole screen
     m_pFiller = reinterpret_cast<CGUIStaticImage*>(pManager->CreateStaticImage());
@@ -196,12 +195,12 @@ CMainMenu::CMainMenu(CGUI* pManager)
     m_pLogo->SetZOrderingEnabled(false);
 
     // Create the image showing the version number
-    //m_pVersion = reinterpret_cast<CGUIStaticImage*>(pManager->CreateStaticImage());
-    //m_pVersion->LoadFromFile(CORE_MTA_VERSION);
-    //m_pVersion->SetParent(m_pCanvas);
-    //m_pVersion->SetPosition(CVector2D(0.855f, 0.512f), true);
-    //m_pVersion->SetSize(CVector2D((32 / NATIVE_RES_X) * m_iMenuSizeX, (32 / NATIVE_RES_Y) * m_iMenuSizeY), false);
-    //m_pVersion->SetProperty("InheritsAlpha", "False");
+    // m_pVersion = reinterpret_cast<CGUIStaticImage*>(pManager->CreateStaticImage());
+    // m_pVersion->LoadFromFile(CORE_MTA_VERSION);
+    // m_pVersion->SetParent(m_pCanvas);
+    // m_pVersion->SetPosition(CVector2D(0.855f, 0.512f), true);
+    // m_pVersion->SetSize(CVector2D((32 / NATIVE_RES_X) * m_iMenuSizeX, (32 / NATIVE_RES_Y) * m_iMenuSizeY), false);
+    // m_pVersion->SetProperty("InheritsAlpha", "False");
 
     float fBase = 0.57f;
     float fGap = 0.06f;
@@ -214,10 +213,10 @@ CMainMenu::CMainMenu(CGUI* pManager)
     // And the font for the graphics is ?
     m_menuItems.push_back(CreateItem(MENU_ITEM_QUICK_CONNECT, "menu_quick_connect.png", CVector2D(CORE_MTA_MENUITEMS_START_X, fBase + fGap * 0)));
     m_menuItems.push_back(CreateItem(MENU_ITEM_BROWSE_SERVERS, "menu_browse_servers.png", CVector2D(CORE_MTA_MENUITEMS_START_X, fBase + fGap * 1)));
-   // m_menuItems.push_back(CreateItem(MENU_ITEM_HOST_GAME, "menu_host_game.png", CVector2D(0.168f, fBase + fGap * 2)));
-    //m_menuItems.push_back(CreateItem(MENU_ITEM_MAP_EDITOR, "menu_map_editor.png", CVector2D(0.168f, fBase + fGap * 3)));
+    // m_menuItems.push_back(CreateItem(MENU_ITEM_HOST_GAME, "menu_host_game.png", CVector2D(0.168f, fBase + fGap * 2)));
+    // m_menuItems.push_back(CreateItem(MENU_ITEM_MAP_EDITOR, "menu_map_editor.png", CVector2D(0.168f, fBase + fGap * 3)));
     m_menuItems.push_back(CreateItem(MENU_ITEM_SETTINGS, "menu_settings.png", CVector2D(CORE_MTA_MENUITEMS_START_X, fBase + fGap * 2)));
-    //m_menuItems.push_back(CreateItem(MENU_ITEM_ABOUT, "menu_about.png", CVector2D(0.168f, fBase + fGap * 5)));
+    // m_menuItems.push_back(CreateItem(MENU_ITEM_ABOUT, "menu_about.png", CVector2D(0.168f, fBase + fGap * 5)));
     m_menuItems.push_back(CreateItem(MENU_ITEM_QUIT, "menu_quit.png", CVector2D(CORE_MTA_MENUITEMS_START_X, fBase + fGap * 3)));
 
     // We store the position of the top item, and the second item.  These will be useful later
@@ -242,7 +241,6 @@ CMainMenu::CMainMenu(CGUI* pManager)
     m_pMenuArea->SetClickHandler(GUI_CALLBACK_MOUSE(&CMainMenu::OnMenuClick, this));
     m_pMenuArea->SetMouseEnterHandler(GUI_CALLBACK(&CMainMenu::OnMenuEnter, this));
     m_pMenuArea->SetMouseLeaveHandler(GUI_CALLBACK(&CMainMenu::OnMenuExit, this));
-
 
     // In Game Menu
 
@@ -276,7 +274,6 @@ CMainMenu::CMainMenu(CGUI* pManager)
     m_p_ING_Reconnect->SetAlwaysOnTop(true);
     m_p_ING_Reconnect->MoveToBack();
 
-
     // Setting
     float posXset = (ScreenSize.fX - ingame_recsize.fX) * 0.5f;
 
@@ -301,9 +298,6 @@ CMainMenu::CMainMenu(CGUI* pManager)
     m_p_ING_Disconnect->SetAlwaysOnTop(true);
     m_p_ING_Disconnect->MoveToBack();
 
-
-
-
     m_p_ING_Background->SetVisible(false);
     m_p_ING_Reconnect->SetVisible(false);
     m_p_ING_Settings->SetVisible(false);
@@ -312,8 +306,6 @@ CMainMenu::CMainMenu(CGUI* pManager)
     m_p_ING_Reconnect->SetClickHandler(GUI_CALLBACK_MOUSE(&CMainMenu::OnMenuClick, this));
     m_p_ING_Settings->SetClickHandler(GUI_CALLBACK_MOUSE(&CMainMenu::OnMenuClick, this));
     m_p_ING_Disconnect->SetClickHandler(GUI_CALLBACK_MOUSE(&CMainMenu::OnMenuClick, this));
-
-
 
     m_pLatestNews = reinterpret_cast<CGUIStaticImage*>(pManager->CreateStaticImage());
     if (!m_pLatestNews->LoadFromFile(PathJoin(g_pCore->GetLocalization()->GetLanguageDirectory(), "latest_news.png")))
@@ -394,7 +386,7 @@ CMainMenu::CMainMenu(CGUI* pManager)
     m_Settings.SetVisible(false);
     m_Credits.SetVisible(false);
     m_pNewsBrowser->SetVisible(false);
-    //m_pLanguageSelector = new CLanguageSelector(m_pCanvas);
+    // m_pLanguageSelector = new CLanguageSelector(m_pCanvas);
 
     // We're not ingame
     SetIsIngame(false);
@@ -473,7 +465,7 @@ CMainMenu::~CMainMenu()
     delete m_pFiller2;
     delete m_pLogo;
     delete m_pLatestNews;
-    //delete m_pVersion;
+    // delete m_pVersion;
     delete m_pMenuArea;
 
     // Destroy the menu items. Note: The disconnect item isn't always in the
@@ -492,7 +484,7 @@ CMainMenu::~CMainMenu()
 
     delete m_pDisconnect->image;
     delete m_pDisconnect;
-    //delete m_pLanguageSelector;
+    // delete m_pLanguageSelector;
 }
 
 void CMainMenu::SetMenuVerticalPosition(int iPosY)
@@ -541,9 +533,6 @@ bool showmenuingame = false;
 bool hideonce = false;
 void CMainMenu::Update()
 {
-
-
-
     if (g_pCore->GetDiagnosticDebug() == EDiagnosticDebug::JOYSTICK_0000)
     {
         m_pFiller->SetVisible(false);
@@ -650,7 +639,8 @@ void CMainMenu::Update()
         {
             // Let's work out what the target progress should be by working out the time passed
             // Min of 0.5 progress fixes occasional graphical glitchekal
-            float newProgress = (*it)->animProgress - std::min(0.5f, ((float)ulTimePassed / CORE_MTA_ANIMATION_TIME_OUT) * (CORE_MTA_HOVER_ALPHA - CORE_MTA_NORMAL_ALPHA));
+            float newProgress =
+                (*it)->animProgress - std::min(0.5f, ((float)ulTimePassed / CORE_MTA_ANIMATION_TIME_OUT) * (CORE_MTA_HOVER_ALPHA - CORE_MTA_NORMAL_ALPHA));
             if (SetItemHoverProgress((*it), newProgress, false))
             {
                 std::set<sMenuItem*>::iterator itToErase = it++;
@@ -731,7 +721,6 @@ void CMainMenu::Update()
             m_ucFade = FADE_VISIBLE;
             m_bIsVisible = true;
             m_bIsFullyVisible = true;
-
         }
     }
     // Fade out
@@ -751,7 +740,6 @@ void CMainMenu::Update()
             m_bIsVisible = false;            // Make cursor disappear faster
             m_bCursorAlphaReset = false;
         }
-            
 
         // If the fade is complete
         if (m_fFader <= 0)
@@ -818,7 +806,7 @@ void CMainMenu::Update()
     // Call subdialog pulses
     m_ServerBrowser.Update();
     m_ServerInfo.DoPulse();
-   // m_pLanguageSelector->DoPulse();
+    // m_pLanguageSelector->DoPulse();
 }
 
 void CMainMenu::Show(bool bOverlay)
@@ -837,7 +825,6 @@ void CMainMenu::OnEscapePressedOffLine()
     m_Credits.SetVisible(false);
     m_pNewsBrowser->SetVisible(false);
 }
-
 
 #include <thread>
 #include <chrono>
@@ -877,8 +864,6 @@ void CMainMenu::FadeEffect(bool bVisible)
         m_p_ING_Disconnect->SetVisible(false);
     }
 }
-
-
 
 void CMainMenu::SetVisible(bool bVisible, bool bOverlay, bool bFrameDelay)
 {
@@ -1001,7 +986,6 @@ bool CMainMenu::OnMenuClick(CGUIMouseEventArgs Args)
 {
     CGUIElement* pElement = Args.pWindow;
 
-
     if (Args.button == LeftButton)
     {
         if (dynamic_cast<CGUIStaticImage*>(pElement) == m_p_ING_Reconnect)
@@ -1029,11 +1013,8 @@ bool CMainMenu::OnMenuClick(CGUIMouseEventArgs Args)
     if (Args.button != LeftButton && m_pHoveredItem->menuType != MENU_ITEM_QUICK_CONNECT)
         return true;
 
-
     // For detecting startup problems
     WatchDogUserDidInteractWithMenu();
-
-
 
     // Possible disconnect question for user
     if (g_pCore->IsConnected())
@@ -1320,8 +1301,8 @@ bool CMainMenu::SetItemHoverProgress(sMenuItem* pItem, float fProgress, bool bHo
     int iPosY = (pItem->drawPositionY) - (iSizeY * 0.5);
 
     // Removed because ui ro zesht mikone
-    //pItem->image->SetPosition(CVector2D(iPosX, iPosY), false);
-    //pItem->image->SetSize(CVector2D(iSizeX, iSizeY), false);
+    // pItem->image->SetPosition(CVector2D(iPosX, iPosY), false);
+    // pItem->image->SetSize(CVector2D(iSizeX, iSizeY), false);
 
     // Return whether the hovering has maxed out
     return bHovering ? (pItem->animProgress >= 1.0) : (pItem->animProgress <= 0.0f);
@@ -1332,41 +1313,41 @@ void CMainMenu::SetNewsHeadline(int iIndex, const SString& strHeadline, const SS
     if (iIndex < 0 || iIndex > 2)
         return;
 
-    //m_pLatestNews->SetVisible(true);
+    // m_pLatestNews->SetVisible(true);
 
     // Headline
-    //CGUILabel* pItem = m_pNewsItemLabels[iIndex];
-    //CGUILabel* pItemShadow = m_pNewsItemShadowLabels[iIndex];
-   // SColor     color = headlineColors[iIndex];
-    //pItem->SetTextColor(color.R, color.G, color.B);
-    //pItem->SetText(strHeadline);
-    //pItemShadow->SetText(strHeadline);
+    // CGUILabel* pItem = m_pNewsItemLabels[iIndex];
+    // CGUILabel* pItemShadow = m_pNewsItemShadowLabels[iIndex];
+    // SColor     color = headlineColors[iIndex];
+    // pItem->SetTextColor(color.R, color.G, color.B);
+    // pItem->SetText(strHeadline);
+    // pItemShadow->SetText(strHeadline);
 
     // Switch font if it's too big
-    //if (pItem->GetSize(false).fX < pItem->GetTextExtent())
+    // if (pItem->GetSize(false).fX < pItem->GetTextExtent())
     //{
     //    const char* szFontName = "default-bold-small";
     //    for (char i = 0; i < CORE_MTA_NEWS_ITEMS; i++)
     //    {
-            // Try default-bold-small first, if that's too big use default-small
-     //       m_pNewsItemLabels[i]->SetFont(szFontName);
-     //       m_pNewsItemShadowLabels[i]->SetFont(szFontName);
-     //       if (strcmp(szFontName, "default-small") && (m_pNewsItemLabels[i]->GetSize(false).fX < m_pNewsItemLabels[i]->GetTextExtent()))
-     //       {
-     //           szFontName = "default-small";
-     //           i = -1;
-     //       }
-     //   }
+    // Try default-bold-small first, if that's too big use default-small
+    //       m_pNewsItemLabels[i]->SetFont(szFontName);
+    //       m_pNewsItemShadowLabels[i]->SetFont(szFontName);
+    //       if (strcmp(szFontName, "default-small") && (m_pNewsItemLabels[i]->GetSize(false).fX < m_pNewsItemLabels[i]->GetTextExtent()))
+    //       {
+    //           szFontName = "default-small";
+    //           i = -1;
+    //       }
+    //   }
     //}
 
     // Set our Date labels
-    //CGUILabel* pItemDate = m_pNewsItemDateLabels[iIndex];
-    //pItemDate->SetText(strDate);
+    // CGUILabel* pItemDate = m_pNewsItemDateLabels[iIndex];
+    // pItemDate->SetText(strDate);
 
     // 'NEW' sticker
-    //CGUILabel* pNewLabel = m_pNewsItemNEWLabels[iIndex];
-    //pNewLabel->SetVisible(bIsNew);
-    //pNewLabel->SetPosition(CVector2D(pItem->GetPosition().fX + 4, pItem->GetPosition().fY - 4));
+    // CGUILabel* pNewLabel = m_pNewsItemNEWLabels[iIndex];
+    // pNewLabel->SetVisible(bIsNew);
+    // pNewLabel->SetPosition(CVector2D(pItem->GetPosition().fX + 4, pItem->GetPosition().fY - 4));
 }
 
 void CMainMenu::ReloadNews()

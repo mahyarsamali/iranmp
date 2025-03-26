@@ -276,7 +276,7 @@ const char* CVehicleNames::GetVehicleTypeName(unsigned long ulModel)
     switch (CVehicleManager::GetVehicleType(static_cast<unsigned short>(ulModel)))
     {
         case VEHICLE_NONE:
-            pVehicleName = "Unknown Vehicle";
+            pVehicleName = "Unknown";
             break;
         case VEHICLE_CAR:
             pVehicleName = "Automobile";

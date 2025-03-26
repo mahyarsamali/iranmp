@@ -23,7 +23,7 @@ class CMainMenu;
 class CNewsBrowser;
 class CLanguageSelector;
 
-#define CORE_MTA_NEWS_ITEMS         3
+#define CORE_MTA_NEWS_ITEMS 3
 
 struct sMenuItem
 {
@@ -103,7 +103,7 @@ private:
     CGUI* m_pManager;
 
     // Images
-    //identifier "m_pContainer" is undefined
+    // identifier "m_pContainer" is undefined
     CGUIStaticImage* m_pBackground;
     CGUIStaticImage* m_pLogo;
     CGUIStaticImage* m_pLatestNews;
