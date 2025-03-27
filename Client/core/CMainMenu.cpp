@@ -67,7 +67,7 @@ static const int       BODGE_FACTOR_3 = -5;
 static const int       BODGE_FACTOR_4 = 5;
 static const CVector2D BODGE_FACTOR_5(0, -50);
 static const CVector2D BODGE_FACTOR_6(0, 100);
-
+//
 CMainMenu::CMainMenu(CGUI* pManager)
 {
     m_pNewsBrowser = new CNewsBrowser();
@@ -298,10 +298,20 @@ CMainMenu::CMainMenu(CGUI* pManager)
     m_p_ING_Disconnect->SetAlwaysOnTop(true);
     m_p_ING_Disconnect->MoveToBack();
 
+    // Label Sv Name
+    m_p_ING_Text_ServerName = reinterpret_cast<CGUILabel*>(pManager->CreateLabel(m_p_ING_Background, "SERVER NAME MUST HERE BABBBBBBBBBBB"));
+    m_p_ING_Text_ServerName->SetFont("default-small");
+    m_p_ING_Text_ServerName->SetTextColor(255, 0, 0);
+    m_p_ING_Text_ServerName->AutoSize(m_p_ING_Text_ServerName->GetText().c_str());
+    m_p_ING_Text_ServerName->SetAlpha(0.7f);
+    m_p_ING_Text_ServerName->SetVisible(false);
+
     m_p_ING_Background->SetVisible(false);
     m_p_ING_Reconnect->SetVisible(false);
     m_p_ING_Settings->SetVisible(false);
     m_p_ING_Disconnect->SetVisible(false);
+
+
 
     m_p_ING_Reconnect->SetClickHandler(GUI_CALLBACK_MOUSE(&CMainMenu::OnMenuClick, this));
     m_p_ING_Settings->SetClickHandler(GUI_CALLBACK_MOUSE(&CMainMenu::OnMenuClick, this));

@@ -119,6 +119,7 @@ private:
     CGUIStaticImage* m_p_ING_Reconnect;
     CGUIStaticImage* m_p_ING_Settings;
     CGUIStaticImage* m_p_ING_Disconnect;
+    CGUILabel* m_p_ING_Text_ServerName;
 
     CGUIScrollPane* m_pCanvas;
 
