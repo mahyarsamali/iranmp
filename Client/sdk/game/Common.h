@@ -1,6 +1,6 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto
+ *  PROJECT:     IRan Multi Player
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        Client/sdk/game/Common.h
  *  PURPOSE:     Grand Theft Auto: San Andreas game definitions

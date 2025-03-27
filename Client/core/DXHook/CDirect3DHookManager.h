@@ -1,6 +1,6 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto
+ *  PROJECT:     IRan Multi Player
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        Client/core/DXHook/CDirect3DHookManager.h
  *  PURPOSE:     Header file for Direct3D hook manager class

@@ -1,6 +1,6 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto
+ *  PROJECT:     IRan Multi Player
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        Client/loader/Install.Manifest.cpp
  *  PURPOSE:     Handles loading and creating of manifest files for installation

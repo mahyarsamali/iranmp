@@ -1,6 +1,6 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto
+ *  PROJECT:     IRan Multi Player
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        game_sa/CObjectGroupPhysicalPropertiesSA.h
  *  PURPOSE:     Header file for objects dynamic physical properties handler class

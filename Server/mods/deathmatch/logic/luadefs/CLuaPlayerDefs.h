@@ -1,6 +1,6 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto v1.x
+ *  PROJECT:     IRan Multi Player v1.x
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        mods/deathmatch/logic/luadefs/CLuaFileDefs.h
  *  PURPOSE:     Lua player definitions class

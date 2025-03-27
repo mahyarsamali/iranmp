@@ -1,6 +1,6 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto
+ *  PROJECT:     IRan Multi Player
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        mods/shared_logic/luadefs/CLuaBrowserDefs.cpp
  *  PURPOSE:     Lua browser definitions class

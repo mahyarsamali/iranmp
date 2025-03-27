@@ -1,6 +1,6 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto v1.3
+ *  PROJECT:     IRan Multi Player v1.3
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        mods/deathmatch/logic/packets/CResourceClientScriptsPacket.h
  *  PURPOSE:     Resource client-side scripts packet class

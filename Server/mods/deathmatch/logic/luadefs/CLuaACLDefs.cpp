@@ -1,6 +1,6 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto v1.x
+ *  PROJECT:     IRan Multi Player v1.x
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        mods/deathmatch/logic/luadefs/CLuaACLDefs.cpp
  *  PURPOSE:     Lua ACL function definitions class

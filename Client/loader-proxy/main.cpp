@@ -1,6 +1,6 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto
+ *  PROJECT:     IRan Multi Player
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        loader-proxy/main.cpp
  *  PURPOSE:     Acts as a proxy for winmm.dll and loads core.dll into the GTA process

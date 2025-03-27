@@ -1,6 +1,6 @@
 ##############################################################################
 #
-#  PROJECT:     Multi Theft Auto
+#  PROJECT:     IRan Multi Player
 #  LICENSE:     See LICENSE in the top level directory
 #  FILE:        utils/localization/build_gettext_catalog.py
 #  PURPOSE:     Create a template .pot file from .cpp and .h project files for client and server
