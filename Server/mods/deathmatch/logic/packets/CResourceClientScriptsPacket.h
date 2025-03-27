@@ -5,7 +5,7 @@
  *  FILE:        mods/deathmatch/logic/packets/CResourceClientScriptsPacket.h
  *  PURPOSE:     Resource client-side scripts packet class
  *
- *  Multi Theft Auto is available from http://www.multitheftauto.com/
+ *  IRan Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 

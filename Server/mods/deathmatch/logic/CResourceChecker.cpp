@@ -5,7 +5,7 @@
  *  FILE:        mods/deathmatch/logic/CResourceChecker.cpp
  *  PURPOSE:     Resource file content checker/validator/upgrader
  *
- *  Multi Theft Auto is available from http://www.multitheftauto.com/
+ *  IRan Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 

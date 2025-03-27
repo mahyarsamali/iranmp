@@ -5,7 +5,7 @@
  *  FILE:        mods/deathmatch/logic/lua/CLuaMain.cpp
  *  PURPOSE:     Lua virtual machine container class
  *
- *  Multi Theft Auto is available from http://www.multitheftauto.com/
+ *  IRan Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 

@@ -5,7 +5,7 @@
  *  FILE:        mods/deathmatch/logic/luadefs/CLuaBanDefs.cpp
  *  PURPOSE:     Lua function definitions class
  *
- *  Multi Theft Auto is available from http://www.multitheftauto.com/
+ *  IRan Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 
