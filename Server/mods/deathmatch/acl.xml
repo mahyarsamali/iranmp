@@ -6,10 +6,6 @@
    </group>
    <group name="Moderator">
       <acl name="Moderator" />
-      <object name="resource.mapcycler" />
-      <object name="resource.mapmanager" />
-      <object name="resource.resourcemanager" />
-      <object name="resource.votemanager" />
    </group>
    <group name="SuperModerator">
       <acl name="Moderator" />
@@ -39,7 +35,6 @@
    <group name="MapEditor">
       <acl name="Default" />
       <acl name="MapEditor" />
-      <object name="resource.editor_main" />
       <object name="resource.edf" />
    </group>
    <group name="raceACLGroup">
@@ -249,24 +244,6 @@
    <acl name="RPC">
       <right name="function.callRemote" access="true" />
       <right name="function.fetchRemote" access="true" />
-   </acl>
-   <acl name="MapEditor">
-      <right name="general.ModifyOtherObjects" access="true" />
-      <right name="function.startResource" access="true" />
-      <right name="function.stopResource" access="true" />
-      <right name="function.restartResource" access="true" />
-      <right name="function.createResource" access="true" />
-      <right name="function.copyResource" access="true" />
-      <right name="function.renameResource" access="true" />
-      <right name="function.deleteResource" access="true" />
-      <right name="function.addResourceMap" access="true" />
-      <right name="function.addResourceConfig" access="true" />
-      <right name="function.removeResourceFile" access="true" />
-      <right name="function.setResourceDefaultSetting" access="true" />
-      <right name="function.removeResourceDefaultSetting" access="true" />
-      <right name="function.xmlLoadFile" access="true" />
-      <right name="function.refreshResources" access="true" />
-      <right name="function.loadstring" access="true" />
    </acl>
    <acl name="raceACL">
       <right name="general.ModifyOtherObjects" access="true" />

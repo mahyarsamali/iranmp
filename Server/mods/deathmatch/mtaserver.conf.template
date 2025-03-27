@@ -225,7 +225,7 @@
          Available range: 25 to 32767. Default: 60. You can also use 0 for uncapped fps. -->
     <fpslimit>60</fpslimit>
 
-    <!-- FPS Server Shoma Az 16 Ta 100 Ghaleb Taghir Ast (Besorat Pishfarz 16 Ast) -->
+    <!-- FPS Console Server Shoma Az 16 Ta 100 Ghaleb Taghir Ast (Besorat Pishfarz 16 Ast) -->
     <server_logic_fps_limit>16</server_logic_fps_limit>
     <donkey_work_interval>1000</donkey_work_interval>
 
