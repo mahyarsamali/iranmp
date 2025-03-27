@@ -324,7 +324,7 @@ int CServerImpl::Run(int iArgumentCount, char* szArguments[])
 
     // Welcome text
     if (!g_bSilent)
-        Print("MTA:BLUE Server for MTA:SA\n\n");
+        Print("IRMP Server Artifact\nhttps://ir-mp.ir\n\n");
 
     // Load the network DLL
     if (m_NetworkLibrary.Load(PathJoin(m_strServerPath, SERVER_BIN_PATH, szNetworkLibName)))
