@@ -5,7 +5,7 @@
  *  FILE:        game_sa/CPedSoundSA.cpp
  *  PURPOSE:     Ped sound
  *
- *  Multi Theft Auto is available from http://www.multitheftauto.com/
+ *  IRan Multi Player is available from https://ir-mp.ir/ 
  *
  *****************************************************************************/
 

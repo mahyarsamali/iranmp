@@ -5,7 +5,7 @@
  *  FILE:        core/CChat.cpp
  *  PURPOSE:     In-game chat box user interface implementation
  *
- *  Multi Theft Auto is available from http://www.multitheftauto.com/
+ *  IRan Multi Player is available from https://ir-mp.ir/ 
  *
  *****************************************************************************/
 

@@ -5,7 +5,7 @@
  *  FILE:        Shared/mods/deathmatch/logic/luadefs/CLuaVector3Defs.h
  *  PURPOSE:     Lua general class functions
  *
- *  Multi Theft Auto is available from http://www.multitheftauto.com/
+ *  IRan Multi Player is available from https://ir-mp.ir/ 
  *
  *****************************************************************************/
 

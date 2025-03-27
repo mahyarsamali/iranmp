@@ -1,11 +1,11 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto v1.0
+ *  PROJECT:     IRan Multi Player v1.0
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        multiplayer_sa/multiplayersa_init.cpp
  *  PURPOSE:     Multiplayer module entry
  *
- *  Multi Theft Auto is available from http://www.multitheftauto.com/
+ *  IRan Multi Player is available from https://ir-mp.ir/ 
  *
  *****************************************************************************/
 

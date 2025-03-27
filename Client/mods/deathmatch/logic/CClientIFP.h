@@ -4,7 +4,7 @@
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        Client/mods/deathmatch/logic/CClientIFP.h
  *
- *  Multi Theft Auto is available from http://www.multitheftauto.com/
+ *  IRan Multi Player is available from https://ir-mp.ir/ 
  *
  *****************************************************************************/
 

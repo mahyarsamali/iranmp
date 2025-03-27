@@ -5,7 +5,7 @@
  *  FILE:        mods/shared_logic/luadefs/CLuaBrowserDefs.cpp
  *  PURPOSE:     Lua browser definitions class
  *
- *  Multi Theft Auto is available from http://www.multitheftauto.com/
+ *  IRan Multi Player is available from https://ir-mp.ir/ 
  *
  *****************************************************************************/
 

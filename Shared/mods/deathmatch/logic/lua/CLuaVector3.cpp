@@ -5,7 +5,7 @@
  *  FILE:        Shared/mods/logic/lua/CLuaVector3.cpp
  *  PURPOSE:     Lua vector3 class
  *
- *  Multi Theft Auto is available from http://www.multitheftauto.com/
+ *  IRan Multi Player is available from https://ir-mp.ir/ 
  *
  *****************************************************************************/
 

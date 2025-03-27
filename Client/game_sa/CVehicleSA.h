@@ -1,11 +1,11 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto v1.0
+ *  PROJECT:     IRan Multi Player v1.0
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        game_sa/CVehicleSA.h
  *  PURPOSE:     Header file for vehicle base entity class
  *
- *  Multi Theft Auto is available from http://www.multitheftauto.com/
+ *  IRan Multi Player is available from https://ir-mp.ir/ 
  *
  *****************************************************************************/
 

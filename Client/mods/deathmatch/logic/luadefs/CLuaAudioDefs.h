@@ -5,7 +5,7 @@
  *  FILE:        mods/deathmatch/logic/luadefs/CLuaAudioDefs.h
  *  PURPOSE:     Lua audio definitions class header
  *
- *  Multi Theft Auto is available from http://www.multitheftauto.com/
+ *  IRan Multi Player is available from https://ir-mp.ir/ 
  *
  *****************************************************************************/
 

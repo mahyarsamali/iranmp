@@ -1,6 +1,6 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto v1.0
+ *  PROJECT:     IRan Multi Player v1.0
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        core/CRenderItem.EffectTemplate.cpp
  *  PURPOSE:     A compiled effect to clone d3d effects from

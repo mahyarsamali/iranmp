@@ -1,6 +1,6 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto v1.0
+ *  PROJECT:     IRan Multi Player v1.0
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        Shared/mods/deathmatch/logic/luadefs/CLuaElementDefsShared.cpp
  *  PURPOSE:     Lua element definitions class
