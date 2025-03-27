@@ -51,7 +51,7 @@ ASE::ASE(CMainConfig* pMainConfig, CPlayerManager* pPlayerManager, unsigned shor
     m_uiNumQueriesPerMinute = 0;
     m_uiTotalAtMinuteStart = 0;
 
-    m_strGameType = "MTA:SA";
+    m_strGameType = "IRMP:SA";
     m_strMapName = "None";
     m_strIPList = strServerIPList;
     std::stringstream ss;
