@@ -411,6 +411,7 @@ CMainMenu::CMainMenu(CGUI* pManager)
         discord->SetPresenceState(_("Main menu"), false);
         discord->SetPresenceStartTimestamp(0);
     }
+    
     // Store the pointer to the graphics subsystem
     m_pGraphics = CGraphics::GetSingletonPtr();
 
