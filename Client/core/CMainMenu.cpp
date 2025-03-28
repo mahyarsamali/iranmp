@@ -1000,6 +1000,10 @@ bool CMainMenu::OnMenuClick(CGUIMouseEventArgs Args)
     {
         if (dynamic_cast<CGUIStaticImage*>(pElement) == m_p_ING_Reconnect)
         {
+            m_p_ING_Background->SetVisible(false);
+            m_p_ING_Reconnect->SetVisible(false);
+            m_p_ING_Settings->SetVisible(false);
+            m_p_ING_Disconnect->SetVisible(false);
             g_pCore->GetCommands()->Execute("reconnect", "");
         }
         else if (dynamic_cast<CGUIStaticImage*>(pElement) == m_p_ING_Disconnect)
