@@ -75,9 +75,9 @@ CServerBrowser::CServerBrowser()
 
     // Limit size
     m_WidgetSize.fX = std::min(m_WidgetSize.fX, 1200.f);
-    m_WidgetSize.fY = std::min(m_WidgetSize.fY, 1000.f);
+    m_WidgetSize.fY = std::min(m_WidgetSize.fY, 700.f);
 
-    CVector2D widgetPosition((resolution.fX - m_WidgetSize.fX) / 2, (resolution.fY - m_WidgetSize.fY) / 2);
+    CVector2D widgetPosition((resolution.fX - m_WidgetSize.fX) / 2, (resolution.fY - m_WidgetSize.fY) / 2.2);
 
     if (bCreateFrame)
     {
@@ -131,7 +131,7 @@ CServerBrowser::CServerBrowser()
 
     // Create the tabs
     CreateTab(ServerBrowserTypes::INTERNET, _("Internet"));
-    CreateTab(ServerBrowserTypes::LAN, _("Local"));
+    CreateTab(ServerBrowserTypes::LAN, _("Localhost"));
     CreateTab(ServerBrowserTypes::FAVOURITES, _("Favourites"));
     CreateTab(ServerBrowserTypes::RECENTLY_PLAYED, _("Recent"));
 
