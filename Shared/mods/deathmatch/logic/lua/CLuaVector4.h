@@ -1,11 +1,11 @@
 /*****************************************************************************
  *
- *  PROJECT:     IRan Multi Player
+ *  PROJECT:     Multi Theft Auto
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        Shared/mods/logic/lua/CLuaVector4.cpp
  *  PURPOSE:     Lua vector4 class
  *
- *  IRan Multi Player is available from https://ir-mp.ir/ 
+ *  Multi Theft Auto is available from http://www.multitheftauto.com/
  *
  *****************************************************************************/
 

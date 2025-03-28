@@ -1,6 +1,6 @@
 /*****************************************************************************
  *
- *  PROJECT:     IRan Multi Player v1.0
+ *  PROJECT:     Multi Theft Auto v1.0
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        animation/EasingEquations.h
  *  PURPOSE:     Easing equations for non-linear time interpolation
@@ -14,7 +14,7 @@ TERMS OF USE - EASING EQUATIONS
 
 Open source under the BSD License.
 
-Copyright ï¿½ 2001 Robert Penner
+Copyright © 2001 Robert Penner
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:

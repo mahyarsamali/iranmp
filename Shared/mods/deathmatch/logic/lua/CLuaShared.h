@@ -1,6 +1,6 @@
 /*****************************************************************************
  *
- *  PROJECT:     IRan Multi Player
+ *  PROJECT:     Multi Theft Auto
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        Shared/mods/logic/lua/CLuaShared.h
  *

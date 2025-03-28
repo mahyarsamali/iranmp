@@ -1,9 +1,9 @@
 /*****************************************************************************
  *
- *  PROJECT:     IRan Multi Player
+ *  PROJECT:     Multi Theft Auto
  *  LICENSE:     See LICENSE in the top level directory
  *
- *  IRan Multi Player is available from https://ir-mp.ir/ 
+ *  Multi Theft Auto is available from http://www.multitheftauto.com/
  *
  *****************************************************************************/
 #pragma once

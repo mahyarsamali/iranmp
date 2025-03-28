@@ -1,6 +1,6 @@
 /*****************************************************************************
  *
- *  PROJECT:     IRan Multi Player
+ *  PROJECT:     Multi Theft Auto
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        sdk/CRect.h
  *  PURPOSE:     This is an actual GTA SA class. MTA has its own version of
@@ -8,7 +8,7 @@
  *               CRect2D, except it's used by GTA:SA, and the initial values
  *               are NOT zero when constructed.
  *
- *  IRan Multi Player is available from https://ir-mp.ir/ 
+ *  Multi Theft Auto is available from http://www.multitheftauto.com/
  *
  *****************************************************************************/
 
