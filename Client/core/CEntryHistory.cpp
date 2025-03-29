@@ -1,11 +1,11 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto
+ *  PROJECT:     IRan Multi Player
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        core/CEntryHistory.cpp
  *  PURPOSE:     Maintaining the history of whatever
  *
- *  Multi Theft Auto is available from http://www.multitheftauto.com/
+ *  IRan Multi Player is available from https://ir-mp.ir/ 
  *
  *****************************************************************************/
 

@@ -1,6 +1,6 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto
+ *  PROJECT:     IRan Multi Player
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        Client/core/Core.cpp
  *  PURPOSE:     Core library entry point

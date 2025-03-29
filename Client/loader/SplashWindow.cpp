@@ -1,6 +1,6 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto
+ *  PROJECT:     IRan Multi Player
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        Client/loader/SplashWindow.cpp
  *  PURPOSE:     This file implements the functionality to show a splash window

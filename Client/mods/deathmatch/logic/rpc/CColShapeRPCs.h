@@ -1,11 +1,11 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto
+ *  PROJECT:     IRan Multi Player
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        mods/deathmatch/logic/rpc/CColShapeRPC.h
  *  PURPOSE:     Header for colshape RPC class
  *
- *  Multi Theft Auto is available from http://www.multitheftauto.com/
+ *  IRan Multi Player is available from https://ir-mp.ir/ 
  *
  *****************************************************************************/
 

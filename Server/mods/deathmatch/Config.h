@@ -1,11 +1,11 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto
+ *  PROJECT:     IRan Multi Player
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        mods/deathmatch/Config.h
  *  PURPOSE:     Header for platform specific functions, types and defines
  *
- *  Multi Theft Auto is available from http://www.multitheftauto.com/
+ *  IRan Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 
@@ -86,7 +86,7 @@
 #endif
 
 // Game Type
-#define GAME_TYPE_STRING "MTA:SA"
+#define GAME_TYPE_STRING "IRMP:SA"
 
 // Banlist filename
 #define FILENAME_BANLIST    "banlist.xml"

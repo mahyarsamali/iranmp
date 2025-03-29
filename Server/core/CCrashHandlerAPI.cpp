@@ -1,6 +1,6 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto v1.0
+ *  PROJECT:     IRan Multi Player v1.0
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        core/CCrashHandlerAPI.cpp
  *  PURPOSE:     Crash handler API methods
@@ -8,7 +8,7 @@
  *  "Debugging Applications" (Microsoft Press)
  *  Copyright (c) 1997-2000 John Robbins -- All rights reserved.
  *
- *  Multi Theft Auto is available from http://www.multitheftauto.com/
+ *  IRan Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 

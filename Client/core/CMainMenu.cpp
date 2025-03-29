@@ -1,11 +1,11 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto v1.0
+ *  PROJECT:     IRan Multi Player v1.0
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        core/CMainMenu.cpp
  *  PURPOSE:     2D Main menu graphical user interface
  *
- *  Multi Theft Auto is available from http://www.multitheftauto.com/
+ *  IRan Multi Player is available from https://ir-mp.ir/ 
  *
  *****************************************************************************/
 
@@ -411,6 +411,7 @@ CMainMenu::CMainMenu(CGUI* pManager)
         discord->SetPresenceState(_("Main menu"), false);
         discord->SetPresenceStartTimestamp(0);
     }
+    
     // Store the pointer to the graphics subsystem
     m_pGraphics = CGraphics::GetSingletonPtr();
 
@@ -1000,6 +1001,10 @@ bool CMainMenu::OnMenuClick(CGUIMouseEventArgs Args)
     {
         if (dynamic_cast<CGUIStaticImage*>(pElement) == m_p_ING_Reconnect)
         {
+            m_p_ING_Background->SetVisible(false);
+            m_p_ING_Reconnect->SetVisible(false);
+            m_p_ING_Settings->SetVisible(false);
+            m_p_ING_Disconnect->SetVisible(false);
             g_pCore->GetCommands()->Execute("reconnect", "");
         }
         else if (dynamic_cast<CGUIStaticImage*>(pElement) == m_p_ING_Disconnect)

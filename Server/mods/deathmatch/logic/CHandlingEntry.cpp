@@ -1,6 +1,6 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto v1.0
+ *  PROJECT:     IRan Multi Player v1.0
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        Server/mods/deathmatch/logic/CHandlingEntry.cpp
  *  PURPOSE:     Vehicle handling data entry

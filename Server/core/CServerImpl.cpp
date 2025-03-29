@@ -1,11 +1,11 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto v1.0
+ *  PROJECT:     IRan Multi Player v1.0
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        core/CServerImpl.cpp
  *  PURPOSE:     Server class
  *
- *  Multi Theft Auto is available from http://www.multitheftauto.com/
+ *  IRan Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 
@@ -324,7 +324,7 @@ int CServerImpl::Run(int iArgumentCount, char* szArguments[])
 
     // Welcome text
     if (!g_bSilent)
-        Print("MTA:BLUE Server for MTA:SA\n\n");
+        Print("IRMP Server Artifact\nhttps://ir-mp.ir\n\n");
 
     // Load the network DLL
     if (m_NetworkLibrary.Load(PathJoin(m_strServerPath, SERVER_BIN_PATH, szNetworkLibName)))

@@ -1,6 +1,6 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto
+ *  PROJECT:     IRan Multi Player
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        Server/mods/deathmatch/logic/CHandlingManager.h
  *  PURPOSE:     Header file for vehicle handling manager class

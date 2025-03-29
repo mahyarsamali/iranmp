@@ -1,11 +1,11 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto v1.0
+ *  PROJECT:     IRan Multi Player v1.0
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        mods/deathmatch/logic/ASE.cpp
  *  PURPOSE:     Game-Monitor server query protocol handler class
  *
- *  Multi Theft Auto is available from http://www.multitheftauto.com/
+ *  IRan Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 
@@ -51,7 +51,7 @@ ASE::ASE(CMainConfig* pMainConfig, CPlayerManager* pPlayerManager, unsigned shor
     m_uiNumQueriesPerMinute = 0;
     m_uiTotalAtMinuteStart = 0;
 
-    m_strGameType = "MTA:SA";
+    m_strGameType = "IRMP:SA";
     m_strMapName = "None";
     m_strIPList = strServerIPList;
     std::stringstream ss;

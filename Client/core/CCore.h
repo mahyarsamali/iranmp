@@ -1,11 +1,11 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto v1.0
+ *  PROJECT:     IRan Multi Player v1.0
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        core/CCore.h
  *  PURPOSE:     Header file for base core class
  *
- *  Multi Theft Auto is available from http://www.multitheftauto.com/
+ *  IRan Multi Player is available from https://ir-mp.ir/ 
  *
  *****************************************************************************/
 
@@ -45,8 +45,8 @@ class CDiscordInterface;
 #define DIRECTINPUT_VERSION 0x0800
 #include <dinput.h>
 
-#define BLUE_VERSION_STRING   "Multi Theft Auto v" MTA_DM_BUILDTAG_LONG
-#define BLUE_COPYRIGHT_STRING "Copyright (C) 2003 - %BUILD_YEAR% Multi Theft Auto"
+#define BLUE_VERSION_STRING   "IRan Multi Player v" MTA_DM_BUILDTAG_LONG
+#define BLUE_COPYRIGHT_STRING "Copyright (C) 2025 - %BUILD_YEAR% IRan Multi Player"
 
 // Configuration file path (relative to MTA install directory)
 #define MTA_CONFIG_PATH            "mta/config/coreconfig.xml"

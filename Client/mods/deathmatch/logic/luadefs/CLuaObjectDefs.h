@@ -1,11 +1,11 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto v1.x
+ *  PROJECT:     IRan Multi Player v1.x
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        mods/shared_logic/luadefs/CLuaObjectDefs.h
  *  PURPOSE:     Lua object definitions class header
  *
- *  Multi Theft Auto is available from http://www.multitheftauto.com/
+ *  IRan Multi Player is available from https://ir-mp.ir/ 
  *
  *****************************************************************************/
 

@@ -1,11 +1,11 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto v1.0
+ *  PROJECT:     IRan Multi Player v1.0
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        mods/deathmatch/logic/lua/CLuaFunctionDefs.Server.cpp
  *  PURPOSE:     Lua special server function definitions
  *
- *  Multi Theft Auto is available from http://www.multitheftauto.com/
+ *  IRan Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 
@@ -390,7 +390,7 @@ int CLuaFunctionDefs::GetGameType(lua_State* luaVM)
         // Grab the gametype string.
         const char* szGameType = pASE->GetGameType();
 
-        // Return the gametype string if it's not "MTA:SA"
+        // Return the gametype string if it's not ""
         if (strcmp(szGameType, GAME_TYPE_STRING))
         {
             lua_pushstring(luaVM, szGameType);
