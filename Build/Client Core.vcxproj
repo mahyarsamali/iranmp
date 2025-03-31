@@ -203,7 +203,7 @@
       <PrecompiledHeaderFile>StdInc.h</PrecompiledHeaderFile>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;NOMINMAX;_TIMESPEC_DEFINED;MTA_DEBUG;WIN32;_WIN32;_WIN32_WINNT=0x601;_MSC_PLATFORM_TOOLSET=$(PlatformToolsetVersion);DEBUG;INITGUID;PNG_SETJMP_NOT_SUPPORTED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\vendor;E:\Microsoft DirectX SDK (June 2010)\Include;..\vendor\sparsehash\src\windows;..\Shared\sdk;..\Client\core;..\Client\sdk;..\vendor\tinygettext;..\vendor\zlib;..\vendor\jpeg-9f;..\vendor\pthreads\include;..\vendor\sparsehash\src;..\vendor\detours\4.0.1\src;..\vendor\discord-rpc\discord\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\vendor;..\vendor\sparsehash\src\windows;..\Shared\sdk;..\Client\core;..\Client\sdk;..\vendor\tinygettext;..\vendor\zlib;..\vendor\jpeg-9f;..\vendor\pthreads\include;..\vendor\sparsehash\src;..\vendor\detours\4.0.1\src;..\vendor\discord-rpc\discord\include;$(DXSDK_DIR)Utilities\bin\x86;$(DXSDK_DIR)Include;$(DXSDK_DIR)Lib\x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
       <MinimalRebuild>false</MinimalRebuild>
@@ -221,7 +221,7 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>ws2_32.lib;d3dx9.lib;Userenv.lib;DbgHelp.lib;xinput.lib;Imagehlp.lib;dxguid.lib;dinput8.lib;strmiids.lib;odbc32.lib;odbccp32.lib;shlwapi.lib;winmm.lib;gdi32.lib;Imm32.lib;Psapi.lib;dwmapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>E:\Microsoft DirectX SDK (June 2010)\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(DXSDK_DIR)Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <ImportLibrary>..\Bin\mta\core_d.lib</ImportLibrary>
       <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
     </Link>

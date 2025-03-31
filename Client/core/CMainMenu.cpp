@@ -56,6 +56,7 @@
 #define CORE_ING_MTA_RECONNECT "cgui\\images\\ingame_reconnect.png"
 #define CORE_ING_MTA_SETTING   "cgui\\images\\ingame_setting.png"
 #define CORE_ING_MTA_EXIT      "cgui\\images\\ingame_exit.png"
+#define CORE_ING_MTA_RESUME      "cgui\\images\\ingame_resume.png"
 
 static const SColor headlineColors[] = {SColorRGBA(233, 234, 106, 255), SColorRGBA(233 / 6 * 4, 234 / 6 * 4, 106 / 6 * 4, 255),
                                         SColorRGBA(233 / 7 * 3, 234 / 7 * 3, 106 / 7 * 3, 255)};
@@ -135,8 +136,8 @@ CMainMenu::CMainMenu(CGUI* pManager)
     m_pBackground = reinterpret_cast<CGUIStaticImage*>(pManager->CreateStaticImage());
     m_pBackground->LoadFromFile(CORE_MTA_STATIC_BG);
     m_pBackground->SetProperty("InheritsAlpha", "False");
-    m_pBackground->SetPosition(CVector2D(iBackgroundX, iBackgroundY), false);
-    m_pBackground->SetSize(CVector2D(iBackgroundSizeX, iBackgroundSizeY), false);
+    m_pBackground->SetPosition(CVector2D(0, 0), false);
+    m_pBackground->SetSize(CVector2D(ScreenSize.fX, ScreenSize.fY), false);
     m_pBackground->SetZOrderingEnabled(false);
     m_pBackground->SetAlwaysOnTop(true);
     m_pBackground->MoveToBack();
@@ -147,8 +148,8 @@ CMainMenu::CMainMenu(CGUI* pManager)
     m_pContainer = reinterpret_cast<CGUIStaticImage*>(pManager->CreateStaticImage());
     m_pContainer->LoadFromFile(CORE_MTA_CONTAINER);
     m_pContainer->SetProperty("InheritsAlpha", "False");
-    m_pContainer->SetPosition(CVector2D(iBackgroundX, iBackgroundY), false);
-    m_pContainer->SetSize(CVector2D(iBackgroundSizeX, iBackgroundSizeY), false);
+    m_pContainer->SetPosition(CVector2D(0, 0), false);
+    m_pContainer->SetSize(CVector2D(ScreenSize.fX, ScreenSize.fY), false);
     m_pContainer->SetZOrderingEnabled(false);
     m_pContainer->SetAlwaysOnTop(true);
     m_pContainer->MoveToBack();
@@ -159,8 +160,8 @@ CMainMenu::CMainMenu(CGUI* pManager)
     m_pCopyRight = reinterpret_cast<CGUIStaticImage*>(pManager->CreateStaticImage());
     m_pCopyRight->LoadFromFile(CORE_MTA_COPYRIGHT);
     m_pCopyRight->SetProperty("InheritsAlpha", "False");
-    m_pCopyRight->SetPosition(CVector2D(iBackgroundX, iBackgroundY), false);
-    m_pCopyRight->SetSize(CVector2D(iBackgroundSizeX, iBackgroundSizeY), false);
+    m_pCopyRight->SetPosition(CVector2D(0, 0), false);
+    m_pCopyRight->SetSize(CVector2D(ScreenSize.fX, ScreenSize.fY), false);
     m_pCopyRight->SetZOrderingEnabled(false);
     m_pCopyRight->SetAlwaysOnTop(true);
     m_pCopyRight->MoveToBack();
@@ -174,7 +175,7 @@ CMainMenu::CMainMenu(CGUI* pManager)
     m_pFiller2->SetAlwaysOnTop(true);
     m_pFiller2->MoveToBack();
     m_pFiller2->SetPosition(CVector2D(0, iBackgroundY + iBackgroundSizeY));
-    m_pFiller2->SetSize(ScreenSize, false);
+    m_pFiller2->SetSize(CVector2D(0, 0), false);
 
     m_pCanvas = reinterpret_cast<CGUIScrollPane*>(pManager->CreateScrollPane());
     m_pCanvas->SetProperty("ContentPaneAutoSized", "False");
@@ -205,8 +206,9 @@ CMainMenu::CMainMenu(CGUI* pManager)
     float fBase = 0.57f;
     float fGap = 0.06f;
     // Our disconnect item is shown/hidden dynamically, so we store it seperately
-    m_pDisconnect = CreateItem(MENU_ITEM_DISCONNECT, "menu_disconnect.png", CVector2D(CORE_MTA_MENUITEMS_START_X, fBase + fGap * 0));
+    m_pDisconnect = CreateItem(MENU_ITEM_DISCONNECT, "menu_disconnect.png", CVector2D(CORE_MTA_MENUITEMS_START_X, fBase + fGap * 5555));
     m_pDisconnect->image->SetVisible(false);
+    m_pDisconnect->image->SetSize(CVector2D(0, 0), false);
 
     // Create the menu items
     // Filepath, Relative position, absolute native size
@@ -257,62 +259,70 @@ CMainMenu::CMainMenu(CGUI* pManager)
     m_p_ING_Background->SetAlwaysOnTop(true);
     m_p_ING_Background->MoveToBack();
 
-    // Reconnect
     float scale = std::min(static_cast<float>(ScreenSize.fX) / NATIVE_RES_X, static_cast<float>(ScreenSize.fY) / NATIVE_RES_Y);
 
-    CVector2D ingame_recsize = CVector2D(177 * scale, 39 * scale);
+    CVector2D ingame_recsize = CVector2D(390 * scale, 60 * scale);
 
-    float posX = (ScreenSize.fX - ingame_recsize.fX) * 0.385f;
+    float posX = (ScreenSize.fX - ingame_recsize.fX) * 0.5f;
     float posY = (ScreenSize.fY - ingame_recsize.fY) * 0.51f;
 
+
+
+    // ResumeGame
+    float posYRes = (ScreenSize.fY - ingame_recsize.fY) * 0.42f;
+
+    m_p_ING_Resume = reinterpret_cast<CGUIStaticImage*>(pManager->CreateStaticImage());
+    m_p_ING_Resume->LoadFromFile(CORE_ING_MTA_RESUME);
+    m_p_ING_Resume->SetProperty("InheritsAlpha", "False");
+    m_p_ING_Resume->SetPosition(CVector2D(posX, posYRes), false);
+    m_p_ING_Resume->SetSize(ingame_recsize, false);
+    m_p_ING_Resume->SetZOrderingEnabled(false);
+    m_p_ING_Resume->SetAlwaysOnTop(true);
+    m_p_ING_Resume->MoveToBack();
+
+   // Reconnect
+
+    float posYRec = (ScreenSize.fY - ingame_recsize.fY) * 0.51f;
     m_p_ING_Reconnect = reinterpret_cast<CGUIStaticImage*>(pManager->CreateStaticImage());
     m_p_ING_Reconnect->LoadFromFile(CORE_ING_MTA_RECONNECT);
     m_p_ING_Reconnect->SetProperty("InheritsAlpha", "False");
-    m_p_ING_Reconnect->SetPosition(CVector2D(posX, posY), false);
+    m_p_ING_Reconnect->SetPosition(CVector2D(posX, posYRec), false);
     m_p_ING_Reconnect->SetSize(ingame_recsize, false);
     m_p_ING_Reconnect->SetZOrderingEnabled(false);
     m_p_ING_Reconnect->SetAlwaysOnTop(true);
     m_p_ING_Reconnect->MoveToBack();
 
     // Setting
-    float posXset = (ScreenSize.fX - ingame_recsize.fX) * 0.5f;
+    float posYSet = (ScreenSize.fY - ingame_recsize.fY) * 0.60f;
 
     m_p_ING_Settings = reinterpret_cast<CGUIStaticImage*>(pManager->CreateStaticImage());
     m_p_ING_Settings->LoadFromFile(CORE_ING_MTA_SETTING);
     m_p_ING_Settings->SetProperty("InheritsAlpha", "False");
-    m_p_ING_Settings->SetPosition(CVector2D(posXset, posY), false);
+    m_p_ING_Settings->SetPosition(CVector2D(posX, posYSet), false);
     m_p_ING_Settings->SetSize(ingame_recsize, false);
     m_p_ING_Settings->SetZOrderingEnabled(false);
     m_p_ING_Settings->SetAlwaysOnTop(true);
     m_p_ING_Settings->MoveToBack();
 
     // Disconnect
-    float posXex = (ScreenSize.fX - ingame_recsize.fX) * 0.615f;
+    float posYDis = (ScreenSize.fY - ingame_recsize.fY) * 0.69f;
 
     m_p_ING_Disconnect = reinterpret_cast<CGUIStaticImage*>(pManager->CreateStaticImage());
     m_p_ING_Disconnect->LoadFromFile(CORE_ING_MTA_EXIT);
     m_p_ING_Disconnect->SetProperty("InheritsAlpha", "False");
-    m_p_ING_Disconnect->SetPosition(CVector2D(posXex, posY), false);
+    m_p_ING_Disconnect->SetPosition(CVector2D(posX, posYDis), false);
     m_p_ING_Disconnect->SetSize(ingame_recsize, false);
     m_p_ING_Disconnect->SetZOrderingEnabled(false);
     m_p_ING_Disconnect->SetAlwaysOnTop(true);
     m_p_ING_Disconnect->MoveToBack();
 
-    // Label Sv Name
-    m_p_ING_Text_ServerName = reinterpret_cast<CGUILabel*>(pManager->CreateLabel(m_p_ING_Background, "SERVER NAME MUST HERE BABBBBBBBBBBB"));
-    m_p_ING_Text_ServerName->SetFont("default-small");
-    m_p_ING_Text_ServerName->SetTextColor(255, 0, 0);
-    m_p_ING_Text_ServerName->AutoSize(m_p_ING_Text_ServerName->GetText().c_str());
-    m_p_ING_Text_ServerName->SetAlpha(0.7f);
-    m_p_ING_Text_ServerName->SetVisible(false);
-
     m_p_ING_Background->SetVisible(false);
+    m_p_ING_Resume->SetVisible(false);
     m_p_ING_Reconnect->SetVisible(false);
     m_p_ING_Settings->SetVisible(false);
     m_p_ING_Disconnect->SetVisible(false);
 
-
-
+    m_p_ING_Resume->SetClickHandler(GUI_CALLBACK_MOUSE(&CMainMenu::OnMenuClick, this));
     m_p_ING_Reconnect->SetClickHandler(GUI_CALLBACK_MOUSE(&CMainMenu::OnMenuClick, this));
     m_p_ING_Settings->SetClickHandler(GUI_CALLBACK_MOUSE(&CMainMenu::OnMenuClick, this));
     m_p_ING_Disconnect->SetClickHandler(GUI_CALLBACK_MOUSE(&CMainMenu::OnMenuClick, this));
@@ -496,6 +506,16 @@ CMainMenu::~CMainMenu()
     delete m_pDisconnect->image;
     delete m_pDisconnect;
     // delete m_pLanguageSelector;
+}
+
+bool CMainMenu::toggleInGameMenu(bool state)
+{
+    m_p_ING_Background->SetVisible(state);
+    m_p_ING_Resume->SetVisible(state);
+    m_p_ING_Reconnect->SetVisible(state);
+    m_p_ING_Settings->SetVisible(state);
+    m_p_ING_Disconnect->SetVisible(state);
+    return true;
 }
 
 void CMainMenu::SetMenuVerticalPosition(int iPosY)
@@ -848,10 +868,7 @@ void CMainMenu::FadeEffect(bool bVisible)
 
     if (bVisible)
     {
-        m_p_ING_Background->SetVisible(true);
-        m_p_ING_Reconnect->SetVisible(true);
-        m_p_ING_Settings->SetVisible(true);
-        m_p_ING_Disconnect->SetVisible(true);
+        CMainMenu::toggleInGameMenu(true);
     }
 
     while ((bVisible && alpha < targetAlpha) || (!bVisible && alpha > targetAlpha))
@@ -863,16 +880,14 @@ void CMainMenu::FadeEffect(bool bVisible)
         m_p_ING_Reconnect->SetAlpha(alpha);
         m_p_ING_Settings->SetAlpha(alpha);
         m_p_ING_Disconnect->SetAlpha(alpha);
+        m_p_ING_Resume->SetAlpha(alpha);
 
         std::this_thread::sleep_for(std::chrono::milliseconds(5));
     }
 
     if (!bVisible)
     {
-        m_p_ING_Background->SetVisible(false);
-        m_p_ING_Reconnect->SetVisible(false);
-        m_p_ING_Settings->SetVisible(false);
-        m_p_ING_Disconnect->SetVisible(false);
+        CMainMenu::toggleInGameMenu(false);
     }
 }
 
@@ -1001,23 +1016,22 @@ bool CMainMenu::OnMenuClick(CGUIMouseEventArgs Args)
     {
         if (dynamic_cast<CGUIStaticImage*>(pElement) == m_p_ING_Reconnect)
         {
-            m_p_ING_Background->SetVisible(false);
-            m_p_ING_Reconnect->SetVisible(false);
-            m_p_ING_Settings->SetVisible(false);
-            m_p_ING_Disconnect->SetVisible(false);
+            CMainMenu::toggleInGameMenu(false);
             g_pCore->GetCommands()->Execute("reconnect", "");
         }
         else if (dynamic_cast<CGUIStaticImage*>(pElement) == m_p_ING_Disconnect)
         {
-            m_p_ING_Background->SetVisible(false);
-            m_p_ING_Reconnect->SetVisible(false);
-            m_p_ING_Settings->SetVisible(false);
-            m_p_ING_Disconnect->SetVisible(false);
+            CMainMenu::toggleInGameMenu(false);
             OnDisconnectButtonClick(pElement);
         }
         else if (dynamic_cast<CGUIStaticImage*>(pElement) == m_p_ING_Settings)
         {
             OnSettingsButtonClick(pElement);
+        }
+        else if (dynamic_cast<CGUIStaticImage*>(pElement) == m_p_ING_Resume)
+        {
+            SetVisible(false);
+            CMainMenu::toggleInGameMenu(false);
         }
     }
 

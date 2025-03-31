@@ -55,6 +55,7 @@ public:
 
     void SetVisible(bool bVisible, bool bOverlay = true, bool bFrameDelay = true);
     bool IsVisible();
+    bool toggleInGameMenu(bool state);
     bool IsFading() { return m_ucFade == FADE_IN || m_ucFade == FADE_OUT; }
 
     void SetIsIngame(bool bIsIngame);
@@ -119,7 +120,7 @@ private:
     CGUIStaticImage* m_p_ING_Reconnect;
     CGUIStaticImage* m_p_ING_Settings;
     CGUIStaticImage* m_p_ING_Disconnect;
-    CGUILabel* m_p_ING_Text_ServerName;
+    CGUIStaticImage* m_p_ING_Resume;
 
     CGUIScrollPane* m_pCanvas;
 

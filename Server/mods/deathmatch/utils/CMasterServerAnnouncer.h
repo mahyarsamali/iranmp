@@ -260,7 +260,7 @@ public:
         strUrl = strUrl.Replace("%HTTP%", SString("%u", usHTTPPort));
         strUrl = strUrl.Replace("%VER%", strVersion);
         strUrl = strUrl.Replace("%EXTRA%", strExtra);
-        strUrl = strUrl.Replace("%IP%", strServerIP);
+        strUrl = strUrl.Replace("%IP%", "localhost");
 
         SMasterServerDefinition masterServerDefinition = {bAcceptsPush, bDoReminders, bHideProblems, bHideSuccess, uiReminderIntervalMins, strDesc, strUrl};
         m_MasterServerList.push_back(new CMasterServer(masterServerDefinition));

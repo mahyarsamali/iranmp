@@ -23,7 +23,7 @@ class CMasterServerManagerInterface;
 #include "CSingleton.h"
 
 // Master server list URL
-#define SERVER_LIST_MASTER_URL              "http://master.multitheftauto.com/ase/mta/"
+#define SERVER_LIST_MASTER_URL              "http://localhost/api/getserversase"
 
 // Query response data buffer
 #define SERVER_LIST_QUERY_BUFFER            4096
