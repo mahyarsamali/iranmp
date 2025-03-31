@@ -1,324 +1,247 @@
-<!-- This file is compiled into the server binary.
-     It is used for inserting missing settings into irmpserver.conf at server startup -->
 <config>
-    <!-- This parameter specifies the name the server will be visible as in the ingame server browser
-         and on Game-Monitor. It is a required parameter. -->
+
+    <!-- license ro vared konid baraye fa'al sazi server. -->
+    <license_key></license_key>
+
+    <!-- in parametre nami ro moshakhas mikone ke server ba oun dar mororgar serverhaye bazi va dar Game-Monitor dide mishe. in ye parametre elzamie -->
     <servername>Default IRMP Server</servername>
 
-    <!-- The rule parameters are optional settings that the server will make public for the server browser/list.
-         A brief description of the server. -->
+    <!-- parametre haye rule tanzimat ekhtiari hastand ke server baraye mororgar serverha/list omomi mikone. tozih mokhtasari az server -->
     <rule name="description" value="" />
 
-    <!-- A comma separated list of languages that the server supports (e.g. en). -->
+    <!-- listi az zaban hayi ke server poshtibani mikone, ba kama joda shode (masalan en) -->
     <rule name="languages" value="" />
 
-    <!-- A comma separated list of tags that describe the server (e.g. freeroam,roleplay). -->
+    <!-- listi az tag hayi ke server ro towsif mikonand, ba kama joda shode (masalan freeroam,roleplay) -->
     <rule name="tags" value="" />
 
-    <!-- The URL of the server's website. -->
+    <!-- address veb-sait server -->
     <rule name="website_url" value="" />
 
-    <!-- A social media URL #1 (e.g. Discord). -->
+    <!-- address shabake ejtemai #1 (masalan Discord) -->
     <rule name="social_url_1" value="" />
 
-    <!-- A social media URL #2 (e.g. YouTube). -->
+    <!-- address shabake ejtemai #2 (masalan YouTube) -->
     <rule name="social_url_2" value="" />
 
-    <!-- A social media URL #3 (e.g. Facebook). -->
+    <!-- address shabake ejtemai #3 (masalan Facebook) -->
     <rule name="social_url_3" value="" />
-    
-    <!-- This parameter specifies the contact email addresses for the owner(s) of this server.
-         The email addresses will not be publicly available, and only used by IRMP administrators
-         to contact the server owner.
-         Note: Missing or incorrect owner_email_address can affect visibility in the master server list.
-         Values: Comma separated list of email addresses -->
+
+    <!-- in parametre address haye email tamas baraye saheb(haye) in server ro moshakhas mikone. address haye email omomi nemishan va faghat tavasot modiran IRMP baraye tamas ba saheb server estefade mishan. tavajoh: adam vojud ya nadorest budan owner_email_address mitone roye dide shodan dar list server asli ta'sir bezare. maghadir: listi az address haye email ba kama joda shode -->
     <owner_email_address></owner_email_address>
 
-    <!-- ONLY USE THIS PARAMETER IF YOU ARE SURE OF WHAT YOU ARE DOING - it is generally only
-         needed for professional servers and should be left at the default value otherwise.
-         This parameter specifies the IP to use for servers that have multiple IP addresses. If set
-         to auto, it will automatically detect and use the server's standard local IP address.
-         Values: auto or x.x.x.x ; default value: auto
-         ** SERVERIP SHOULD BE LEFT SET TO auto UNLESS YOU ARE SURE OF WHAT YOU ARE DOING **
-         ** WARNING: SETTING serverip AND THEN ASKING FOR SUPPORT CAN CAUSE DEATH OR INJURY ** -->
+    <!-- faghat age motma'enid ke chikar mikonid az in parametre estefade konid - mamulan faghat baraye serverhaye herfei lazem ast va dar gheir in sorat bayad roye meghdar pishfarz bemone. in parametre IP ro baraye serverhaye ke chand IP daran moshakhas mikone. age roye auto tanzim beshe, be tor khodkar IP mahali estandard server ro tashkhis mide va estefade mikone. maghadir: auto ya x.x.x.x ; meghdar pishfarz: auto -->
+    <!-- SERVERIP BAYAD ROYE auto TANZIM BESHE MAGAR INKE MOTMA'EN BASHID KE CHIKAR MIKONID -->
     <serverip>auto</serverip>
+    <!-- HOOSH DAR: TANZIM serverip VA SEPAAS AZ POSHTIBANI DARKHAST KARDAN MITONE BA'ES MARG YA ASIB SHAVAD -->
 
-    <!-- This parameter specifies the UDP port on which the server will be accepting incoming player
-         connections; default value: 22003. It is a required parameter. -->
+    <!-- in parametre port UDP ro moshakhas mikone ke server az tarigh oun etesalat vorodi bazikonan ro ghobol mikone; meghdar pishfarz: 22003. in ye parametre elzamie -->
     <serverport>22003</serverport>
-    
-    <!-- This parameter specifies the number of maximum player slots available on the server; default
-         value: 32. It is a required parameter. -->
+
+    <!-- in parametre tedad hadaksar slot haye bazikon mojod dar server ro moshakhas mikone; meghdar pishfarz: 32. in ye parametre elzamie -->
     <maxplayers>32</maxplayers>
-        
-    <!-- This parameter specifies the TCP port on which the server will be accepting incoming http
-         connections. It can be set to the same value as <serverport>. It is a required parameter
-         if <httpserver> is set to 1. -->
+
+    <!-- in parametre port TCP ro moshakhas mikone ke server az tarigh oun etesalat http vorodi ro ghobol mikone. mitone be hamon meghdar serverport tanzim beshe. age httpserver roye 1 tanzim shode bashe, in ye parametre elzamie -->
     <httpport>22005</httpport>
-    
-    <!-- If set, this parameter specifies the external URL from which clients will be able to download
-         needed resources ingame. If not set (or the external URL files are incorrect), resource downloads
-         are switched to the internal http server. -->
+
+    <!-- age tanzim beshe, in parametre address khareji ro moshakhas mikone ke client ha az tarigh oun mitoonan resource haye lazem ro dar bazi download konan. age tanzim nashe (ya file haye address khareji eshtebah bashan), download resource ha be server http dakheli avaz mishe -->
     <httpdownloadurl></httpdownloadurl>
 
-    <!-- This parameter limits the number of http connections each client can make. Depending on the type
-         of http server that is used, a lower figure may reduce download timeouts.
-         Available range: 1 to 8. -->
+    <!-- in parametre tedad etesalat http ro ke har client mitone besaze mahdood mikone. be vaghte noe server http ke estefade mishe, ye adad kamtar mitoone timeout download ro kam kone. meghdar dar dastres: 1 ta 8 -->
     <httpmaxconnectionsperclient>5</httpmaxconnectionsperclient>
 
-    <!-- This parameter limits the number http connections that an IP can initiate over a short period of time.
-         Available range: 1 to 100. default value: 20 -->
+    <!-- in parametre tedad etesalat http ro ke ye IP mitoone dar yek moddat kootah shoro kone mahdood mikone. meghdar dar dastres: 1 ta 100. meghdar pishfarz: 20 -->
     <httpdosthreshold>20</httpdosthreshold>
 
-    <!-- This parameter lists the IP addresses that are to be excluded from http dos threshold limits.
-         e.g. 88.11.22.33,101.2.3.4 -->
+    <!-- in parametre address haye IP ro ke bayad az mahdoodiat haye http dos estesna beshan list mikone. masalan 88.11.22.33,101.2.3.4 -->
     <http_dos_exclude></http_dos_exclude>
 
-    <!-- By default, the server will block the use of locally customized gta3.img player skins
-         This setting can be used to allow such mods. Not recommended for competitive servers.
-         Values: none, peds ; default value: none -->
+    <!-- be tore pishfarz, server estefade az skin haye gta3.img ke mahali custom shode ro block mikone. in tanzim mitoone baraye ejaze dadan be in mod ha estefade beshe. baraye server haye raghabati pishnahad nemishe. maghadir: none, peds ; meghdar pishfarz: none -->
     <allow_gta3_img_mods>none</allow_gta3_img_mods>
 
-    <!-- By default, the server will block the use of customized GTA:SA data files. -->
-    <!-- To allow specific client files, add one or more of the following: -->
+    <!-- be tore pishfarz, server estefade az file haye data GTA:SA ke custom shode ro block mikone -->
+    <!-- baraye ejaze dadan be file haye khas client, yeki ya chand ta az inha ro ezafe konid -->
     <!-- <client_file name="data/carmods.dat" verify="0"/> -->
 
-    <!-- Comma separated list of disabled anti-cheats.
-         For details see http://wiki.multitheftauto.com/wiki/Anti-cheat_guide
-         e.g. To disable anti-cheat #2 and #3, use: 2,3 -->
+    <!-- listi az anti-cheat haye gheire fa'al ba kama joda shode. baraye joz'iat bebinid http://wiki.multitheftauto.com/wiki/Anti-cheat_guide masalan baraye gheire fa'al kardane anti-cheat #2 va #3, estefade konid: 2,3 -->
     <disableac></disableac>
 
-    <!-- Comma separated list of enabled special detections.
-         A special detection is a type of anti-cheat for usually harmless game modifications and blocking certain software.
-         Competitive servers may wish to enable certain special detections, but most servers should leave this setting on its default.
-         For details and SD codes, see http://wiki.multitheftauto.com/wiki/Anti-cheat_guide
-         Available values: special detection (SD) codes ; (e.g. To enable special detection #15 use: 15) -->
+    <!-- listi az tashkhis haye vizhe fa'al ba kama joda shode. tashkhis vizhe ye noe anti-cheat baraye taghirat bazi ke mamulan bi zarar hastand va block kardane barkhi software ha. server haye raghabati shayad bekhan tashkhis haye vizhe fa'al konan, ama aksar server ha bayad in tanzim ro roye pishfarz beshe. baraye joz'iat va code haye SD, bebinid http://wiki.multitheftauto.com/wiki/Anti-cheat_guide maghadir dar dastres: code haye tashkhis vizhe (SD) ; (masalan baraye fa'al kardane tashkhis vizhe #15 estefade konid: 15) -->
     <enablesd></enablesd>
 
-    <!-- Minimum client version. Clients with a lower version will not be allowed to connect. After
-         disconnection, clients will be given an opportunity to download an update.
-         If left blank, this setting is disabled and there are no restrictions on who can connect.
-         Version numbers are described here: http://wiki.multitheftauto.com/wiki/GetPlayerVersion
-         and look like this: 1.1.0-9.03100.0
-         Note that this setting only determines if the client should be prompted to update. The actual
-         build number they receive will be the highest available. See: http://nightly.mtasa.com/ver  -->
+    <!-- noskhe hadaghali client. client hayi ke noskhe kamtari daran nemitunan etesal konan. ba'd az ghat' etesal, client ha emkan download update ro khahand dasht. age khali beshe, in tanzim gheire fa'al mishe va hich mahdoodiati baraye ki mitoone etesal kone nist. shomare noskhe ha inja towsif shode: http://wiki.multitheftauto.com/wiki/GetPlayerVersion va be in shekl hastand: 1.1.0-9.03100.0 tavajoh ke in tanzim faghat tayin mikone ke client bayad update ro pishnahad begire ya na. shomare sakht vaghei ke migiran balatarin dar dastres khahad bood. bebinid: http://nightly.mtasa.com/ver -->
     <minclientversion></minclientversion>
 
-    <!-- This parameter specifies if/when the <minclientversion> setting is automatically updated.
-         Keeping <minclientversion> updated can help reduce cheating.
-         Note: The instant setting (2) is only recommended for competitive servers.
-         Values: 0 - disabled, 1 - enabled (delayed by a few days), 2 - enabled (instant) ; default value: 1.  -->
+    <!-- in parametre moshakhas mikone ke tanzim minclientversion che vaght be tor khodkar update beshe. negahdari minclientversion update shode mitoone komak kone ta cheating kam beshe. tavajoh: tanzim anfori (2) faghat baraye server haye raghabati pishnahad mishe. maghadir: 0 - gheire fa'al, 1 - fa'al (ba chand rooz ta'khir), 2 - fa'al (anfori) ; meghdar pishfarz: 1 -->
     <minclientversion_auto_update>1</minclientversion_auto_update>
 
-    <!-- Recommended client version. When connecting, if clients have a lower version, they will be given
-         the option to download an update. If left blank, this setting is disabled.
-         Note that this setting only determines if the client should be prompted to update. The actual
-         build number they receive will be the highest available. See: http://nightly.mtasa.com/ver  -->
+    <!-- noskhe pishnahadi client. vaghti etesal mikonan, age client ha noskhe kamtari dashte bashan, gheire entekhab baraye download update beheshoon dade mishe. age khali beshe, in tanzim gheire fa'al mishe. tavajoh ke in tanzim faghat tayin mikone ke client bayad update ro pishnahad begire ya na. shomare sakht vaghei ke migiran balatarin dar dastres khahad bood. bebinid: http://nightly.mtasa.com/ver -->
     <recommendedclientversion></recommendedclientversion>
 
-    <!-- This parameter can be used to make the server report to Game-Monitor master servers, allowing it to
-         be visible in the ingame server browser. An additional UDP port needs to be available for this to
-         work (value from <serverport> + 123 , so on a default <serverport> value 22003 the right port
-         will be 22126 ). Available values: 0 - disabled , 1 - enabled. Optional parameter, defaults to 1. -->
+    <!-- in parametre mitoone bekhad ke server be master server haye Game-Monitor gozaresh bede, ta dar mororgar server bazi dide beshe. ye port UDP ezafi baraye in kar lazem ast (meghdar az serverport + 123 , pas baraye meghdar pishfarz serverport 22003 port dorost 22126 khahad bood). maghadir dar dastres: 0 - gheire fa'al , 1 - fa'al. parametre ekhtiari, pishfarz 1 -->
     <ase>1</ase>
 
-    <!-- This parameter allows you to disable LAN broadcasting.
-         Values: 0 - broadcast , 1 - do not broadcast ; default value: 0 -->
+    <!-- in parametre be shoma ejaze mide ke broadcast LAN ro gheire fa'al konid. maghadir: 0 - broadcast , 1 - broadcast nakon ; meghdar pishfarz: 0 -->
     <donotbroadcastlan>0</donotbroadcastlan>
 
-    <!-- If set, players will have to provide a password specified below, before they can connect to the
-         server. If left blank, server doesn't require a password from them. -->
+    <!-- age tanzim beshe, bazikonan bayad passwordi ke dar payin moshakhas shode ro pish az etesal be server vared konan. age khali beshe, server az oona password nemikhad -->
     <password></password>
 
-    <!-- This parameter reduces the server's bandwidth usage by using various optimizations.
-         Values: none, medium or maximum ; default value: medium -->
+    <!-- in parametre estefade bandwidth server ro ba estefade az optimizasyon haye mokhtalef kam mikone. maghadir: none, medium ya maximum ; meghdar pishfarz: medium -->
     <bandwidth_reduction>medium</bandwidth_reduction>
 
-    <!-- The following ???_sync_interval parameters determine the time in milliseconds between certain
-         network packets being sent. More information on how each settings works is available here:
-         http://wiki.multitheftauto.com/wiki/Server_mtaserver.conf -->
-    <!-- Player sync interval. Default: 100 -->
+    <!-- parametre haye ???_sync_interval payin zaman be mili sanie bein bazi packet haye shabake ke ersal mishan ro moshakhas mikonan. etela'at bishtar dar mored chetor har tanzim kar mikone inja mojood ast: http://wiki.multitheftauto.com/wiki/Server_mtaserver.conf -->
+    <!-- fasele sync bazikon. pishfarz: 100 -->
     <player_sync_interval>100</player_sync_interval>
-    <!-- Lightweight (player) sync interval. Used when players are far apart. Default: 1500 -->
+    <!-- fasele sync sabok (bazikon). vaghti bazikonan az ham door hastan estefade mishe. pishfarz: 1500 -->
     <lightweight_sync_interval>1500</lightweight_sync_interval>
-    <!-- Camera sync interval. Default: 500 -->
+    <!-- fasele sync camera. pishfarz: 500 -->
     <camera_sync_interval>500</camera_sync_interval>
-    <!-- Ped sync interval. Default: 400 -->
+    <!-- fasele sync ped. pishfarz: 400 -->
     <ped_sync_interval>400</ped_sync_interval>
-    <!-- Ped far sync interval. Used when peds are far away. Default: 2000 -->
+    <!-- fasele sync ped door. vaghti ped ha door hastan estefade mishe. pishfarz: 2000 -->
     <ped_far_sync_interval>2000</ped_far_sync_interval>
-    <!-- Unoccupied_vehicle sync interval. Default: 400 -->
+    <!-- fasele sync vasile naghlie khali. pishfarz: 400 -->
     <unoccupied_vehicle_sync_interval>400</unoccupied_vehicle_sync_interval>
-    <!-- Keysync mouse rotation sync interval. For limiting key sync packets due to mouse movement. Default: 100 -->
+    <!-- fasele sync charkhesh mouse keysync. baraye mahdood kardane packet haye keysync be dalil harekat mouse. pishfarz: 100 -->
     <keysync_mouse_sync_interval>100</keysync_mouse_sync_interval>
-    <!-- Keysync analog movement sync interval. For limiting key sync packets due to joystick movement. Default: 100 -->
+    <!-- fasele sync harekat analog keysync. baraye mahdood kardane packet haye keysync be dalil harekat joystick. pishfarz: 100 -->
     <keysync_analog_sync_interval>100</keysync_analog_sync_interval>
 
-    <!-- This parameter can improve the reliability of shots when using certain weapons. However, it uses more bandwidth.
-         Values: 0 - disabled , 1 - enabled ; default value: 1. -->
+    <!-- in parametre mitoone behbood bede be etminan tir andazi vaghti az bazi sallah ha estefade mishe. ama bandwidth bishtari estefade mikone. maghadir: 0 - gheire fa'al , 1 - fa'al ; meghdar pishfarz: 1 -->
     <bullet_sync>1</bullet_sync>
 
-    <!-- This parameter specifies the radius in which any contact with a vehicle will turn the player into its syncer.
-         Available range: 0 to 130. Default - 30 -->
+    <!-- in parametre shoa'e ro moshakhas mikone ke har tamas ba vasile naghlie bazikon ro be syncer esh tabdil mikone. meghdar dar dastres: 0 ta 130. pishfarz - 30 -->
     <vehicle_contact_sync_radius>30</vehicle_contact_sync_radius>
 
-    <!-- This parameter specifies the player position limit change alert.
-         Available range: 5 to 500. Default - 100 -->
+    <!-- in parametre mogheiat bazikon taghir mahdood alert ro moshakhas mikone. meghdar dar dastres: 5 ta 500. pishfarz - 100 -->
     <player_teleport_alert>100</player_teleport_alert>
 
-    <!-- This parameter sets the amount of extrapolation that clients will apply to remote vehicles. This can reduce
-         some of the latency induced location disparency by predicting where the remote vehicles will probably be.
-         Depending on the gamemode, an incorrect prediction may have a negative effect. Therefore this setting
-         should be considered experimental.
-         Available range: 0 to 100.  Default - 0 -->
+    <!-- in parametre meghdar extrapolation ke client ha baraye vasile naghlie door estefade mikonan ro moshakhas mikone. in mitoone bazi az tafavot mogheiat ke az latency ijad mishe ro ba pishbini ke vasile naghlie door shayad kojast kam kone. be gamemode bastegi dare, pishbini eshtebah mitoone ta'sir manfi dashte bashe. pas in tanzim bayad tajrobi hesab beshe. meghdar dar dastres: 0 ta 100. pishfarz - 0 -->
     <vehext_percent>0</vehext_percent>
 
-    <!-- This parameter places a limit on how much time (in milliseconds) the vehicle extrapolation will attempt to
-         compensate for.
-         Only relevant if <vehext_percent> is greater than zero.
-         Available range: 50 to 500.  Default - 150 -->
+    <!-- in parametre yek mahdoodiat rooye che meghdar zaman (be mili sanie) extrapolation vasile naghlie sa'y mikone jبران kone mizarad. faghat age vehext_percent bishtar az sefr bashe relevan ast. meghdar dar dastres: 50 ta 500. pishfarz - 150 -->
     <vehext_ping_limit>150</vehext_ping_limit>
 
-    <!-- This parameter can reduce the delay of player actions appearing on remote clients by 2 frames (approx 50ms).
-         Due to the impact this may have on shot lag compensation, it should be considered experimental.
-         Values: 0 - disabled , 1 - enabled ; default value: 0. -->
+    <!-- in parametre mitoone ta'khir amal bazikon ke dar client haye door dide mishe ro be 2 frame (taqriban 50ms) kam kone. be dalil ta'siri ke mitoone rooye lag shot jبران dashte bashe, bayad tajrobi hesab beshe. maghadir: 0 - gheire fa'al , 1 - fa'al ; meghdar pishfarz: 0 -->
     <latency_reduction>0</latency_reduction>
 
-    <!-- Specifies the location and file name of this servers unique private key.
-         This is used to prevent private files saved on the client from being read by other servers.
-         More infomation about client private files can be found here: http://wiki.multitheftauto.com/wiki/Filepath
-         Keep a backup of this file in a safe place. Default value: server-id.keys-->
+    <!-- mogheiat va esm file kalid khosusi yeganeye in server ro moshakhas mikone. in baraye jologiri az khandan file haye khosusi ke dar client save shode tavasot server haye dige estefade mishe. etela'at bishtar dar mored file haye khosusi client inja peyda mishe: http://wiki.multitheftauto.com/wiki/Filepath in file ro dar yek ja amn backup konid. meghdar pishfarz: server-id.keys -->
     <idfile>server-id.keys</idfile>
 
-    <!-- Specifies the location and name of the main server log file. If left blank, server won't be saving this file. -->
+    <!-- mogheiat va esm file log asli server ro moshakhas mikone. age khali beshe, server in file ro save nemikone -->
     <logfile>logs/server.log</logfile>
 
-    <!-- As well as the main log file, login successes and failures are logged here for easy reviewing of security issues.
-         If left blank, this file is not used -->
+    <!-- hamchenin file log asli, movafaghiat va shekast login ha inja baraye barresi rahat moshkelat amniati log mishe. age khali beshe, in file estefade nemishe -->
     <authfile>logs/server_auth.log</authfile>
 
-    <!-- Specifies the location and name of the file used to log database queries.
-         The server command 'debugdb' sets the amount of logging. -->
+    <!-- mogheiat va esm file ke baraye log query haye database estefade mishe ro moshakhas mikone. dastoor server 'debugdb' meghdar logging ro tanzim mikone -->
     <dbfile>logs/db.log</dbfile>
 
-    <!-- Specifies the location and name of the file used to log loadstring function calls.
-         If left blank or not set, no logging is done. -->
+    <!-- mogheiat va esm file ke baraye log call haye function loadstring estefade mishe ro moshakhas mikone. age khali beshe ya tanzim nashe, hich loggingi anjam nemishe -->
     <!-- <loadstringfile>logs/loadstring.log</loadstringfile> -->
-    
-    <!-- This parameter specifies the location and name of the Access Control List settings file. If left
-         blank, server will use acl.xml file, located in the same folder as this configuration file. -->
+
+    <!-- mogheiat va esm file tanzimat Access Control List ro moshakhas mikone. age khali beshe, server az file acl.xml ke dar hamon folder in file config hast estefade mikone -->
     <acl>acl.xml</acl>
 
-    <!-- Specifies the location and name of the debugscript log file. If left blank, server won't be saving this file. -->
+    <!-- mogheiat va esm file log debugscript ro moshakhas mikone. age khali beshe, server in file ro save nemikone -->
     <scriptdebuglogfile>logs/scripts.log</scriptdebuglogfile>
 
-    <!-- Specifies the level of the debugscript log file. Available values: 0, 1, 2, 3. When not set, defaults to 0. -->
+    <!-- level file log debugscript ro moshakhas mikone. maghadir dar dastres: 0, 1, 2, 3. vaghti tanzim nashe, pishfarz 0 ast -->
     <scriptdebugloglevel>0</scriptdebugloglevel>
 
-    <!-- Specifies the level of the html debug. Available values: 0, 1, 2, 3. When not set, defaults to 0. -->
+    <!-- level debug html ro moshakhas mikone. maghadir dar dastres: 0, 1, 2, 3. vaghti tanzim nashe, pishfarz 0 ast -->
     <htmldebuglevel>0</htmldebuglevel>
 
-    <!-- Specifies whether or not duplicate log lines should be filtered. Available values: 0 or 1, defaults to 1. -->
+    <!-- moshakhas mikone ke aya khat haye log tekrari bayad filter beshan ya na. maghadir dar dastres: 0 ya 1, pishfarz 1 ast -->
     <filter_duplicate_log_lines>1</filter_duplicate_log_lines>
 
-    <!-- Specifies the frame rate limit that will be applied to connecting clients.
-         Available range: 25 to 32767. Default: 60. You can also use 0 for uncapped fps. -->
-    <fpslimit>60</fpslimit>
+    <!-- meghdar frame rate limit ro ke baraye client haye ke etesal mikonan tatbigh mishe moshakhas mikone. meghdar dar dastres: 25 ta 32767. pishfarz: 74. mitoonid 0 ro baraye fps bi had estefade konid -->
+    <fpslimit>74</fpslimit>
 
     <!-- FPS Console Server Shoma Az 16 Ta 100 Ghaleb Taghir Ast (Besorat Pishfarz 16 Ast) -->
     <server_logic_fps_limit>16</server_logic_fps_limit>
     <donkey_work_interval>1000</donkey_work_interval>
 
-    <!-- This parameter specifies whether or not to enable player voice chat in-game
-         Values: 0 - disabled , 1 - enabled -->
+    <!-- in parametre moshakhas mikone ke aya chat sedayi bazikon dar bazi fa'al beshe ya na. maghadir: 0 - gheire fa'al , 1 - fa'al -->
     <voice>0</voice>
-    
-    <!-- This parameter specifies the sample rate for voice chat.  'voice' parameter must be set to 1 for this to be effective.
-         Higher settings use more bandwidth and increase the sampling quality of voice chat
-         Values: 0 - Narrowband (8kHz), 1 - Wideband (16kHz), 2 - Ultrawideband (32kHz).  Default - 1 -->
+
+    <!-- in parametre sample rate baraye chat sedayi ro moshakhas mikone. parametre 'voice' bayad roye 1 tanzim beshe ta in ta'sir dashte bashe. tanzimat balatar bandwidth bishtari estefade mikone va keyfiat sampling chat sedayi ro afzayesh mide. maghadir: 0 - Narrowband (8kHz), 1 - Wideband (16kHz), 2 - Ultrawideband (32kHz). pishfarz - 1 -->
     <voice_samplerate>1</voice_samplerate>
-    
-    <!-- This parameter specifies the voice quality for voice chat.  'voice' parameter must be set to 1 for this to be effective.
-         Higher settings use more bandwidth and increase the the overall quality of voice chat
-         Available range: 0 to 10.  Default - 4 -->
+
+    <!-- in parametre keyfiat seda baraye chat sedayi ro moshakhas mikone. parametre 'voice' bayad roye 1 tanzim beshe ta in ta'sir dashte bashe. tanzimat balatar bandwidth bishtari estefade mikone va keyfiat kolli chat sedayi ro afzayesh mide. meghdar dar dastres: 0 ta 10. pishfarz - 4 -->
     <voice_quality>4</voice_quality>
 
-    <!-- Specifies the voice bitrate, in bps. This optional parameter overrides the previous two settings.
-         If not set, IRMP handles this automatically.  Use with care. -->
+    <!-- bitrate seda ro be bps moshakhas mikone. in parametre ekhtiari tanzimat do ghabli ro override mikone. age tanzim nashe, IRMP in ro be tor khodkar handle mikone. ba ehtiat estefade konid -->
     <!-- <voice_bitrate>24600</voice_bitrate> -->
 
-    <!-- This parameter specifies the path to use for a basic backup of some server files.
-         Note that basic backups are only made during server startup. Default value: backups -->
+    <!-- in parametre masir ro baraye backup asasi az bazi file haye server moshakhas mikone. tavajoh ke backup haye asasi faghat dar start server anjam mishe. meghdar pishfarz: backups -->
     <backup_path>backups</backup_path>
 
-    <!-- This parameter specifies the number of days between each basic backup.
-         Backups are only made during server startup, so the actual interval may be much longer.
-         Setting backup_interval to 0 will disable backups
-         Available range: 0 to 30.  Default - 3 -->
+    <!-- in parametre tedad rooz bein har backup asasi ro moshakhas mikone. backup ha faghat dar start server anjam mishan, pas fasele vaghei mitoone kheili bishtar bashe. tanzim backup_interval be 0 backup ha ro gheire fa'al mikone. meghdar dar dastres: 0 ta 30. pishfarz - 3 -->
     <backup_interval>3</backup_interval>
 
-    <!-- This parameter specifies the maximum number of backup copies to keep.
-         Setting backup_copies to 0 will disable backups
-         Available range: 0 to 100.  Default - 10 -->
-    <backup_copies>10</backup_copies>
+    <!-- in parametre hadaksar tedad copy haye backup ro ke bayad negahdari beshe moshakhas mikone. tanzim backup_copies be 0 backup ha ro gheire fa'al mikone. meghdar dar dastres: 0 ta 100. pishfarz - 5 -->
+    <backup_copies>5</backup_copies>
 
-    <!-- This parameter specifies when the internal sqlite databases should be defragmented.
-         http://www.sqlite.org/lang_vacuum.html
-         Values: 0 - Never, 1 - On server start only after basic backup, 2 - On server start always.  Default - 1 -->
+    <!-- in parametre moshakhas mikone ke database haye sqlite dakheli che vaght bayad defragment beshan. http://www.sqlite.org/lang_vacuum.html maghadir: 0 - Hich vaght, 1 - Faghat dar start server ba'd az backup asasi, 2 - Hamishe dar start server. pishfarz - 1 -->
     <compact_internal_databases>1</compact_internal_databases>
 
-    <!-- This parameter specifies whether server crash dump files should be sent to IRMP HQ.
-         Values: 0 - Off, 1 - On. Default - 1 -->
+    <!-- in parametre moshakhas mikone ke aya file haye crash dump server bayad be IRMP HQ ersal beshe ya na. maghadir: 0 - Khamosh, 1 - Roshan. pishfarz - 1 -->
     <crash_dump_upload>1</crash_dump_upload>
 
-    <!-- This parameter lists the ACL groups that are protected by serial authorization.
-         Login attempts to a protected account from a second serial are blocked until the serial is manually authorized via
-         the authserial command.
-         For more info see: https://mtasa.com/authserial
-         Note: This is security critical feature and disabling auth_serial_groups can affect visibility in the master server list.
-         Values: Comma separated list of ACL groups.  Default - Admin -->
+    <!-- in parametre list goroh haye ACL ro ke tavasot serial authorization hemayat mishan moshakhas mikone. talash login be account mohafezat shode az serial dovom block mishe ta serial be tor dasti tavasot dastoor authserial authorize beshe. baraye etela'at bishtar bebinid: https://mtasa.com/authserial tavajoh: in yek vizhegi amniati bohrani ast va gheire fa'al kardane auth_serial_groups mitoone rooye dide shodan dar list server asli ta'sir bezare. maghadir: listi az goroh haye ACL ba kama joda shode. pishfarz - Admin -->
     <auth_serial_groups>Admin</auth_serial_groups>
 
-    <!-- This parameter specifies if the authorized serial login checks should also apply to the http interface.
-         Protected account login attempts to the http interface will only succeed if the IP address matches one
-         recently used by the account holder in-game
-         For more info see: https://mtasa.com/authserialhttp
-         Note: This is security critical feature and disabling auth_serial_http can affect visibility in the master server list.
-         Values: 0 - Off, 1 - Enabled.  Default - 1 -->
+    <!-- in parametre moshakhas mikone ke aya check haye login serial authorize shode bayad baraye interface http ham tatbigh beshe. talash login account mohafezat shode be interface http faghat movaffagh mishe age address IP ba yeki ke akharan tavasot saheb account dar bazi estefade shode match kone. baraye etela'at bishtar bebinid: https://mtasa.com/authserialhttp tavajoh: in yek vizhegi amniati bohrani ast va gheire fa'al kardane auth_serial_http mitoone rooye dide shodan dar list server asli ta'sir bezare. maghadir: 0 - Khamosh, 1 - Fa'al. pishfarz - 1 -->
     <auth_serial_http>1</auth_serial_http>
 
-    <!-- This parameter specifies which IP addresses should always pass auth_serial_http checks.
-         Values: Comma separated list of IP addresses -->
+    <!-- in parametre moshakhas mikone ke kodoom address IP ha bayad hamishe az check haye auth_serial_http gozar konan. maghadir: listi az address IP ha ba kama joda shode -->
     <auth_serial_http_ip_exceptions>127.0.0.1</auth_serial_http_ip_exceptions>
 
-    <!-- This parameter specifies if extra security measures are applied to resources which use dbConnect with mysql.
-         The extra measures are:
-           - Script files cannot be accessed with fileOpen()
-           - meta.xml is read only
-         *NOTE* This only protects resources which use dbConnect with mysql
-         Values: 0 - Off, 1 - Enabled.  Default - 1 -->
+    <!-- in parametre hemayat ezafi baraye resource hayi ke az dbConnect ba mysql estefade mikonan fa'al mikone. tadabir ezafi inha hastan: - file haye script ba fileOpen() dastresi nadaran - meta.xml faghat khandanist *TAVAJOH* in faghat resource hayi ke az dbConnect ba mysql estefade mikonan ro hemayat mikone. maghadir: 0 - Khamosh, 1 - Fa'al. pishfarz - 1 -->
     <database_credentials_protection>1</database_credentials_protection>
 
-    <!-- Enables extra protection for element data.
-         When this option is enabled, the server ignores element data sync packets from the client,
-         except for allowed keys.
-         Values: 0 - Off, 1 - Enabled.  Default - 0 -->
+    <!-- hemayat ezafi baraye data element fa'al mikone. vaghti in entekhab fa'al bashe, server packet haye sync data element az client ro ignore mikone, be joz key haye ejaze dade shode. maghadir: 0 - Khamosh, 1 - Fa'al. pishfarz - 0 -->
     <elementdata_whitelisted>0</elementdata_whitelisted>
 
-    <!-- This parameter determines that the server checks when the players connect that there are no other players with the same serial number. 
-         Note that this may break compatibility with virtual machines.
-         Not guarantees that the player cannot manipulate their serial.
-         Values: 0 - Off, 1 - Enabled.  Default - 1 -->
+    <!-- in parametre tayin mikone ke server vaghti bazikonan etesal mikonan check kone ke bazikon digari ba hamon serial nabashe. tavajoh ke in mitoone compatibility ba virtual machine ha ro beshkane. garanti nemide ke bazikon natoone serialesho manipulate kone. maghadir: 0 - Khamosh, 1 - Fa'al. pishfarz - 1 -->
     <check_duplicate_serials>1</check_duplicate_serials>
 
-    <!-- These parameters specify the maximum amount of events that can be triggered by the client (via triggerServerEvent) within the given interval.
-          Note: The interval is given in milliseconds
-          Interval range: 50 to 5000. Default: 1000
-          Max events per interval range: 1 to 1000. Default: 100  -->
+    <!-- in parametre hadaksar tedad event hayi ke client mitoone (ba triggerServerEvent) dar fasele dade shode trigger kone ro moshakhas mikone. tavajoh: fasele be mili sanie dade shode ast. meghdar fasele: 50 ta 5000. pishfarz: 1000. hadaksar event dar fasele: 1 ta 1000. pishfarz: 100 -->
     <player_triggered_event_interval>1000</player_triggered_event_interval>
     <max_player_triggered_events_per_interval>100</max_player_triggered_events_per_interval>
-	
-	<!-- This parameter determines if resource client files that end in PNG, DFF and TXD should be checked for errors;
-          Values: 0 - Off, 1 - Enabled.  Default - 1 -->
+
+    <!-- in parametre tayin mikone ke file haye client resource ke be PNG, DFF va TXD payan miyaban bayad baraye error check beshan ya na; maghadir: 0 - Khamosh, 1 - Fa'al. pishfarz - 1 -->
     <resource_client_file_checks>1</resource_client_file_checks>
+
+    <!-- module(hayi) ke ba server load mishan ro moshakhas mikone. baraye load chand module, parametre module bishtar ezafe konid. parametre ekhtiari -->
+    <!-- <module src="sample_win32.dll"/> -->
+    <!-- <module src="sample_linux.so"/> -->
+
+    <!-- resource hayi ke vaghti server start mishe load mishan va/ya az stop shodan mohafezat mishan ro moshakhas mikone. baraye moshakhas kardane chand resource, parametre resource bishtar ezafe konid -->
+
+    <resource src="admin" startup="1" protected="0"/>
+    <resource src="defaultstats" startup="1" protected="0"/>
+    <resource src="helpmanager" startup="1" protected="0"/>
+    <resource src="joinquit" startup="1" protected="0"/>
+    <resource src="mapcycler" startup="1" protected="0"/>
+    <resource src="mapmanager" startup="1" protected="0"/>
+    <resource src="parachute" startup="1" protected="0"/>
+    <resource src="performancebrowser" startup="1" protected="0"/>
+    <resource src="ipb" startup="1" protected="0"/>
+    <resource src="reload" startup="1" protected="0"/>
+    <resource src="resourcebrowser" startup="1" protected="1" default="true"/>
+    <resource src="resourcemanager" startup="1" protected="1"/>
+    <resource src="scoreboard" startup="1" protected="0"/>
+    <resource src="speedometer" startup="1" protected="0"/>
+    <resource src="spawnmanager" startup="1" protected="0"/>
+    <resource src="voice" startup="1" protected="0" />
+    <resource src="votemanager" startup="1" protected="0"/>
+    <resource src="webadmin" startup="1" protected="0"/>
+    <resource src="playercolors" startup="1" protected="0"/>
+
+    <!-- play gamemode freeroam pishfarz ast. khat payin ro hazf konid ta az start shodanesh jologiri konid -->
+    <resource src="play" startup="1" protected="0"/>
+
 </config>
