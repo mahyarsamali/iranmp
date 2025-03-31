@@ -753,7 +753,7 @@ void CServerBrowser::SetVisible(bool bVisible)
         if (m_pComboAddressHistory[ServerBrowserTypes::INTERNET]->GetItemCount() > 0)
         {
             std::string strHistoryText = (const char*)m_pComboAddressHistory[ServerBrowserTypes::INTERNET]->GetItemByIndex(0)->GetData();
-            SetAddressBarText("mtasa://" + strHistoryText);
+            SetAddressBarText("irmpsa://" + strHistoryText);
         }
 
         // Focus the address bar for power users
@@ -919,7 +919,7 @@ void CServerBrowser::CreateHistoryList()
             bEmpty = false;
             for (unsigned int i = 0; i < SERVER_BROWSER_TYPE_COUNT; i++)
             {
-                m_pComboAddressHistory[i]->AddItem(("mtasa://" + pServer->strEndpoint).c_str())->SetData(pServer->strEndpoint.c_str());
+                m_pComboAddressHistory[i]->AddItem(("irmpsa://" + pServer->strEndpoint).c_str())->SetData(pServer->strEndpoint.c_str());
             }
         }
     }
@@ -950,7 +950,7 @@ void CServerBrowser::UpdateHistoryList()
                 {
                     for (unsigned int index = 0; index < SERVER_BROWSER_TYPE_COUNT; index++)
                     {
-                        m_pComboAddressHistory[index]->SetItemText(i, ("mtasa://" + pServer->strEndpoint + " | " + pServer->strName).c_str());
+                        m_pComboAddressHistory[index]->SetItemText(i, ("irmpsa://" + pServer->strEndpoint + " | " + pServer->strName).c_str());
                     }
                 }
                 break;
@@ -1223,7 +1223,7 @@ bool CServerBrowser::OnClick(CGUIElement* pElement)
                 m_pServerPlayerList[Type]->SetItemText(k, m_hPlayerName[Type], _("  ..loading.."));
             }
 
-            SetAddressBarText("mtasa://" + pServer->strEndpoint);
+            SetAddressBarText("irmpsa://" + pServer->strEndpoint);
             m_pLabelAddressDescription[Type]->SetVisible(false);
         }
 
@@ -1256,22 +1256,22 @@ bool CServerBrowser::OnConnectClick(CGUIElement* pElement)
     strURI = strURI.TrimStart(" ");
 
     // Ensure we have something entered
-    if (strURI.size() == 0 || strURI == "mtasa://")
+    if (strURI.size() == 0 || strURI == "irmpsa://")
     {
         CCore::GetSingleton().ShowMessageBox(_("Error") + _E("CC70"), _("No address specified!"), MB_BUTTON_OK | MB_ICON_INFO);
         return true;
     }
 
-    // Ensure that the protocol is mtasa://
+    // Ensure that the protocol is irmpsa://
     size_t iProtocolEnd = strURI.find("://");
     if (iProtocolEnd == -1)
     {
-        strURI = "mtasa://" + strURI;
+        strURI = "irmpsa://" + strURI;
         SetAddressBarText(strURI);
     }
-    else if (strURI.substr(0, iProtocolEnd) != "mtasa")            // Is it the mtasa:// protocol?  Don't want noobs trying http etc
+    else if (strURI.substr(0, iProtocolEnd) != "mtasa")            // Is it the irmpsa:// protocol?  Don't want noobs trying http etc
     {
-        CCore::GetSingleton().ShowMessageBox(_("Unknown protocol") + _E("CC71"), _("Please use the mtasa:// protocol!"), MB_BUTTON_OK | MB_ICON_INFO);
+        CCore::GetSingleton().ShowMessageBox(_("Unknown protocol") + _E("CC71"), _("Please use the irmpsa:// protocol!"), MB_BUTTON_OK | MB_ICON_INFO);
         return true;
     }
 
@@ -1384,7 +1384,7 @@ bool CServerBrowser::OnInfoClick(CGUIElement* pElement)
     strURI = strURI.TrimStart(" ");
 
     // Ensure we have something entered
-    if (strURI.size() == 0 || strURI == "mtasa://")
+    if (strURI.size() == 0 || strURI == "irmpsa://")
     {
         CCore::GetSingleton().ShowMessageBox(_("Error") + _E("CC75"), _("No address specified!"), MB_BUTTON_OK | MB_ICON_INFO);
         return true;
@@ -1480,7 +1480,7 @@ bool CServerBrowser::OnHistorySelected(CGUIElement* pElement)
 {
     ServerBrowserType Type = GetCurrentServerBrowserType();
     std::string       strHistoryText = (const char*)m_pComboAddressHistory[Type]->GetSelectedItem()->GetData();
-    SetAddressBarText("mtasa://" + strHistoryText);
+    SetAddressBarText("irmpsa://" + strHistoryText);
     return true;
 }
 
@@ -2221,14 +2221,14 @@ void CServerBrowser::SetNextHistoryText(bool bDown)
     {
         CGUIListItem* item = pServerList->GetItemByIndex(i);
         const char*   szAddress = (const char*)item->GetData();
-        if (("mtasa://" + std::string(szAddress)) == m_pEditAddress[Type]->GetText())
+        if (("irmpsa://" + std::string(szAddress)) == m_pEditAddress[Type]->GetText())
         {
             // We've found our row
             i = bDown ? i + 1 : i - 1;
 
             // Ensure we're in range
             i = Clamp<int>(0, i, pServerList->GetItemCount() - 1);
-            SetAddressBarText(std::string("mtasa://") + (const char*)pServerList->GetItemByIndex(i)->GetData());
+            SetAddressBarText(std::string("irmpsa://") + (const char*)pServerList->GetItemByIndex(i)->GetData());
             m_pEditAddress[Type]->SetCaretAtEnd();
             return;
         }
@@ -2237,7 +2237,7 @@ void CServerBrowser::SetNextHistoryText(bool bDown)
     // Otherwise, let's start at the beginning if we're heading down
     if (bDown && pServerList->GetItemCount() > 0)
     {
-        SetAddressBarText(std::string("mtasa://") + (const char*)pServerList->GetItemByIndex(0)->GetData());
+        SetAddressBarText(std::string("irmpsa://") + (const char*)pServerList->GetItemByIndex(0)->GetData());
     }
 }
 
