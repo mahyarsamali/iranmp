@@ -13,6 +13,11 @@
 #include <game/CGame.h>
 #include <game/CSettings.h>
 
+#include <ctime>
+#include <iomanip>
+#include <sstream>
+#include <string>
+
 using std::vector;
 
 extern CCore* g_pCore;
@@ -483,17 +488,29 @@ void CChat::UpdateSmoothScroll(float* pfPixelScroll, int* piLineScroll)
     m_fInputBackgroundAlpha += Clamp(-fMaxAmount, fTarget - m_fInputBackgroundAlpha, fMaxAmount);
 }
 
+std::string GetCurrentTime() {
+    std::time_t now = std::time(nullptr);
+    std::tm* localTime = std::localtime(&now);
+    std::ostringstream timeStream;
+    timeStream << "[" << std::put_time(localTime, "%H:%M") << "]:";
+    return timeStream.str();
+}
+
 void CChat::Output(const char* szText, bool bColorCoded)
 {
     CChatLine*  pLine = NULL;
     const char* szRemainingText = szText;
     CColor      color = m_TextColor;
 
+    std::string timePrefix = GetCurrentTime(); 
+    std::string formattedMessage = timePrefix + " " + szText; 
+
+    szRemainingText = formattedMessage.c_str();
+
     // Allow smooth scroll when text is added if game FX Quality is not low
     CGameSettings* gameSettings = CCore::GetSingleton().GetGame()->GetSettings();
     if (gameSettings->GetFXQuality() > 0)
         m_fSmoothScroll -= 1.0f;
-
     do
     {
         m_uiMostRecentLine = (m_uiMostRecentLine == 0 ? CHAT_MAX_LINES - 1 : m_uiMostRecentLine - 1);
