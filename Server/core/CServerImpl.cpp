@@ -36,6 +36,7 @@ char szXMLLibName[] = "xmll" MTA_LIB_SUFFIX MTA_LIB_EXTENSION;
 using namespace std;
 
 bool g_bSilent = false;
+bool g_haveLisence = false;
 bool g_bNoCurses = false;
 bool g_bNoTopBar = false;
 bool g_bNoCrashHandler = false;
@@ -322,10 +323,21 @@ int CServerImpl::Run(int iArgumentCount, char* szArguments[])
     // Tell the mod manager the server path
     m_pModManager->SetServerPath(m_strServerPath);
 
+
+    if (!g_haveLisence){
+        Print("Lisence is invalid (please generate lisence in ir-mp.ir/lisence)\n\n");
+        Print("Press Q to shut down the server!\n");
+        WaitForKey('q');
+        DestroyWindow();
+        return 0;
+    } else {
+        Print("Lisence has been accepted\n\n");
+    }
+
     // Welcome text
     if (!g_bSilent)
         Print("IRMP Server Artifact\nhttps://ir-mp.ir\n\n");
-
+    
     // Load the network DLL
     if (m_NetworkLibrary.Load(PathJoin(m_strServerPath, SERVER_BIN_PATH, szNetworkLibName)))
     {
@@ -383,7 +395,6 @@ int CServerImpl::Run(int iArgumentCount, char* szArguments[])
 
                         // Couldn't load our mod
                         Print("Press Q to shut down the server!\n");
-                        WaitForKey('q');
                         DestroyWindow();
                         return ERROR_LOADING_MOD;
                     }
