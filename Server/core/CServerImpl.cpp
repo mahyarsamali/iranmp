@@ -325,7 +325,7 @@ int CServerImpl::Run(int iArgumentCount, char* szArguments[])
 
 
     if (!g_haveLisence){
-        Print("Lisence is invalid (please generate lisence in ir-mp.ir/lisence)\n\n");
+        Print("Lisence is invalid (please generate lisence in dev.ir-mp.ir)\n\n");
         Print("Press Q to shut down the server!\n");
         WaitForKey('q');
         DestroyWindow();
