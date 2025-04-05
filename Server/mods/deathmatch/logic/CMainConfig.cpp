@@ -67,8 +67,9 @@ CMainConfig::CMainConfig(CConsole* pConsole) : CXMLConfig(NULL)
     m_bScriptDebugLogEnabled = false;
     m_uiScriptDebugLogLevel = 0;
     m_bDontBroadcastLan = false;
-    m_usFPSLimit = 36;
+    m_usFPSLimit = 74;
     m_uiVoiceSampleRate = 1;
+    m_usChatDate = 0;
     m_ucVoiceQuality = 4;
     m_bVoiceEnabled = false;
     m_uiVoiceBitrate = 0;
@@ -174,6 +175,13 @@ bool CMainConfig::Load()
             CLogger::ErrorPrintf("Server port must be between 1 and 65535\n");
 
         return false;
+    }
+
+    // Chat Date
+    iResult = GetInteger(m_pRootNode, "chat_log_time", iTemp, 0, 1);
+    if (iResult == IS_SUCCESS)
+    {
+        m_usChatDate = iTemp ? true : false;
     }
 
     // Grab the max players

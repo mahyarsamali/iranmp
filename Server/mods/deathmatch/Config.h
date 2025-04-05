@@ -120,7 +120,7 @@
 #define MAX_GARAGES                 50
 
 // MTA master server query URL (Inputs: game port, ase port, http port, version, extra, serverip)
-#define QUERY_URL_MTA_MASTER_SERVER "http://localhost/api/submitserver?g=%GAME%&a=%ASE%&h=%HTTP%&v=%VER%&x=%EXTRA%&ip=%IP%"
+#define QUERY_URL_MTA_MASTER_SERVER "https://dev.ir-mp.ir/api/submitserver?g=%GAME%&a=%ASE%&h=%HTTP%&v=%VER%&x=%EXTRA%&ip=%IP%"
 
 // MTA port tester URL
 #define PORT_TESTER_URL             "https://nightly.mtasa.com/ports/"

@@ -36,7 +36,7 @@ char szXMLLibName[] = "xmll" MTA_LIB_SUFFIX MTA_LIB_EXTENSION;
 using namespace std;
 
 bool g_bSilent = false;
-bool g_haveLisence = false;
+bool g_haveLicense = true;
 bool g_bNoCurses = false;
 bool g_bNoTopBar = false;
 bool g_bNoCrashHandler = false;
@@ -324,14 +324,14 @@ int CServerImpl::Run(int iArgumentCount, char* szArguments[])
     m_pModManager->SetServerPath(m_strServerPath);
 
 
-    if (!g_haveLisence){
-        Print("Lisence is invalid (please generate lisence in dev.ir-mp.ir)\n\n");
+    if (!g_haveLicense){
+        Print("License is invalid (please generate License in dev.ir-mp.ir)\n\n");
         Print("Press Q to shut down the server!\n");
         WaitForKey('q');
         DestroyWindow();
         return 0;
     } else {
-        Print("Lisence has been accepted\n\n");
+        Print("License has been accepted\n\n");
     }
 
     // Welcome text

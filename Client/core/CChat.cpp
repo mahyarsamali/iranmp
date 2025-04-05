@@ -21,6 +21,7 @@
 using std::vector;
 
 extern CCore* g_pCore;
+extern CGame* g_pGame;
 
 CChat* g_pChat = NULL;
 
@@ -502,10 +503,12 @@ void CChat::Output(const char* szText, bool bColorCoded)
     const char* szRemainingText = szText;
     CColor      color = m_TextColor;
 
-    std::string timePrefix = GetCurrentTime(); 
-    std::string formattedMessage = timePrefix + " " + szText; 
-
-    szRemainingText = formattedMessage.c_str();
+    // if (g_pGame->GetConfig()->GetChatDateEnbale()) {
+        std::string timePrefix = GetCurrentTime(); 
+        std::string formattedMessage = timePrefix + " " + szText; 
+    
+        szRemainingText = formattedMessage.c_str();
+    // }
 
     // Allow smooth scroll when text is added if game FX Quality is not low
     CGameSettings* gameSettings = CCore::GetSingleton().GetGame()->GetSettings();

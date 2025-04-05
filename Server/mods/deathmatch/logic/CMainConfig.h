@@ -68,6 +68,8 @@ public:
     unsigned int GetVoiceQuality() { return m_ucVoiceQuality; };
     unsigned int GetVoiceBitrate() { return m_uiVoiceBitrate; };
 
+    unsigned int GetChatDateEnbale() { return m_usChatDate; };
+
     bool                        GetAseInternetPushEnabled() { return m_iAseMode == 2 && !IsFakeLagCommandEnabled(); }
     bool                        GetAseInternetListenEnabled() { return m_iAseMode == 1 && !IsFakeLagCommandEnabled(); }
     bool                        GetAseLanListenEnabled() { return m_bDontBroadcastLan ? false : true; }
@@ -163,6 +165,7 @@ private:
     unsigned int  m_uiVoiceSampleRate;
     unsigned char m_ucVoiceQuality;
     unsigned int  m_uiVoiceBitrate;
+    unsigned int  m_usChatDate;
 
     bool                       m_bVoiceEnabled;
     std::string                m_strServerIP;
