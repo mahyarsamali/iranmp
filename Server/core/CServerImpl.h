@@ -22,6 +22,7 @@ class CServerImpl;
 #include "CDynamicLibrary.h"
 #include "CModManagerImpl.h"
 #include <xml/CXML.h>
+#include <json-c/json.h>
 #include "CThreadCommandQueue.h"
 
 #define SERVER_RESET_RETURN 500

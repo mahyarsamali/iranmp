@@ -43,7 +43,7 @@
 
 // New version info
 #define MTASA_VERSION_MAJOR         1
-#define MTASA_VERSION_MINOR         6
+#define MTASA_VERSION_MINOR         0
 #define MTASA_VERSION_MAINTENANCE   0
 #define MTASA_VERSION_TYPE          VERSION_TYPE_CUSTOM
 #define MTASA_VERSION_BUILD         0
@@ -59,9 +59,9 @@
 #endif
 
 #ifdef MTA_CLIENT
-#define MTA_DM_FULL_STRING "MTA:SA Client"
+#define MTA_DM_FULL_STRING "IRMP:SA Client"
 #else
-#define MTA_DM_FULL_STRING "MTA:SA Server"
+#define MTA_DM_FULL_STRING "IRMP:SA Server"
 #endif
 
 // Compile types
@@ -136,11 +136,11 @@
     #if defined(SHOW_SELF_COMPILE_WARNING) && !defined(CI_BUILD) && !defined(MTA_CLIENT)
         #pragma message("\n\
 ----------------------------------------------------------------------\n\
-MTASA_VERSION_TYPE is not set to VERSION_TYPE_RELEASE\n\
+IRMP_VERSION_TYPE is not set to VERSION_TYPE_RELEASE\n\
 Server will not work with release clients\n\
 -------------------------------------------------------------------------\n\
 If you want the server to work with release clients\n\
-set MTASA_VERSION_TYPE to VERSION_TYPE_RELEASE in Server/version.h\n\
+set IRMP_VERSION_TYPE to VERSION_TYPE_RELEASE in Server/version.h\n\
 \n\
 Client can't enter the game? Use Server net.dll from an official build.\n\
 (Official dll uses VERSION_TYPE_RELEASE, win-install-data gives UNSTABLE.)\n\

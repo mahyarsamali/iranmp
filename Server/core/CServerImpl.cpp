@@ -1,4 +1,4 @@
-/*****************************************************************************
+﻿/*****************************************************************************
  *
  *  PROJECT:     IRan Multi Player v1.0
  *  LICENSE:     See LICENSE in the top level directory
@@ -18,6 +18,9 @@
 #include <clocale>
 #include <cstdio>
 #include <signal.h>
+#include <fstream>
+#include <sstream>
+#include <regex>
 #ifdef WIN32
     #include <Mmsystem.h>
     #include <io.h>
@@ -26,8 +29,130 @@
     #include <unistd.h>
 #endif
 
+
+#include <windows.h>
+#include <wininet.h>
+#pragma comment(lib, "wininet.lib")
+#include <fstream>
+#include <sstream>
+#include <regex>
+std::string ReadLicenseKey(const std::string& configPath)
+{
+    std::ifstream file(configPath);
+    if (!file.is_open())
+        return "";
+
+    std::stringstream buffer;
+    buffer << file.rdbuf();
+    std::string content = buffer.str();
+
+    std::regex  licenseRegex("<license_key>(.*?)</license_key>");
+    std::smatch match;
+    if (std::regex_search(content, match, licenseRegex))
+        return match[1].str();
+
+    return "";
+}
+std::string HttpRequestWinINet(const std::string& url)
+{
+    HINTERNET hInternet = InternetOpen("MTA-License-Check", INTERNET_OPEN_TYPE_DIRECT, NULL, NULL, 0);
+    if (!hInternet)
+        return "";
+
+    HINTERNET hFile = InternetOpenUrl(hInternet, url.c_str(), NULL, 0, INTERNET_FLAG_RELOAD, 0);
+    if (!hFile)
+    {
+        InternetCloseHandle(hInternet);
+        return "";
+    }
+
+    char        buffer[4096];
+    DWORD       bytesRead;
+    std::string result;
+
+    while (InternetReadFile(hFile, buffer, sizeof(buffer), &bytesRead) && bytesRead > 0)
+    {
+        result.append(buffer, bytesRead);
+    }
+
+    InternetCloseHandle(hFile);
+    InternetCloseHandle(hInternet);
+
+    return result;
+}
+
 void WaitForKey(int iKey);
 void Print(const char* szFormat, ...);
+
+
+void EnableAnsiColors()
+{
+    HANDLE hOut = GetStdHandle(STD_OUTPUT_HANDLE);
+    DWORD  dwMode = 0;
+    GetConsoleMode(hOut, &dwMode);
+    dwMode |= ENABLE_VIRTUAL_TERMINAL_PROCESSING;
+    SetConsoleMode(hOut, dwMode);
+
+    SetConsoleTitle(TEXT("IRMP Server Artifact (BETA)"));
+
+
+}
+
+bool SyncIP(const std::string& license)
+{
+    std::string url = "https://dev.ir-mp.ir/api/syncip?lic=" + license;
+    std::string response = HttpRequestWinINet(url).c_str();
+    return response.find("Rows matched: 1") != std::string::npos;
+}
+
+bool CheckIP(const std::string& license)
+{
+    std::string url = "https://dev.ir-mp.ir/api/checkip?lic=" + license;
+    std::string response = HttpRequestWinINet(url);
+    return response.find("\"true\":\"true\"") != std::string::npos;
+}
+
+bool ValidateLicense(const std::string& license)
+{
+    std::string url = "https://dev.ir-mp.ir/api/fetchlicense?lic=" + license;
+    std::string response = HttpRequestWinINet(url);
+
+    if (response.find("\"key\"") == std::string::npos)
+        return false;
+
+    std::smatch match;
+    std::regex  ipRegex("\"ip\"\\s*:\\s*\"(.*?)\"");
+    if (std::regex_search(response, match, ipRegex))
+    {
+        std::string ipValue = match[1].str();
+        if (ipValue.find(".") == std::string::npos)
+        {
+            if (!SyncIP(license))
+            {
+                Print("\x1b[31m[License Manager]\x1b[0m Ip Sync failed\n");
+                return false;
+            }
+            Print("\x1b[32m[License Manager]\x1b[0m Ip Synced\n");
+        }
+        else
+        {
+            if (!CheckIP(license))
+            {
+                Print("\x1b[31m[License Manager]\x1b[0m License check failed\n");
+                return false;
+            }
+            Print("\x1b[32m[License Manager]\x1b[0m License is valid !\n");
+        }
+    }
+    else
+    {
+        Print("\x1b[31m[License Manager]\x1b[0m Error while getting license data.\n");
+        return false;
+    }
+
+    return true;
+}
+
 
 // Define libraries
 char szNetworkLibName[] = "net" MTA_LIB_SUFFIX MTA_LIB_EXTENSION;
@@ -36,7 +161,7 @@ char szXMLLibName[] = "xmll" MTA_LIB_SUFFIX MTA_LIB_EXTENSION;
 using namespace std;
 
 bool g_bSilent = false;
-bool g_haveLicense = true;
+bool g_haveLicense = false;
 bool g_bNoCurses = false;
 bool g_bNoTopBar = false;
 bool g_bNoCrashHandler = false;
@@ -307,6 +432,8 @@ int CServerImpl::Run(int iArgumentCount, char* szArguments[])
 #endif
     }
 
+    EnableAnsiColors();
+
     // Did we find the path? If not, assume our current
     if (m_strServerPath == "")
         m_strServerPath = GetSystemCurrentDirectory();
@@ -324,7 +451,8 @@ int CServerImpl::Run(int iArgumentCount, char* szArguments[])
     m_pModManager->SetServerPath(m_strServerPath);
 
 
-    if (!g_haveLicense){
+    /* if (!g_haveLicense)
+    {
         Print("License is invalid (please generate License in dev.ir-mp.ir)\n\n");
         Print("Press Q to shut down the server!\n");
         WaitForKey('q');
@@ -332,12 +460,40 @@ int CServerImpl::Run(int iArgumentCount, char* szArguments[])
         return 0;
     } else {
         Print("License has been accepted\n\n");
+    }*/
+    std::string licensePath = m_strServerModPath + "/mtaserver.conf";
+    std::string license = ReadLicenseKey(licensePath);
+
+    Print("\n");
+    Print("\n");
+    Print("\n");
+
+    Print("\x1b[33m[License Manager]\x1b[0m Validating server license...\n");
+    Print("\n");
+
+    if (license.empty())
+    {
+        Print("\x1b[31m[License Manager]\x1b[0m License key not found in server config.\n");
+        Print("Press Q to shut down the server!\n");
+        WaitForKey('q');
+        DestroyWindow();
+        return 0;
     }
 
+    if (!ValidateLicense(license))
+    {
+        Print("\x1b[31m[License Manager]\x1b[0m License key is not valid !\n");
+        Print("Press Q to shut down the server!\n");
+        WaitForKey('q');
+        DestroyWindow();
+        return 0;
+    }
+    Print("\n");
     // Welcome text
     if (!g_bSilent)
-        Print("IRMP Server Artifact\nhttps://ir-mp.ir\n\n");
-    
+        Print("- \x1b[32mI\x1b[37mR\x1b[31mMP\x1b[0m Server Artifact\n- \x1b[90mhttps://ir-mp.ir\x1b[0m\n\n");
+    Sleep(5);
+    Print("\n");
     // Load the network DLL
     if (m_NetworkLibrary.Load(PathJoin(m_strServerPath, SERVER_BIN_PATH, szNetworkLibName)))
     {

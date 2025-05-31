@@ -535,9 +535,9 @@ void CCrashDumpWriter::RunErrorTool(CExceptionInformation* pExceptionInformation
     SetDllDirectory(strMTASAPath);
 
 #ifdef MTA_DEBUG
-    #define MTA_EXE_NAME            "Multi Theft Auto_d.exe"
+    #define MTA_EXE_NAME            "Iran Mutli Player_d.exe"
 #else
-    #define MTA_EXE_NAME            "Multi Theft Auto.exe"
+    #define MTA_EXE_NAME            "Iran Mutli Player.exe"
 #endif
     SString strFile = strMTASAPath + "\\" + MTA_EXE_NAME;
     ShellExecute(NULL, "open", strFile, "install_stage=crashed", NULL, SW_SHOWNORMAL);
