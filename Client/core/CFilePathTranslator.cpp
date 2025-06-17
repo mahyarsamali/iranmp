@@ -5,7 +5,7 @@
  *  FILE:        Client/core/CFilePathTranslator.cpp
  *  PURPOSE:     Easy interface to file paths
  *
- *  Iran Multi Player is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 

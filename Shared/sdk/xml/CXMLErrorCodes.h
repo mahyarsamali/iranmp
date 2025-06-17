@@ -5,7 +5,7 @@
  *  FILE:        sdk/xml/CXMLErrorCodes.h
  *  PURPOSE:     XML error code enumerations
  *
- *  Iran Multi Player is available from http://www.multitheftauto.com/
+ *  Iran Multi Player is available from http://www.ir-mp.ir/
  *
  *****************************************************************************/
 

@@ -9,7 +9,7 @@
  *               language without loading the translation files first. This
  *               safes a nice amount of time on startup.
  *
- *  Iran Multi Player is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 

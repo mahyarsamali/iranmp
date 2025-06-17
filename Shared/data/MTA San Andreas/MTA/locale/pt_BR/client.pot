@@ -324,11 +324,11 @@ msgstr "O arquivo '%s' está atualmente bloqueado por %zu processos.\n\n"
 #, c-format
 msgid "Your installation may be corrupt now.\n\n"
 "%zu out of %zu files could not be restored from the backup.\n\n"
-"You should reinstall Iran Multi Player from www.multitheftauto.com\n"
+"You should reinstall Iran Multi Player from www.ir-mp.ir\n"
 "or try running the update with administrator rights."
 msgstr "Sua instalação pode estar corrompida agora.\n\n"
 "%zu de %zu arquivos não puderam ser restaurados do backup.\n\n"
-"Você deve reinstalar o Iran Multi Player a partir de www.multitheftauto.com ou tentar executar a atualização como administrador."
+"Você deve reinstalar o Iran Multi Player a partir de www.ir-mp.ir ou tentar executar a atualização como administrador."
 
 #: Client/loader/CInstallManager.cpp:376
 #, c-format
@@ -665,9 +665,9 @@ msgstr "Corrigir erro de elevação necessária"
 
 #: Client/loader/MainFunctions.cpp:1164
 #, c-format
-msgid "Could not start Grand Theft Auto: San Andreas.  Please try restarting, or if the problem persists,contact MTA at www.multitheftauto.com. \n\n"
+msgid "Could not start Grand Theft Auto: San Andreas.  Please try restarting, or if the problem persists,contact MTA at www.ir-mp.ir. \n\n"
 "[%s]"
-msgstr "Não foi possível iniciar o GTA: San Andreas.  Por favor reinicie seu computador, mas se o problema persistir, entre em contato em www.multitheftauto.com. \n\n"
+msgstr "Não foi possível iniciar o GTA: San Andreas.  Por favor reinicie seu computador, mas se o problema persistir, entre em contato em www.ir-mp.ir. \n\n"
 "[%s]"
 
 #: Client/loader/MainFunctions.cpp:1219

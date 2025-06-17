@@ -324,11 +324,11 @@ msgstr "Le fichier '%s' est actuellement verrouillé par %zu processus.\n\n"
 #, c-format
 msgid "Your installation may be corrupt now.\n\n"
 "%zu out of %zu files could not be restored from the backup.\n\n"
-"You should reinstall Iran Multi Player from www.multitheftauto.com\n"
+"You should reinstall Iran Multi Player from www.ir-mp.ir\n"
 "or try running the update with administrator rights."
 msgstr "Votre installation est peut-être corrompue.\n\n"
 "%zu sur %zu fichiers n'ont pas pu être restaurés à partir de la sauvegarde.\n\n"
-"Vous devriez réinstaller Iran Multi Player depuis www.multitheftauto.com\n"
+"Vous devriez réinstaller Iran Multi Player depuis www.ir-mp.ir\n"
 "ou essayez d'exécuter la mise à jour avec les droits d'administrateur."
 
 #: Client/loader/CInstallManager.cpp:376
@@ -666,9 +666,9 @@ msgstr "Correction de l'erreur d'élévation requise"
 
 #: Client/loader/MainFunctions.cpp:1164
 #, c-format
-msgid "Could not start Grand Theft Auto: San Andreas.  Please try restarting, or if the problem persists,contact MTA at www.multitheftauto.com. \n\n"
+msgid "Could not start Grand Theft Auto: San Andreas.  Please try restarting, or if the problem persists,contact MTA at www.ir-mp.ir. \n\n"
 "[%s]"
-msgstr "Impossible de démarrer GTA: San Andreas.  Veuillez tenter de réinstaller, ou si le problème persiste, contactez l'équipe de MTA à l'adresse www.multitheftauto.com. \n\n"
+msgstr "Impossible de démarrer GTA: San Andreas.  Veuillez tenter de réinstaller, ou si le problème persiste, contactez l'équipe de MTA à l'adresse www.ir-mp.ir. \n\n"
 "[%s]"
 
 #: Client/loader/MainFunctions.cpp:1219

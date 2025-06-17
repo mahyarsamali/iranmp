@@ -39,7 +39,7 @@ Var Install_Dir
 !define PRODUCT_NAME_NO_VER "IRMP:SA"
 
 !define PRODUCT_PUBLISHER "Iran Multi Player"
-!define PRODUCT_WEB_SITE "https://www.multitheftauto.com"
+!define PRODUCT_WEB_SITE "https://www.ir-mp.ir"
 
 ; MUI 1.67 compatible ------
 !include "MUI.nsh"

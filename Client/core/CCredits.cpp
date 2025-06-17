@@ -5,7 +5,7 @@
  *  FILE:        core/CCredits.cpp
  *  PURPOSE:     In-game credits window implementation
  *
- *  Iran Multi Player is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 

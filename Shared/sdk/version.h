@@ -11,24 +11,24 @@
  * misconfigured deployment pipeline. Never use build type VERSION_TYPE_CUSTOM in
  * a public release of your fork.
  *
- * Please read the wiki article at https://wiki.multitheftauto.com/wiki/Forks for
+ * Please read the wiki article at https://wiki.ir-mp.ir/wiki/Forks for
  * more information, guidelines and security considerations.
  *
  * To compile a client for mass consumption by your player base (as a public release):
  *   1. Set MTASA_VERSION_TYPE to VERSION_TYPE_UNSTABLE
- *   2. Use netc.dll from https://mirror-cdn.multitheftauto.com/bdata/fork-support/netc.dll
+ *   2. Use netc.dll from https://mirror-cdn.ir-mp.ir/bdata/fork-support/netc.dll
  *   3. Switch to Nightly build configuration
  *
  * To develop and test a client locally or in a trustworthy closed group (local or private release):
  *  a. With active anti-cheat:
  *      1. Set MTASA_VERSION_TYPE to VERSION_TYPE_UNSTABLE
- *      2. Use netc.dll from https://mirror-cdn.multitheftauto.com/bdata/netc.dll (preferably run utils/buildactions/install_data.lua)
+ *      2. Use netc.dll from https://mirror-cdn.ir-mp.ir/bdata/netc.dll (preferably run utils/buildactions/install_data.lua)
  *  b. Without anti-cheat:
  *      1. Set MTASA_VERSION_TYPE to VERSION_TYPE_CUSTOM
- *      2. Use netc.dll from https://mirror-cdn.multitheftauto.com/bdata/netc.dll (preferably run utils/buildactions/install_data.lua)
+ *      2. Use netc.dll from https://mirror-cdn.ir-mp.ir/bdata/netc.dll (preferably run utils/buildactions/install_data.lua)
  *
  * To compile and host an official public server (anyone on official MTA client can connect):
- *      1. Copy net.dll or net.so from a nightly release (see https://nightly.multitheftauto.com/)
+ *      1. Copy net.dll or net.so from a nightly release (see https://nightly.ir-mp.ir/)
  *      2. Set MTASA_VERSION_TYPE to VERSION_TYPE_RELEASE
  *      3. Set MTASA_VERSION_BUILD to the build number from the network library (see file version information)
  *      4. Switch to Nightly build configuration

@@ -5,7 +5,7 @@
  *  FILE:        Client/loader/Install.cpp
  *  PURPOSE:     Handles the installation of updates for MTA
  *
- *  Iran Multi Player is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 
@@ -477,7 +477,7 @@ static auto RunRollback(std::vector<InstallableFile>& files) -> size_t
     {
         MessageBoxUTF8(nullptr,
                        SString(_("Your installation may be corrupt now.\n\n%zu out of %zu files could not be restored from the backup.\n\nYou should "
-                                 "reinstall Iran Multi Player from www.multitheftauto.com\nor try running the update with administrator rights."),
+                                 "reinstall Iran Multi Player from www.ir-mp.ir\nor try running the update with administrator rights."),
                                disasterCounter, files.size()),
                        "MTA: San Andreas", MB_OK | MB_ICONERROR | MB_TOPMOST);
 

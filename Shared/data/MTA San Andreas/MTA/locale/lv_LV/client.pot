@@ -324,11 +324,11 @@ msgstr "Fails '%s' pašlaik ir bloķēts %zu procesu dēļ.\n\n"
 #, c-format
 msgid "Your installation may be corrupt now.\n\n"
 "%zu out of %zu files could not be restored from the backup.\n\n"
-"You should reinstall Iran Multi Player from www.multitheftauto.com\n"
+"You should reinstall Iran Multi Player from www.ir-mp.ir\n"
 "or try running the update with administrator rights."
 msgstr "Jūsu instalācija varētu būt bojāta.\n\n"
 "%zu no %zu failiem nevarēja tikt atjaunoti no rezerves kopijas.\n\n"
-"Jums vajadzētu pārinstalēt Iran Multi Player no vietnes www.multitheftauto.com\n"
+"Jums vajadzētu pārinstalēt Iran Multi Player no vietnes www.ir-mp.ir\n"
 "vai mēģināt palaist atjaunošanu ar administratora tiesībām."
 
 #: Client/loader/CInstallManager.cpp:376
@@ -666,9 +666,9 @@ msgstr "Labot nepieciešamo pacēluma kļūdu"
 
 #: Client/loader/MainFunctions.cpp:1164
 #, c-format
-msgid "Could not start Grand Theft Auto: San Andreas.  Please try restarting, or if the problem persists,contact MTA at www.multitheftauto.com. \n\n"
+msgid "Could not start Grand Theft Auto: San Andreas.  Please try restarting, or if the problem persists,contact MTA at www.ir-mp.ir. \n\n"
 "[%s]"
-msgstr "Nespēj palaist Grand Theft Auto: San Andreas.  Lūdzu mēģiniet restartēt, ja problēma turpinās,kontaktējiet MTA iekš www.multitheftauto.com. \n\n"
+msgstr "Nespēj palaist Grand Theft Auto: San Andreas.  Lūdzu mēģiniet restartēt, ja problēma turpinās,kontaktējiet MTA iekš www.ir-mp.ir. \n\n"
 "[%s]"
 
 #: Client/loader/MainFunctions.cpp:1219

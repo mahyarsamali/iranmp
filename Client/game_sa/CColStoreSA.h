@@ -4,7 +4,7 @@
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        game_sa/CColStoreSA.h
  *
- *  Iran Multi Player is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 

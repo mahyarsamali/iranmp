@@ -8,7 +8,7 @@
  *               created and rendered on a separate thread to avoid blocking
                  the main thread.
  *
- *  Iran Multi Player is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 

@@ -5,7 +5,7 @@
  *  FILE:        sdk/CVector4D.h
  *  PURPOSE:     4D vector class
  *
- *  Iran Multi Player is available from http://www.multitheftauto.com/
+ *  Iran Multi Player is available from http://www.ir-mp.ir/
  *
  *****************************************************************************/
 

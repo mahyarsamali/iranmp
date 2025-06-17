@@ -5,7 +5,7 @@
  *  FILE:        sdk/Common.h
  *  PURPOSE:     Header for common definitions
  *
- *  Iran Multi Player is available from http://www.multitheftauto.com/
+ *  Iran Multi Player is available from http://www.ir-mp.ir/
  *
  *****************************************************************************/
 

@@ -5,7 +5,7 @@
  *  FILE:        Client/sdk/game/CAnimManager.h
  *  PURPOSE:     Animation manager interface
  *
- *  Iran Multi Player is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 

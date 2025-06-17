@@ -13,7 +13,7 @@ class CVersionUpdater;
 
 // Update master info
 #define UPDATER_MASTER_URL1 "https://updatesa.mtasa.com/sa/master/?v=%VERSION%&id=%ID%"
-#define UPDATER_MASTER_URL2 "https://updatesa.multitheftauto.com/sa/master/?v=%VERSION%&id=%ID%"
+#define UPDATER_MASTER_URL2 "https://updatesa.ir-mp.ir/sa/master/?v=%VERSION%&id=%ID%"
 
 /*
 
@@ -25,7 +25,7 @@ class CVersionUpdater;
         <revision>2010-09-05-b</revision>
         <serverlist>
             <server>http://updatesa.mtasa.com/sa/master/?v=%VERSION%&amp;id=%ID%</server>
-            <server>http://updatesa.multitheftauto.com/sa/master/?v=%VERSION%&amp;id=%ID%</server>
+            <server>http://updatesa.ir-mp.ir/sa/master/?v=%VERSION%&amp;id=%ID%</server>
         </serverlist>
         <interval>7d</interval>
     </master>
@@ -33,21 +33,21 @@ class CVersionUpdater;
         <serverlist>
             <server priority="3">http://updatesa.mtasa.com/sa/version/?v=%VERSION%&amp;id=%ID%&amp;ty=%TYPE%&amp;da=%DATA%&amp;be=%BETA%&amp;re=%REFER%</server>
             <server
-priority="3">http://updatesa.multitheftauto.com/sa/version/?v=%VERSION%&amp;id=%ID%&amp;ty=%TYPE%&amp;da=%DATA%&amp;be=%BETA%&amp;re=%REFER%</server>
+priority="3">http://updatesa.ir-mp.ir/sa/version/?v=%VERSION%&amp;id=%ID%&amp;ty=%TYPE%&amp;da=%DATA%&amp;be=%BETA%&amp;re=%REFER%</server>
         </serverlist>
         <interval>12h</interval>
     </version>
     <report>
         <serverlist>
             <server>http://updatesa.mtasa.com/sa/report/?v=%VERSION%&amp;id=%ID%</server>
-            <server>http://updatesa.multitheftauto.com/sa/report/?v=%VERSION%&amp;id=%ID%</server>
+            <server>http://updatesa.ir-mp.ir/sa/report/?v=%VERSION%&amp;id=%ID%</server>
         </serverlist>
         <interval>12h</interval>
     </report>
     <crashdump>
         <serverlist>
             <server priority="3">http://updatesa.mtasa.com/sa/crashdump/?v=%VERSION%&amp;id=%ID%&amp;file=%FILE%</server>
-            <server priority="4">http://updatesa.multitheftauto.com/sa/crashdump/?v=%VERSION%&amp;id=%ID%&amp;file=%FILE%</server>
+            <server priority="4">http://updatesa.ir-mp.ir/sa/crashdump/?v=%VERSION%&amp;id=%ID%&amp;file=%FILE%</server>
         </serverlist>
         <interval>12h</interval>
         <duplicates>0</duplicates>
@@ -56,7 +56,7 @@ priority="3">http://updatesa.multitheftauto.com/sa/version/?v=%VERSION%&amp;id=%
     <gtadatafiles>
         <serverlist>
             <server priority="4">http://updatesa.mtasa.com/sa/gtadatafiles/?v=%VERSION%&amp;id=%ID%</server>
-            <server priority="3">http://updatesa.multitheftauto.com/sa/gtadatafiles/?v=%VERSION%&amp;id=%ID%</server>
+            <server priority="3">http://updatesa.ir-mp.ir/sa/gtadatafiles/?v=%VERSION%&amp;id=%ID%</server>
         </serverlist>
     </gtadatafiles>
     <trouble>

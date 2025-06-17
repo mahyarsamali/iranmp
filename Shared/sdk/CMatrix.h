@@ -5,7 +5,7 @@
  *  FILE:        sdk/CMatrix.h
  *  PURPOSE:     4x3 GTA matrix class
  *
- *  Iran Multi Player is available from http://www.multitheftauto.com/
+ *  Iran Multi Player is available from http://www.ir-mp.ir/
  *
  *****************************************************************************/
 

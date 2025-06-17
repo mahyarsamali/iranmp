@@ -5,7 +5,7 @@
  *  FILE:        Client/loader/Install.Manifest.cpp
  *  PURPOSE:     Handles loading and creating of manifest files for installation
  *
- *  Iran Multi Player is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 

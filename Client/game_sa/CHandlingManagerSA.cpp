@@ -5,7 +5,7 @@
  *  FILE:        Client/game_sa/CHandlingManagerSA.cpp
  *  PURPOSE:     Vehicle handling manager
  *
- *  Iran Multi Player is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 

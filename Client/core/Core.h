@@ -5,7 +5,7 @@
  *  FILE:        Client/core/Core.h
  *  PURPOSE:     Header file for core entry point code
  *
- *  Iran Multi Player is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 

@@ -4,7 +4,7 @@
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        game_sa/CMatrixSA.cpp
  *
- *  Iran Multi Player is available from https://www.multitheftauto.com/
+ *  Iran Multi Player is available from https://www.ir-mp.ir/
  *
  *****************************************************************************/
 

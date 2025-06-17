@@ -5,7 +5,7 @@
  *  FILE:        sdk/core/CModManagerInterface.h
  *  PURPOSE:     Game mod manager interface
  *
- *  Iran Multi Player is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 

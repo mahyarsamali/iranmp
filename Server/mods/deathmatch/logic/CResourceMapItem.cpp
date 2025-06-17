@@ -5,7 +5,7 @@
  *  FILE:        mods/deathmatch/logic/CResourceMapItem.cpp
  *  PURPOSE:     Resource server-side map item class
  *
- *  Iran Multi Player is available from https://www.multitheftauto.com/
+ *  Iran Multi Player is available from https://www.ir-mp.ir/
  *
  *****************************************************************************/
 

@@ -5,7 +5,7 @@
  *  FILE:        Server/mods/deathmatch/logic/CHandlingEntry.cpp
  *  PURPOSE:     Vehicle handling data entry
  *
- *  Iran Multi Player is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 

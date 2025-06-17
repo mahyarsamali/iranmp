@@ -5,7 +5,7 @@
  *  FILE:        SharedUtil.Misc.hpp
  *  PURPOSE:
  *
- *  Iran Multi Player is available from http://www.multitheftauto.com/
+ *  Iran Multi Player is available from http://www.ir-mp.ir/
  *
  *****************************************************************************/
 
@@ -59,7 +59,7 @@ CDuplicateLineFilter<SReportLine> ms_ReportLineFilter;
 
 #define PRODUCT_REGISTRY_PATH       "Software\\Iran Multi Player: San Andreas All"       // HKLM
 #define PRODUCT_COMMON_DATA_DIR     "MTA San Andreas All"                               // C:\ProgramData
-#define TROUBLE_URL1 "https://help.multitheftauto.com/sa/trouble/?v=_VERSION_&id=_ID_&tr=_TROUBLE_"
+#define TROUBLE_URL1 "https://help.ir-mp.ir/sa/trouble/?v=_VERSION_&id=_ID_&tr=_TROUBLE_"
 
 //
 // Output a UTF8 encoded messagebox

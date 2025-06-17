@@ -5,7 +5,7 @@
  *  FILE:        sdk/CMatrix4.h
  *  PURPOSE:     4x4 matrix class
  *
- *  Iran Multi Player is available from http://www.multitheftauto.com/
+ *  Iran Multi Player is available from http://www.ir-mp.ir/
  *
  *****************************************************************************/
 

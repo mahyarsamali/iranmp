@@ -5,7 +5,7 @@
  *  FILE:        game_sa/CFontSA.cpp
  *  PURPOSE:     Font class layer
  *
- *  Iran Multi Player is available from https://www.multitheftauto.com/
+ *  Iran Multi Player is available from https://www.ir-mp.ir/
  *
  *****************************************************************************/
 

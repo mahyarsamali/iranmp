@@ -5,7 +5,7 @@
  *  FILE:        sdk/core/CClientCommands.h
  *  PURPOSE:     Command name definitions for client base
  *
- *  Iran Multi Player is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 

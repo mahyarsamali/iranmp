@@ -5,7 +5,7 @@
  *  FILE:        mods/deathmatch/logic/CServer.h
  *  PURPOSE:     Header for server class
  *
- *  Iran Multi Player is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 

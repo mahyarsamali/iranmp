@@ -327,11 +327,11 @@ msgstr "Plik '%s' jest aktualnie zablokowany przez %zu procesów.\n\n"
 #, c-format
 msgid "Your installation may be corrupt now.\n\n"
 "%zu out of %zu files could not be restored from the backup.\n\n"
-"You should reinstall Iran Multi Player from www.multitheftauto.com\n"
+"You should reinstall Iran Multi Player from www.ir-mp.ir\n"
 "or try running the update with administrator rights."
 msgstr "Twoja instalacja może być uszkodzona.\n\n"
 "%zu z %zu plików nie może być przywróconych z kopii zapasowej.\n\n"
-"Powinieneś przeinstalować Iran Multi Player z www.multitheftauto.com lub spróbować uruchomić aktualizację z prawami administratora."
+"Powinieneś przeinstalować Iran Multi Player z www.ir-mp.ir lub spróbować uruchomić aktualizację z prawami administratora."
 
 #: Client/loader/CInstallManager.cpp:376
 #, c-format
@@ -668,9 +668,9 @@ msgstr "Napraw błąd z uprawnieniami"
 
 #: Client/loader/MainFunctions.cpp:1164
 #, c-format
-msgid "Could not start Grand Theft Auto: San Andreas.  Please try restarting, or if the problem persists,contact MTA at www.multitheftauto.com. \n\n"
+msgid "Could not start Grand Theft Auto: San Andreas.  Please try restarting, or if the problem persists,contact MTA at www.ir-mp.ir. \n\n"
 "[%s]"
-msgstr "Nie udało się uruchomić Grand Theft Auto: San Andreas.  Spróbuj uruchomić moda ponownie, lub jeśli problem dalej występuje, skontaktuj się z nami na www.multitheftauto.com. \n\n"
+msgstr "Nie udało się uruchomić Grand Theft Auto: San Andreas.  Spróbuj uruchomić moda ponownie, lub jeśli problem dalej występuje, skontaktuj się z nami na www.ir-mp.ir. \n\n"
 "[%s]"
 
 #: Client/loader/MainFunctions.cpp:1219

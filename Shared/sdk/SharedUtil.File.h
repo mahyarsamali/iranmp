@@ -5,7 +5,7 @@
  *  FILE:        SharedUtil.File.h
  *  PURPOSE:
  *
- *  Iran Multi Player is available from http://www.multitheftauto.com/
+ *  Iran Multi Player is available from http://www.ir-mp.ir/
  *
  *****************************************************************************/
 #pragma once

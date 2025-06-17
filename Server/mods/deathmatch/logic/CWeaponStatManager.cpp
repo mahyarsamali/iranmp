@@ -120,7 +120,7 @@ CWeaponStat* CWeaponStatManager::GetOriginalWeaponStats(eWeaponType type, eWeapo
 void CWeaponStatManager::Init()
 {
     // Load SA Defaults
-    // Script used to dump data: https://wiki.multitheftauto.com/wiki/Code_snippet_for_extracting_weapon_stats
+    // Script used to dump data: https://wiki.ir-mp.ir/wiki/Code_snippet_for_extracting_weapon_stats
 
     // 22 - Colt 45
     OriginalNormalWeaponData[22].weapon_range = 35.0f;

@@ -5,7 +5,7 @@
  *  FILE:        SharedUtil.Game.hpp
  *  PURPOSE:     Shared stuff which is game oriented
  *
- *  Iran Multi Player is available from http://www.multitheftauto.com/
+ *  Iran Multi Player is available from http://www.ir-mp.ir/
  *
  *****************************************************************************/
 #include "SharedUtil.Game.h"

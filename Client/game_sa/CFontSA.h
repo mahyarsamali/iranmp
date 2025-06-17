@@ -5,7 +5,7 @@
  *  FILE:        game_sa/CFontSA.h
  *  PURPOSE:     Header file for font class
  *
- *  Iran Multi Player is available from https://www.multitheftauto.com/
+ *  Iran Multi Player is available from https://www.ir-mp.ir/
  *
  *****************************************************************************/
 

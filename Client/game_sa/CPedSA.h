@@ -5,7 +5,7 @@
  *  FILE:        game_sa/CPedSA.h
  *  PURPOSE:     Header file for ped entity base class
  *
- *  Iran Multi Player is available from https://www.multitheftauto.com/
+ *  Iran Multi Player is available from https://www.ir-mp.ir/
  *
  *****************************************************************************/
 

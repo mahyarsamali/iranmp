@@ -95,7 +95,7 @@ Var UninstallExePath
 !define PRODUCT_NAME_NO_VER "IRMP:SA"
 
 !define PRODUCT_PUBLISHER "Iran Multi Player"
-!define PRODUCT_WEB_SITE "https://www.multitheftauto.com"
+!define PRODUCT_WEB_SITE "https://www.ir-mp.ir"
 !define PRODUCT_DIR_REGKEY "Software\Microsoft\Windows\CurrentVersion\App Paths\Iran Multi Player ${0.0}.exe"
 !define PRODUCT_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\${PRODUCT_NAME}"
 !define PRODUCT_UNINST_ROOT_KEY "HKLM"
@@ -257,11 +257,11 @@ Function .onInit
 
     ${If} ${AtMostWinVista}
         MessageBox MB_OK "$(GET_XPVISTA_PLEASE)"
-        ExecShell "open" "https://multitheftauto.com"
+        ExecShell "open" "https://ir-mp.ir"
         Quit
     ${ElseIf} ${AtMostWin8.1}
         MessageBox MB_OK "$(GET_WIN81_PLEASE)"
-        ExecShell "open" "https://multitheftauto.com"
+        ExecShell "open" "https://ir-mp.ir"
         Quit
     ${EndIf}
 
@@ -808,7 +808,7 @@ SectionGroup /e "$(INST_SEC_CLIENT)" SECGCLIENT
             ${If} ${Errors}
                 ${GameExplorer_AddGame} all "$INSTDIR\Iran Multi Player.exe" "$INSTDIR" "$INSTDIR\Iran Multi Player.exe" ${GUID}
                 CreateDirectory $APPDATA\Microsoft\Windows\GameExplorer\${GUID}\SupportTasks\0
-                CreateShortcut "$APPDATA\Microsoft\Windows\GameExplorer\$0\SupportTasks\0\Client Manual.lnk" \ "https://wiki.multitheftauto.com/wiki/Client_Manual"
+                CreateShortcut "$APPDATA\Microsoft\Windows\GameExplorer\$0\SupportTasks\0\Client Manual.lnk" \ "https://wiki.ir-mp.ir/wiki/Client_Manual"
             ${EndIf}
         ${EndIf}
 
@@ -2580,10 +2580,10 @@ Function NetComposeURL
     IntOp $NetMirror $NetMirror % 2
     ${Switch} $NetMirror
         ${Case} 0
-            StrCpy $NetMsgURL "https://updatesa.multitheftauto.com/sa/install/1/?x=0"
+            StrCpy $NetMsgURL "https://updatesa.ir-mp.ir/sa/install/1/?x=0"
             ${Break}
         ${Default}
-            StrCpy $NetMsgURL "https://updatesa.multitheftauto.com/sa/install/1/?x=0"
+            StrCpy $NetMsgURL "https://updatesa.ir-mp.ir/sa/install/1/?x=0"
             ${Break}
     ${EndSwitch}
     StrCpy $NetMsgURL "$NetMsgURL$NetPrevInfo"

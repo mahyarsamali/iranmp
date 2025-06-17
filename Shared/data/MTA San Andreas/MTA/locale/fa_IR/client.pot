@@ -327,11 +327,11 @@ msgstr "فایل '%s' در حال حاضر توسط فرآیندهای %zu قف�
 #, c-format
 msgid "Your installation may be corrupt now.\n\n"
 "%zu out of %zu files could not be restored from the backup.\n\n"
-"You should reinstall Iran Multi Player from www.multitheftauto.com\n"
+"You should reinstall Iran Multi Player from www.ir-mp.ir\n"
 "or try running the update with administrator rights."
 msgstr "فرایند نصب شما ممکن است در حال حاضر خراب باشد.\n\n"
 "فایل %zu از %zu از نسخه پشتیبان نمیتواند بازیابی شود.\n\n"
-"میبایست Iran Multi Player را از www.multitheftauto.com دوباره نصب کنید\n"
+"میبایست Iran Multi Player را از www.ir-mp.ir دوباره نصب کنید\n"
 "یا سعی کنید بروزرسانی را با دسترسی administrator اجرا کنید."
 
 #: Client/loader/CInstallManager.cpp:376
@@ -668,9 +668,9 @@ msgstr "رفع خطای دسترسی"
 
 #: Client/loader/MainFunctions.cpp:1164
 #, c-format
-msgid "Could not start Grand Theft Auto: San Andreas.  Please try restarting, or if the problem persists,contact MTA at www.multitheftauto.com. \n\n"
+msgid "Could not start Grand Theft Auto: San Andreas.  Please try restarting, or if the problem persists,contact MTA at www.ir-mp.ir. \n\n"
 "[%s]"
-msgstr "خطا در اجرای Grand Theft Auto: San Andreas. لطفا MTA را دوباره راه‌ اندازی کنید، اگر همچنان با خطا مواجه شدید با MTA در www.multitheftauto.com تماس بگیرید.\n\n"
+msgstr "خطا در اجرای Grand Theft Auto: San Andreas. لطفا MTA را دوباره راه‌ اندازی کنید، اگر همچنان با خطا مواجه شدید با MTA در www.ir-mp.ir تماس بگیرید.\n\n"
 "[%s]"
 
 #: Client/loader/MainFunctions.cpp:1219

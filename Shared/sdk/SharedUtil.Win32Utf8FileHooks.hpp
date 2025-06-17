@@ -5,7 +5,7 @@
  *  FILE:        SharedUtil.Win32Utf8FileHooks.hpp
  *  PURPOSE:     Hooks for making Windows file functions use UTF8 strings
  *
- *  Iran Multi Player is available from http://www.multitheftauto.com/
+ *  Iran Multi Player is available from http://www.ir-mp.ir/
  *
  *****************************************************************************/
 

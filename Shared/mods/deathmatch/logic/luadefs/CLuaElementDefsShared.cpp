@@ -5,7 +5,7 @@
  *  FILE:        Shared/mods/deathmatch/logic/luadefs/CLuaElementDefsShared.cpp
  *  PURPOSE:     Lua element definitions class
  *
- *  Iran Multi Player is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 

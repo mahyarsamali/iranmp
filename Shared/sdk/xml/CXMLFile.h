@@ -5,7 +5,7 @@
  *  FILE:        sdk/xml/CXMLFile.h
  *  PURPOSE:     XML file interface
  *
- *  Iran Multi Player is available from http://www.multitheftauto.com/
+ *  Iran Multi Player is available from http://www.ir-mp.ir/
  *
  *****************************************************************************/
 

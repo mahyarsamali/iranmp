@@ -5,7 +5,7 @@
  *  FILE:        loader-proxy/main.cpp
  *  PURPOSE:     Acts as a proxy for winmm.dll and loads core.dll into the GTA process
  *
- *  Iran Multi Player is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 
@@ -402,7 +402,7 @@ int DisplayMessageBox(const std::wstring& message, const std::wstring& errorCode
     std::wstring extended = message;
     extended +=
         L"\n\nIf you are unable to resolve this issue on your own, "
-        L"please get in contact with our support on www.multitheftauto.com";
+        L"please get in contact with our support on www.ir-mp.ir";
     return MessageBoxW(nullptr, extended.c_str(), caption.c_str(), flags | MB_TOPMOST);
 }
 

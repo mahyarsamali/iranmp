@@ -324,11 +324,11 @@ msgstr "'%s' 파일이 현재 %zu 프로세스에 의해 잠겨 있습니다.\n\
 #, c-format
 msgid "Your installation may be corrupt now.\n\n"
 "%zu out of %zu files could not be restored from the backup.\n\n"
-"You should reinstall Iran Multi Player from www.multitheftauto.com\n"
+"You should reinstall Iran Multi Player from www.ir-mp.ir\n"
 "or try running the update with administrator rights."
 msgstr "설치가 손상되었을 수 있습니다.\n\n"
 "%zu 파일 중 %zu 파일을 백업에서 복원할 수 없습니다.\n\n"
-"www.multitheftauto.com 에서 Multi Treft Auto를 다시 설치해야 합니다.\n"
+"www.ir-mp.ir 에서 Multi Treft Auto를 다시 설치해야 합니다.\n"
 "또는 관리자 권한으로 업데이트를 실행해 보십시오."
 
 #: Client/loader/CInstallManager.cpp:376
@@ -666,9 +666,9 @@ msgstr "고도 수정이 필요한 오류"
 
 #: Client/loader/MainFunctions.cpp:1164
 #, c-format
-msgid "Could not start Grand Theft Auto: San Andreas.  Please try restarting, or if the problem persists,contact MTA at www.multitheftauto.com. \n\n"
+msgid "Could not start Grand Theft Auto: San Andreas.  Please try restarting, or if the problem persists,contact MTA at www.ir-mp.ir. \n\n"
 "[%s]"
-msgstr "Grand Theft Auto: San Andreas를 시작할 수 없습니다. 다시 시작해 보거나 문제가 지속되면 MTA(www.multitheftauto.com)에 문의하십시오.\n\n"
+msgstr "Grand Theft Auto: San Andreas를 시작할 수 없습니다. 다시 시작해 보거나 문제가 지속되면 MTA(www.ir-mp.ir)에 문의하십시오.\n\n"
 "[%s]"
 
 #: Client/loader/MainFunctions.cpp:1219

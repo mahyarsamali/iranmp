@@ -5,7 +5,7 @@
  *  FILE:        Client/sdk/game/CHandlingEntry.h
  *  PURPOSE:     Vehicle handling entry interface
  *
- *  Iran Multi Player is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 

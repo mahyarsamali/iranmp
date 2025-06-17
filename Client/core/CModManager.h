@@ -5,7 +5,7 @@
  *  FILE:        Client/core/CModManager.h
  *  PURPOSE:     Header file for game mod manager class
  *
- *  Iran Multi Player is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 

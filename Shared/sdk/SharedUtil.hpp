@@ -6,7 +6,7 @@
  *  PURPOSE:     Solution wide utility functions.
  *               Include this file once per dll.
  *
- *  Iran Multi Player is available from http://www.multitheftauto.com/
+ *  Iran Multi Player is available from http://www.ir-mp.ir/
  *
  *****************************************************************************/
 

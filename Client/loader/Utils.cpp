@@ -5,7 +5,7 @@
  *  FILE:        Client/loader/Utils.cpp
  *  PURPOSE:     Loading utilities
  *
- *  Iran Multi Player is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 

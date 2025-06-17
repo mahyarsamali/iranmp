@@ -5,7 +5,7 @@
  *  FILE:        Shared/mods/logic/lua/CLuaVector2.cpp
  *  PURPOSE:     Lua vector2 class
  *
- *  Iran Multi Player is available from http://www.multitheftauto.com/
+ *  Iran Multi Player is available from http://www.ir-mp.ir/
  *
  *****************************************************************************/
 

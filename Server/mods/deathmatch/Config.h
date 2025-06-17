@@ -126,4 +126,4 @@
 #define PORT_TESTER_URL             "https://nightly.mtasa.com/ports/"
 
 // MTA minclientversion auto update and others
-#define HQCOMMS_URL                 "https://updatesa.multitheftauto.com/sa/server/hqcomms/"
+#define HQCOMMS_URL                 "https://updatesa.ir-mp.ir/sa/server/hqcomms/"

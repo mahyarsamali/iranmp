@@ -327,11 +327,11 @@ msgstr "الملف '%s' مغلق حاليًا من قبل عمليات %zu.\n\n"
 #, c-format
 msgid "Your installation may be corrupt now.\n\n"
 "%zu out of %zu files could not be restored from the backup.\n\n"
-"You should reinstall Iran Multi Player from www.multitheftauto.com\n"
+"You should reinstall Iran Multi Player from www.ir-mp.ir\n"
 "or try running the update with administrator rights."
 msgstr "قد يكون تثبيتك تالفًا الآن.\n\n"
 "تعذر استرجاع %zu من %zu ملف من النسخة الاحتياطية.\n\n"
-"يجب عليك إعادة تثبيت Iran Multi Player من www.multitheftauto.com أو إعادة تشغيل التحديث مع صلاحية المسؤول."
+"يجب عليك إعادة تثبيت Iran Multi Player من www.ir-mp.ir أو إعادة تشغيل التحديث مع صلاحية المسؤول."
 
 #: Client/loader/CInstallManager.cpp:376
 #, c-format
@@ -667,9 +667,9 @@ msgstr "حل خطأ \"elevation required\""
 
 #: Client/loader/MainFunctions.cpp:1164
 #, c-format
-msgid "Could not start Grand Theft Auto: San Andreas.  Please try restarting, or if the problem persists,contact MTA at www.multitheftauto.com. \n\n"
+msgid "Could not start Grand Theft Auto: San Andreas.  Please try restarting, or if the problem persists,contact MTA at www.ir-mp.ir. \n\n"
 "[%s]"
-msgstr "تعذر تشغيل Grand Theft Auto: San Andreas. الرجاء محاولة إعادة التشغيل، أو في حال استمرار المشكلة، قم بالتواصل على العنوان www.multitheftauto.com. \n"
+msgstr "تعذر تشغيل Grand Theft Auto: San Andreas. الرجاء محاولة إعادة التشغيل، أو في حال استمرار المشكلة، قم بالتواصل على العنوان www.ir-mp.ir. \n"
 " [%s]"
 
 #: Client/loader/MainFunctions.cpp:1219

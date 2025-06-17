@@ -5,7 +5,7 @@
  *  FILE:        mods/deathmatch/logic/lua/CLuaTimer.cpp
  *  PURPOSE:     Lua timer class
  *
- *  Iran Multi Player is available from http://www.multitheftauto.com/
+ *  Iran Multi Player is available from http://www.ir-mp.ir/
  *
  *****************************************************************************/
 

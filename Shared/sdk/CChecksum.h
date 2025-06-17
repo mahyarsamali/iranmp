@@ -5,7 +5,7 @@
  *  FILE:        sdk/CChecksum.h
  *  PURPOSE:     Checksum class
  *
- *  Iran Multi Player is available from http://www.multitheftauto.com/
+ *  Iran Multi Player is available from http://www.ir-mp.ir/
  *
  *****************************************************************************/
 // Note: Cannot use #pragma once here, due to a duplicate existing in publicsdk

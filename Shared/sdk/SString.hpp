@@ -5,7 +5,7 @@
  *  FILE:        SString.hpp
  *  PURPOSE:     SString implementation
  *
- *  Iran Multi Player is available from http://www.multitheftauto.com/
+ *  Iran Multi Player is available from http://www.ir-mp.ir/
  *
  *****************************************************************************/
 #include "SString.h"

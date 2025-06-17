@@ -5,7 +5,7 @@
  *  FILE:        Client/game_sa/CAnimManagerSA.cpp
  *  PURPOSE:     Animation manager
  *
- *  Iran Multi Player is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 

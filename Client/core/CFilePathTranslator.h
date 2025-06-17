@@ -5,7 +5,7 @@
  *  FILE:        Client/core/CFilePathTranslator.h
  *  PURPOSE:     Header file for file path translator class
  *
- *  Iran Multi Player is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 

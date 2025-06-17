@@ -5,7 +5,7 @@
  *  FILE:        Client/core/DXHook/CDirect3DHookManager.cpp
  *  PURPOSE:     Direct3D version independant hook manager
  *
- *  Iran Multi Player is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 

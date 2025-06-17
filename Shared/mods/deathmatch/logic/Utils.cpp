@@ -5,7 +5,7 @@
  *  FILE:        mods/deathmatch/logic/Utils.cpp
  *  PURPOSE:     Miscellaneous utility functions
  *
- *  Iran Multi Player is available from http://www.multitheftauto.com/
+ *  Iran Multi Player is available from http://www.ir-mp.ir/
  *
  *****************************************************************************/
 

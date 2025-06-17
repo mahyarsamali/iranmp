@@ -3,7 +3,7 @@
  *  PROJECT:     Iran Multi Player v1.0
  *  LICENSE:     See LICENSE in the top level directory
  *
- *  Iran Multi Player is available from http://www.multitheftauto.com/
+ *  Iran Multi Player is available from http://www.ir-mp.ir/
  *
  *****************************************************************************/
 

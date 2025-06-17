@@ -5,7 +5,7 @@
  *  FILE:        Shared/mods/deathmatch/logic/CScriptDebugging.cpp
  *  PURPOSE:     Script debugging facility class
  *
- *  Iran Multi Player is available from http://www.multitheftauto.com/
+ *  Iran Multi Player is available from http://www.ir-mp.ir/
  *
  *****************************************************************************/
 

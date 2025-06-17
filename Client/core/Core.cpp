@@ -5,7 +5,7 @@
  *  FILE:        Client/core/Core.cpp
  *  PURPOSE:     Core library entry point
  *
- *  Iran Multi Player is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 

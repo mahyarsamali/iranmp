@@ -5,7 +5,7 @@
  *  FILE:        Client/core/DXHook/CDirect3DHookManager.h
  *  PURPOSE:     Header file for Direct3D hook manager class
  *
- *  Iran Multi Player is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 

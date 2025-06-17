@@ -5,7 +5,7 @@
  *  FILE:        Server/mods/deathmatch/logic/CHandlingEntry.h
  *  PURPOSE:     Header file for vehicle handling data entry class
  *
- *  Iran Multi Player is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 

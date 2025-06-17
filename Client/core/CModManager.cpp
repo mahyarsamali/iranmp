@@ -5,7 +5,7 @@
  *  FILE:        Client/core/CModManager.cpp
  *  PURPOSE:     Game mod loading manager
  *
- *  Iran Multi Player is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 

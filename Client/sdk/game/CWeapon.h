@@ -5,7 +5,7 @@
  *  FILE:        sdk/game/CWeapon.h
  *  PURPOSE:     Weapon entity interface
  *
- *  Iran Multi Player is available from https://www.multitheftauto.com/
+ *  Iran Multi Player is available from https://www.ir-mp.ir/
  *
  *****************************************************************************/
 

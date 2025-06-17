@@ -5,7 +5,7 @@
  *  FILE:        core/CKeyBinds.cpp
  *  PURPOSE:     Core keybind manager
  *
- *  Iran Multi Player is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://ir-mp.ir/
  *
  *****************************************************************************/
 

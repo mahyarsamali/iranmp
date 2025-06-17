@@ -5,7 +5,7 @@
  *  FILE:        SharedUtil.Profiling.h
  *  PURPOSE:     Shared stuff which measures things
  *
- *  Iran Multi Player is available from http://www.multitheftauto.com/
+ *  Iran Multi Player is available from http://www.ir-mp.ir/
  *
  *****************************************************************************/
 #pragma once

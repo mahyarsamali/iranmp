@@ -5,7 +5,7 @@
  *  FILE:        Shared/sdk/net/packetenums.h
  *  PURPOSE:     Network packet enumerations
  *
- *  Iran Multi Player is available from http://www.multitheftauto.com/
+ *  Iran Multi Player is available from http://www.ir-mp.ir/
  *
  *****************************************************************************/
 
