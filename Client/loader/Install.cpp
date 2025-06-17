@@ -271,7 +271,7 @@ static bool TerminateFileLockingProcesses(const SString& absolutePath, const SSt
             nullptr,
             SString(_("The file '%s' is currently locked by %zu processes.\n\nDo you want to terminate the following processes and continue updating?\n\n%s"),
                     displayName.c_str(), processIds.size(), nameList.c_str()),
-            "MTA: San Andreas", MB_CANCELTRYCONTINUE | MB_ICONQUESTION | MB_TOPMOST);
+            "IRMP: San Andreas", MB_CANCELTRYCONTINUE | MB_ICONQUESTION | MB_TOPMOST);
 
         processIds = GetProcessListUsingFile(filePath);
 
@@ -479,7 +479,7 @@ static auto RunRollback(std::vector<InstallableFile>& files) -> size_t
                        SString(_("Your installation may be corrupt now.\n\n%zu out of %zu files could not be restored from the backup.\n\nYou should "
                                  "reinstall Iran Multi Player from www.ir-mp.ir\nor try running the update with administrator rights."),
                                disasterCounter, files.size()),
-                       "MTA: San Andreas", MB_OK | MB_ICONERROR | MB_TOPMOST);
+                       "IRMP: San Andreas", MB_OK | MB_ICONERROR | MB_TOPMOST);
 
         AddReportLog(5055, SString("RunRollback: Rollback failed for %zu out of %zu files", disasterCounter, files.size()));
         OutputDebugLine(SString("RunRollback: Rollback failed for %zu out of %zu files", disasterCounter, files.size()));
@@ -849,7 +849,7 @@ static int RunInstall()
 bool InstallFiles(bool showProgressWindow)
 {
     if (showProgressWindow)
-        StartPseudoProgress(g_hInstance, "MTA: San Andreas", _("Installing update..."));
+        StartPseudoProgress(g_hInstance, "IRMP: San Andreas", _("Installing update..."));
 
     bool success = false;
 
@@ -931,7 +931,7 @@ SString CheckOnRestartCommand()
 
             // Start progress bar
             if (!strParameters.Contains("hideprogress"))
-                StartPseudoProgress(g_hInstance, "MTA: San Andreas", _("Extracting files..."));
+                StartPseudoProgress(g_hInstance, "IRMP: San Andreas", _("Extracting files..."));
 
             // Try to extract the files
             bool success = ExtractFiles(strFile, /* withManifest */ true);

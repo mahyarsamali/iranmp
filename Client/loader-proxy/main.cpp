@@ -398,7 +398,7 @@ auto SetImportProcAddress(const char* moduleName, const char* procedureName, FAR
  */
 int DisplayMessageBox(const std::wstring& message, const std::wstring& errorCode, UINT flags)
 {
-    std::wstring caption = L"MTA: San Andreas  [" + errorCode + L"]   (CTRL+C to copy)";
+    std::wstring caption = L"IRMP: San Andreas  [" + errorCode + L"]   (CTRL+C to copy)";
     std::wstring extended = message;
     extended +=
         L"\n\nIf you are unable to resolve this issue on your own, "

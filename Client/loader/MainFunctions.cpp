@@ -207,10 +207,10 @@ void HandleDuplicateLaunching()
     {
         if (strcmp(lpCmdLine, "") != 0)
         {
-            HWND hwMTAWindow = FindWindow(NULL, "MTA: San Andreas");
+            HWND hwMTAWindow = FindWindow(NULL, "IRMP: San Andreas");
 #ifdef MTA_DEBUG
             if (hwMTAWindow == NULL)
-                hwMTAWindow = FindWindow(NULL, "MTA: San Andreas [DEBUG]");
+                hwMTAWindow = FindWindow(NULL, "IRMP: San Andreas [DEBUG]");
 #endif
             if (hwMTAWindow != NULL)
             {
@@ -292,7 +292,7 @@ void HandleTrouble()
 
 #if !defined(MTA_DEBUG) && MTASA_VERSION_TYPE != VERSION_TYPE_CUSTOM
     int iResponse = MessageBoxUTF8(NULL, _("Are you having problems running IRMP:SA?.\n\nDo you want to revert to an earlier version?"),
-                                   "MTA: San Andreas" + _E("CL07"), MB_YESNO | MB_ICONQUESTION | MB_TOPMOST);
+                                   "IRMP: San Andreas" + _E("CL07"), MB_YESNO | MB_ICONQUESTION | MB_TOPMOST);
     if (iResponse == IDYES)
     {
         BrowseToSolution("crashing-before-gtagame", TERMINATE_PROCESS);
@@ -323,7 +323,7 @@ void HandleResetSettings()
         int iResponse = MessageBoxUTF8(NULL,
                                        _("There seems to be a problem launching IRMP:SA.\nResetting GTA settings can sometimes fix this problem.\n\nDo you want "
                                          "to reset GTA settings now?"),
-                                       "MTA: San Andreas" + _E("CL08"), MB_YESNO | MB_ICONQUESTION | MB_TOPMOST);
+                                       "IRMP: San Andreas" + _E("CL08"), MB_YESNO | MB_ICONQUESTION | MB_TOPMOST);
         if (iResponse == IDYES)
         {
             FileDelete(strSettingsFilenameBak);
@@ -336,7 +336,7 @@ void HandleResetSettings()
             if (!FileExists(strSettingsFilename))
             {
                 AddReportLog(4053, "Deleted gta_sa.set");
-                MessageBoxUTF8(NULL, _("GTA settings have been reset.\n\nPress OK to continue."), "MTA: San Andreas", MB_OK | MB_ICONINFORMATION | MB_TOPMOST);
+                MessageBoxUTF8(NULL, _("GTA settings have been reset.\n\nPress OK to continue."), "IRMP: San Andreas", MB_OK | MB_ICONINFORMATION | MB_TOPMOST);
             }
             else
             {
@@ -349,7 +349,7 @@ void HandleResetSettings()
     else
     {
         // No settings to delete, or can't find them
-        int iResponse = MessageBoxUTF8(NULL, _("Are you having problems running IRMP:SA?.\n\nDo you want to see some online help?"), "MTA: San Andreas",
+        int iResponse = MessageBoxUTF8(NULL, _("Are you having problems running IRMP:SA?.\n\nDo you want to see some online help?"), "IRMP: San Andreas",
                                        MB_YESNO | MB_ICONQUESTION | MB_TOPMOST);
         if (iResponse == IDYES)
         {
@@ -388,7 +388,7 @@ void HandleNotUsedMainMenu()
                 SString strMessage = _("Are you having problems running IRMP:SA?.\n\nDo you want to change the following setting?");
                 strMessage += "\n" + _("Fullscreen mode:") + " -> " + _("Borderless window");
                 HideSplash();
-                int iResponse = MessageBoxUTF8(NULL, strMessage, "MTA: San Andreas", MB_YESNO | MB_ICONQUESTION | MB_TOPMOST);
+                int iResponse = MessageBoxUTF8(NULL, strMessage, "IRMP: San Andreas", MB_YESNO | MB_ICONQUESTION | MB_TOPMOST);
                 if (iResponse == IDYES)
                 {
                     // Very hacky way of changing in-game settings

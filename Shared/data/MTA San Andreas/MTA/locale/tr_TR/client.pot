@@ -77,8 +77,8 @@ msgid "Help"
 msgstr "Yardım"
 
 #: Client/loader/Dialogs.cpp:55
-msgid "MTA: San Andreas has encountered a problem"
-msgstr "MTA: San Andreas bir problemle karşılaştı"
+msgid "IRMP: San Andreas has encountered a problem"
+msgstr "IRMP: San Andreas bir problemle karşılaştı"
 
 #: Client/loader/Dialogs.cpp:56
 msgid "Crash information"
@@ -93,12 +93,12 @@ msgid "Doing so will increase the chance of this crash being fixed."
 msgstr "Bunu yapmak bu çökmenin onarılma ihtimalini arttırır."
 
 #: Client/loader/Dialogs.cpp:59
-msgid "Do you want to restart MTA: San Andreas ?"
-msgstr "MTA: San Andreas'ı yeniden başlatmak istiyor musunuz?"
+msgid "Do you want to restart IRMP: San Andreas ?"
+msgstr "IRMP: San Andreas'ı yeniden başlatmak istiyor musunuz?"
 
 #: Client/loader/Dialogs.cpp:66
-msgid "MTA: San Andreas - Warning"
-msgstr "MTA: San Andreas - Uyarı"
+msgid "IRMP: San Andreas - Warning"
+msgstr "IRMP: San Andreas - Uyarı"
 
 #: Client/loader/Dialogs.cpp:67
 msgid "Your Grand Theft Auto: San Andreas install directory contains these files:"
@@ -131,8 +131,8 @@ msgid "Play IRMP:SA"
 msgstr "IRMP:SA Oyna"
 
 #: Client/loader/Dialogs.cpp:81
-msgid "MTA: San Andreas - Confusing options"
-msgstr "MTA: San Andreas - Şaşırtıcı özellikler"
+msgid "IRMP: San Andreas - Confusing options"
+msgstr "IRMP: San Andreas - Şaşırtıcı özellikler"
 
 #: Client/loader/Dialogs.cpp:82
 msgid "NVidia Optimus detected!"
@@ -175,8 +175,8 @@ msgid "Don't show again"
 msgstr "Bir daha gösterme"
 
 #: Client/loader/Dialogs.cpp:98 Client/game_sa/CSettingsSA.cpp:859
-msgid "MTA: San Andreas"
-msgstr "MTA: San Andreas"
+msgid "IRMP: San Andreas"
+msgstr "IRMP: San Andreas"
 
 #: Client/loader/Dialogs.cpp:99
 msgid "Warning: Could not detect anti-virus product"

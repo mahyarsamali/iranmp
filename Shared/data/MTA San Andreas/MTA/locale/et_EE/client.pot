@@ -77,7 +77,7 @@ msgid "Help"
 msgstr "Abi"
 
 #: Client/loader/Dialogs.cpp:55
-msgid "MTA: San Andreas has encountered a problem"
+msgid "IRMP: San Andreas has encountered a problem"
 msgstr ""
 
 #: Client/loader/Dialogs.cpp:56
@@ -93,11 +93,11 @@ msgid "Doing so will increase the chance of this crash being fixed."
 msgstr ""
 
 #: Client/loader/Dialogs.cpp:59
-msgid "Do you want to restart MTA: San Andreas ?"
+msgid "Do you want to restart IRMP: San Andreas ?"
 msgstr ""
 
 #: Client/loader/Dialogs.cpp:66
-msgid "MTA: San Andreas - Warning"
+msgid "IRMP: San Andreas - Warning"
 msgstr ""
 
 #: Client/loader/Dialogs.cpp:67
@@ -130,7 +130,7 @@ msgid "Play IRMP:SA"
 msgstr ""
 
 #: Client/loader/Dialogs.cpp:81
-msgid "MTA: San Andreas - Confusing options"
+msgid "IRMP: San Andreas - Confusing options"
 msgstr ""
 
 #: Client/loader/Dialogs.cpp:82
@@ -174,7 +174,7 @@ msgid "Don't show again"
 msgstr ""
 
 #: Client/loader/Dialogs.cpp:98 Client/game_sa/CSettingsSA.cpp:859
-msgid "MTA: San Andreas"
+msgid "IRMP: San Andreas"
 msgstr ""
 
 #: Client/loader/Dialogs.cpp:99

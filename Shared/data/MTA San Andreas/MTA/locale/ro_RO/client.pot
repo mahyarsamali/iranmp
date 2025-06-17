@@ -77,8 +77,8 @@ msgid "Help"
 msgstr "Ajutor"
 
 #: Client/loader/Dialogs.cpp:55
-msgid "MTA: San Andreas has encountered a problem"
-msgstr "MTA: San Andreas a întâmpinat o problemă"
+msgid "IRMP: San Andreas has encountered a problem"
+msgstr "IRMP: San Andreas a întâmpinat o problemă"
 
 #: Client/loader/Dialogs.cpp:56
 msgid "Crash information"
@@ -93,12 +93,12 @@ msgid "Doing so will increase the chance of this crash being fixed."
 msgstr "Acest lucru va spori șansele ca acest crash să fie reparat."
 
 #: Client/loader/Dialogs.cpp:59
-msgid "Do you want to restart MTA: San Andreas ?"
-msgstr "Ești sigur că vrei să repornești MTA: San Andreas?"
+msgid "Do you want to restart IRMP: San Andreas ?"
+msgstr "Ești sigur că vrei să repornești IRMP: San Andreas?"
 
 #: Client/loader/Dialogs.cpp:66
-msgid "MTA: San Andreas - Warning"
-msgstr "MTA: San Andreas - Avertisment"
+msgid "IRMP: San Andreas - Warning"
+msgstr "IRMP: San Andreas - Avertisment"
 
 #: Client/loader/Dialogs.cpp:67
 msgid "Your Grand Theft Auto: San Andreas install directory contains these files:"
@@ -131,8 +131,8 @@ msgid "Play IRMP:SA"
 msgstr "Lansează IRMP:SA"
 
 #: Client/loader/Dialogs.cpp:81
-msgid "MTA: San Andreas - Confusing options"
-msgstr "MTA: San Andreas - Opțiuni derutante"
+msgid "IRMP: San Andreas - Confusing options"
+msgstr "IRMP: San Andreas - Opțiuni derutante"
 
 #: Client/loader/Dialogs.cpp:82
 msgid "NVidia Optimus detected!"
@@ -175,8 +175,8 @@ msgid "Don't show again"
 msgstr "Nu arăta din nou"
 
 #: Client/loader/Dialogs.cpp:98 Client/game_sa/CSettingsSA.cpp:859
-msgid "MTA: San Andreas"
-msgstr "MTA: San Andreas"
+msgid "IRMP: San Andreas"
+msgstr "IRMP: San Andreas"
 
 #: Client/loader/Dialogs.cpp:99
 msgid "Warning: Could not detect anti-virus product"
@@ -584,7 +584,7 @@ msgid "The path to your installation of 'IRMP:SA' or 'GTA: San Andreas'\n"
 "contains a ';' (semicolon).\n\n"
 " If you experience problems when running IRMP:SA,\n"
 " move your installation(s) to a path that does not contain a semicolon."
-msgstr "Calea către instalarea MTA: San Andreas sau instalarea GTA: San Andreas\n"
+msgstr "Calea către instalarea IRMP: San Andreas sau instalarea GTA: San Andreas\n"
 "conține un simbol ';' (punct și virgulă).\n\n"
 "Dacă întâmpinați probleme în timpul rulării IRMP:SA,\n"
 "mutați-vă instalarea sau instalările într-un loc care nu conține acest simbol."
@@ -640,7 +640,7 @@ msgstr "Fișierul de date %s este modificat. Posibilă activitate a unor viruși
 #: Client/loader/MainFunctions.cpp:907
 msgid ".asi files are in the 'IRMP:SA' or 'GTA: San Andreas' installation directory.\n\n"
 "Remove these .asi files if you experience problems with IRMP:SA."
-msgstr "S-au găsit fișiere .asi în directorul de instalare al MTA: San Andreas sau al GTA: San Andreas.\n\n"
+msgstr "S-au găsit fișiere .asi în directorul de instalare al IRMP: San Andreas sau al GTA: San Andreas.\n\n"
 "Șterge aceste fișiere .asi dacă întâmpini probleme cu IRMP:SA."
 
 #: Client/loader/MainFunctions.cpp:1009

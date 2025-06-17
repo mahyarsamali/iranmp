@@ -52,18 +52,18 @@ const SDialogItemInfo g_ProgressDialogItems[] = {
 };
 
 const SDialogItemInfo g_CrashedDialogItems[] = {
-    {0, 0, _td("MTA: San Andreas has encountered a problem")},
+    {0, 0, _td("IRMP: San Andreas has encountered a problem")},
     {IDC_CRASH_HEAD, 0, _td("Crash information")},
     {IDC_SEND_DUMP_CHECK, 0, _td("Tick the check box to send this crash info to MTA devs using the 'internet'")},
     {IDC_SEND_DESC_STATIC, 0, _td("Doing so will increase the chance of this crash being fixed.")},
-    {IDC_RESTART_QUESTION_STATIC, 1, _td("Do you want to restart MTA: San Andreas ?")},
+    {IDC_RESTART_QUESTION_STATIC, 1, _td("Do you want to restart IRMP: San Andreas ?")},
     {IDCANCEL, 0, dialogStringsNo},
     {IDOK, 0, dialogStringsYes},
     {-1},
 };
 
 const SDialogItemInfo g_GraphicsDllDialogItems[] = {
-    {0, 0, _td("MTA: San Andreas - Warning")},
+    {0, 0, _td("IRMP: San Andreas - Warning")},
     {IDC_D3DDLL_TEXT1, 0, _td("Your Grand Theft Auto: San Andreas install directory contains these files:")},
     {IDC_D3DDLL_TEXT2, 0,
      _td("These files are not required and may interfere with the graphical features in this version of IRMP:SA.\n\n"
@@ -78,7 +78,7 @@ const SDialogItemInfo g_GraphicsDllDialogItems[] = {
 };
 
 const SDialogItemInfo g_OptimusDialogItems[] = {
-    {0, 0, _td("MTA: San Andreas - Confusing options")},
+    {0, 0, _td("IRMP: San Andreas - Confusing options")},
     {IDC_OPTIMUS_TEXT1, 0, _td("NVidia Optimus detected!")},
     {IDC_OPTIMUS_TEXT2, 0, _td("Try each option and see what works:")},
     {IDC_RADIO1, 1, _td("A - Standard NVidia")},
@@ -95,7 +95,7 @@ const SDialogItemInfo g_OptimusDialogItems[] = {
 };
 
 const SDialogItemInfo g_NoAvDialogItems[] = {
-    {0, 0, _td("MTA: San Andreas")},
+    {0, 0, _td("IRMP: San Andreas")},
     {IDC_NOAV_TEXT1, 0, _td("Warning: Could not detect anti-virus product")},
     {IDC_NOAV_TEXT2, 0,
      _td("MTA could not detect an anti-virus on your PC.\n\n"
@@ -683,7 +683,7 @@ void TestDialogs()
     }
     HideProgressDialog();
 
-    ShowProgressDialog( g_hInstance, "MTA: San Andreas" );
+    ShowProgressDialog( g_hInstance, "IRMP: San Andreas" );
     for ( uint i = 0 ; i < 100 ; i++ )
     {
         UpdateProgress( i, 100, _("Installing update...") );
@@ -691,7 +691,7 @@ void TestDialogs()
     }
     HideProgressDialog();
 
-    ShowProgressDialog( g_hInstance, "MTA: San Andreas" );
+    ShowProgressDialog( g_hInstance, "IRMP: San Andreas" );
     for ( uint i = 0 ; i < 100 ; i++ )
     {
         UpdateProgress( i, 100, _("Extracting files..." ) );

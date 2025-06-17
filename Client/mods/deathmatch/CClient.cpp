@@ -33,7 +33,7 @@ int CClient::ClientInitialize(const char* szArguments, CCoreInterface* pCore)
     // Make public client test builds expire
     if (GetDaysUntilExpire() < -1)
     {
-        MessageBox(NULL, _("This version has expired."), "MTA: San Andreas " MTA_DM_BUILDTAG_LONG + _E("CD64"), MB_OK | MB_ICONEXCLAMATION | MB_TOPMOST);
+        MessageBox(NULL, _("This version has expired."), "IRMP: San Andreas " MTA_DM_BUILDTAG_LONG + _E("CD64"), MB_OK | MB_ICONEXCLAMATION | MB_TOPMOST);
         TerminateProcess(GetCurrentProcess(), 1);
     }
 #endif
