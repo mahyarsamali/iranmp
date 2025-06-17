@@ -829,7 +829,7 @@ HRESULT HandleCreateDeviceResult(HRESULT hResult, IDirect3D9* pDirect3D, UINT Ad
     {
         // Handle fatal error
         SString strMessage;
-        strMessage += "There was a problem starting MTA:SA\n\n";
+        strMessage += "There was a problem starting IRMP:SA\n\n";
         strMessage += SString("Direct3D CreateDevice error: %08x", hResult);
         BrowseToSolution("d3dcreatedevice-fail", EXIT_GAME_FIRST | ASK_GO_ONLINE, strMessage);
     }
@@ -1037,7 +1037,7 @@ HRESULT CCore::OnPostCreateDevice(HRESULT hResult, IDirect3D9* pDirect3D, UINT A
     {
         // Inform user
         SString strMessage;
-        strMessage += "There was a problem starting MTA:SA\n\n";
+        strMessage += "There was a problem starting IRMP:SA\n\n";
         strMessage += SString("Direct3D CreateDevice error: %08x", hResult);
         BrowseToSolution("d3dcreatedevice-fail", EXIT_GAME_FIRST | ASK_GO_ONLINE, strMessage);
     }

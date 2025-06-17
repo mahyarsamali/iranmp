@@ -19,17 +19,17 @@ msgstr ""
 
 #. GET_XPVISTA_PLEASE
 #: Shared/installer/nightly.nsi:205
-msgid "The version of MTA:SA you've downloaded does not support Windows XP or Vista.  Please download an alternative version from www.mtasa.com."
+msgid "The version of IRMP:SA you've downloaded does not support Windows XP or Vista.  Please download an alternative version from www.mtasa.com."
 msgstr "Η έκδοση του MTA: SA που έχετε κάνει λήψη δεν υποστηρίζει τα Windows XP ή Vista. Παρακαλώ κάντε λήψη μια εναλλακτική έκδοση από το www.mtasa.com."
 
 #. GET_WIN81_PLEASE
 #: Shared/installer/nightly.nsi:206
-msgid "The version of MTA:SA you've downloaded does not support Windows 7, 8 or 8.1.  Please download an alternative version from www.mtasa.com."
+msgid "The version of IRMP:SA you've downloaded does not support Windows 7, 8 or 8.1.  Please download an alternative version from www.mtasa.com."
 msgstr ""
 
 #. GET_MASTER_PLEASE
 #: Shared/installer/nightly.nsi:207
-msgid "The version of MTA:SA you've downloaded is designed for old versions of Windows.  Please download an alternative version from www.mtasa.com."
+msgid "The version of IRMP:SA you've downloaded is designed for old versions of Windows.  Please download an alternative version from www.mtasa.com."
 msgstr ""
 
 #. WELCOME_TEXT
@@ -57,12 +57,12 @@ msgstr "Grand Theft Auto: San Andreas φάκελος"
 #: Shared/installer/nightly.nsi:214
 msgid "Please select your Grand Theft Auto: San Andreas folder.$\n"
 "$\n"
-"You MUST have Grand Theft Auto: San Andreas 1.0 installed to use MTA:SA, it does not support any other versions.$\n"
+"You MUST have Grand Theft Auto: San Andreas 1.0 installed to use IRMP:SA, it does not support any other versions.$\n"
 "$\n"
 "Click Install to begin installing."
 msgstr "Παρακαλώ επιλέξτε τον φάκελο του Grand Theft Auto: San Andreas.$\n"
 "$\n"
-"ΠΡΕΠΕΙ να έχετε το Grand Theft Auto: San Andreas 1.0 εγκαταστημένο για να χρησιμοποιήσετε το MTA:SA, δεν υποστηρίζει άλλες εκδόσεις.$\n"
+"ΠΡΕΠΕΙ να έχετε το Grand Theft Auto: San Andreas 1.0 εγκαταστημένο για να χρησιμοποιήσετε το IRMP:SA, δεν υποστηρίζει άλλες εκδόσεις.$\n"
 "$\n"
 "Πατήστε Εγκατάσταση για να αρχίσετε την εγκατάσταση."
 
@@ -73,8 +73,8 @@ msgstr "Δημιουργήστε μια ομάδα στο μενού έναρξ�
 
 #. DESC_Section11
 #: Shared/installer/nightly.nsi:218
-msgid "Create a Desktop Shortcut for the MTA:SA Client."
-msgstr "Δημιουργήστε μια συντόμευση στην επιφάνεια εργασίας για το MTA:SA πρόγραμμα-πελάτης."
+msgid "Create a Desktop Shortcut for the IRMP:SA Client."
+msgstr "Δημιουργήστε μια συντόμευση στην επιφάνεια εργασίας για το IRMP:SA πρόγραμμα-πελάτης."
 
 #. DESC_Section12
 #: Shared/installer/nightly.nsi:219
@@ -98,8 +98,8 @@ msgstr "Τα βασικά στοιχεία απαιτούνται για να τ
 
 #. DESC_Section2
 #: Shared/installer/nightly.nsi:223
-msgid "The MTA:SA modification, allowing you to play online."
-msgstr "Το MTA:SA, σε αφήνει να παίζεις στο διαδίκτυο."
+msgid "The IRMP:SA modification, allowing you to play online."
+msgstr "Το IRMP:SA, σε αφήνει να παίζεις στο διαδίκτυο."
 
 #. DESC_SectionGroupServer
 #: Shared/installer/nightly.nsi:226
@@ -113,8 +113,8 @@ msgstr "Ο διακομιστής του Iran Multi Player. Αυτό είναι 
 
 #. DESC_Section5
 #: Shared/installer/nightly.nsi:228
-msgid "The MTA:SA modification for the server."
-msgstr "Η MTA:SA μετατροπή για τον διακομιστή."
+msgid "The IRMP:SA modification for the server."
+msgstr "Η IRMP:SA μετατροπή για τον διακομιστή."
 
 #. DESC_Section6
 #: Shared/installer/nightly.nsi:229
@@ -128,8 +128,8 @@ msgstr "Αυτή είναι μία ομάδα προαιρετικών τύπω�
 
 #. DESC_Section8
 #: Shared/installer/nightly.nsi:231
-msgid "The MTA:SA 1.0 Map Editor.  This can be used to create your very own maps for use in gamemodes for MTA."
-msgstr "Ο MTA:SA 1.0 Επεξεργαστής Χάρτη. Αυτό μπορεί να χρησιμοποιηθεί για την δημιουργία δικών σου χαρτών για την χρήση τους σε τύπους παιχνιδιών του MTA."
+msgid "The IRMP:SA 1.0 Map Editor.  This can be used to create your very own maps for use in gamemodes for MTA."
+msgstr "Ο IRMP:SA 1.0 Επεξεργαστής Χάρτη. Αυτό μπορεί να χρησιμοποιηθεί για την δημιουργία δικών σου χαρτών για την χρήση τους σε τύπους παιχνιδιών του MTA."
 
 #. DESC_Section9
 #: Shared/installer/nightly.nsi:232
@@ -258,10 +258,10 @@ msgstr "Είσαι σίγουρος ότι θες να αφαιρέσεις εν
 #. UNINST_REQUEST_NOTE
 #: Shared/installer/nightly.nsi:1050
 msgid "Uninstalling before update?$\\r$\n"
-"It is not necessary to uninstall before installing a new version of MTA:SA$\\r$\n"
+"It is not necessary to uninstall before installing a new version of IRMP:SA$\\r$\n"
 "Run the new installer to upgrade and preserve your settings."
 msgstr "Απεγκατάσταση πριν την ενημέρωση;$\\r$\n"
-"Δεν είναι απαραίτητη η απεγκατάσταση πριν την εγκατάσταση μιας νεότερης έκδοσης του MTA:SA$\\r$\n"
+"Δεν είναι απαραίτητη η απεγκατάσταση πριν την εγκατάσταση μιας νεότερης έκδοσης του IRMP:SA$\\r$\n"
 "Τρέξτε το νέο πρόγραμμα εγκατάστασης για την αναβάθμιση και την διατήρηση των ρυθμίσεων σας."
 
 #. UNINST_DATA_REQUEST

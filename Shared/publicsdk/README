@@ -21,7 +21,7 @@
     In order to install your module, first make sure it compiles correctly and
     verify that it can be executed. When using external library dependencies
     in the form of a shared library (.so or .dll file) you will have to place
-    the library inside the directory of the MTA:SA DM server executable.
+    the library inside the directory of the IRMP:SA DM server executable.
 
     To load your module at server initialisation, use the module configuration
     tag syntax as specified in your mtaserver.conf file:

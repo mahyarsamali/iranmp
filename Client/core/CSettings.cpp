@@ -4726,7 +4726,7 @@ bool CSettings::OnDPIAwareClick(CGUIElement* pElement)
 
         SStringX strMessage(
             _("Enabling DPI awareness is an experimental feature and\n"
-              "we only recommend it when you play MTA:SA on a scaled monitor.\n"
+              "we only recommend it when you play IRMP:SA on a scaled monitor.\n"
               "You may experience graphical issues if you enable this option."
               "\n\nAre you sure you want to enable this option?"));
         CQuestionBox* pQuestionBox = CCore::GetSingleton().GetLocalGUI()->GetMainMenu()->GetQuestionWindow();

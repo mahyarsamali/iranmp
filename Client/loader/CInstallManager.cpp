@@ -358,7 +358,7 @@ SString CInstallManager::_ChangeToAdmin()
     if (!IsUserAdmin())
     {
         MessageBoxUTF8(
-            NULL, SString(_("MTA:SA needs Administrator access for the following task:\n\n  '%s'\n\nPlease confirm in the next window."), *m_strAdminReason),
+            NULL, SString(_("IRMP:SA needs Administrator access for the following task:\n\n  '%s'\n\nPlease confirm in the next window."), *m_strAdminReason),
             "Iran Multi Player: San Andreas", MB_OK | MB_ICONINFORMATION | MB_TOPMOST);
         SetIsBlockingUserProcess();
         ReleaseSingleInstanceMutex();
@@ -373,7 +373,7 @@ SString CInstallManager::_ChangeToAdmin()
         }
         CreateSingleInstanceMutex();
         ClearIsBlockingUserProcess();
-        MessageBoxUTF8(NULL, SString(_("MTA:SA could not complete the following task:\n\n  '%s'\n"), *m_strAdminReason),
+        MessageBoxUTF8(NULL, SString(_("IRMP:SA could not complete the following task:\n\n  '%s'\n"), *m_strAdminReason),
                        "Iran Multi Player: San Andreas" + _E("CL01"), MB_OK | MB_ICONWARNING | MB_TOPMOST);
     }
     return "fail";
@@ -529,7 +529,7 @@ SString CInstallManager::_InstallFiles()
         else
             AddReportLog(5049, SString("_InstallFiles: Couldn't install files %s", ""));
 
-        m_strAdminReason = _("Install updated MTA:SA files");
+        m_strAdminReason = _("Install updated IRMP:SA files");
         return "fail";
     }
     else
@@ -654,13 +654,13 @@ SString CInstallManager::_PrepareLaunchLocation()
             {
                 if (fs::is_regular_file(sourcePath, ec))
                 {
-                    SString strMessage(_("MTA:SA cannot launch because copying a file failed:"));
+                    SString strMessage(_("IRMP:SA cannot launch because copying a file failed:"));
                     strMessage += "\n\n" + targetPath.u8string();
                     BrowseToSolution("copy-files", ASK_GO_ONLINE, strMessage);
                 }
                 else
                 {
-                    SString strMessage(_("MTA:SA cannot launch because an MTA:SA file is incorrect or missing:"));
+                    SString strMessage(_("IRMP:SA cannot launch because an IRMP:SA file is incorrect or missing:"));
                     strMessage += "\n\n" + sourcePath.u8string();
                     BrowseToSolution("mta-datafiles-missing", ASK_GO_ONLINE, strMessage);
                 }
@@ -669,7 +669,7 @@ SString CInstallManager::_PrepareLaunchLocation()
             }
             else
             {
-                m_strAdminReason = _("Copy MTA:SA files");
+                m_strAdminReason = _("Copy IRMP:SA files");
                 return "fail";
             }
         }
@@ -692,7 +692,7 @@ SString CInstallManager::_ProcessGtaPatchCheck()
 
     if (!FileGenerator::IsPatchBase(patchBasePath))
     {
-        SString strMessage(_("MTA:SA cannot launch because a GTA:SA file is incorrect or missing:"));
+        SString strMessage(_("IRMP:SA cannot launch because a GTA:SA file is incorrect or missing:"));
         strMessage += "\n\n" + patchBasePath.u8string();
         BrowseToSolution("gengta_pakfiles", ASK_GO_ONLINE, strMessage);
         return "quit";
@@ -700,7 +700,7 @@ SString CInstallManager::_ProcessGtaPatchCheck()
 
     if (!FileGenerator::IsPatchDiff(patchDiffPath))
     {
-        SString strMessage(_("MTA:SA cannot launch because an MTA:SA file is incorrect or missing:"));
+        SString strMessage(_("IRMP:SA cannot launch because an IRMP:SA file is incorrect or missing:"));
         strMessage += "\n\n" + patchDiffPath.u8string();
         BrowseToSolution("mta-datafiles-missing", ASK_GO_ONLINE, strMessage);
         return "quit";
@@ -770,7 +770,7 @@ SString CInstallManager::_ProcessGtaDllCheck()
 
         if (isAdmin)
         {
-            SString strMessage(_("MTA:SA cannot launch because a GTA:SA file is incorrect or missing:"));
+            SString strMessage(_("IRMP:SA cannot launch because a GTA:SA file is incorrect or missing:"));
             strMessage += "\n\n" + dependecyPath.u8string();
             BrowseToSolution(SString("gendep_error&name=%s", dependency.fileName), ASK_GO_ONLINE, strMessage);
             return "quit";
@@ -825,11 +825,11 @@ SString CInstallManager::_ProcessGtaVersionCheck()
 
             if (isAdmin)
             {
-                SString strMessage(_("MTA:SA cannot launch because the GTA:SA executable is incorrect or missing:"));
+                SString strMessage(_("IRMP:SA cannot launch because the GTA:SA executable is incorrect or missing:"));
                 strMessage += "\n\n" + gtaExePath.u8string();
                 strMessage +=
                     "\n\n" +
-                    _("Please check your anti-virus for a false-positive detection, try to add an exception for the GTA:SA executable and restart MTA:SA.");
+                    _("Please check your anti-virus for a false-positive detection, try to add an exception for the GTA:SA executable and restart IRMP:SA.");
                 BrowseToSolution(SString("gengta_error&code=%d", ec.value()), ASK_GO_ONLINE, strMessage);
                 return "quit";
             }
@@ -850,7 +850,7 @@ SString CInstallManager::_ProcessGtaVersionCheck()
 
             if (isAdmin)
             {
-                SString strMessage(_("MTA:SA cannot launch because the GTA:SA executable is not loadable:"));
+                SString strMessage(_("IRMP:SA cannot launch because the GTA:SA executable is not loadable:"));
                 strMessage += "\n\n" + gtaExePath.u8string();
                 BrowseToSolution(SString("gengta_error&code=%d", ec.value()), ASK_GO_ONLINE, strMessage);
                 return "quit";
@@ -873,7 +873,7 @@ SString CInstallManager::_ProcessGtaVersionCheck()
 
         if (isAdmin)
         {
-            SString strMessage(_("MTA:SA cannot launch because patching GTA:SA has failed:"));
+            SString strMessage(_("IRMP:SA cannot launch because patching GTA:SA has failed:"));
             strMessage += "\n\n" + gtaExePath.u8string();
             BrowseToSolution(SString("patchgta_error&code=%d", ec.value()), ASK_GO_ONLINE, strMessage);
             return "quit";
@@ -1054,7 +1054,7 @@ SString CInstallManager::_ProcessLayoutChecks()
     SString strDriveWithNoSpace = GetDriveNameWithNotEnoughSpace();
     if (!strDriveWithNoSpace.empty())
     {
-        SString strMessage(_("MTA:SA cannot continue because drive %s does not have enough space."), *strDriveWithNoSpace.Left(1));
+        SString strMessage(_("IRMP:SA cannot continue because drive %s does not have enough space."), *strDriveWithNoSpace.Left(1));
         BrowseToSolution(SString("low-disk-space&drive=%s", *strDriveWithNoSpace), ASK_GO_ONLINE | TERMINATE_PROCESS, strMessage);
     }
 

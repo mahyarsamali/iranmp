@@ -19,17 +19,17 @@ msgstr ""
 
 #. GET_XPVISTA_PLEASE
 #: Shared/installer/nightly.nsi:205
-msgid "The version of MTA:SA you've downloaded does not support Windows XP or Vista.  Please download an alternative version from www.mtasa.com."
+msgid "The version of IRMP:SA you've downloaded does not support Windows XP or Vista.  Please download an alternative version from www.mtasa.com."
 msgstr "Verzija preuzete MTA: SA ne podržava Windows XP ili Vista. Preuzmite alternativnu verziju s www.mtasa.com."
 
 #. GET_WIN81_PLEASE
 #: Shared/installer/nightly.nsi:206
-msgid "The version of MTA:SA you've downloaded does not support Windows 7, 8 or 8.1.  Please download an alternative version from www.mtasa.com."
+msgid "The version of IRMP:SA you've downloaded does not support Windows 7, 8 or 8.1.  Please download an alternative version from www.mtasa.com."
 msgstr ""
 
 #. GET_MASTER_PLEASE
 #: Shared/installer/nightly.nsi:207
-msgid "The version of MTA:SA you've downloaded is designed for old versions of Windows.  Please download an alternative version from www.mtasa.com."
+msgid "The version of IRMP:SA you've downloaded is designed for old versions of Windows.  Please download an alternative version from www.mtasa.com."
 msgstr ""
 
 #. WELCOME_TEXT
@@ -57,12 +57,12 @@ msgstr "Grand Theft Auto: San Andreas datoteka"
 #: Shared/installer/nightly.nsi:214
 msgid "Please select your Grand Theft Auto: San Andreas folder.$\n"
 "$\n"
-"You MUST have Grand Theft Auto: San Andreas 1.0 installed to use MTA:SA, it does not support any other versions.$\n"
+"You MUST have Grand Theft Auto: San Andreas 1.0 installed to use IRMP:SA, it does not support any other versions.$\n"
 "$\n"
 "Click Install to begin installing."
 msgstr "Molimo izaberite direktorij gdje je Grand Theft Auto: San Andreas instaliran.$\n"
 "$\n"
-"MORATE imati Grand Theft Auto: San Andreas 1.0 instaliran da biste koristili MTA:SA, druge verzije nisu podržane.$\n"
+"MORATE imati Grand Theft Auto: San Andreas 1.0 instaliran da biste koristili IRMP:SA, druge verzije nisu podržane.$\n"
 "$\n"
 "Pritisnite Instaliraj da započnete instalaciju."
 
@@ -73,8 +73,8 @@ msgstr "Stvori Start Menu grupu za instalirane aplikacije"
 
 #. DESC_Section11
 #: Shared/installer/nightly.nsi:218
-msgid "Create a Desktop Shortcut for the MTA:SA Client."
-msgstr "Stvori Desktop prečac za MTA:SA klijent."
+msgid "Create a Desktop Shortcut for the IRMP:SA Client."
+msgstr "Stvori Desktop prečac za IRMP:SA klijent."
 
 #. DESC_Section12
 #: Shared/installer/nightly.nsi:219
@@ -98,8 +98,8 @@ msgstr "Osnovne komponente potrebne za pokretanje Iran Multi Player-a."
 
 #. DESC_Section2
 #: Shared/installer/nightly.nsi:223
-msgid "The MTA:SA modification, allowing you to play online."
-msgstr "MTA:SA modifikacija, omogućava vam igranje na mreži."
+msgid "The IRMP:SA modification, allowing you to play online."
+msgstr "IRMP:SA modifikacija, omogućava vam igranje na mreži."
 
 #. DESC_SectionGroupServer
 #: Shared/installer/nightly.nsi:226
@@ -113,8 +113,8 @@ msgstr "Iran Multi Player server. Potrebna komponenta."
 
 #. DESC_Section5
 #: Shared/installer/nightly.nsi:228
-msgid "The MTA:SA modification for the server."
-msgstr "MTA:SA modifikacija za server."
+msgid "The IRMP:SA modification for the server."
+msgstr "IRMP:SA modifikacija za server."
 
 #. DESC_Section6
 #: Shared/installer/nightly.nsi:229
@@ -128,8 +128,8 @@ msgstr "Ovo je neobavezan set igara i mapa za tvoj server."
 
 #. DESC_Section8
 #: Shared/installer/nightly.nsi:231
-msgid "The MTA:SA 1.0 Map Editor.  This can be used to create your very own maps for use in gamemodes for MTA."
-msgstr "MTA:SA 1.0 Uređivač Mapa. Ovo može biti korisno za izradu vlastitih mapa za korištenje u MTA serverima."
+msgid "The IRMP:SA 1.0 Map Editor.  This can be used to create your very own maps for use in gamemodes for MTA."
+msgstr "IRMP:SA 1.0 Uređivač Mapa. Ovo može biti korisno za izradu vlastitih mapa za korištenje u MTA serverima."
 
 #. DESC_Section9
 #: Shared/installer/nightly.nsi:232
@@ -258,10 +258,10 @@ msgstr "Jeste li sigurni da želite u potpunosti ukloniti $(^Name) i sve njegove
 #. UNINST_REQUEST_NOTE
 #: Shared/installer/nightly.nsi:1050
 msgid "Uninstalling before update?$\\r$\n"
-"It is not necessary to uninstall before installing a new version of MTA:SA$\\r$\n"
+"It is not necessary to uninstall before installing a new version of IRMP:SA$\\r$\n"
 "Run the new installer to upgrade and preserve your settings."
 msgstr "De-instalacija prije ažuriranja?$\\r$\n"
-"Nije potrebno de-instalirati prije instalacije nove verzije MTA:SA$\\r$\n"
+"Nije potrebno de-instalirati prije instalacije nove verzije IRMP:SA$\\r$\n"
 "Pokrenite novi installer da biste ažurirali i sačuvali svoje postavke."
 
 #. UNINST_DATA_REQUEST

@@ -19,17 +19,17 @@ msgstr ""
 
 #. GET_XPVISTA_PLEASE
 #: Shared/installer/nightly.nsi:205
-msgid "The version of MTA:SA you've downloaded does not support Windows XP or Vista.  Please download an alternative version from www.mtasa.com."
-msgstr "Phiên bản MTA:SA này không hỗ trợ Windows XP và Vista. Truy cập vào trang www.mtasa.com hoặc mtasa.vn để tải về phiên bản phù hợp với máy tính của bạn."
+msgid "The version of IRMP:SA you've downloaded does not support Windows XP or Vista.  Please download an alternative version from www.mtasa.com."
+msgstr "Phiên bản IRMP:SA này không hỗ trợ Windows XP và Vista. Truy cập vào trang www.mtasa.com hoặc mtasa.vn để tải về phiên bản phù hợp với máy tính của bạn."
 
 #. GET_WIN81_PLEASE
 #: Shared/installer/nightly.nsi:206
-msgid "The version of MTA:SA you've downloaded does not support Windows 7, 8 or 8.1.  Please download an alternative version from www.mtasa.com."
+msgid "The version of IRMP:SA you've downloaded does not support Windows 7, 8 or 8.1.  Please download an alternative version from www.mtasa.com."
 msgstr ""
 
 #. GET_MASTER_PLEASE
 #: Shared/installer/nightly.nsi:207
-msgid "The version of MTA:SA you've downloaded is designed for old versions of Windows.  Please download an alternative version from www.mtasa.com."
+msgid "The version of IRMP:SA you've downloaded is designed for old versions of Windows.  Please download an alternative version from www.mtasa.com."
 msgstr ""
 
 #. WELCOME_TEXT
@@ -57,12 +57,12 @@ msgstr "Thư mục đã cài Grand Theft Auto: San Andreas"
 #: Shared/installer/nightly.nsi:214
 msgid "Please select your Grand Theft Auto: San Andreas folder.$\n"
 "$\n"
-"You MUST have Grand Theft Auto: San Andreas 1.0 installed to use MTA:SA, it does not support any other versions.$\n"
+"You MUST have Grand Theft Auto: San Andreas 1.0 installed to use IRMP:SA, it does not support any other versions.$\n"
 "$\n"
 "Click Install to begin installing."
 msgstr "Hãy chọn thư mục chứa game Grand Theft Auto: San Andreas.$\n"
 "$\n"
-"Để có thể chơi được MTA:SA thì bạn PHẢI có game Grand Theft Auto: San Andreas phiên bản 1.0 sẵn trong máy tính, ngoài ra MTA:SA sẽ không hỗ trợ phiên bản khác.$\n"
+"Để có thể chơi được IRMP:SA thì bạn PHẢI có game Grand Theft Auto: San Andreas phiên bản 1.0 sẵn trong máy tính, ngoài ra IRMP:SA sẽ không hỗ trợ phiên bản khác.$\n"
 "$\n"
 "Chọn \"Install\" để bắt đầu cài đặt."
 
@@ -73,8 +73,8 @@ msgstr "Tạo nhóm mục ở Start Menu cho các phần mềm đã được cà
 
 #. DESC_Section11
 #: Shared/installer/nightly.nsi:218
-msgid "Create a Desktop Shortcut for the MTA:SA Client."
-msgstr "Tạo icon MTA:SA ngoài Desktop"
+msgid "Create a Desktop Shortcut for the IRMP:SA Client."
+msgstr "Tạo icon IRMP:SA ngoài Desktop"
 
 #. DESC_Section12
 #: Shared/installer/nightly.nsi:219
@@ -98,13 +98,13 @@ msgstr "Các thành phần lõi cần thiết để chạy Iran Multi Player."
 
 #. DESC_Section2
 #: Shared/installer/nightly.nsi:223
-msgid "The MTA:SA modification, allowing you to play online."
-msgstr "The MTA:SA modification, cho phép bạn chơi trực tuyến."
+msgid "The IRMP:SA modification, allowing you to play online."
+msgstr "The IRMP:SA modification, cho phép bạn chơi trực tuyến."
 
 #. DESC_SectionGroupServer
 #: Shared/installer/nightly.nsi:226
 msgid "The Iran Multi Player Server. This allows you to host games from your computer. This requires a fast internet connection."
-msgstr "The Iran Multi Player Server. Cho phép bạn tự tạo server MTA:SA từ chính máy tính của bạn. Cần có đường truyền mạng nhanh."
+msgstr "The Iran Multi Player Server. Cho phép bạn tự tạo server IRMP:SA từ chính máy tính của bạn. Cần có đường truyền mạng nhanh."
 
 #. DESC_Section4
 #: Shared/installer/nightly.nsi:227
@@ -113,8 +113,8 @@ msgstr "The Iran Multi Player server. Đây là thành phần cần thiết."
 
 #. DESC_Section5
 #: Shared/installer/nightly.nsi:228
-msgid "The MTA:SA modification for the server."
-msgstr "Phiên bản MTA:SA modification cho server"
+msgid "The IRMP:SA modification for the server."
+msgstr "Phiên bản IRMP:SA modification cho server"
 
 #. DESC_Section6
 #: Shared/installer/nightly.nsi:229
@@ -128,8 +128,8 @@ msgstr "Đây là một bộ tùy chọn chế độ (gamemodes) và bản đồ
 
 #. DESC_Section8
 #: Shared/installer/nightly.nsi:231
-msgid "The MTA:SA 1.0 Map Editor.  This can be used to create your very own maps for use in gamemodes for MTA."
-msgstr "The MTA:SA 1.0 Map Editor.  Được sử dụng để bạn có thể tạo bản đồ tùy thích sử dụng trong các chế độ chơi cho MTA."
+msgid "The IRMP:SA 1.0 Map Editor.  This can be used to create your very own maps for use in gamemodes for MTA."
+msgstr "The IRMP:SA 1.0 Map Editor.  Được sử dụng để bạn có thể tạo bản đồ tùy thích sử dụng trong các chế độ chơi cho MTA."
 
 #. DESC_Section9
 #: Shared/installer/nightly.nsi:232
@@ -258,10 +258,10 @@ msgstr "Bạn có muốn xóa hoàn toàn $(^Name) và tất cả các thành ph
 #. UNINST_REQUEST_NOTE
 #: Shared/installer/nightly.nsi:1050
 msgid "Uninstalling before update?$\\r$\n"
-"It is not necessary to uninstall before installing a new version of MTA:SA$\\r$\n"
+"It is not necessary to uninstall before installing a new version of IRMP:SA$\\r$\n"
 "Run the new installer to upgrade and preserve your settings."
 msgstr "Gỡ bỏ trước khi cập nhật?$\\r$\n"
-"Bạn không cần thiết phải gỡ bỏ MTA:SA cũ trước khi cài đặt phiên bản MTA:SA mới$\\r$\n"
+"Bạn không cần thiết phải gỡ bỏ IRMP:SA cũ trước khi cài đặt phiên bản IRMP:SA mới$\\r$\n"
 "Chạy file cài đặt để nâng cấp và sao lưu các tùy chọn của bạn."
 
 #. UNINST_DATA_REQUEST

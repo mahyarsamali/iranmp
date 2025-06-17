@@ -145,6 +145,7 @@ CMainMenu::CMainMenu(CGUI* pManager)
     m_pBackground->SetVisible(false);
 
     // Containter image
+    /*
     m_pContainer = reinterpret_cast<CGUIStaticImage*>(pManager->CreateStaticImage());
     m_pContainer->LoadFromFile(CORE_MTA_CONTAINER);
     m_pContainer->SetProperty("InheritsAlpha", "False");
@@ -157,6 +158,7 @@ CMainMenu::CMainMenu(CGUI* pManager)
     m_pContainer->SetVisible(false);
 
     // Copyright text
+    
     m_pCopyRight = reinterpret_cast<CGUIStaticImage*>(pManager->CreateStaticImage());
     m_pCopyRight->LoadFromFile(CORE_MTA_COPYRIGHT);
     m_pCopyRight->SetProperty("InheritsAlpha", "False");
@@ -167,6 +169,7 @@ CMainMenu::CMainMenu(CGUI* pManager)
     m_pCopyRight->MoveToBack();
     m_pCopyRight->SetAlpha(0);
     m_pCopyRight->SetVisible(false);
+    */
 
     m_pFiller2 = reinterpret_cast<CGUIStaticImage*>(pManager->CreateStaticImage());
     m_pFiller2->LoadFromFile(CORE_MTA_FILLER);
@@ -214,12 +217,12 @@ CMainMenu::CMainMenu(CGUI* pManager)
     // Filepath, Relative position, absolute native size
     // And the font for the graphics is ?
     m_menuItems.push_back(CreateItem(MENU_ITEM_QUICK_CONNECT, "menu_quick_connect.png", CVector2D(CORE_MTA_MENUITEMS_START_X, fBase + fGap * 0)));
-    m_menuItems.push_back(CreateItem(MENU_ITEM_BROWSE_SERVERS, "menu_browse_servers.png", CVector2D(CORE_MTA_MENUITEMS_START_X, fBase + fGap * 1)));
+    //m_menuItems.push_back(CreateItem(MENU_ITEM_BROWSE_SERVERS, "menu_browse_servers.png", CVector2D(CORE_MTA_MENUITEMS_START_X, fBase + fGap * 1)));
     // m_menuItems.push_back(CreateItem(MENU_ITEM_HOST_GAME, "menu_host_game.png", CVector2D(0.168f, fBase + fGap * 2)));
     // m_menuItems.push_back(CreateItem(MENU_ITEM_MAP_EDITOR, "menu_map_editor.png", CVector2D(0.168f, fBase + fGap * 3)));
-    m_menuItems.push_back(CreateItem(MENU_ITEM_SETTINGS, "menu_settings.png", CVector2D(CORE_MTA_MENUITEMS_START_X, fBase + fGap * 2)));
+    //m_menuItems.push_back(CreateItem(MENU_ITEM_SETTINGS, "menu_settings.png", CVector2D(CORE_MTA_MENUITEMS_START_X, fBase + fGap * 2)));
     // m_menuItems.push_back(CreateItem(MENU_ITEM_ABOUT, "menu_about.png", CVector2D(0.168f, fBase + fGap * 5)));
-    m_menuItems.push_back(CreateItem(MENU_ITEM_QUIT, "menu_quit.png", CVector2D(CORE_MTA_MENUITEMS_START_X, fBase + fGap * 3)));
+    m_menuItems.push_back(CreateItem(MENU_ITEM_QUIT, "menu_quit.png", CVector2D(CORE_MTA_MENUITEMS_START_X, fBase + fGap * 1)));
 
     // We store the position of the top item, and the second item.  These will be useful later
     float fFirstItemSize = m_menuItems.front()->image->GetSize(false).fY;
@@ -479,8 +482,8 @@ CMainMenu::~CMainMenu()
 {
     // Destroy GUI items
     delete m_pBackground;
-    delete m_pContainer;
-    delete m_pCopyRight;
+    //delete m_pContainer;
+    //delete m_pCopyRight;
     delete m_pCanvas;
     delete m_pFiller;
     delete m_pFiller2;
@@ -569,8 +572,8 @@ void CMainMenu::Update()
         m_pFiller->SetVisible(false);
         m_pFiller2->SetVisible(false);
         m_pBackground->SetVisible(false);
-        m_pContainer->SetVisible(false);
-        m_pCopyRight->SetVisible(false);
+        //m_pContainer->SetVisible(false);
+        //m_pCopyRight->SetVisible(false);
         m_bHideGame = false;
     }
 
@@ -727,8 +730,8 @@ void CMainMenu::Update()
         m_pFiller2->SetAlpha(Clamp<float>(0.f, m_fFader, CORE_MTA_BG_MAX_ALPHA));
         m_pCanvas->SetAlpha(Clamp<float>(0.f, m_fFader, CORE_MTA_BG_MAX_ALPHA));
         m_pBackground->SetAlpha(Clamp<float>(0.f, m_fFader, CORE_MTA_BG_MAX_ALPHA));
-        m_pContainer->SetAlpha(Clamp<float>(0.f, m_fFader, CORE_MTA_BG_MAX_ALPHA));
-        m_pCopyRight->SetAlpha(Clamp<float>(0.f, m_fFader, CORE_MTA_BG_MAX_ALPHA));
+        //m_pContainer->SetAlpha(Clamp<float>(0.f, m_fFader, CORE_MTA_BG_MAX_ALPHA));
+        //m_pCopyRight->SetAlpha(Clamp<float>(0.f, m_fFader, CORE_MTA_BG_MAX_ALPHA));
 
         if (m_fFader > 0.0f)
         {
@@ -763,8 +766,8 @@ void CMainMenu::Update()
         m_pFiller2->SetAlpha(Clamp(0.f, m_fFader, CORE_MTA_BG_MAX_ALPHA));
         m_pCanvas->SetAlpha(Clamp(0.f, m_fFader, CORE_MTA_BG_MAX_ALPHA));
         m_pBackground->SetAlpha(Clamp(0.f, m_fFader, CORE_MTA_BG_MAX_ALPHA));
-        m_pContainer->SetAlpha(Clamp(0.f, m_fFader, CORE_MTA_BG_MAX_ALPHA));
-        m_pCopyRight->SetAlpha(Clamp(0.f, m_fFader, CORE_MTA_BG_MAX_ALPHA));
+        //m_pContainer->SetAlpha(Clamp(0.f, m_fFader, CORE_MTA_BG_MAX_ALPHA));
+        //m_pCopyRight->SetAlpha(Clamp(0.f, m_fFader, CORE_MTA_BG_MAX_ALPHA));
 
         if (m_fFader < 1.0f)
         {
@@ -784,8 +787,8 @@ void CMainMenu::Update()
             m_pFiller2->SetVisible(false);
             m_pCanvas->SetVisible(false);
             m_pBackground->SetVisible(false);
-            m_pContainer->SetVisible(false);
-            m_pCopyRight->SetVisible(false);
+            //m_pContainer->SetVisible(false);
+            //m_pCopyRight->SetVisible(false);
         }
     }
 
@@ -945,8 +948,8 @@ void CMainMenu::SetVisible(bool bVisible, bool bOverlay, bool bFrameDelay)
         m_pFiller2->SetVisible(true);
         m_pCanvas->SetVisible(true);
         m_pBackground->SetVisible(true);
-        m_pContainer->SetVisible(true);
-        m_pCopyRight->SetVisible(true);
+        //m_pContainer->SetVisible(true);
+        //m_pCopyRight->SetVisible(true);
     }
 
     m_bHideGame = !bOverlay;

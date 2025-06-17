@@ -105,7 +105,7 @@ msgid "Your Grand Theft Auto: San Andreas install directory contains these files
 msgstr ""
 
 #: Client/loader/Dialogs.cpp:69
-msgid "These files are not required and may interfere with the graphical features in this version of MTA:SA.\n\n"
+msgid "These files are not required and may interfere with the graphical features in this version of IRMP:SA.\n\n"
 "It is recommended that you remove or rename these files."
 msgstr ""
 
@@ -126,8 +126,8 @@ msgid "Show me these files"
 msgstr ""
 
 #: Client/loader/Dialogs.cpp:75
-msgid "Play MTA:SA"
-msgstr "Spill MTA:SA"
+msgid "Play IRMP:SA"
+msgstr "Spill IRMP:SA"
 
 #: Client/loader/Dialogs.cpp:81
 msgid "MTA: San Andreas - Confusing options"
@@ -252,10 +252,10 @@ msgstr "Velg din Grand Theft Auto: San Andreas Installasjons Mappe"
 
 #: Client/loader/Utils.cpp:965 Client/loader/CInstallManager.cpp:361
 #, c-format
-msgid "MTA:SA needs Administrator access for the following task:\n\n"
+msgid "IRMP:SA needs Administrator access for the following task:\n\n"
 "  '%s'\n\n"
 "Please confirm in the next window."
-msgstr "MTA:SA trenger Administrator tilgang for denne oppgaven:\n\n"
+msgstr "IRMP:SA trenger Administrator tilgang for denne oppgaven:\n\n"
 "  '%s'\n\n"
 "Vennligst bekreft i neste vindu."
 
@@ -299,8 +299,8 @@ msgid "GTA:SA found errors in the file '%s'"
 msgstr "GTA:SA har funnet feil i filen '%s'"
 
 #: Client/loader/Utils.cpp:1713
-msgid "Did your computer restart when playing MTA:SA?"
-msgstr "Startet din datamaskin på nytt når du spilte MTA:SA?"
+msgid "Did your computer restart when playing IRMP:SA?"
+msgstr "Startet din datamaskin på nytt når du spilte IRMP:SA?"
 
 #: Client/loader/Utils.cpp:1778
 msgid "Please terminate the following programs before continuing:"
@@ -327,9 +327,9 @@ msgstr ""
 
 #: Client/loader/CInstallManager.cpp:376
 #, c-format
-msgid "MTA:SA could not complete the following task:\n\n"
+msgid "IRMP:SA could not complete the following task:\n\n"
 "  '%s'\n"
-msgstr "MTA:SA kunne ikke fullføre følgene oppgave:\n\n"
+msgstr "IRMP:SA kunne ikke fullføre følgene oppgave:\n\n"
 "  '%s'\n"
 
 #: Client/loader/CInstallManager.cpp:426
@@ -339,8 +339,8 @@ msgstr "** Krasjet ble forårsaket av en grafikkdriver feil **\n\n"
 "** Vennligst oppdater dine grafikkdrivere **"
 
 #: Client/loader/CInstallManager.cpp:532
-msgid "Install updated MTA:SA files"
-msgstr "Installer oppdaterte MTA:SA filer"
+msgid "Install updated IRMP:SA files"
+msgstr "Installer oppdaterte IRMP:SA filer"
 
 #: Client/loader/CInstallManager.cpp:552
 msgid "Could not update due to file conflicts. Please close other applications and retry"
@@ -393,19 +393,19 @@ msgid "Create GTA:SA junctions"
 msgstr ""
 
 #: Client/loader/CInstallManager.cpp:657
-msgid "MTA:SA cannot launch because copying a file failed:"
+msgid "IRMP:SA cannot launch because copying a file failed:"
 msgstr ""
 
 #: Client/loader/CInstallManager.cpp:663 Client/loader/CInstallManager.cpp:703
-msgid "MTA:SA cannot launch because an MTA:SA file is incorrect or missing:"
+msgid "IRMP:SA cannot launch because an IRMP:SA file is incorrect or missing:"
 msgstr ""
 
 #: Client/loader/CInstallManager.cpp:672
-msgid "Copy MTA:SA files"
+msgid "Copy IRMP:SA files"
 msgstr ""
 
 #: Client/loader/CInstallManager.cpp:695 Client/loader/CInstallManager.cpp:773
-msgid "MTA:SA cannot launch because a GTA:SA file is incorrect or missing:"
+msgid "IRMP:SA cannot launch because a GTA:SA file is incorrect or missing:"
 msgstr ""
 
 #: Client/loader/CInstallManager.cpp:780
@@ -413,11 +413,11 @@ msgid "Patch GTA:SA dependency"
 msgstr ""
 
 #: Client/loader/CInstallManager.cpp:828
-msgid "MTA:SA cannot launch because the GTA:SA executable is incorrect or missing:"
+msgid "IRMP:SA cannot launch because the GTA:SA executable is incorrect or missing:"
 msgstr ""
 
 #: Client/loader/CInstallManager.cpp:832
-msgid "Please check your anti-virus for a false-positive detection, try to add an exception for the GTA:SA executable and restart MTA:SA."
+msgid "Please check your anti-virus for a false-positive detection, try to add an exception for the GTA:SA executable and restart IRMP:SA."
 msgstr ""
 
 #: Client/loader/CInstallManager.cpp:838
@@ -425,7 +425,7 @@ msgid "Generate GTA:SA"
 msgstr ""
 
 #: Client/loader/CInstallManager.cpp:853
-msgid "MTA:SA cannot launch because the GTA:SA executable is not loadable:"
+msgid "IRMP:SA cannot launch because the GTA:SA executable is not loadable:"
 msgstr ""
 
 #: Client/loader/CInstallManager.cpp:860 Client/loader/CInstallManager.cpp:883
@@ -433,13 +433,13 @@ msgid "Patch GTA:SA"
 msgstr ""
 
 #: Client/loader/CInstallManager.cpp:876
-msgid "MTA:SA cannot launch because patching GTA:SA has failed:"
+msgid "IRMP:SA cannot launch because patching GTA:SA has failed:"
 msgstr ""
 
 #: Client/loader/CInstallManager.cpp:1057 Client/core/CCore.cpp:807
 #, c-format
-msgid "MTA:SA cannot continue because drive %s does not have enough space."
-msgstr "MTA:SA kan ikke fortsette siden disk %s har ikke nok plass."
+msgid "IRMP:SA cannot continue because drive %s does not have enough space."
+msgstr "IRMP:SA kan ikke fortsette siden disk %s har ikke nok plass."
 
 #: Client/loader/CInstallManager.cpp:1113
 msgid "Missing file:"
@@ -458,14 +458,14 @@ msgid "Update compatibility settings"
 msgstr "Oppdater kompatibilitets innstillinger"
 
 #: Client/loader/MainFunctions.cpp:248
-msgid "Trouble restarting MTA:SA\n\n"
+msgid "Trouble restarting IRMP:SA\n\n"
 "If the problem persists, open Task Manager and\n"
 "stop the 'gta_sa.exe' and 'Iran Multi Player.exe' processes\n\n\n"
-"Try to launch MTA:SA again?"
-msgstr "Problemer med omstart av MTA:SA\n\n"
+"Try to launch IRMP:SA again?"
+msgstr "Problemer med omstart av IRMP:SA\n\n"
 "Om problemet fortsetter, åpne oppgavebehandleren og\n"
 "stopp 'gta_sa.exe' og 'Iran Multi Player.exe' prosessene\n\n\n"
-"Prøv og starte MTA:SA igjen?"
+"Prøv og starte IRMP:SA igjen?"
 
 #: Client/loader/MainFunctions.cpp:266
 msgid "Another instance of MTA is already running.\n\n"
@@ -480,16 +480,16 @@ msgstr "MTA kjører allerede.\n\n"
 "Ønsker du å avslutte den?"
 
 #: Client/loader/MainFunctions.cpp:294
-msgid "Are you having problems running MTA:SA?.\n\n"
+msgid "Are you having problems running IRMP:SA?.\n\n"
 "Do you want to revert to an earlier version?"
-msgstr "Har du problemer med å kjøre MTA:SA?.\n\n"
+msgstr "Har du problemer med å kjøre IRMP:SA?.\n\n"
 "Ønsker du å reversere til en tidligere versjon?"
 
 #: Client/loader/MainFunctions.cpp:324
-msgid "There seems to be a problem launching MTA:SA.\n"
+msgid "There seems to be a problem launching IRMP:SA.\n"
 "Resetting GTA settings can sometimes fix this problem.\n\n"
 "Do you want to reset GTA settings now?"
-msgstr "Det ser ut til å være ett problem med å starte MTA:SA.\n"
+msgstr "Det ser ut til å være ett problem med å starte IRMP:SA.\n"
 "Å tilbakestille GTA innstillingene kan noen ganger fikse dette.\n\n"
 "Ønsker du å tilbakestille GTA innstillingene nå?"
 
@@ -506,16 +506,16 @@ msgstr "Filen kunne ikke bli slettet: '%s'"
 
 #. No settings to delete, or can't find them
 #: Client/loader/MainFunctions.cpp:352
-msgid "Are you having problems running MTA:SA?.\n\n"
+msgid "Are you having problems running IRMP:SA?.\n\n"
 "Do you want to see some online help?"
-msgstr "Har du problemer med å kjøre MTA:SA?.\n\n"
+msgstr "Har du problemer med å kjøre IRMP:SA?.\n\n"
 "Ønsker du online hjelp?"
 
 #. Inform user
 #: Client/loader/MainFunctions.cpp:388
-msgid "Are you having problems running MTA:SA?.\n\n"
+msgid "Are you having problems running IRMP:SA?.\n\n"
 "Do you want to change the following setting?"
-msgstr "Har du problemer med å kjøre MTA:SA?.\n\n"
+msgstr "Har du problemer med å kjøre IRMP:SA?.\n\n"
 "Ønsker du å endre følgende innstillinger?"
 
 #: Client/loader/MainFunctions.cpp:389 Client/core/CSettings.cpp:675
@@ -529,17 +529,17 @@ msgid "Borderless window"
 msgstr "Rammeløst vindu"
 
 #: Client/loader/MainFunctions.cpp:431
-msgid "Are you having problems running MTA:SA?.\n\n"
+msgid "Are you having problems running IRMP:SA?.\n\n"
 "Try disabling the following products for GTA and MTA:"
-msgstr "Har du problemer med å kjøre MTA:SA?.\n\n"
+msgstr "Har du problemer med å kjøre IRMP:SA?.\n\n"
 "Prøv å deaktivere følgende produkter for GTA og MTA:"
 
 #: Client/loader/MainFunctions.cpp:465
 msgid "WARNING\n\n"
-"MTA:SA has detected unusual activity.\n"
+"IRMP:SA has detected unusual activity.\n"
 "Please run a virus scan to ensure your system is secure.\n\n"
 msgstr "ADVARSEL\n\n"
-"MTA:SA har oppdaget unaturlig aktivitet.\n"
+"IRMP:SA har oppdaget unaturlig aktivitet.\n"
 "Vennligst kjør ett virus søk for å forsikre at ditt system er sikkert.\n\n"
 
 #: Client/loader/MainFunctions.cpp:468
@@ -548,8 +548,8 @@ msgid "The detected file was:  %s\n"
 msgstr "Den oppdagede filen var:  %s\n"
 
 #: Client/loader/MainFunctions.cpp:602
-msgid "An instance of GTA: San Andreas is already running. It needs to be terminated before MTA:SA can be started. Do you want to do that now?"
-msgstr "GTA: San Andreas kjører allerede. Den må bli avsluttet før MTA:SA kan starte. Ønsker du å gjøre det nå?"
+msgid "An instance of GTA: San Andreas is already running. It needs to be terminated before IRMP:SA can be started. Do you want to do that now?"
+msgstr "GTA: San Andreas kjører allerede. Den må bli avsluttet før IRMP:SA kan starte. Ønsker du å gjøre det nå?"
 
 #: Client/loader/MainFunctions.cpp:603 Client/loader/MainFunctions.cpp:610
 #: Client/loader/MainFunctions.cpp:1219
@@ -572,13 +572,13 @@ msgid "The path to your installation of GTA: San Andreas contains unsupported (u
 msgstr "Banen til din GTA: San Andreas installasjon inneholder tegn som ikke støttes (unicode). Vennligst flytt din Grand Theft Auto: San Andreas installasjon til en kompatibel bane som bare inneholder ASCII tegn og reinstaller Mutli Theft Auto: San Andreas."
 
 #: Client/loader/MainFunctions.cpp:648
-msgid "The path to your installation of 'MTA:SA' or 'GTA: San Andreas'\n"
+msgid "The path to your installation of 'IRMP:SA' or 'GTA: San Andreas'\n"
 "contains a ';' (semicolon).\n\n"
-" If you experience problems when running MTA:SA,\n"
+" If you experience problems when running IRMP:SA,\n"
 " move your installation(s) to a path that does not contain a semicolon."
-msgstr "Banen til din installasjon av 'MTA:SA' eller 'GTA: San Andreas'\n"
+msgstr "Banen til din installasjon av 'IRMP:SA' eller 'GTA: San Andreas'\n"
 "inneholder ett ';' (semikolon).\n\n"
-" om du opplever problemer med å kjøre MTA:SA,\n"
+" om du opplever problemer med å kjøre IRMP:SA,\n"
 " flytt installasjonen til en bane som ikke inneholder ett semikolon."
 
 #: Client/loader/MainFunctions.cpp:810
@@ -626,23 +626,23 @@ msgid "Data file %s is modified. Possible virus activity.\n\n"
 msgstr ""
 
 #: Client/loader/MainFunctions.cpp:907
-msgid ".asi files are in the 'MTA:SA' or 'GTA: San Andreas' installation directory.\n\n"
-"Remove these .asi files if you experience problems with MTA:SA."
-msgstr ".asi filer er i din installasjon av 'MTA:SA' eller 'GTA: San Andreas'.\n\n"
-"Fjern disse .asi filene om du opplever problemer med MTA:SA."
+msgid ".asi files are in the 'IRMP:SA' or 'GTA: San Andreas' installation directory.\n\n"
+"Remove these .asi files if you experience problems with IRMP:SA."
+msgstr ".asi filer er i din installasjon av 'IRMP:SA' eller 'GTA: San Andreas'.\n\n"
+"Fjern disse .asi filene om du opplever problemer med IRMP:SA."
 
 #: Client/loader/MainFunctions.cpp:1009
-msgid "File version mismatch error. Reinstall MTA:SA if you experience problems.\n"
-msgstr "Fil versjon matcher ikke. Reinstaller MTA:SA om du opplever problemer.\n"
+msgid "File version mismatch error. Reinstall IRMP:SA if you experience problems.\n"
+msgstr "Fil versjon matcher ikke. Reinstaller IRMP:SA om du opplever problemer.\n"
 
 #: Client/loader/MainFunctions.cpp:1018
-msgid "Some files are missing. Reinstall MTA:SA if you experience problems.\n"
-msgstr "Noen filer mangler. Reinstaller MTA:SA om du opplever problemer.\n"
+msgid "Some files are missing. Reinstall IRMP:SA if you experience problems.\n"
+msgstr "Noen filer mangler. Reinstaller IRMP:SA om du opplever problemer.\n"
 
 #: Client/loader/MainFunctions.cpp:1030
-msgid "MTA:SA is not compatible with Windows 'Safe Mode'.\n\n"
+msgid "IRMP:SA is not compatible with Windows 'Safe Mode'.\n\n"
 "Please restart your PC.\n"
-msgstr "MTA:SA er ikke kompatibel med Windows 'Safe Mode'.\n\n"
+msgstr "IRMP:SA er ikke kompatibel med Windows 'Safe Mode'.\n\n"
 "Vennligst start din PC på nytt.\n"
 
 #: Client/loader/MainFunctions.cpp:1123
@@ -1011,8 +1011,8 @@ msgid "This server does not allow Wine"
 msgstr "Denne serveren tillater ikke Wine"
 
 #: Client/mods/deathmatch/logic/CPacketHandler.cpp:640
-msgid "Ensure no other program is modifying MTA:SA"
-msgstr "Sørg for at ingen andre programmer modifiserer MTA:SA"
+msgid "Ensure no other program is modifying IRMP:SA"
+msgstr "Sørg for at ingen andre programmer modifiserer IRMP:SA"
 
 #: Client/mods/deathmatch/logic/CPacketHandler.cpp:654
 msgid "Time Remaining: "
@@ -2397,7 +2397,7 @@ msgstr "MODIFISERTE GTA:SA FILER"
 
 #: Client/core/CSettings.cpp:4686
 msgid "Enabling DPI awareness is an experimental feature and\n"
-"we only recommend it when you play MTA:SA on a scaled monitor.\n"
+"we only recommend it when you play IRMP:SA on a scaled monitor.\n"
 "You may experience graphical issues if you enable this option.\n\n"
 "Are you sure you want to enable this option?"
 msgstr ""
@@ -2501,20 +2501,20 @@ msgstr "Kan ikke se etter oppdateringer akkurat nå"
 #: Client/core/CVersionUpdater.cpp:1567 Client/core/CVersionUpdater.cpp:1587
 #: Client/core/CVersionUpdater.cpp:1605
 #, c-format
-msgid "MTA:SA %s required"
-msgstr "MTA:SA %s krevet"
+msgid "IRMP:SA %s required"
+msgstr "IRMP:SA %s krevet"
 
 #: Client/core/CVersionUpdater.cpp:1568
 #, c-format
-msgid "An updated version of MTA:SA %s is required to join the selected server.\n\n"
-"Do you want to download and install MTA:SA %s ?"
-msgstr "En oppdatert versjon av MTA:SA %s er påkrevd for å delta i den valgte serveren.\n\n"
-"Ønsker du å laste ned og installere MTA:SA %s ?"
+msgid "An updated version of IRMP:SA %s is required to join the selected server.\n\n"
+"Do you want to download and install IRMP:SA %s ?"
+msgstr "En oppdatert versjon av IRMP:SA %s er påkrevd for å delta i den valgte serveren.\n\n"
+"Ønsker du å laste ned og installere IRMP:SA %s ?"
 
 #: Client/core/CVersionUpdater.cpp:1588
 #, c-format
-msgid "Do you want to launch MTA:SA %s and connect to this server ?"
-msgstr "Ønsker du å starte MTA:SA %s og koble til denne serveren ?"
+msgid "Do you want to launch IRMP:SA %s and connect to this server ?"
+msgstr "Ønsker du å starte IRMP:SA %s og koble til denne serveren ?"
 
 #: Client/core/CVersionUpdater.cpp:1606
 msgid "It is not possible to connect at this time.\n\n"
@@ -2613,10 +2613,10 @@ msgid "ERROR"
 msgstr "FEIL"
 
 #: Client/core/CVersionUpdater.cpp:2097
-msgid "Some MTA:SA data files are missing.\n\n\n"
-"Please reinstall MTA:SA"
-msgstr "Noen MTA:SA data filer mangler.\n\n\n"
-"Vennligst reinstaller MTA:SA"
+msgid "Some IRMP:SA data files are missing.\n\n\n"
+"Please reinstall IRMP:SA"
+msgstr "Noen IRMP:SA data filer mangler.\n\n\n"
+"Vennligst reinstaller IRMP:SA"
 
 #: Client/core/CVersionUpdater.cpp:2774
 #, c-format

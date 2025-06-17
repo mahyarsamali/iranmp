@@ -119,7 +119,7 @@ VOID OnGameLaunch()
 {
     std::error_code ec{};
 
-    // MTA:SA launches GTA:SA process with the GTA:SA installation directory as the current directory.
+    // IRMP:SA launches GTA:SA process with the GTA:SA installation directory as the current directory.
     // We can't use the path to the current executable, because it's not in the game directory anymore.
     const fs::path gtaDirectory = fs::current_path(ec);
 
@@ -156,7 +156,7 @@ VOID OnGameLaunch()
         return;
     }
 
-    // MTA:SA must be the parent launcher process in every case.
+    // IRMP:SA must be the parent launcher process in every case.
     const fs::path launcherPath = GetParentProcessPath();
 
     if (launcherPath.empty())
@@ -281,14 +281,14 @@ VOID OnGameLaunch()
         DisplayErrorMessageBox(
             L"Loading debug core has failed."
             L"\n\n"
-            L"Please ensure that your MTA:SA build was successful and that "
+            L"Please ensure that your IRMP:SA build was successful and that "
             L"you executed win-install-data.bat to copy dependencies to the output directory.",
             L"CL24");
 #else
         DisplayErrorMessageBox(
             L"Loading core has failed."
             L"\n\n"
-            L"Please ensure that your MTA:SA installation is complete "
+            L"Please ensure that your IRMP:SA installation is complete "
             L"and that the latest DirectX is correctly installed.",
             L"CL24");
 #endif
@@ -626,7 +626,7 @@ void ApplyDpiAwareness()
 /**
  * @brief Sets the directory path information for a module.
  * @param library A module handle
- * @param mtaDirectory Path to the MTA:SA root directory
+ * @param mtaDirectory Path to the IRMP:SA root directory
  * @param gtaDirectory Path to the GTA:SA root directory
  */
 void ApplyDirectoryInformation(HMODULE library, const std::wstring& mtaDirectory, const std::wstring& gtaDirectory)
@@ -689,7 +689,7 @@ auto MakeLauncherError(std::wstring message) -> std::wstring
 
     message +=
         L"Please launch the game through the Iran Multi Player launcher executable. "
-        L"You can find the launcher either on your desktop or in the MTA:SA installation directory.";
+        L"You can find the launcher either on your desktop or in the IRMP:SA installation directory.";
 
     return message;
 }
@@ -704,7 +704,7 @@ auto MakeMissingFilesError(std::wstring message) -> std::wstring
         message += L"\n\n";
 
     message +=
-        L"Please ensure that both your MTA:SA and Windows installation are not missing files "
+        L"Please ensure that both your IRMP:SA and Windows installation are not missing files "
         L"and your user is not lacking any permission to access these directories";
 
     return message;

@@ -104,7 +104,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "-v",
         "--version",
-        help="MTA:SA Version to write to the POT file",
+        help="IRMP:SA Version to write to the POT file",
         default="1.x"
     )
     args = parser.parse_args()

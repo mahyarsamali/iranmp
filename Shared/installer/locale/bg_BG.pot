@@ -19,17 +19,17 @@ msgstr ""
 
 #. GET_XPVISTA_PLEASE
 #: Shared/installer/nightly.nsi:205
-msgid "The version of MTA:SA you've downloaded does not support Windows XP or Vista.  Please download an alternative version from www.mtasa.com."
-msgstr "Версията на MTA:SA, която сте изтеглили не поддържа Windows XP или Vista. Моля изтеглете алтернативна версия от www.mtasa.com."
+msgid "The version of IRMP:SA you've downloaded does not support Windows XP or Vista.  Please download an alternative version from www.mtasa.com."
+msgstr "Версията на IRMP:SA, която сте изтеглили не поддържа Windows XP или Vista. Моля изтеглете алтернативна версия от www.mtasa.com."
 
 #. GET_WIN81_PLEASE
 #: Shared/installer/nightly.nsi:206
-msgid "The version of MTA:SA you've downloaded does not support Windows 7, 8 or 8.1.  Please download an alternative version from www.mtasa.com."
+msgid "The version of IRMP:SA you've downloaded does not support Windows 7, 8 or 8.1.  Please download an alternative version from www.mtasa.com."
 msgstr ""
 
 #. GET_MASTER_PLEASE
 #: Shared/installer/nightly.nsi:207
-msgid "The version of MTA:SA you've downloaded is designed for old versions of Windows.  Please download an alternative version from www.mtasa.com."
+msgid "The version of IRMP:SA you've downloaded is designed for old versions of Windows.  Please download an alternative version from www.mtasa.com."
 msgstr ""
 
 #. WELCOME_TEXT
@@ -57,12 +57,12 @@ msgstr "Папката на Grand Theft Auto: San Andreas"
 #: Shared/installer/nightly.nsi:214
 msgid "Please select your Grand Theft Auto: San Andreas folder.$\n"
 "$\n"
-"You MUST have Grand Theft Auto: San Andreas 1.0 installed to use MTA:SA, it does not support any other versions.$\n"
+"You MUST have Grand Theft Auto: San Andreas 1.0 installed to use IRMP:SA, it does not support any other versions.$\n"
 "$\n"
 "Click Install to begin installing."
 msgstr "Моля изберете папката на Grand Theft Auto: San Andreas.$\n"
 "$\n"
-"Вие ТРЯБВА да имате have Grand Theft Auto: San Andreas 1.0 инсталирана за да играете MTA:SA, защото тя не поддържа други версии.$\n"
+"Вие ТРЯБВА да имате have Grand Theft Auto: San Andreas 1.0 инсталирана за да играете IRMP:SA, защото тя не поддържа други версии.$\n"
 "$\n"
 "Цъкнете Инсталирай за да продължите."
 
@@ -73,8 +73,8 @@ msgstr "Създай Стар Меню група за инсталирани п
 
 #. DESC_Section11
 #: Shared/installer/nightly.nsi:218
-msgid "Create a Desktop Shortcut for the MTA:SA Client."
-msgstr "Създай пряк път на работния плот за MTA:SA Клиента."
+msgid "Create a Desktop Shortcut for the IRMP:SA Client."
+msgstr "Създай пряк път на работния плот за IRMP:SA Клиента."
 
 #. DESC_Section12
 #: Shared/installer/nightly.nsi:219
@@ -98,7 +98,7 @@ msgstr "Основните компоненти, необходими за ст�
 
 #. DESC_Section2
 #: Shared/installer/nightly.nsi:223
-msgid "The MTA:SA modification, allowing you to play online."
+msgid "The IRMP:SA modification, allowing you to play online."
 msgstr "MTA: SA е модификация, която Ви позволява да играете онлайн."
 
 #. DESC_SectionGroupServer
@@ -113,7 +113,7 @@ msgstr "Iran Multi Player сървър. Това е задължителен к�
 
 #. DESC_Section5
 #: Shared/installer/nightly.nsi:228
-msgid "The MTA:SA modification for the server."
+msgid "The IRMP:SA modification for the server."
 msgstr "MTA: SA модификация на сървъра."
 
 #. DESC_Section6
@@ -128,7 +128,7 @@ msgstr "Това е допълнителен набор от видовете з
 
 #. DESC_Section8
 #: Shared/installer/nightly.nsi:231
-msgid "The MTA:SA 1.0 Map Editor.  This can be used to create your very own maps for use in gamemodes for MTA."
+msgid "The IRMP:SA 1.0 Map Editor.  This can be used to create your very own maps for use in gamemodes for MTA."
 msgstr "MTA: SA 1.0 Map Editor. Това може да се използва за създадаване на собствени карти за различните режими на игра в МТА."
 
 #. DESC_Section9
@@ -258,10 +258,10 @@ msgstr "Сигурни ли сте, че искате да премахнете 
 #. UNINST_REQUEST_NOTE
 #: Shared/installer/nightly.nsi:1050
 msgid "Uninstalling before update?$\\r$\n"
-"It is not necessary to uninstall before installing a new version of MTA:SA$\\r$\n"
+"It is not necessary to uninstall before installing a new version of IRMP:SA$\\r$\n"
 "Run the new installer to upgrade and preserve your settings."
 msgstr "Деинсталиране преди актуализация?$\\r$\n"
-"Не е необходимо да деинсталирате преди да инсталирате нова версия на MTA:SA$\\r$\n"
+"Не е необходимо да деинсталирате преди да инсталирате нова версия на IRMP:SA$\\r$\n"
 "Стартирайте новия инсталатор за да обновите и запазите настройките си."
 
 #. UNINST_DATA_REQUEST
@@ -295,7 +295,7 @@ msgid "A different major version of MTA ($1) already exists at that path.$\n"
 "$\n"
 "MTA is designed for major versions to be installed in different paths.$\n"
 " Are you sure you want to overwrite MTA $1 at $INSTDIR ?"
-msgstr "Друга версия на MTA:SA ($1) вече съществува в тази папка.$\n"
+msgstr "Друга версия на IRMP:SA ($1) вече съществува в тази папка.$\n"
 "$\n"
 "МТА:SA е предназначена други версии да бъдат инсталирани в различни папки.$\n"
 "Наистина ли искате да презапишете MTA $1 в $INSTDIR ?"

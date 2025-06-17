@@ -19,18 +19,18 @@ msgstr ""
 
 #. GET_XPVISTA_PLEASE
 #: Shared/installer/nightly.nsi:205
-msgid "The version of MTA:SA you've downloaded does not support Windows XP or Vista.  Please download an alternative version from www.mtasa.com."
-msgstr "다운로드한 MTA:SA 버전은 Windows XP 또는 Vista를 지원하지 않습니다. www.mtasa.com 에서 대체 버전을 다운로드하십시오."
+msgid "The version of IRMP:SA you've downloaded does not support Windows XP or Vista.  Please download an alternative version from www.mtasa.com."
+msgstr "다운로드한 IRMP:SA 버전은 Windows XP 또는 Vista를 지원하지 않습니다. www.mtasa.com 에서 대체 버전을 다운로드하십시오."
 
 #. GET_WIN81_PLEASE
 #: Shared/installer/nightly.nsi:206
-msgid "The version of MTA:SA you've downloaded does not support Windows 7, 8 or 8.1.  Please download an alternative version from www.mtasa.com."
-msgstr "다운로드한 MTA:SA 버전이 Windows 7, 8 또는 8.1을 지원하지 않습니다. www.mtasa.com 에서 다른 버전을 다운로드하십시오."
+msgid "The version of IRMP:SA you've downloaded does not support Windows 7, 8 or 8.1.  Please download an alternative version from www.mtasa.com."
+msgstr "다운로드한 IRMP:SA 버전이 Windows 7, 8 또는 8.1을 지원하지 않습니다. www.mtasa.com 에서 다른 버전을 다운로드하십시오."
 
 #. GET_MASTER_PLEASE
 #: Shared/installer/nightly.nsi:207
-msgid "The version of MTA:SA you've downloaded is designed for old versions of Windows.  Please download an alternative version from www.mtasa.com."
-msgstr "다운로드한 MTA:SA 버전은 이전 버전의 Windows용으로 설계되었습니다. www.mtasa.com 에서 다른 버전을 다운로드하십시오."
+msgid "The version of IRMP:SA you've downloaded is designed for old versions of Windows.  Please download an alternative version from www.mtasa.com."
+msgstr "다운로드한 IRMP:SA 버전은 이전 버전의 Windows용으로 설계되었습니다. www.mtasa.com 에서 다른 버전을 다운로드하십시오."
 
 #. WELCOME_TEXT
 #: Shared/installer/nightly.nsi:208
@@ -57,12 +57,12 @@ msgstr "그랜드 테프트 오토: 산 안드레아스 폴더"
 #: Shared/installer/nightly.nsi:214
 msgid "Please select your Grand Theft Auto: San Andreas folder.$\n"
 "$\n"
-"You MUST have Grand Theft Auto: San Andreas 1.0 installed to use MTA:SA, it does not support any other versions.$\n"
+"You MUST have Grand Theft Auto: San Andreas 1.0 installed to use IRMP:SA, it does not support any other versions.$\n"
 "$\n"
 "Click Install to begin installing."
 msgstr "그랜드 테 프트 오토를 선택하십시오 : 산 안드레아스 폴더.$\n"
 "$\n"
-"당신은 그랜드 테 프트 오토가 있어야합니다: 산 안드레아스 1.0 MTA:SA를 사용하기 위해 설치, 그것은 다른 버전을 지원하지 않습니다.$\n"
+"당신은 그랜드 테 프트 오토가 있어야합니다: 산 안드레아스 1.0 IRMP:SA를 사용하기 위해 설치, 그것은 다른 버전을 지원하지 않습니다.$\n"
 "$\n"
 "설치를 클릭하여 설치를 시작합니다."
 
@@ -73,8 +73,8 @@ msgstr "설치된 응용 프로그램에 대한 시작 메뉴 그룹 만들기"
 
 #. DESC_Section11
 #: Shared/installer/nightly.nsi:218
-msgid "Create a Desktop Shortcut for the MTA:SA Client."
-msgstr "MTA:SA 클라이언트에 대한 데스크톱 바로 가기를 만듭니다."
+msgid "Create a Desktop Shortcut for the IRMP:SA Client."
+msgstr "IRMP:SA 클라이언트에 대한 데스크톱 바로 가기를 만듭니다."
 
 #. DESC_Section12
 #: Shared/installer/nightly.nsi:219
@@ -98,8 +98,8 @@ msgstr "Iran Multi Player를 실행하는 데 필요한 핵심 구성 요소입�
 
 #. DESC_Section2
 #: Shared/installer/nightly.nsi:223
-msgid "The MTA:SA modification, allowing you to play online."
-msgstr "MTA:SA 수정으로 온라인으로 플레이할 수 있습니다."
+msgid "The IRMP:SA modification, allowing you to play online."
+msgstr "IRMP:SA 수정으로 온라인으로 플레이할 수 있습니다."
 
 #. DESC_SectionGroupServer
 #: Shared/installer/nightly.nsi:226
@@ -113,8 +113,8 @@ msgstr "다중 도난 자동 서버. 이는 필수 구성 요소입니다."
 
 #. DESC_Section5
 #: Shared/installer/nightly.nsi:228
-msgid "The MTA:SA modification for the server."
-msgstr "서버에 대한 MTA:SA 수정입니다."
+msgid "The IRMP:SA modification for the server."
+msgstr "서버에 대한 IRMP:SA 수정입니다."
 
 #. DESC_Section6
 #: Shared/installer/nightly.nsi:229
@@ -128,8 +128,8 @@ msgstr "이것은 서버에 대한 게임 모드 및지도의 선택적 세트�
 
 #. DESC_Section8
 #: Shared/installer/nightly.nsi:231
-msgid "The MTA:SA 1.0 Map Editor.  This can be used to create your very own maps for use in gamemodes for MTA."
-msgstr "MTA:SA 1.0 맵 편집기. MTA의 게임 모드에서 사용할 자신 만의 맵을 만드는 데 사용할 수 있습니다."
+msgid "The IRMP:SA 1.0 Map Editor.  This can be used to create your very own maps for use in gamemodes for MTA."
+msgstr "IRMP:SA 1.0 맵 편집기. MTA의 게임 모드에서 사용할 자신 만의 맵을 만드는 데 사용할 수 있습니다."
 
 #. DESC_Section9
 #: Shared/installer/nightly.nsi:232
@@ -258,7 +258,7 @@ msgstr "$(^Name) 와 모든 구성 요소를 완전히 제거하시겠습니까?
 #. UNINST_REQUEST_NOTE
 #: Shared/installer/nightly.nsi:1050
 msgid "Uninstalling before update?$\\r$\n"
-"It is not necessary to uninstall before installing a new version of MTA:SA$\\r$\n"
+"It is not necessary to uninstall before installing a new version of IRMP:SA$\\r$\n"
 "Run the new installer to upgrade and preserve your settings."
 msgstr "업데이트하기 전에 제거하시겠습니까?$\\r$\n"
 "MTA의 새 버전을 설치하기 전에 제거 할 필요가 없습니다: SA$\\r$\n"

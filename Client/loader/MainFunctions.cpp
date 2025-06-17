@@ -245,12 +245,12 @@ void HandleDuplicateLaunching()
                 }
                 SString strMessage;
                 strMessage +=
-                    _("Trouble restarting MTA:SA\n\n"
+                    _("Trouble restarting IRMP:SA\n\n"
                       "If the problem persists, open Task Manager and\n"
                       "stop the 'gta_sa.exe' and 'Iran Multi Player.exe' processes\n\n\n"
-                      "Try to launch MTA:SA again?");
+                      "Try to launch IRMP:SA again?");
                 if (MessageBoxUTF8(0, strMessage, _("Error") + _E("CL04"), MB_ICONWARNING | MB_YESNO | MB_TOPMOST) ==
-                    IDYES)            // Trouble restarting MTA:SA
+                    IDYES)            // Trouble restarting IRMP:SA
                 {
                     TerminateGTAIfRunning();
                     TerminateOtherMTAIfRunning();
@@ -291,7 +291,7 @@ void HandleTrouble()
         return;
 
 #if !defined(MTA_DEBUG) && MTASA_VERSION_TYPE != VERSION_TYPE_CUSTOM
-    int iResponse = MessageBoxUTF8(NULL, _("Are you having problems running MTA:SA?.\n\nDo you want to revert to an earlier version?"),
+    int iResponse = MessageBoxUTF8(NULL, _("Are you having problems running IRMP:SA?.\n\nDo you want to revert to an earlier version?"),
                                    "MTA: San Andreas" + _E("CL07"), MB_YESNO | MB_ICONQUESTION | MB_TOPMOST);
     if (iResponse == IDYES)
     {
@@ -321,7 +321,7 @@ void HandleResetSettings()
     if (FileExists(strSettingsFilename))
     {
         int iResponse = MessageBoxUTF8(NULL,
-                                       _("There seems to be a problem launching MTA:SA.\nResetting GTA settings can sometimes fix this problem.\n\nDo you want "
+                                       _("There seems to be a problem launching IRMP:SA.\nResetting GTA settings can sometimes fix this problem.\n\nDo you want "
                                          "to reset GTA settings now?"),
                                        "MTA: San Andreas" + _E("CL08"), MB_YESNO | MB_ICONQUESTION | MB_TOPMOST);
         if (iResponse == IDYES)
@@ -349,7 +349,7 @@ void HandleResetSettings()
     else
     {
         // No settings to delete, or can't find them
-        int iResponse = MessageBoxUTF8(NULL, _("Are you having problems running MTA:SA?.\n\nDo you want to see some online help?"), "MTA: San Andreas",
+        int iResponse = MessageBoxUTF8(NULL, _("Are you having problems running IRMP:SA?.\n\nDo you want to see some online help?"), "MTA: San Andreas",
                                        MB_YESNO | MB_ICONQUESTION | MB_TOPMOST);
         if (iResponse == IDYES)
         {
@@ -385,7 +385,7 @@ void HandleNotUsedMainMenu()
             if (strWindowed == "0" && strFullscreenStyle == "0")            // 0=FULLSCREEN_STANDARD
             {
                 // Inform user
-                SString strMessage = _("Are you having problems running MTA:SA?.\n\nDo you want to change the following setting?");
+                SString strMessage = _("Are you having problems running IRMP:SA?.\n\nDo you want to change the following setting?");
                 strMessage += "\n" + _("Fullscreen mode:") + " -> " + _("Borderless window");
                 HideSplash();
                 int iResponse = MessageBoxUTF8(NULL, strMessage, "MTA: San Andreas", MB_YESNO | MB_ICONQUESTION | MB_TOPMOST);
@@ -428,7 +428,7 @@ void HandleNotUsedMainMenu()
             {
                 if (strProcessFilename.ContainsI(strMatchText))
                 {
-                    SString strMessage = _("Are you having problems running MTA:SA?.\n\nTry disabling the following products for GTA and MTA:");
+                    SString strMessage = _("Are you having problems running IRMP:SA?.\n\nTry disabling the following products for GTA and MTA:");
                     strMessage += "\n\n";
                     strMessage += procItems[i].szProductName;
                     DisplayErrorMessageBox(strMessage, _E("CL43"), procItems[i].szTrouble);
@@ -463,7 +463,7 @@ void HandleCustomStartMessage()
         SString strFilename = strStartMessage.SplitRight("name=");
         strStartMessage =
             _("WARNING\n\n"
-              "MTA:SA has detected unusual activity.\n"
+              "IRMP:SA has detected unusual activity.\n"
               "Please run a virus scan to ensure your system is secure.\n\n");
         strStartMessage += SString(_("The detected file was:  %s\n"), *strFilename);
     }
@@ -599,7 +599,7 @@ void HandleIfGTAIsAlreadyRunning()
     if (IsGTARunning())
     {
         if (MessageBoxUTF8(
-                0, _("An instance of GTA: San Andreas is already running. It needs to be terminated before MTA:SA can be started. Do you want to do that now?"),
+                0, _("An instance of GTA: San Andreas is already running. It needs to be terminated before IRMP:SA can be started. Do you want to do that now?"),
                 _("Information") + _E("CL10"), MB_YESNO | MB_ICONQUESTION | MB_TOPMOST) == IDYES)
         {
             TerminateOtherMTAIfRunning();
@@ -645,9 +645,9 @@ void ValidateGTAPath()
     const SString strMTASAPath = GetMTASAPath();
     if (strGTAPath.Contains(";") || strMTASAPath.Contains(";"))
     {
-        DisplayErrorMessageBox(_("The path to your installation of 'MTA:SA' or 'GTA: San Andreas'\n"
+        DisplayErrorMessageBox(_("The path to your installation of 'IRMP:SA' or 'GTA: San Andreas'\n"
                                  "contains a ';' (semicolon).\n\n"
-                                 " If you experience problems when running MTA:SA,\n"
+                                 " If you experience problems when running IRMP:SA,\n"
                                  " move your installation(s) to a path that does not contain a semicolon."),
                                _E("CL15"), "path-semicolon");
     }
@@ -904,8 +904,8 @@ void CheckDataFiles()
         bool bFoundInMTADir = !FindFiles(PathJoin(strMTASAPath, "mta", "*.asi"), true, false).empty();
         if (bFoundInGTADir || bFoundInMTADir)
         {
-            DisplayErrorMessageBox(_(".asi files are in the 'MTA:SA' or 'GTA: San Andreas' installation directory.\n\n"
-                                     "Remove these .asi files if you experience problems with MTA:SA."),
+            DisplayErrorMessageBox(_(".asi files are in the 'IRMP:SA' or 'GTA: San Andreas' installation directory.\n\n"
+                                     "Remove these .asi files if you experience problems with IRMP:SA."),
                                    _E("CL28"), "asi-files");
         }
     }
@@ -1007,7 +1007,7 @@ void CheckLibVersions()
             else if (strReqFileVersion != strFileVersion)
             {
                 DisplayErrorMessageBox(SStringX(_("File version mismatch error."
-                                                  " Reinstall MTA:SA if you experience problems.\n") +
+                                                  " Reinstall IRMP:SA if you experience problems.\n") +
                                                 SString("\n[%s %s/%s]\n", *strFilename, *strFileVersion, *strReqFileVersion)),
                                        _E("CL40"), "bad-file-version");
                 break;
@@ -1016,7 +1016,7 @@ void CheckLibVersions()
         else
         {
             DisplayErrorMessageBox(SStringX(_("Some files are missing."
-                                              " Reinstall MTA:SA if you experience problems.\n") +
+                                              " Reinstall IRMP:SA if you experience problems.\n") +
                                             SString("\n[%s]\n", *strFilename)),
                                    _E("CL41"), "missing-file");
             break;
@@ -1027,7 +1027,7 @@ void CheckLibVersions()
 
     if (GetSystemMetrics(SM_CLEANBOOT) != 0)
     {
-        DisplayErrorMessageBox(SStringX(_("MTA:SA is not compatible with Windows 'Safe Mode'.\n\n"
+        DisplayErrorMessageBox(SStringX(_("IRMP:SA is not compatible with Windows 'Safe Mode'.\n\n"
                                           "Please restart your PC.\n")),
                                _E("CL42"), "safe-mode");
         return ExitProcess(EXIT_ERROR);

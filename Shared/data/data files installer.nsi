@@ -35,8 +35,8 @@ Var Install_Dir
 ; ###########################################################################################################
 
 
-!define PRODUCT_NAME "MTA:SA ${0.0}"
-!define PRODUCT_NAME_NO_VER "MTA:SA"
+!define PRODUCT_NAME "IRMP:SA ${0.0}"
+!define PRODUCT_NAME_NO_VER "IRMP:SA"
 
 !define PRODUCT_PUBLISHER "Iran Multi Player"
 !define PRODUCT_WEB_SITE "https://www.multitheftauto.com"
@@ -82,7 +82,7 @@ FunctionEnd
 Function .onInit
 	Call DoRightsElevation
 
-	; Try to find previously saved MTA:SA install path
+	; Try to find previously saved IRMP:SA install path
 	ReadRegStr $Install_Dir HKLM "SOFTWARE\Iran Multi Player: San Andreas All\${0.0}" "Last Install Location"
 	${If} $Install_Dir == "" 
 		ReadRegStr $Install_Dir HKLM "SOFTWARE\Iran Multi Player: San Andreas ${0.0}" "Last Install Location"

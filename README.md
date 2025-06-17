@@ -54,12 +54,12 @@ Visit the wiki article ["Compiling MTASA"](https://wiki.multitheftauto.com/wiki/
 
 #### GNU/Linux
 
-You can build the MTA:SA server on GNU/Linux distributions only for x86, x86_64, armhf and arm64 CPU architectures. ARM architectures are currently in **experimental phase**, which means they're unstable, untested and may crash randomly. Beware that we only officially support building from x86_64 and that includes cross-compiling for x86, arm and arm64.
+You can build the IRMP:SA server on GNU/Linux distributions only for x86, x86_64, armhf and arm64 CPU architectures. ARM architectures are currently in **experimental phase**, which means they're unstable, untested and may crash randomly. Beware that we only officially support building from x86_64 and that includes cross-compiling for x86, arm and arm64.
 
 **Build dependencies**
 
 *Please always read the Dockerfiles for up-to-date build dependencies.*
-*Note: ncftp is not required for building the MTA:SA server.*
+*Note: ncftp is not required for building the IRMP:SA server.*
 
 - git
 - make

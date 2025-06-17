@@ -19,18 +19,18 @@ msgstr ""
 
 #. GET_XPVISTA_PLEASE
 #: Shared/installer/nightly.nsi:205
-msgid "The version of MTA:SA you've downloaded does not support Windows XP or Vista.  Please download an alternative version from www.mtasa.com."
-msgstr "İndirmiş olduğunuz MTA:SA sürümü Windows XP veya Vista'yı desteklemiyor. Lütfen www.mtasa.com adresinden alternatif bir sürüm indiriniz."
+msgid "The version of IRMP:SA you've downloaded does not support Windows XP or Vista.  Please download an alternative version from www.mtasa.com."
+msgstr "İndirmiş olduğunuz IRMP:SA sürümü Windows XP veya Vista'yı desteklemiyor. Lütfen www.mtasa.com adresinden alternatif bir sürüm indiriniz."
 
 #. GET_WIN81_PLEASE
 #: Shared/installer/nightly.nsi:206
-msgid "The version of MTA:SA you've downloaded does not support Windows 7, 8 or 8.1.  Please download an alternative version from www.mtasa.com."
-msgstr "İndirmiş olduğunuz MTA:SA sürümü Windows 7, 8 veya 8.1'i desteklemiyor. Lütfen www.mtasa.com adresinden alternatif bir sürüm indiriniz."
+msgid "The version of IRMP:SA you've downloaded does not support Windows 7, 8 or 8.1.  Please download an alternative version from www.mtasa.com."
+msgstr "İndirmiş olduğunuz IRMP:SA sürümü Windows 7, 8 veya 8.1'i desteklemiyor. Lütfen www.mtasa.com adresinden alternatif bir sürüm indiriniz."
 
 #. GET_MASTER_PLEASE
 #: Shared/installer/nightly.nsi:207
-msgid "The version of MTA:SA you've downloaded is designed for old versions of Windows.  Please download an alternative version from www.mtasa.com."
-msgstr "İndirmiş olduğunuz MTA:SA sürümü Windows'un eski sürümleri için tasarlanmış. Lütfen www.mtasa.com adresinden farklı bir sürüm indiriniz."
+msgid "The version of IRMP:SA you've downloaded is designed for old versions of Windows.  Please download an alternative version from www.mtasa.com."
+msgstr "İndirmiş olduğunuz IRMP:SA sürümü Windows'un eski sürümleri için tasarlanmış. Lütfen www.mtasa.com adresinden farklı bir sürüm indiriniz."
 
 #. WELCOME_TEXT
 #: Shared/installer/nightly.nsi:208
@@ -57,12 +57,12 @@ msgstr "Grand Theft Auto: San Andreas klasörü"
 #: Shared/installer/nightly.nsi:214
 msgid "Please select your Grand Theft Auto: San Andreas folder.$\n"
 "$\n"
-"You MUST have Grand Theft Auto: San Andreas 1.0 installed to use MTA:SA, it does not support any other versions.$\n"
+"You MUST have Grand Theft Auto: San Andreas 1.0 installed to use IRMP:SA, it does not support any other versions.$\n"
 "$\n"
 "Click Install to begin installing."
 msgstr "Lütfen Grand Theft Auto: San Andreas oyununun kurulu olduğu yeri seçin.$\n"
 "$\n"
-"Grand Theft Auto: San Andreas 1.0 versiyonunun yüklü olması gerekmektedir. MTA:SA, diğer sürümleri desteklemez.$\n"
+"Grand Theft Auto: San Andreas 1.0 versiyonunun yüklü olması gerekmektedir. IRMP:SA, diğer sürümleri desteklemez.$\n"
 "$\n"
 "Kurulumu başlatmak için tıklayın."
 
@@ -73,8 +73,8 @@ msgstr "Yüklü uygulamalar için başlat menüsü grubu oluştur."
 
 #. DESC_Section11
 #: Shared/installer/nightly.nsi:218
-msgid "Create a Desktop Shortcut for the MTA:SA Client."
-msgstr "MTA:SA masaüstü kısayolu oluştur."
+msgid "Create a Desktop Shortcut for the IRMP:SA Client."
+msgstr "IRMP:SA masaüstü kısayolu oluştur."
 
 #. DESC_Section12
 #: Shared/installer/nightly.nsi:219
@@ -98,8 +98,8 @@ msgstr "Temel bileşenler, Iran Multi Player'yu çalıştırmak için gerekli."
 
 #. DESC_Section2
 #: Shared/installer/nightly.nsi:223
-msgid "The MTA:SA modification, allowing you to play online."
-msgstr "MTA:SA, online oynamanıza imkan sağlar."
+msgid "The IRMP:SA modification, allowing you to play online."
+msgstr "IRMP:SA, online oynamanıza imkan sağlar."
 
 #. DESC_SectionGroupServer
 #: Shared/installer/nightly.nsi:226
@@ -113,8 +113,8 @@ msgstr "Iran Multi Player sunucusu. Bu gerekli bir bileşendir."
 
 #. DESC_Section5
 #: Shared/installer/nightly.nsi:228
-msgid "The MTA:SA modification for the server."
-msgstr "Sunucu içi MTA:SA modifikasyonu."
+msgid "The IRMP:SA modification for the server."
+msgstr "Sunucu içi IRMP:SA modifikasyonu."
 
 #. DESC_Section6
 #: Shared/installer/nightly.nsi:229
@@ -128,8 +128,8 @@ msgstr "Sunucunuz için isteğe bağlı oyun modları ve haritalar."
 
 #. DESC_Section8
 #: Shared/installer/nightly.nsi:231
-msgid "The MTA:SA 1.0 Map Editor.  This can be used to create your very own maps for use in gamemodes for MTA."
-msgstr "MTA:SA 1.0 Harita Editörü. Kendi haritalarınızı oluşturmak için kullanabilirsiniz."
+msgid "The IRMP:SA 1.0 Map Editor.  This can be used to create your very own maps for use in gamemodes for MTA."
+msgstr "IRMP:SA 1.0 Harita Editörü. Kendi haritalarınızı oluşturmak için kullanabilirsiniz."
 
 #. DESC_Section9
 #: Shared/installer/nightly.nsi:232
@@ -258,10 +258,10 @@ msgstr "$(^Name) ve bileşenlerini tamamen kaldırmak istediğinize emin misiniz
 #. UNINST_REQUEST_NOTE
 #: Shared/installer/nightly.nsi:1050
 msgid "Uninstalling before update?$\\r$\n"
-"It is not necessary to uninstall before installing a new version of MTA:SA$\\r$\n"
+"It is not necessary to uninstall before installing a new version of IRMP:SA$\\r$\n"
 "Run the new installer to upgrade and preserve your settings."
 msgstr "Güncellemeden önce mi kaldırıyorsunuz?$\\r$\n"
-"Yeni versiyonları yüklemek için MTA:SA'yı kaldırmanıza gerek yok.$\\r$\n"
+"Yeni versiyonları yüklemek için IRMP:SA'yı kaldırmanıza gerek yok.$\\r$\n"
 "Oyunu güncellemek ve ayarlarınızı korumak için yeni versiyonun kurulumunu başlatmanız yeterli."
 
 #. UNINST_DATA_REQUEST

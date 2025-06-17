@@ -91,8 +91,8 @@ Var UninstallExePath
     !define REVISION_TAG ""
 !endif
 
-!define PRODUCT_NAME "MTA:SA ${0.0}"
-!define PRODUCT_NAME_NO_VER "MTA:SA"
+!define PRODUCT_NAME "IRMP:SA ${0.0}"
+!define PRODUCT_NAME_NO_VER "IRMP:SA"
 
 !define PRODUCT_PUBLISHER "Iran Multi Player"
 !define PRODUCT_WEB_SITE "https://www.multitheftauto.com"
@@ -202,33 +202,33 @@ VIAddVersionKey /LANG=${LANG_ENGLISH} "ProductVersion" "${VI_PRODUCT_VERSION}"
 
 ;@INSERT_TRANSLATIONS@
 
-LangString	GET_XPVISTA_PLEASE	${LANG_ENGLISH} "The version of MTA:SA you've downloaded does not support Windows XP or Vista.  Please download an alternative version from www.mtasa.com."
-LangString	GET_WIN81_PLEASE	${LANG_ENGLISH} "The version of MTA:SA you've downloaded does not support Windows 7, 8 or 8.1.  Please download an alternative version from www.mtasa.com."
-LangString  GET_MASTER_PLEASE	${LANG_ENGLISH} "The version of MTA:SA you've downloaded is designed for old versions of Windows.  Please download an alternative version from www.mtasa.com."
+LangString	GET_XPVISTA_PLEASE	${LANG_ENGLISH} "The version of IRMP:SA you've downloaded does not support Windows XP or Vista.  Please download an alternative version from www.mtasa.com."
+LangString	GET_WIN81_PLEASE	${LANG_ENGLISH} "The version of IRMP:SA you've downloaded does not support Windows 7, 8 or 8.1.  Please download an alternative version from www.mtasa.com."
+LangString  GET_MASTER_PLEASE	${LANG_ENGLISH} "The version of IRMP:SA you've downloaded is designed for old versions of Windows.  Please download an alternative version from www.mtasa.com."
 LangString  WELCOME_TEXT  ${LANG_ENGLISH}   "This wizard will guide you through the installation or update of $(^Name) ${REVISION_TAG}\n\n\
 It is recommended that you close all other applications before starting Setup.\n\n\
 [Admin access may be requested for Vista and up]\n\n\
 Click Next to continue."
 LangString  HEADER_Text         ${LANG_ENGLISH} "Grand Theft Auto: San Andreas location"
 LangString  DIRECTORY_Text_Dest ${LANG_ENGLISH} "Grand Theft Auto: San Andreas folder"
-LangString  DIRECTORY_Text_Top  ${LANG_ENGLISH} "Please select your Grand Theft Auto: San Andreas folder.$\n$\nYou MUST have Grand Theft Auto: San Andreas 1.0 installed to use MTA:SA, it does not support any other versions.$\n$\nClick Install to begin installing."
+LangString  DIRECTORY_Text_Top  ${LANG_ENGLISH} "Please select your Grand Theft Auto: San Andreas folder.$\n$\nYou MUST have Grand Theft Auto: San Andreas 1.0 installed to use IRMP:SA, it does not support any other versions.$\n$\nClick Install to begin installing."
 
 ; Language files
 LangString  DESC_Section10          ${LANG_ENGLISH} "Create a Start Menu group for installed applications"
-LangString  DESC_Section11          ${LANG_ENGLISH} "Create a Desktop Shortcut for the MTA:SA Client."
+LangString  DESC_Section11          ${LANG_ENGLISH} "Create a Desktop Shortcut for the IRMP:SA Client."
 LangString  DESC_Section12          ${LANG_ENGLISH} "Register mtasa:// protocol for browser clickable-ness."
 LangString  DESC_Section13          ${LANG_ENGLISH} "Add to Windows Games Explorer (if present)."
 LangString  DESC_DirectX            ${LANG_ENGLISH} "Install or update DirectX (if required)."
 LangString  DESC_Section1           ${LANG_ENGLISH} "The core components required to run Iran Multi Player."
-LangString  DESC_Section2           ${LANG_ENGLISH} "The MTA:SA modification, allowing you to play online."
-;LangString DESC_Section3           ${LANG_ENGLISH} "The Iran Multi Player:Editor for MTA:SA, allowing you to create and edit maps."
+LangString  DESC_Section2           ${LANG_ENGLISH} "The IRMP:SA modification, allowing you to play online."
+;LangString DESC_Section3           ${LANG_ENGLISH} "The Iran Multi Player:Editor for IRMP:SA, allowing you to create and edit maps."
 ;LangString DESC_SectionGroupMods   ${LANG_ENGLISH} "Modifications for Iran Multi Player. Without at least one of these, you cannot play Iran Multi Player."
 LangString  DESC_SectionGroupServer  ${LANG_ENGLISH}    "The Iran Multi Player Server. This allows you to host games from your computer. This requires a fast internet connection."
 LangString  DESC_Section4           ${LANG_ENGLISH} "The Iran Multi Player server. This is a required component."
-LangString  DESC_Section5           ${LANG_ENGLISH} "The MTA:SA modification for the server."
+LangString  DESC_Section5           ${LANG_ENGLISH} "The IRMP:SA modification for the server."
 LangString  DESC_Section6           ${LANG_ENGLISH} "This is a set of required resources for your server."
 LangString  DESC_Section7           ${LANG_ENGLISH} "This is an optional set of gamemodes and maps for your server."
-LangString  DESC_Section8           ${LANG_ENGLISH} "The MTA:SA 1.0 Map Editor.  This can be used to create your very own maps for use in gamemodes for MTA."
+LangString  DESC_Section8           ${LANG_ENGLISH} "The IRMP:SA 1.0 Map Editor.  This can be used to create your very own maps for use in gamemodes for MTA."
 LangString  DESC_Section9           ${LANG_ENGLISH} "This is the SDK for creating binary modules for the MTA server. Only install if you have a good understanding of C++!"
 ;LangString DESC_Blank          ${LANG_ENGLISH} ""
 LangString  DESC_SectionGroupDev        ${LANG_ENGLISH} "Development code and tools that aid in the creation of mods for Iran Multi Player"
@@ -273,7 +273,7 @@ Function .onInit
     ${LogText} "${PRODUCT_VERSION} ${REVISION_TAG}"
     ${LogText} "+Function begin - .onInit"
 
-    ; Try to find previously saved MTA:SA install path
+    ; Try to find previously saved IRMP:SA install path
     ReadRegStr $Install_Dir HKLM "SOFTWARE\Iran Multi Player: San Andreas All\${0.0}" "Last Install Location"
     ${If} $Install_Dir == ""
         ReadRegStr $Install_Dir HKLM "SOFTWARE\Iran Multi Player: San Andreas ${0.0}" "Last Install Location"
@@ -1047,7 +1047,7 @@ FunctionEnd
 
 LangString UNINST_REQUEST ${LANG_ENGLISH}   "Are you sure you want to completely remove $(^Name) and all of its components?"
 LangString UNINST_REQUEST_NOTE ${LANG_ENGLISH}  "Uninstalling before update?\
-$\r$\nIt is not necessary to uninstall before installing a new version of MTA:SA\
+$\r$\nIt is not necessary to uninstall before installing a new version of IRMP:SA\
 $\r$\nRun the new installer to upgrade and preserve your settings."
 
 Function un.onInit
@@ -1589,7 +1589,7 @@ Function ResizeSharedDialogContents
     Call MoveDialogItem
 
     StrCpy $ITEM_PARENT $HWNDPARENT
-    StrCpy $ITEM_ID 1038    ; Static - "Choose which features of MTA:SA v1.0 you want to install."
+    StrCpy $ITEM_ID 1038    ; Static - "Choose which features of IRMP:SA v1.0 you want to install."
     Call MoveDialogItem
 
     ${If} "$(LANGUAGE_RTL)" == "1"

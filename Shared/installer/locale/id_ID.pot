@@ -19,18 +19,18 @@ msgstr ""
 
 #. GET_XPVISTA_PLEASE
 #: Shared/installer/nightly.nsi:205
-msgid "The version of MTA:SA you've downloaded does not support Windows XP or Vista.  Please download an alternative version from www.mtasa.com."
-msgstr "Versi MTA:SA yang telah anda unduh tidak mendukung Windows XP atau Vista.  Silakan unduh versi alternatif dari www.mtasa.com."
+msgid "The version of IRMP:SA you've downloaded does not support Windows XP or Vista.  Please download an alternative version from www.mtasa.com."
+msgstr "Versi IRMP:SA yang telah anda unduh tidak mendukung Windows XP atau Vista.  Silakan unduh versi alternatif dari www.mtasa.com."
 
 #. GET_WIN81_PLEASE
 #: Shared/installer/nightly.nsi:206
-msgid "The version of MTA:SA you've downloaded does not support Windows 7, 8 or 8.1.  Please download an alternative version from www.mtasa.com."
-msgstr "Versi MTA:SA yang telah Anda unduh tidak mendukung Windows 7, 8 atau 8.1. Silahkan unduh versi alternatif dari www.mtasa.com."
+msgid "The version of IRMP:SA you've downloaded does not support Windows 7, 8 or 8.1.  Please download an alternative version from www.mtasa.com."
+msgstr "Versi IRMP:SA yang telah Anda unduh tidak mendukung Windows 7, 8 atau 8.1. Silahkan unduh versi alternatif dari www.mtasa.com."
 
 #. GET_MASTER_PLEASE
 #: Shared/installer/nightly.nsi:207
-msgid "The version of MTA:SA you've downloaded is designed for old versions of Windows.  Please download an alternative version from www.mtasa.com."
-msgstr "Versi MTA:SA yang telah Anda unduh itu didesain untuk versi Windows yang lama. Silahkan unduh versi alternatif dari www.mtasa.com."
+msgid "The version of IRMP:SA you've downloaded is designed for old versions of Windows.  Please download an alternative version from www.mtasa.com."
+msgstr "Versi IRMP:SA yang telah Anda unduh itu didesain untuk versi Windows yang lama. Silahkan unduh versi alternatif dari www.mtasa.com."
 
 #. WELCOME_TEXT
 #: Shared/installer/nightly.nsi:208
@@ -57,12 +57,12 @@ msgstr "Folder Grand Theft Auto: San Andreas"
 #: Shared/installer/nightly.nsi:214
 msgid "Please select your Grand Theft Auto: San Andreas folder.$\n"
 "$\n"
-"You MUST have Grand Theft Auto: San Andreas 1.0 installed to use MTA:SA, it does not support any other versions.$\n"
+"You MUST have Grand Theft Auto: San Andreas 1.0 installed to use IRMP:SA, it does not support any other versions.$\n"
 "$\n"
 "Click Install to begin installing."
 msgstr "Silahkan pilih folder Grand Theft Auto: San Andreas anda.$\n"
 "$\n"
-"Anda HARUS mempunyai Grand Theft Auto: San Andreas 1.0 yang terpasang untuk menggunakan MTA:SA, tidak mendukung versi lainnya.$\n"
+"Anda HARUS mempunyai Grand Theft Auto: San Andreas 1.0 yang terpasang untuk menggunakan IRMP:SA, tidak mendukung versi lainnya.$\n"
 "$\n"
 "Klik Pasang untuk memulai pemasangan."
 
@@ -73,8 +73,8 @@ msgstr "Buat grup Start Menu untuk aplikasi yang terpasang"
 
 #. DESC_Section11
 #: Shared/installer/nightly.nsi:218
-msgid "Create a Desktop Shortcut for the MTA:SA Client."
-msgstr "Buat Pintasan Desktop untuk Klien MTA:SA."
+msgid "Create a Desktop Shortcut for the IRMP:SA Client."
+msgstr "Buat Pintasan Desktop untuk Klien IRMP:SA."
 
 #. DESC_Section12
 #: Shared/installer/nightly.nsi:219
@@ -98,8 +98,8 @@ msgstr "Komponen inti diperlukan untuk menjalankan Iran Multi Player."
 
 #. DESC_Section2
 #: Shared/installer/nightly.nsi:223
-msgid "The MTA:SA modification, allowing you to play online."
-msgstr "Modifikasi MTA:SA, memungkinkan anda untuk bermain secara daring."
+msgid "The IRMP:SA modification, allowing you to play online."
+msgstr "Modifikasi IRMP:SA, memungkinkan anda untuk bermain secara daring."
 
 #. DESC_SectionGroupServer
 #: Shared/installer/nightly.nsi:226
@@ -113,8 +113,8 @@ msgstr "Server Iran Multi Player. Ini adalah komponen yang diperlukan."
 
 #. DESC_Section5
 #: Shared/installer/nightly.nsi:228
-msgid "The MTA:SA modification for the server."
-msgstr "Modifikasi MTA:SA untuk server."
+msgid "The IRMP:SA modification for the server."
+msgstr "Modifikasi IRMP:SA untuk server."
 
 #. DESC_Section6
 #: Shared/installer/nightly.nsi:229
@@ -128,8 +128,8 @@ msgstr "Ini adalah satu set opsional dari mode game dan peta untuk server anda."
 
 #. DESC_Section8
 #: Shared/installer/nightly.nsi:231
-msgid "The MTA:SA 1.0 Map Editor.  This can be used to create your very own maps for use in gamemodes for MTA."
-msgstr "Penyunting Peta MTA:SA 1.0.  Ini bisa digunakan untuk membuat peta anda sendiri untuk digunakan di mode permainan untuk MTA."
+msgid "The IRMP:SA 1.0 Map Editor.  This can be used to create your very own maps for use in gamemodes for MTA."
+msgstr "Penyunting Peta IRMP:SA 1.0.  Ini bisa digunakan untuk membuat peta anda sendiri untuk digunakan di mode permainan untuk MTA."
 
 #. DESC_Section9
 #: Shared/installer/nightly.nsi:232
@@ -258,10 +258,10 @@ msgstr "Apakah anda yakin untuk menghapus $(^Name) secara lengkap dan semua komp
 #. UNINST_REQUEST_NOTE
 #: Shared/installer/nightly.nsi:1050
 msgid "Uninstalling before update?$\\r$\n"
-"It is not necessary to uninstall before installing a new version of MTA:SA$\\r$\n"
+"It is not necessary to uninstall before installing a new version of IRMP:SA$\\r$\n"
 "Run the new installer to upgrade and preserve your settings."
 msgstr "Menghapus sebelum update?$\\r$\n"
-"Penghapusan tidak diperlukan sebelum memasang versi baru dari MTA:SA$\\r$\n"
+"Penghapusan tidak diperlukan sebelum memasang versi baru dari IRMP:SA$\\r$\n"
 "Jalankan pemasang baru untuk meningkatkan dan mempertahankan pengaturan anda."
 
 #. UNINST_DATA_REQUEST

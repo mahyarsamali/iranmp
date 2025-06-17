@@ -66,13 +66,13 @@ const SDialogItemInfo g_GraphicsDllDialogItems[] = {
     {0, 0, _td("MTA: San Andreas - Warning")},
     {IDC_D3DDLL_TEXT1, 0, _td("Your Grand Theft Auto: San Andreas install directory contains these files:")},
     {IDC_D3DDLL_TEXT2, 0,
-     _td("These files are not required and may interfere with the graphical features in this version of MTA:SA.\n\n"
+     _td("These files are not required and may interfere with the graphical features in this version of IRMP:SA.\n\n"
          "It is recommended that you remove or rename these files.")},
     {IDC_NO_ACTION, 1, _td("Keep these files, but also show this warning on next start")},
     {IDC_CHECK_NOT_AGAIN, 1, _td("Do not remind me about these files again")},
     {IDC_APPLY_AUTOMATIC_CHANGES, 1, _td("Rename these files from *.dll to *.dll.bak")},
     {IDC_BUTTON_SHOW_DIR, 0, _td("Show me these files")},
-    {IDOK, 0, _td("Play MTA:SA")},
+    {IDOK, 0, _td("Play IRMP:SA")},
     {IDCANCEL, 0, dialogStringsQuit},
     {-1},
 };

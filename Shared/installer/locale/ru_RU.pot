@@ -19,20 +19,20 @@ msgstr ""
 
 #. GET_XPVISTA_PLEASE
 #: Shared/installer/nightly.nsi:205
-msgid "The version of MTA:SA you've downloaded does not support Windows XP or Vista.  Please download an alternative version from www.mtasa.com."
-msgstr "Версия MTA:SA, которую вы скачали, не поддерживает Windows XP или Vista.\n\n"
+msgid "The version of IRMP:SA you've downloaded does not support Windows XP or Vista.  Please download an alternative version from www.mtasa.com."
+msgstr "Версия IRMP:SA, которую вы скачали, не поддерживает Windows XP или Vista.\n\n"
 "Пожалуйста, скачайте другую версию с www.mtasa.com."
 
 #. GET_WIN81_PLEASE
 #: Shared/installer/nightly.nsi:206
-msgid "The version of MTA:SA you've downloaded does not support Windows 7, 8 or 8.1.  Please download an alternative version from www.mtasa.com."
-msgstr "Версия MTA:SA, которую вы скачали, не поддерживает Windows 7, 8 или 8.1.\n\n"
+msgid "The version of IRMP:SA you've downloaded does not support Windows 7, 8 or 8.1.  Please download an alternative version from www.mtasa.com."
+msgstr "Версия IRMP:SA, которую вы скачали, не поддерживает Windows 7, 8 или 8.1.\n\n"
 "Пожалуйста, скачайте другую версию с www.mtasa.com."
 
 #. GET_MASTER_PLEASE
 #: Shared/installer/nightly.nsi:207
-msgid "The version of MTA:SA you've downloaded is designed for old versions of Windows.  Please download an alternative version from www.mtasa.com."
-msgstr "Загруженная вами версия MTA:SA предназначена для старых версий Windows. Пожалуйста, скачайте другую версию с сайта www.mtasa.com."
+msgid "The version of IRMP:SA you've downloaded is designed for old versions of Windows.  Please download an alternative version from www.mtasa.com."
+msgstr "Загруженная вами версия IRMP:SA предназначена для старых версий Windows. Пожалуйста, скачайте другую версию с сайта www.mtasa.com."
 
 #. WELCOME_TEXT
 #: Shared/installer/nightly.nsi:208
@@ -59,12 +59,12 @@ msgstr "Путь до папки Grand Theft Auto: San Andreas"
 #: Shared/installer/nightly.nsi:214
 msgid "Please select your Grand Theft Auto: San Andreas folder.$\n"
 "$\n"
-"You MUST have Grand Theft Auto: San Andreas 1.0 installed to use MTA:SA, it does not support any other versions.$\n"
+"You MUST have Grand Theft Auto: San Andreas 1.0 installed to use IRMP:SA, it does not support any other versions.$\n"
 "$\n"
 "Click Install to begin installing."
 msgstr "Пожалуйста, выберите папку Grand Theft Auto: San Andreas.$\n"
 "$\n"
-"Для использования MTA:SA необходима Grand Theft Auto: San Andreas версии 1.0, другие версии не поддерживаются.$\n"
+"Для использования IRMP:SA необходима Grand Theft Auto: San Andreas версии 1.0, другие версии не поддерживаются.$\n"
 "$\n"
 "Нажмите Установить для начала установки."
 
@@ -75,7 +75,7 @@ msgstr "Добавить пункт в меню \"Пуск\""
 
 #. DESC_Section11
 #: Shared/installer/nightly.nsi:218
-msgid "Create a Desktop Shortcut for the MTA:SA Client."
+msgid "Create a Desktop Shortcut for the IRMP:SA Client."
 msgstr "Создать ярлык на рабочем столе."
 
 #. DESC_Section12
@@ -100,8 +100,8 @@ msgstr "Основные компоненты, необходимые для з�
 
 #. DESC_Section2
 #: Shared/installer/nightly.nsi:223
-msgid "The MTA:SA modification, allowing you to play online."
-msgstr "Модификация MTA:SA, позволяющая играть по сети."
+msgid "The IRMP:SA modification, allowing you to play online."
+msgstr "Модификация IRMP:SA, позволяющая играть по сети."
 
 #. DESC_SectionGroupServer
 #: Shared/installer/nightly.nsi:226
@@ -115,8 +115,8 @@ msgstr "Сервер Iran Multi Player. Это необходимый компо
 
 #. DESC_Section5
 #: Shared/installer/nightly.nsi:228
-msgid "The MTA:SA modification for the server."
-msgstr "Модификация MTA:SA для сервера."
+msgid "The IRMP:SA modification for the server."
+msgstr "Модификация IRMP:SA для сервера."
 
 #. DESC_Section6
 #: Shared/installer/nightly.nsi:229
@@ -130,8 +130,8 @@ msgstr "Это список необязательных игровых режи
 
 #. DESC_Section8
 #: Shared/installer/nightly.nsi:231
-msgid "The MTA:SA 1.0 Map Editor.  This can be used to create your very own maps for use in gamemodes for MTA."
-msgstr "Редактор карт MTA:SA 1.0. Используется для создания своих собственных карт, используемых в игровых режимах для MTA."
+msgid "The IRMP:SA 1.0 Map Editor.  This can be used to create your very own maps for use in gamemodes for MTA."
+msgstr "Редактор карт IRMP:SA 1.0. Используется для создания своих собственных карт, используемых в игровых режимах для MTA."
 
 #. DESC_Section9
 #: Shared/installer/nightly.nsi:232
@@ -260,10 +260,10 @@ msgstr "Вы уверены, что хотите полностью удалит
 #. UNINST_REQUEST_NOTE
 #: Shared/installer/nightly.nsi:1050
 msgid "Uninstalling before update?$\\r$\n"
-"It is not necessary to uninstall before installing a new version of MTA:SA$\\r$\n"
+"It is not necessary to uninstall before installing a new version of IRMP:SA$\\r$\n"
 "Run the new installer to upgrade and preserve your settings."
 msgstr "Удалить перед обновлением?$\\r$\n"
-"Удаление старой версии необязательно перед установкой новой версии MTA:SA$\\r$\n"
+"Удаление старой версии необязательно перед установкой новой версии IRMP:SA$\\r$\n"
 "Запустите новый файл установки для обновления и сохранения ваших данных."
 
 #. UNINST_DATA_REQUEST

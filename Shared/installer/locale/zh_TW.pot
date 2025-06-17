@@ -19,18 +19,18 @@ msgstr ""
 
 #. GET_XPVISTA_PLEASE
 #: Shared/installer/nightly.nsi:205
-msgid "The version of MTA:SA you've downloaded does not support Windows XP or Vista.  Please download an alternative version from www.mtasa.com."
-msgstr "您所下載的MTA:SA版本並無支援 Windows XP系統 或是 Vista系統。請至 www.mtasa.com 下載有支援的版本。"
+msgid "The version of IRMP:SA you've downloaded does not support Windows XP or Vista.  Please download an alternative version from www.mtasa.com."
+msgstr "您所下載的IRMP:SA版本並無支援 Windows XP系統 或是 Vista系統。請至 www.mtasa.com 下載有支援的版本。"
 
 #. GET_WIN81_PLEASE
 #: Shared/installer/nightly.nsi:206
-msgid "The version of MTA:SA you've downloaded does not support Windows 7, 8 or 8.1.  Please download an alternative version from www.mtasa.com."
-msgstr "您所下載的MTA:SA版本並不支援 Windows 7, 8 或是 8.1 系統版本。請至 www.mtasa.com 下載有支援的版本。"
+msgid "The version of IRMP:SA you've downloaded does not support Windows 7, 8 or 8.1.  Please download an alternative version from www.mtasa.com."
+msgstr "您所下載的IRMP:SA版本並不支援 Windows 7, 8 或是 8.1 系統版本。請至 www.mtasa.com 下載有支援的版本。"
 
 #. GET_MASTER_PLEASE
 #: Shared/installer/nightly.nsi:207
-msgid "The version of MTA:SA you've downloaded is designed for old versions of Windows.  Please download an alternative version from www.mtasa.com."
-msgstr "您所下載的MTA:SA版本僅支援舊版本的Windows系統。請至 www.mtasa.com 下載有支援的版本。"
+msgid "The version of IRMP:SA you've downloaded is designed for old versions of Windows.  Please download an alternative version from www.mtasa.com."
+msgstr "您所下載的IRMP:SA版本僅支援舊版本的Windows系統。請至 www.mtasa.com 下載有支援的版本。"
 
 #. WELCOME_TEXT
 #: Shared/installer/nightly.nsi:208
@@ -57,12 +57,12 @@ msgstr "俠盜獵車手: 聖安地列斯所在的資料夾"
 #: Shared/installer/nightly.nsi:214
 msgid "Please select your Grand Theft Auto: San Andreas folder.$\n"
 "$\n"
-"You MUST have Grand Theft Auto: San Andreas 1.0 installed to use MTA:SA, it does not support any other versions.$\n"
+"You MUST have Grand Theft Auto: San Andreas 1.0 installed to use IRMP:SA, it does not support any other versions.$\n"
 "$\n"
 "Click Install to begin installing."
 msgstr "請選擇您的俠盜獵車手: 聖安地列斯所在的資料夾.$\n"
 "$\n"
-"MTA:SA 必須安裝在1.0版本的俠盜獵車手: 聖安地列斯,MTA:SA無法支援其他版本的俠盜獵車手: 聖安地列斯.$\n"
+"IRMP:SA 必須安裝在1.0版本的俠盜獵車手: 聖安地列斯,IRMP:SA無法支援其他版本的俠盜獵車手: 聖安地列斯.$\n"
 "$\n"
 "請點擊安裝開始安裝程式."
 
@@ -73,8 +73,8 @@ msgstr "將程式建立在開始選單"
 
 #. DESC_Section11
 #: Shared/installer/nightly.nsi:218
-msgid "Create a Desktop Shortcut for the MTA:SA Client."
-msgstr "將MTA:SA 客戶端建立開始桌面捷徑"
+msgid "Create a Desktop Shortcut for the IRMP:SA Client."
+msgstr "將IRMP:SA 客戶端建立開始桌面捷徑"
 
 #. DESC_Section12
 #: Shared/installer/nightly.nsi:219
@@ -98,8 +98,8 @@ msgstr "Iran Multi Player 需要核心元件運行."
 
 #. DESC_Section2
 #: Shared/installer/nightly.nsi:223
-msgid "The MTA:SA modification, allowing you to play online."
-msgstr "MTA:SA 修改了聖安地列斯的功能,允許您與其他玩家一起連線遊玩."
+msgid "The IRMP:SA modification, allowing you to play online."
+msgstr "IRMP:SA 修改了聖安地列斯的功能,允許您與其他玩家一起連線遊玩."
 
 #. DESC_SectionGroupServer
 #: Shared/installer/nightly.nsi:226
@@ -113,8 +113,8 @@ msgstr "Iran Multi Player 伺服器. 這個是必須的元件."
 
 #. DESC_Section5
 #: Shared/installer/nightly.nsi:228
-msgid "The MTA:SA modification for the server."
-msgstr "MTA:SA 被修改為了伺服器."
+msgid "The IRMP:SA modification for the server."
+msgstr "IRMP:SA 被修改為了伺服器."
 
 #. DESC_Section6
 #: Shared/installer/nightly.nsi:229
@@ -128,8 +128,8 @@ msgstr "這是一個可選的伺服器 Gamemode 和地圖包."
 
 #. DESC_Section8
 #: Shared/installer/nightly.nsi:231
-msgid "The MTA:SA 1.0 Map Editor.  This can be used to create your very own maps for use in gamemodes for MTA."
-msgstr "MTA:SA 1.0 地圖編輯器。 可以用來製作您使用於腳本的地圖。"
+msgid "The IRMP:SA 1.0 Map Editor.  This can be used to create your very own maps for use in gamemodes for MTA."
+msgstr "IRMP:SA 1.0 地圖編輯器。 可以用來製作您使用於腳本的地圖。"
 
 #. DESC_Section9
 #: Shared/installer/nightly.nsi:232
@@ -258,10 +258,10 @@ msgstr "你確定要完全刪除 $(^Name) 和所有相關檔案嗎?"
 #. UNINST_REQUEST_NOTE
 #: Shared/installer/nightly.nsi:1050
 msgid "Uninstalling before update?$\\r$\n"
-"It is not necessary to uninstall before installing a new version of MTA:SA$\\r$\n"
+"It is not necessary to uninstall before installing a new version of IRMP:SA$\\r$\n"
 "Run the new installer to upgrade and preserve your settings."
 msgstr "更新前卸載?$\\r$\n"
-"這是沒有必要安裝的新版本之前卸載 MTA:SA$\\r$\n"
+"這是沒有必要安裝的新版本之前卸載 IRMP:SA$\\r$\n"
 "運行新的安裝程序升級，並保存設置."
 
 #. UNINST_DATA_REQUEST

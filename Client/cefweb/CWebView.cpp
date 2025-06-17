@@ -856,7 +856,7 @@ CefResourceRequestHandler::ReturnValue CWebView::OnBeforeResourceLoad(CefRefPtr<
 
         if (iter != headerMap.end())
         {
-            // Add MTA:SA "watermark"
+            // Add IRMP:SA "watermark"
             iter->second = iter->second.ToString() + "; " MTA_CEF_USERAGENT;
 
             // Add 'Android' to get the mobile version
