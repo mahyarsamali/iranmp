@@ -50,7 +50,7 @@ Var ClientExePath
 Var ServerExePath
 Var UninstallExePath
 
-; Games explorer: With each new X.X, update this GUID and the file at MTA10\launch\NEU\Multi Theft Auto.gdf.xml
+; Games explorer: With each new X.X, update this GUID and the file at MTA10\launch\NEU\Iran Multi Player.gdf.xml
 !define GUID "{119D0ADB-56AF-4C85-9037-26564C0ACD57}"
 
 
@@ -94,9 +94,9 @@ Var UninstallExePath
 !define PRODUCT_NAME "MTA:SA ${0.0}"
 !define PRODUCT_NAME_NO_VER "MTA:SA"
 
-!define PRODUCT_PUBLISHER "Multi Theft Auto"
+!define PRODUCT_PUBLISHER "Iran Multi Player"
 !define PRODUCT_WEB_SITE "https://www.multitheftauto.com"
-!define PRODUCT_DIR_REGKEY "Software\Microsoft\Windows\CurrentVersion\App Paths\Multi Theft Auto ${0.0}.exe"
+!define PRODUCT_DIR_REGKEY "Software\Microsoft\Windows\CurrentVersion\App Paths\Iran Multi Player ${0.0}.exe"
 !define PRODUCT_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\${PRODUCT_NAME}"
 !define PRODUCT_UNINST_ROOT_KEY "HKLM"
 
@@ -145,7 +145,7 @@ Page custom CustomDirectoryPage CustomDirectoryPageLeave
 ;Note: Assumes NSIS Unicode edition compiler
 !define MUI_LANGDLL_ALLLANGUAGES
 !define MUI_LANGDLL_REGISTRY_ROOT "HKLM"
-!define MUI_LANGDLL_REGISTRY_KEY "SOFTWARE\Multi Theft Auto: San Andreas All\${0.0}"
+!define MUI_LANGDLL_REGISTRY_KEY "SOFTWARE\Iran Multi Player: San Andreas All\${0.0}"
 !define MUI_LANGDLL_REGISTRY_VALUENAME "Installer Language"
 !insertmacro MUI_RESERVEFILE_LANGDLL ;Solid compression optimization for multilang
 
@@ -183,13 +183,13 @@ Page custom CustomDirectoryPage CustomDirectoryPageLeave
         !define VI_PRODUCT_VERSION "${0.0.0}.0"
     !endif
     !define VI_PRODUCT_NAME "MTA San Andreas"
-    !define VI_COMPANY_NAME "Multi Theft Auto"
+    !define VI_COMPANY_NAME "Iran Multi Player"
     !define /date DATE_YEAR "%Y"
-    !define VI_LEGAL_COPYRIGHT "(C) 2003 - ${DATE_YEAR} Multi Theft Auto"
+    !define VI_LEGAL_COPYRIGHT "(C) 2003 - ${DATE_YEAR} Iran Multi Player"
     !ifndef LIGHTBUILD
-        !define VI_FILE_DESCRIPTION "Multi Theft Auto Full Installer"
+        !define VI_FILE_DESCRIPTION "Iran Multi Player Full Installer"
     !else
-        !define VI_FILE_DESCRIPTION "Multi Theft Auto Nightly Installer"
+        !define VI_FILE_DESCRIPTION "Iran Multi Player Nightly Installer"
     !endif
 !endif
 VIProductVersion "${VI_PRODUCT_VERSION}"
@@ -219,27 +219,27 @@ LangString  DESC_Section11          ${LANG_ENGLISH} "Create a Desktop Shortcut f
 LangString  DESC_Section12          ${LANG_ENGLISH} "Register mtasa:// protocol for browser clickable-ness."
 LangString  DESC_Section13          ${LANG_ENGLISH} "Add to Windows Games Explorer (if present)."
 LangString  DESC_DirectX            ${LANG_ENGLISH} "Install or update DirectX (if required)."
-LangString  DESC_Section1           ${LANG_ENGLISH} "The core components required to run Multi Theft Auto."
+LangString  DESC_Section1           ${LANG_ENGLISH} "The core components required to run Iran Multi Player."
 LangString  DESC_Section2           ${LANG_ENGLISH} "The MTA:SA modification, allowing you to play online."
-;LangString DESC_Section3           ${LANG_ENGLISH} "The Multi Theft Auto:Editor for MTA:SA, allowing you to create and edit maps."
-;LangString DESC_SectionGroupMods   ${LANG_ENGLISH} "Modifications for Multi Theft Auto. Without at least one of these, you cannot play Multi Theft Auto."
-LangString  DESC_SectionGroupServer  ${LANG_ENGLISH}    "The Multi Theft Auto Server. This allows you to host games from your computer. This requires a fast internet connection."
-LangString  DESC_Section4           ${LANG_ENGLISH} "The Multi Theft Auto server. This is a required component."
+;LangString DESC_Section3           ${LANG_ENGLISH} "The Iran Multi Player:Editor for MTA:SA, allowing you to create and edit maps."
+;LangString DESC_SectionGroupMods   ${LANG_ENGLISH} "Modifications for Iran Multi Player. Without at least one of these, you cannot play Iran Multi Player."
+LangString  DESC_SectionGroupServer  ${LANG_ENGLISH}    "The Iran Multi Player Server. This allows you to host games from your computer. This requires a fast internet connection."
+LangString  DESC_Section4           ${LANG_ENGLISH} "The Iran Multi Player server. This is a required component."
 LangString  DESC_Section5           ${LANG_ENGLISH} "The MTA:SA modification for the server."
 LangString  DESC_Section6           ${LANG_ENGLISH} "This is a set of required resources for your server."
 LangString  DESC_Section7           ${LANG_ENGLISH} "This is an optional set of gamemodes and maps for your server."
 LangString  DESC_Section8           ${LANG_ENGLISH} "The MTA:SA 1.0 Map Editor.  This can be used to create your very own maps for use in gamemodes for MTA."
 LangString  DESC_Section9           ${LANG_ENGLISH} "This is the SDK for creating binary modules for the MTA server. Only install if you have a good understanding of C++!"
 ;LangString DESC_Blank          ${LANG_ENGLISH} ""
-LangString  DESC_SectionGroupDev        ${LANG_ENGLISH} "Development code and tools that aid in the creation of mods for Multi Theft Auto"
-LangString  DESC_SectionGroupClient  ${LANG_ENGLISH}    "The client is the program you run to play on a Multi Theft Auto server"
+LangString  DESC_SectionGroupDev        ${LANG_ENGLISH} "Development code and tools that aid in the creation of mods for Iran Multi Player"
+LangString  DESC_SectionGroupClient  ${LANG_ENGLISH}    "The client is the program you run to play on a Iran Multi Player server"
 
 
 Function LaunchLink
     SetOutPath "$INSTDIR"
     # Problem: 'non-admin nsis' and 'admin nsis' run at the same time and can have different values for $INSTDIR
     # Fix: Copy to temp variable
-    StrCpy $1 "$INSTDIR\Multi Theft Auto.exe"
+    StrCpy $1 "$INSTDIR\Iran Multi Player.exe"
     !insertmacro UAC_AsUser_ExecShell "" "$1" "" "" ""
 FunctionEnd
 
@@ -274,9 +274,9 @@ Function .onInit
     ${LogText} "+Function begin - .onInit"
 
     ; Try to find previously saved MTA:SA install path
-    ReadRegStr $Install_Dir HKLM "SOFTWARE\Multi Theft Auto: San Andreas All\${0.0}" "Last Install Location"
+    ReadRegStr $Install_Dir HKLM "SOFTWARE\Iran Multi Player: San Andreas All\${0.0}" "Last Install Location"
     ${If} $Install_Dir == ""
-        ReadRegStr $Install_Dir HKLM "SOFTWARE\Multi Theft Auto: San Andreas ${0.0}" "Last Install Location"
+        ReadRegStr $Install_Dir HKLM "SOFTWARE\Iran Multi Player: San Andreas ${0.0}" "Last Install Location"
     ${EndIf}
     ${If} $Install_Dir != ""
         Call NoteMTAWasPresent
@@ -311,15 +311,15 @@ Function .onInit
     ${EndIf}
 
     ; Try to find previously saved GTA:SA install path
-    ReadRegStr $2 HKLM "SOFTWARE\Multi Theft Auto: San Andreas All\Common" "GTA:SA Path"
+    ReadRegStr $2 HKLM "SOFTWARE\Iran Multi Player: San Andreas All\Common" "GTA:SA Path"
     ${If} $2 == ""
-        ReadRegStr $2 HKCU "SOFTWARE\Multi Theft Auto: San Andreas" "GTA:SA Path"
+        ReadRegStr $2 HKCU "SOFTWARE\Iran Multi Player: San Andreas" "GTA:SA Path"
     ${EndIf}
     ${If} $2 == ""
         ReadRegStr $2 HKLM "SOFTWARE\Rockstar Games\GTA San Andreas\Installation" "ExePath"
     ${EndIf}
     ${If} $2 == ""
-        ReadRegStr $2 HKLM "SOFTWARE\Multi Theft Auto: San Andreas" "GTA:SA Path"
+        ReadRegStr $2 HKLM "SOFTWARE\Iran Multi Player: San Andreas" "GTA:SA Path"
     ${EndIf}
     ${If} $2 == ""
         ReadRegStr $3 HKCU "Software\Valve\Steam\Apps\12120" "Installed"
@@ -330,7 +330,7 @@ Function .onInit
         ${EndIf}
     ${EndIf}
     ${If} $2 == ""
-        ReadRegStr $2 HKCU "SOFTWARE\Multi Theft Auto: San Andreas ${0.0}" "GTA:SA Path Backup"
+        ReadRegStr $2 HKCU "SOFTWARE\Iran Multi Player: San Andreas ${0.0}" "GTA:SA Path Backup"
     ${EndIf}
 
     ; Report previous install status
@@ -367,8 +367,8 @@ Function .onInstSuccess
     ${LogText} "+Function begin - .onInstSuccess"
     SetShellVarContext all
 
-    WriteRegStr HKLM "SOFTWARE\Multi Theft Auto: San Andreas All\Common" "GTA:SA Path" $GTA_DIR
-    WriteRegStr HKLM "SOFTWARE\Multi Theft Auto: San Andreas All\${0.0}" "Last Install Location" $INSTDIR
+    WriteRegStr HKLM "SOFTWARE\Iran Multi Player: San Andreas All\Common" "GTA:SA Path" $GTA_DIR
+    WriteRegStr HKLM "SOFTWARE\Iran Multi Player: San Andreas All\${0.0}" "Last Install Location" $INSTDIR
 
     # Add 'MaxLoaderThreads' DWORD value for gta_sa.exe to disable multi-threaded loading of DLLs.
     WriteRegDWORD HKLM "SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\gta_sa.exe" "MaxLoaderThreads" 1
@@ -433,8 +433,8 @@ Function .onInstSuccess
         ; Add the protocol handler
         WriteRegStr HKCR "mtasa" "" "URL:MTA San Andreas Protocol"
         WriteRegStr HKCR "mtasa" "URL Protocol" ""
-        WriteRegStr HKCR "mtasa\DefaultIcon" "" "$INSTDIR\Multi Theft Auto.exe"
-        WriteRegStr HKCR "mtasa\shell\open\command" "" '"$INSTDIR\Multi Theft Auto.exe"%1'
+        WriteRegStr HKCR "mtasa\DefaultIcon" "" "$INSTDIR\Iran Multi Player.exe"
+        WriteRegStr HKCR "mtasa\shell\open\command" "" '"$INSTDIR\Iran Multi Player.exe"%1'
     ${EndIf}
 
     ;UAC::Unload ;Must call unload!
@@ -452,7 +452,7 @@ Name "${PRODUCT_NAME_NO_VER} ${PRODUCT_VERSION}"
 OutFile "${INSTALL_OUTPUT}"
 
 ;InstallDir "$PROGRAMfiles San Andreas"
-InstallDirRegKey HKLM "SOFTWARE\Multi Theft Auto: San Andreas All\${0.0}" "Last Install Location"
+InstallDirRegKey HKLM "SOFTWARE\Iran Multi Player: San Andreas All\${0.0}" "Last Install Location"
 ShowInstDetails show
 ShowUnInstDetails show
 
@@ -528,8 +528,8 @@ SectionGroup /e "$(INST_SEC_CLIENT)" SECGCLIENT
         ${EndIf}
         #############################################################
 
-        WriteRegStr HKLM "SOFTWARE\Multi Theft Auto: San Andreas All\Common" "GTA:SA Path" $GTA_DIR
-        WriteRegStr HKLM "SOFTWARE\Multi Theft Auto: San Andreas All\${0.0}" "Last Install Location" $INSTDIR
+        WriteRegStr HKLM "SOFTWARE\Iran Multi Player: San Andreas All\Common" "GTA:SA Path" $GTA_DIR
+        WriteRegStr HKLM "SOFTWARE\Iran Multi Player: San Andreas All\${0.0}" "Last Install Location" $INSTDIR
 
         # Create fixed path data directories
         CreateDirectory "$APPDATA\MTA San Andreas All\Common"
@@ -638,7 +638,7 @@ SectionGroup /e "$(INST_SEC_CLIENT)" SECGCLIENT
         SetOverwrite on
 
         # Make some keys in HKLM read write accessible by all users
-        AccessControl::GrantOnRegKey HKLM "SOFTWARE\Multi Theft Auto: San Andreas All" "($PermissionsGroup)" "FullAccess"
+        AccessControl::GrantOnRegKey HKLM "SOFTWARE\Iran Multi Player: San Andreas All" "($PermissionsGroup)" "FullAccess"
 
         SetOutPath "$INSTDIR\MTA"
         File "${FILES_ROOT}\mta\cgui.dll"
@@ -709,7 +709,7 @@ SectionGroup /e "$(INST_SEC_CLIENT)" SECGCLIENT
 
         ${If} "$(LANGUAGE_CODE)" != ""
             # Write our language to registry
-            WriteRegStr HKLM "SOFTWARE\Multi Theft Auto: San Andreas All\${0.0}\Settings\general" "locale" "$(LANGUAGE_CODE)"
+            WriteRegStr HKLM "SOFTWARE\Iran Multi Player: San Andreas All\${0.0}\Settings\general" "locale" "$(LANGUAGE_CODE)"
         ${EndIf}
 
         !ifndef LIGHTBUILD
@@ -798,15 +798,15 @@ SectionGroup /e "$(INST_SEC_CLIENT)" SECGCLIENT
         File /r "${FILES_ROOT}\mta\locale\*.pot"
 
         SetOutPath "$INSTDIR"
-        File "${FILES_ROOT}\Multi Theft Auto.exe"
+        File "${FILES_ROOT}\Iran Multi Player.exe"
 
         # Ensure exe file can be updated without admin
-        AccessControl::GrantOnFile "$INSTDIR\Multi Theft Auto.exe" "($PermissionsGroup)" "FullAccess"
+        AccessControl::GrantOnFile "$INSTDIR\Iran Multi Player.exe" "($PermissionsGroup)" "FullAccess"
 
         ${If} $AddToGameExplorer == 1
             ${GameExplorer_UpdateGame} ${GUID}
             ${If} ${Errors}
-                ${GameExplorer_AddGame} all "$INSTDIR\Multi Theft Auto.exe" "$INSTDIR" "$INSTDIR\Multi Theft Auto.exe" ${GUID}
+                ${GameExplorer_AddGame} all "$INSTDIR\Iran Multi Player.exe" "$INSTDIR" "$INSTDIR\Iran Multi Player.exe" ${GUID}
                 CreateDirectory $APPDATA\Microsoft\Windows\GameExplorer\${GUID}\SupportTasks\0
                 CreateShortcut "$APPDATA\Microsoft\Windows\GameExplorer\$0\SupportTasks\0\Client Manual.lnk" \ "https://wiki.multitheftauto.com/wiki/Client_Manual"
             ${EndIf}
@@ -1019,11 +1019,11 @@ LangString INST_SEC_DEVELOPER ${LANG_ENGLISH}   "Development"
 Section -Post
     ${LogText} "+Section begin - -Post"
     WriteUninstaller "$INSTDIR\Uninstall.exe"
-    ;WriteRegStr HKLM "${PRODUCT_DIR_REGKEY}" "" "$INSTDIR\Multi Theft Auto.exe"
+    ;WriteRegStr HKLM "${PRODUCT_DIR_REGKEY}" "" "$INSTDIR\Iran Multi Player.exe"
 
     WriteRegStr ${PRODUCT_UNINST_ROOT_KEY} "${PRODUCT_UNINST_KEY}" "DisplayName" "$(^Name)"
     WriteRegStr ${PRODUCT_UNINST_ROOT_KEY} "${PRODUCT_UNINST_KEY}" "UninstallString" "$INSTDIR\Uninstall.exe"
-    WriteRegStr ${PRODUCT_UNINST_ROOT_KEY} "${PRODUCT_UNINST_KEY}" "DisplayIcon" "$INSTDIR\Multi Theft Auto.exe"
+    WriteRegStr ${PRODUCT_UNINST_ROOT_KEY} "${PRODUCT_UNINST_KEY}" "DisplayIcon" "$INSTDIR\Iran Multi Player.exe"
     WriteRegStr ${PRODUCT_UNINST_ROOT_KEY} "${PRODUCT_UNINST_KEY}" "DisplayVersion" "${PRODUCT_VERSION}"
     WriteRegStr ${PRODUCT_UNINST_ROOT_KEY} "${PRODUCT_UNINST_KEY}" "URLInfoAbout" "${PRODUCT_WEB_SITE}"
     WriteRegStr ${PRODUCT_UNINST_ROOT_KEY} "${PRODUCT_UNINST_KEY}" "Publisher" "${PRODUCT_PUBLISHER}"
@@ -1112,8 +1112,8 @@ Section Uninstall
         Delete "$INSTDIR\server\x64\pcre3.dll"
         RmDir "$INSTDIR\server\x64"
 
-        Delete "$INSTDIR\Multi Theft Auto.exe"
-        Delete "$INSTDIR\Multi Theft Auto.exe.dat"
+        Delete "$INSTDIR\Iran Multi Player.exe"
+        Delete "$INSTDIR\Iran Multi Player.exe.dat"
         Delete "$INSTDIR\Uninstall.exe"
 
         Delete "$INSTDIR\mods\deathmatch\client.dll"
@@ -1136,14 +1136,14 @@ Section Uninstall
 
         DeleteRegKey ${PRODUCT_UNINST_ROOT_KEY} "${PRODUCT_UNINST_KEY}"
         DeleteRegKey HKLM "${PRODUCT_DIR_REGKEY}"
-        DeleteRegKey HKLM "SOFTWARE\Multi Theft Auto: San Andreas ${0.0}"
-        DeleteRegKey HKCU "SOFTWARE\Multi Theft Auto: San Andreas ${0.0}"
-        DeleteRegKey HKLM "SOFTWARE\Multi Theft Auto: San Andreas All\${0.0}"
-        ; Delete "SOFTWARE\Multi Theft Auto: San Andreas All" if "Common" is the only one left.
-        ${RemoveRegistryGroupWithSingleKey} HKLM "SOFTWARE\Multi Theft Auto: San Andreas All" "Common"
+        DeleteRegKey HKLM "SOFTWARE\Iran Multi Player: San Andreas ${0.0}"
+        DeleteRegKey HKCU "SOFTWARE\Iran Multi Player: San Andreas ${0.0}"
+        DeleteRegKey HKLM "SOFTWARE\Iran Multi Player: San Andreas All\${0.0}"
+        ; Delete "SOFTWARE\Iran Multi Player: San Andreas All" if "Common" is the only one left.
+        ${RemoveRegistryGroupWithSingleKey} HKLM "SOFTWARE\Iran Multi Player: San Andreas All" "Common"
 
         ReadRegStr $0 HKLM "Software\Classes\mtasa\DefaultIcon" ""
-        ${If} $0 == "$INSTDIR\Multi Theft Auto.exe"
+        ${If} $0 == "$INSTDIR\Iran Multi Player.exe"
             DeleteRegKey HKCR "mtasa"
         ${EndIf}
 
@@ -1165,8 +1165,8 @@ Section Uninstall
 
         RmDir "$INSTDIR" ; fix for #3898
 
-        DeleteRegValue HKCR "Local Settings\Software\Microsoft\Windows\Shell\MuiCache" "$INSTDIR\Multi Theft Auto.exe.FriendlyAppName"
-        DeleteRegValue HKCR "Local Settings\Software\Microsoft\Windows\Shell\MuiCache" "$INSTDIR\Multi Theft Auto.exe.ApplicationCompany"
+        DeleteRegValue HKCR "Local Settings\Software\Microsoft\Windows\Shell\MuiCache" "$INSTDIR\Iran Multi Player.exe.FriendlyAppName"
+        DeleteRegValue HKCR "Local Settings\Software\Microsoft\Windows\Shell\MuiCache" "$INSTDIR\Iran Multi Player.exe.ApplicationCompany"
         DeleteRegValue HKCR "Local Settings\Software\Microsoft\Windows\Shell\MuiCache" "$INSTDIR\MTA\wow64_helper.exe.FriendlyAppName"
         DeleteRegValue HKCR "Local Settings\Software\Microsoft\Windows\Shell\MuiCache" "$INSTDIR\MTA\wow64_helper.exe.ApplicationCompany"
         DeleteRegValue HKCR "Local Settings\Software\Microsoft\Windows\Shell\MuiCache" "$INSTDIR\server\MTA Server.exe.FriendlyAppName"
@@ -1174,7 +1174,7 @@ Section Uninstall
         DeleteRegValue HKCR "Local Settings\Software\Microsoft\Windows\Shell\MuiCache" "$INSTDIR\server\MTA Server64.exe.FriendlyAppName"
         DeleteRegValue HKCR "Local Settings\Software\Microsoft\Windows\Shell\MuiCache" "$INSTDIR\server\MTA Server64.exe.ApplicationCompany"
         DeleteRegValue HKCR "Local Settings\Software\Microsoft\Windows\Shell\MuiCache" "$APPDATA\MTA San Andreas All\${0.0}\GTA San Andreas\gta_sa.exe.FriendlyAppName"
-        DeleteRegValue HKCU "Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Compatibility Assistant\Store" "$INSTDIR\Multi Theft Auto.exe"
+        DeleteRegValue HKCU "Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Compatibility Assistant\Store" "$INSTDIR\Iran Multi Player.exe"
         DeleteRegValue HKCU "Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Compatibility Assistant\Store" "$INSTDIR\server\MTA Server.exe"
         DeleteRegValue HKCU "Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Compatibility Assistant\Store" "$INSTDIR\server\MTA Server64.exe"
         DeleteRegValue HKCU "Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Compatibility Assistant\Store" "$INSTDIR\Uninstall.exe"
@@ -1186,7 +1186,7 @@ Section Uninstall
         EnumRegValue $8 HKCU Software\Microsoft\Windows\CurrentVersion\UFH\SHC $7
         IfErrors done
 
-        ${ReadRegStrMultiSz} ${HKEY_CURRENT_USER} "Software\Microsoft\Windows\CurrentVersion\UFH\SHC" $8 "$INSTDIR\Multi Theft Auto.exe" $9
+        ${ReadRegStrMultiSz} ${HKEY_CURRENT_USER} "Software\Microsoft\Windows\CurrentVersion\UFH\SHC" $8 "$INSTDIR\Iran Multi Player.exe" $9
         ${If} $9 != ""
             DeleteRegValue HKCU "Software\Microsoft\Windows\CurrentVersion\UFH\SHC" $8
             Goto loop
@@ -1221,7 +1221,7 @@ Section Uninstall
         IntOp $7 $7 + 1
         Goto loop
     done:
-        SimpleFC::RemoveApplication "$INSTDIR\Multi Theft Auto.exe"
+        SimpleFC::RemoveApplication "$INSTDIR\Iran Multi Player.exe"
         SimpleFC::RemoveApplication "$INSTDIR\server\MTA Server.exe"
         SimpleFC::RemoveApplication "$INSTDIR\server\MTA Server64.exe"
         SimpleFC::RemoveApplication "$INSTDIR\Uninstall.exe"
@@ -2368,7 +2368,7 @@ Function DoServiceInstall
         GetDLLVersion "$INSTDIR\mta\loader.dll" $R0 $R1
         IntOp $R5 $R1 & 0x0000FFFF ; $R5 now contains build
         ${If} $R5 > 4909
-            Exec '"$INSTDIR\Multi Theft Auto.exe" /nolaunch /kdinstall'
+            Exec '"$INSTDIR\Iran Multi Player.exe" /nolaunch /kdinstall'
             StrCpy $ServiceModified 1
         ${EndIf}
     ${EndIf}
@@ -2380,7 +2380,7 @@ Function un.DoServiceUninstall
         GetDLLVersion "$INSTDIR\mta\loader.dll" $R0 $R1
         IntOp $R5 $R1 & 0x0000FFFF ; $R5 now contains build
         ${If} $R5 > 4909
-            Exec '"$INSTDIR\Multi Theft Auto.exe" /nolaunch /kduninstall'
+            Exec '"$INSTDIR\Iran Multi Player.exe" /nolaunch /kduninstall'
             StrCpy $ServiceModified 2
         ${EndIf}
     ${EndIf}
@@ -2645,7 +2645,7 @@ Function MTACreateShortсut
 		0 \
 		SW_SHOWNORMAL \
 		"" \
-		"Play Multi Theft Auto: San Andreas"
+		"Play Iran Multi Player: San Andreas"
 	${If} ${Errors}
 		${LogText} "Error creating shortcut for EXE $2"
 	${EndIf}
@@ -2682,7 +2682,7 @@ Function MTAInitFileNamesAndPaths
 	# Obvious fix is to roll 1 update where all shortcuts will be deleted and replaced with a unified names.
 	StrCpy $DesktopClientShortcutPath "$DESKTOP\$ClientShortcutName ${0.0}.lnk"
 	# Exe names
-	StrCpy $ClientExeName "Multi Theft Auto.exe"
+	StrCpy $ClientExeName "Iran Multi Player.exe"
 	StrCpy $ServerExeName "MTA Server.exe"
 	StrCpy $UninstallExeName "Uninstall.exe"
 	# Exe paths

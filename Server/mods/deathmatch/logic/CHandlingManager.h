@@ -5,7 +5,7 @@
  *  FILE:        Server/mods/deathmatch/logic/CHandlingManager.h
  *  PURPOSE:     Header file for vehicle handling manager class
  *
- *  Multi Theft Auto is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://multitheftauto.com/
  *
  *****************************************************************************/
 

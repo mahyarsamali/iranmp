@@ -93,8 +93,8 @@ msgstr "Cài đặt hoặc cập nhật DirectX (nếu cần thiết)."
 
 #. DESC_Section1
 #: Shared/installer/nightly.nsi:222
-msgid "The core components required to run Multi Theft Auto."
-msgstr "Các thành phần lõi cần thiết để chạy Multi Theft Auto."
+msgid "The core components required to run Iran Multi Player."
+msgstr "Các thành phần lõi cần thiết để chạy Iran Multi Player."
 
 #. DESC_Section2
 #: Shared/installer/nightly.nsi:223
@@ -103,13 +103,13 @@ msgstr "The MTA:SA modification, cho phép bạn chơi trực tuyến."
 
 #. DESC_SectionGroupServer
 #: Shared/installer/nightly.nsi:226
-msgid "The Multi Theft Auto Server. This allows you to host games from your computer. This requires a fast internet connection."
-msgstr "The Multi Theft Auto Server. Cho phép bạn tự tạo server MTA:SA từ chính máy tính của bạn. Cần có đường truyền mạng nhanh."
+msgid "The Iran Multi Player Server. This allows you to host games from your computer. This requires a fast internet connection."
+msgstr "The Iran Multi Player Server. Cho phép bạn tự tạo server MTA:SA từ chính máy tính của bạn. Cần có đường truyền mạng nhanh."
 
 #. DESC_Section4
 #: Shared/installer/nightly.nsi:227
-msgid "The Multi Theft Auto server. This is a required component."
-msgstr "The Multi Theft Auto server. Đây là thành phần cần thiết."
+msgid "The Iran Multi Player server. This is a required component."
+msgstr "The Iran Multi Player server. Đây là thành phần cần thiết."
 
 #. DESC_Section5
 #: Shared/installer/nightly.nsi:228
@@ -138,13 +138,13 @@ msgstr "Đây là bộ SDK dùng để tạo các mô-đun binary cho server MTA
 
 #. DESC_SectionGroupDev
 #: Shared/installer/nightly.nsi:234
-msgid "Development code and tools that aid in the creation of mods for Multi Theft Auto"
-msgstr "Viết code và các công cụ hỗ trợ trong việc tạo ra các mods cho Multi Theft Auto"
+msgid "Development code and tools that aid in the creation of mods for Iran Multi Player"
+msgstr "Viết code và các công cụ hỗ trợ trong việc tạo ra các mods cho Iran Multi Player"
 
 #. DESC_SectionGroupClient
 #: Shared/installer/nightly.nsi:235
-msgid "The client is the program you run to play on a Multi Theft Auto server"
-msgstr "Client là phần mềm giúp bạn kết nối đến server Multi Theft Auto"
+msgid "The client is the program you run to play on a Iran Multi Player server"
+msgstr "Client là phần mềm giúp bạn kết nối đến server Iran Multi Player"
 
 #. INST_CLIENTSERVER
 #: Shared/installer/nightly.nsi:444

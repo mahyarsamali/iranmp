@@ -321,7 +321,7 @@ msgstr ""
 #, c-format
 msgid "Your installation may be corrupt now.\n\n"
 "%zu out of %zu files could not be restored from the backup.\n\n"
-"You should reinstall Multi Theft Auto from www.multitheftauto.com\n"
+"You should reinstall Iran Multi Player from www.multitheftauto.com\n"
 "or try running the update with administrator rights."
 msgstr ""
 
@@ -385,8 +385,8 @@ msgstr "Σφάλμα"
 
 #: Client/loader/CInstallManager.cpp:561
 #, c-format
-msgid "Multi Theft Auto has not been installed properly, please reinstall. %s"
-msgstr "Το Multi Theft Auto δεν έχει εγκατασταθεί σωστά, παρακαλώ επανεγκαταστήστε. %s"
+msgid "Iran Multi Player has not been installed properly, please reinstall. %s"
+msgstr "Το Iran Multi Player δεν έχει εγκατασταθεί σωστά, παρακαλώ επανεγκαταστήστε. %s"
 
 #: Client/loader/CInstallManager.cpp:613
 msgid "Create GTA:SA junctions"
@@ -460,11 +460,11 @@ msgstr "Αναβάθμιση ρυθμίσεων συμβατότητας"
 #: Client/loader/MainFunctions.cpp:248
 msgid "Trouble restarting MTA:SA\n\n"
 "If the problem persists, open Task Manager and\n"
-"stop the 'gta_sa.exe' and 'Multi Theft Auto.exe' processes\n\n\n"
+"stop the 'gta_sa.exe' and 'Iran Multi Player.exe' processes\n\n\n"
 "Try to launch MTA:SA again?"
 msgstr "Πρόβλημα επανεκκίνησης του MTA:SΑ\n\n"
 "Εάν το πρόβλημα παραμένει, ανοίξτε τη Διαχείριση Εργασιών και\n"
-"σταματήστε τις διαδικασίες 'gta_sa.exe' και 'Multi Theft Auto.exe'\n\n\n"
+"σταματήστε τις διαδικασίες 'gta_sa.exe' και 'Iran Multi Player.exe'\n\n\n"
 "Προσπαθήστε να ξεκινήσετε ξανά το MTA:SA;"
 
 #: Client/loader/MainFunctions.cpp:266
@@ -564,12 +564,12 @@ msgid "Unable to terminate GTA: San Andreas. If the problem persists, please res
 msgstr "Δεν είναι δυνατό να τερματιστεί το GTA:San Andreas. Εάν το πρόβλημα παραμένει, παρακαλώ κάντε επανεκκίνηση του υπολογιστή σας."
 
 #: Client/loader/MainFunctions.cpp:632
-msgid "Registry entries are missing. Please reinstall Multi Theft Auto: San Andreas."
-msgstr "Δεν υπάρχουν καταχωρήσεις μητρώου. Παρακαλώ επανεγκαταστήστε το Multi Theft Auto: San Andreas."
+msgid "Registry entries are missing. Please reinstall Iran Multi Player: San Andreas."
+msgstr "Δεν υπάρχουν καταχωρήσεις μητρώου. Παρακαλώ επανεγκαταστήστε το Iran Multi Player: San Andreas."
 
 #: Client/loader/MainFunctions.cpp:638
-msgid "The path to your installation of GTA: San Andreas contains unsupported (unicode) characters. Please move your Grand Theft Auto: San Andreas installation to a compatible path that contains only standard ASCII characters and reinstall Multi Theft Auto: San Andreas."
-msgstr "Η διαδρομή για την εγκατάσταση του GTA: San Andreas περιέχει μη υποστηριζόμενους χαρακτήρες (unicode). Μετακινήστε την εγκατάσταση Grand Theft Auto: San Andreas σε συμβατή διαδρομή που περιέχει μόνο τυπικούς χαρακτήρες ASCII και επανεγκαταστήστε το Multi Theft Auto: San Andreas."
+msgid "The path to your installation of GTA: San Andreas contains unsupported (unicode) characters. Please move your Grand Theft Auto: San Andreas installation to a compatible path that contains only standard ASCII characters and reinstall Iran Multi Player: San Andreas."
+msgstr "Η διαδρομή για την εγκατάσταση του GTA: San Andreas περιέχει μη υποστηριζόμενους χαρακτήρες (unicode). Μετακινήστε την εγκατάσταση Grand Theft Auto: San Andreas σε συμβατή διαδρομή που περιέχει μόνο τυπικούς χαρακτήρες ASCII και επανεγκαταστήστε το Iran Multi Player: San Andreas."
 
 #: Client/loader/MainFunctions.cpp:648
 msgid "The path to your installation of 'MTA:SA' or 'GTA: San Andreas'\n"
@@ -614,14 +614,14 @@ msgstr "Το κύριο αρχείο δεν είναι υπογεγραμμέν�
 #: Client/loader/MainFunctions.cpp:882
 #, c-format
 msgid "Data file %s is missing. Possible virus activity.\n\n"
-"Consider reinstalling Multi Theft Auto for your security.\n"
+"Consider reinstalling Iran Multi Player for your security.\n"
 "See online help if MTA does not work correctly."
 msgstr ""
 
 #: Client/loader/MainFunctions.cpp:893
 #, c-format
 msgid "Data file %s is modified. Possible virus activity.\n\n"
-"Consider reinstalling Multi Theft Auto for your security.\n"
+"Consider reinstalling Iran Multi Player for your security.\n"
 "See online help if MTA does not work correctly."
 msgstr ""
 
@@ -3323,8 +3323,8 @@ msgid "Connection error"
 msgstr "Σφάλμα σύνδεσης"
 
 #: Shared/sdk/SharedUtil.Misc.hpp:137
-msgid "Multi Theft Auto has not been installed properly, please reinstall."
-msgstr "Το Multi Theft Auto δεν έχει εγκατασταθεί σωστά, εγκαταστήστε ξανά."
+msgid "Iran Multi Player has not been installed properly, please reinstall."
+msgstr "Το Iran Multi Player δεν έχει εγκατασταθεί σωστά, εγκαταστήστε ξανά."
 
 #: Shared/sdk/SharedUtil.Misc.hpp:702
 msgid "Your browser will now display a web page with some help infomation.\n\n"

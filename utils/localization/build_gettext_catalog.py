@@ -6,7 +6,7 @@
 #  PURPOSE:     Create a template .pot file from .cpp and .h project files for client and server
 #  DEVELOPERS:  Dan Chowdhury <>
 #
-#  Multi Theft Auto is available from https://www.multitheftauto.com/
+#  Iran Multi Player is available from https://www.multitheftauto.com/
 #
 ##############################################################################
 import argparse

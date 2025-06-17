@@ -1,6 +1,6 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto
+ *  PROJECT:     Iran Multi Player
  *  LICENSE:     See LICENSE in the top level directory
  *  PURPOSE:     Data file containing nodes positions for default train tracks
  *

@@ -138,63 +138,63 @@
     <LinkIncremental>true</LinkIncremental>
     <OutDir>..\Bin\</OutDir>
     <IntDir>obj\x86\Debug\Client Launcher\</IntDir>
-    <TargetName>Multi Theft Auto_d</TargetName>
+    <TargetName>Iran Multi Player_d</TargetName>
     <TargetExt>.exe</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
     <OutDir>..\Bin\</OutDir>
     <IntDir>obj\x64\Debug\Client Launcher\</IntDir>
-    <TargetName>Multi Theft Auto_d</TargetName>
+    <TargetName>Iran Multi Player_d</TargetName>
     <TargetExt>.exe</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
     <LinkIncremental>true</LinkIncremental>
     <OutDir>..\Bin\</OutDir>
     <IntDir>obj\arm64\Debug\Client Launcher\</IntDir>
-    <TargetName>Multi Theft Auto_d</TargetName>
+    <TargetName>Iran Multi Player_d</TargetName>
     <TargetExt>.exe</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>..\Bin\</OutDir>
     <IntDir>obj\x86\Release\Client Launcher\</IntDir>
-    <TargetName>Multi Theft Auto</TargetName>
+    <TargetName>Iran Multi Player</TargetName>
     <TargetExt>.exe</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>..\Bin\</OutDir>
     <IntDir>obj\x64\Release\Client Launcher\</IntDir>
-    <TargetName>Multi Theft Auto</TargetName>
+    <TargetName>Iran Multi Player</TargetName>
     <TargetExt>.exe</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>..\Bin\</OutDir>
     <IntDir>obj\arm64\Release\Client Launcher\</IntDir>
-    <TargetName>Multi Theft Auto</TargetName>
+    <TargetName>Iran Multi Player</TargetName>
     <TargetExt>.exe</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Nightly|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>..\Bin\</OutDir>
     <IntDir>obj\x86\Nightly\Client Launcher\</IntDir>
-    <TargetName>Multi Theft Auto</TargetName>
+    <TargetName>Iran Multi Player</TargetName>
     <TargetExt>.exe</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Nightly|x64'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>..\Bin\</OutDir>
     <IntDir>obj\x64\Nightly\Client Launcher\</IntDir>
-    <TargetName>Multi Theft Auto</TargetName>
+    <TargetName>Iran Multi Player</TargetName>
     <TargetExt>.exe</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Nightly|ARM64'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>..\Bin\</OutDir>
     <IntDir>obj\arm64\Nightly\Client Launcher\</IntDir>
-    <TargetName>Multi Theft Auto</TargetName>
+    <TargetName>Iran Multi Player</TargetName>
     <TargetExt>.exe</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -224,7 +224,7 @@
       <EntryPointSymbol>WinMainCRTStartup</EntryPointSymbol>
     </Link>
     <Manifest>
-      <AdditionalManifestFiles>../Client/launch/Multi Theft Auto.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
+      <AdditionalManifestFiles>../Client/launch/Iran Multi Player.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
     </Manifest>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -254,7 +254,7 @@
       <EntryPointSymbol>WinMainCRTStartup</EntryPointSymbol>
     </Link>
     <Manifest>
-      <AdditionalManifestFiles>../Client/launch/Multi Theft Auto.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
+      <AdditionalManifestFiles>../Client/launch/Iran Multi Player.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
     </Manifest>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
@@ -284,7 +284,7 @@
       <EntryPointSymbol>WinMainCRTStartup</EntryPointSymbol>
     </Link>
     <Manifest>
-      <AdditionalManifestFiles>../Client/launch/Multi Theft Auto.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
+      <AdditionalManifestFiles>../Client/launch/Iran Multi Player.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
     </Manifest>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -319,7 +319,7 @@
       <EntryPointSymbol>WinMainCRTStartup</EntryPointSymbol>
     </Link>
     <Manifest>
-      <AdditionalManifestFiles>../Client/launch/Multi Theft Auto.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
+      <AdditionalManifestFiles>../Client/launch/Iran Multi Player.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
     </Manifest>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -354,7 +354,7 @@
       <EntryPointSymbol>WinMainCRTStartup</EntryPointSymbol>
     </Link>
     <Manifest>
-      <AdditionalManifestFiles>../Client/launch/Multi Theft Auto.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
+      <AdditionalManifestFiles>../Client/launch/Iran Multi Player.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
     </Manifest>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
@@ -389,7 +389,7 @@
       <EntryPointSymbol>WinMainCRTStartup</EntryPointSymbol>
     </Link>
     <Manifest>
-      <AdditionalManifestFiles>../Client/launch/Multi Theft Auto.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
+      <AdditionalManifestFiles>../Client/launch/Iran Multi Player.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
     </Manifest>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Nightly|Win32'">
@@ -425,7 +425,7 @@
       <ProgramDatabaseFile>$(SolutionDir)Symbols\$(Configuration)_$(Platform)/$(ProjectName).pdb</ProgramDatabaseFile>
     </Link>
     <Manifest>
-      <AdditionalManifestFiles>../Client/launch/Multi Theft Auto.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
+      <AdditionalManifestFiles>../Client/launch/Iran Multi Player.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
     </Manifest>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Nightly|x64'">
@@ -461,7 +461,7 @@
       <ProgramDatabaseFile>$(SolutionDir)Symbols\$(Configuration)_$(Platform)/$(ProjectName).pdb</ProgramDatabaseFile>
     </Link>
     <Manifest>
-      <AdditionalManifestFiles>../Client/launch/Multi Theft Auto.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
+      <AdditionalManifestFiles>../Client/launch/Iran Multi Player.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
     </Manifest>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Nightly|ARM64'">
@@ -497,11 +497,11 @@
       <ProgramDatabaseFile>$(SolutionDir)Symbols\$(Configuration)_$(Platform)/$(ProjectName).pdb</ProgramDatabaseFile>
     </Link>
     <Manifest>
-      <AdditionalManifestFiles>../Client/launch/Multi Theft Auto.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
+      <AdditionalManifestFiles>../Client/launch/Iran Multi Player.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\Client\launch\Multi Theft Auto.h" />
+    <ClInclude Include="..\Client\launch\Iran Multi Player.h" />
     <ClInclude Include="..\Client\launch\StdInc.h" />
     <ClInclude Include="..\Client\launch\resource.h" />
   </ItemGroup>
@@ -512,14 +512,14 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Client\launch\Multi Theft Auto.manifest" />
-    <None Include="..\Client\launch\NEU\Multi Theft Auto.gdf.xml" />
+    <None Include="..\Client\launch\Iran Multi Player.manifest" />
+    <None Include="..\Client\launch\NEU\Iran Multi Player.gdf.xml" />
     <None Include="..\Client\launch\NEU\gameicon_NEU.ico" />
     <None Include="..\Client\launch\premake5.lua" />
     <None Include="..\Client\launch\resource\mtaicon.ico" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="..\Client\launch\Multi Theft Auto.rc" />
+    <ResourceCompile Include="..\Client\launch\Iran Multi Player.rc" />
     <ResourceCompile Include="..\Client\launch\launch.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

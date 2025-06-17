@@ -90,8 +90,8 @@ msgstr "DirectX इंस्टॉल या अपडेट करें (य�
 
 #. DESC_Section1
 #: Shared/installer/nightly.nsi:222
-msgid "The core components required to run Multi Theft Auto."
-msgstr "core components ka jarurat ha multi theft auto ko chalayana ka liya"
+msgid "The core components required to run Iran Multi Player."
+msgstr "core components ka jarurat ha Iran Multi Player ko chalayana ka liya"
 
 #. DESC_Section2
 #: Shared/installer/nightly.nsi:223
@@ -100,13 +100,13 @@ msgstr "MTA:SA modification apko online khalna ka leya"
 
 #. DESC_SectionGroupServer
 #: Shared/installer/nightly.nsi:226
-msgid "The Multi Theft Auto Server. This allows you to host games from your computer. This requires a fast internet connection."
-msgstr "Multi theft auto server. Yaa apko game host apna computer sa karna dayta ha.Is ka leya fast internet connection ka jarurat ha."
+msgid "The Iran Multi Player Server. This allows you to host games from your computer. This requires a fast internet connection."
+msgstr "Iran Multi Player server. Yaa apko game host apna computer sa karna dayta ha.Is ka leya fast internet connection ka jarurat ha."
 
 #. DESC_Section4
 #: Shared/installer/nightly.nsi:227
-msgid "The Multi Theft Auto server. This is a required component."
-msgstr "Multi theft auto server.Ya required component ha."
+msgid "The Iran Multi Player server. This is a required component."
+msgstr "Iran Multi Player server.Ya required component ha."
 
 #. DESC_Section5
 #: Shared/installer/nightly.nsi:228
@@ -135,13 +135,13 @@ msgstr "यह एमटीए सर्वर के लिए बाइनर�
 
 #. DESC_SectionGroupDev
 #: Shared/installer/nightly.nsi:234
-msgid "Development code and tools that aid in the creation of mods for Multi Theft Auto"
-msgstr "डेवलपमेंट कोड और उपकरण जो Multi Theft Auto के लिए मॉड के निर्माण में सहायता करते हैं"
+msgid "Development code and tools that aid in the creation of mods for Iran Multi Player"
+msgstr "डेवलपमेंट कोड और उपकरण जो Iran Multi Player के लिए मॉड के निर्माण में सहायता करते हैं"
 
 #. DESC_SectionGroupClient
 #: Shared/installer/nightly.nsi:235
-msgid "The client is the program you run to play on a Multi Theft Auto server"
-msgstr "क्लाइंट वह प्रोग्राम है जिसे आप Multi Theft Auto सर्वर पर चलाने के लिए चलाते हैं"
+msgid "The client is the program you run to play on a Iran Multi Player server"
+msgstr "क्लाइंट वह प्रोग्राम है जिसे आप Iran Multi Player सर्वर पर चलाने के लिए चलाते हैं"
 
 #. INST_CLIENTSERVER
 #: Shared/installer/nightly.nsi:444

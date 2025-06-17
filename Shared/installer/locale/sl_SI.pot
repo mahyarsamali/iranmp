@@ -93,8 +93,8 @@ msgstr ""
 
 #. DESC_Section1
 #: Shared/installer/nightly.nsi:222
-msgid "The core components required to run Multi Theft Auto."
-msgstr "Glavne komponente, ki so potrebne za zagon Multi Theft Auto."
+msgid "The core components required to run Iran Multi Player."
+msgstr "Glavne komponente, ki so potrebne za zagon Iran Multi Player."
 
 #. DESC_Section2
 #: Shared/installer/nightly.nsi:223
@@ -103,13 +103,13 @@ msgstr "MTA:SA modifikacija ti dovoljuje, da igraš preko interneta."
 
 #. DESC_SectionGroupServer
 #: Shared/installer/nightly.nsi:226
-msgid "The Multi Theft Auto Server. This allows you to host games from your computer. This requires a fast internet connection."
-msgstr "Multi Theft Auto Strežnik. To ti dovoljuje, da preko svojega računalnika gostuješ igre. Potrebna je hitra internetna povezava."
+msgid "The Iran Multi Player Server. This allows you to host games from your computer. This requires a fast internet connection."
+msgstr "Iran Multi Player Strežnik. To ti dovoljuje, da preko svojega računalnika gostuješ igre. Potrebna je hitra internetna povezava."
 
 #. DESC_Section4
 #: Shared/installer/nightly.nsi:227
-msgid "The Multi Theft Auto server. This is a required component."
-msgstr "Multi Theft Auto strežnik. To je potrebna komponenta."
+msgid "The Iran Multi Player server. This is a required component."
+msgstr "Iran Multi Player strežnik. To je potrebna komponenta."
 
 #. DESC_Section5
 #: Shared/installer/nightly.nsi:228
@@ -138,13 +138,13 @@ msgstr "To je SDK za ustvarjanje binarnih modulov za MTA strežnik. Namestite sa
 
 #. DESC_SectionGroupDev
 #: Shared/installer/nightly.nsi:234
-msgid "Development code and tools that aid in the creation of mods for Multi Theft Auto"
-msgstr "Razvojna koda in orodja ki pomagajo pri ustvarjanju modifikacij za Multi Theft Auto"
+msgid "Development code and tools that aid in the creation of mods for Iran Multi Player"
+msgstr "Razvojna koda in orodja ki pomagajo pri ustvarjanju modifikacij za Iran Multi Player"
 
 #. DESC_SectionGroupClient
 #: Shared/installer/nightly.nsi:235
-msgid "The client is the program you run to play on a Multi Theft Auto server"
-msgstr "Klient je program, ki ga zaženete za igranje na Multi Theft Auto strežnikih"
+msgid "The client is the program you run to play on a Iran Multi Player server"
+msgstr "Klient je program, ki ga zaženete za igranje na Iran Multi Player strežnikih"
 
 #. INST_CLIENTSERVER
 #: Shared/installer/nightly.nsi:444

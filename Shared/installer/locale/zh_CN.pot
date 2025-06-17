@@ -93,8 +93,8 @@ msgstr "安装或更新 DirectX （如果需要）"
 
 #. DESC_Section1
 #: Shared/installer/nightly.nsi:222
-msgid "The core components required to run Multi Theft Auto."
-msgstr "运行 Multi Theft Auto 需要核心组件。"
+msgid "The core components required to run Iran Multi Player."
+msgstr "运行 Iran Multi Player 需要核心组件。"
 
 #. DESC_Section2
 #: Shared/installer/nightly.nsi:223
@@ -103,13 +103,13 @@ msgstr "MTA:SA MOD 允许您在线与其他玩家一同游玩。"
 
 #. DESC_SectionGroupServer
 #: Shared/installer/nightly.nsi:226
-msgid "The Multi Theft Auto Server. This allows you to host games from your computer. This requires a fast internet connection."
-msgstr "Multi Theft Auto 服务器。您可以在自己的电脑上创建游戏服务器主机。这将需要足够带宽的互联网连接。"
+msgid "The Iran Multi Player Server. This allows you to host games from your computer. This requires a fast internet connection."
+msgstr "Iran Multi Player 服务器。您可以在自己的电脑上创建游戏服务器主机。这将需要足够带宽的互联网连接。"
 
 #. DESC_Section4
 #: Shared/installer/nightly.nsi:227
-msgid "The Multi Theft Auto server. This is a required component."
-msgstr "Multi Theft Auto 服务器。这是必须安装的组件。"
+msgid "The Iran Multi Player server. This is a required component."
+msgstr "Iran Multi Player 服务器。这是必须安装的组件。"
 
 #. DESC_Section5
 #: Shared/installer/nightly.nsi:228
@@ -138,13 +138,13 @@ msgstr "这是用于开发 MTA 服务器端二进制模块的软件开发工具�
 
 #. DESC_SectionGroupDev
 #: Shared/installer/nightly.nsi:234
-msgid "Development code and tools that aid in the creation of mods for Multi Theft Auto"
+msgid "Development code and tools that aid in the creation of mods for Iran Multi Player"
 msgstr "帮助您开发 MTA Mod 的开发代码和工具包"
 
 #. DESC_SectionGroupClient
 #: Shared/installer/nightly.nsi:235
-msgid "The client is the program you run to play on a Multi Theft Auto server"
-msgstr "让你可以在 Multi Theft Auto 服务器上游玩的客户端程序。"
+msgid "The client is the program you run to play on a Iran Multi Player server"
+msgstr "让你可以在 Iran Multi Player 服务器上游玩的客户端程序。"
 
 #. INST_CLIENTSERVER
 #: Shared/installer/nightly.nsi:444

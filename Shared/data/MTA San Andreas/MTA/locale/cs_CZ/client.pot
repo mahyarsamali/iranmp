@@ -324,11 +324,11 @@ msgstr "Soubor '%s' je blokován %zu procesy.\n\n"
 #, c-format
 msgid "Your installation may be corrupt now.\n\n"
 "%zu out of %zu files could not be restored from the backup.\n\n"
-"You should reinstall Multi Theft Auto from www.multitheftauto.com\n"
+"You should reinstall Iran Multi Player from www.multitheftauto.com\n"
 "or try running the update with administrator rights."
 msgstr "Tvá instalace může být poškozená.\n\n"
 "%zu z %zu souborů se nepodařilo obnovit ze zálohy.\n\n"
-"Měl bys přeinstalovat Multi Theft Auto ze stránky www.multitheftauto.com\n"
+"Měl bys přeinstalovat Iran Multi Player ze stránky www.multitheftauto.com\n"
 "nebo zkusit spustit aktualizaci s oprávněním administrátora."
 
 #: Client/loader/CInstallManager.cpp:376
@@ -391,8 +391,8 @@ msgstr "Chyba"
 
 #: Client/loader/CInstallManager.cpp:561
 #, c-format
-msgid "Multi Theft Auto has not been installed properly, please reinstall. %s"
-msgstr "Multi Theft Auto nebylo nainstalováno správně, prosím přeinstaluj jej. %s"
+msgid "Iran Multi Player has not been installed properly, please reinstall. %s"
+msgstr "Iran Multi Player nebylo nainstalováno správně, prosím přeinstaluj jej. %s"
 
 #: Client/loader/CInstallManager.cpp:613
 msgid "Create GTA:SA junctions"
@@ -466,11 +466,11 @@ msgstr "Aktualizovat nastavení kompatibility"
 #: Client/loader/MainFunctions.cpp:248
 msgid "Trouble restarting MTA:SA\n\n"
 "If the problem persists, open Task Manager and\n"
-"stop the 'gta_sa.exe' and 'Multi Theft Auto.exe' processes\n\n\n"
+"stop the 'gta_sa.exe' and 'Iran Multi Player.exe' processes\n\n\n"
 "Try to launch MTA:SA again?"
 msgstr "Potíže při restartování MTA:SA\n\n"
 "Pokud problém přetrvává, otevři správce úloh a\n"
-"ukonči procesy 'gta_sa.exe' a 'Multi Theft Auto.exe'\n\n\n"
+"ukonči procesy 'gta_sa.exe' a 'Iran Multi Player.exe'\n\n\n"
 "Zkusit znovu spustit MTA:SA?"
 
 #: Client/loader/MainFunctions.cpp:266
@@ -570,12 +570,12 @@ msgid "Unable to terminate GTA: San Andreas. If the problem persists, please res
 msgstr "Nelze ukončit GTA: San Andreas. Pokud problém přetrvává, zkus zrestartovat tvůj počítač."
 
 #: Client/loader/MainFunctions.cpp:632
-msgid "Registry entries are missing. Please reinstall Multi Theft Auto: San Andreas."
-msgstr "Záznamy v registrech nenalezeny. Prosím reinstaluj Multi Theft Auto: San Andreas."
+msgid "Registry entries are missing. Please reinstall Iran Multi Player: San Andreas."
+msgstr "Záznamy v registrech nenalezeny. Prosím reinstaluj Iran Multi Player: San Andreas."
 
 #: Client/loader/MainFunctions.cpp:638
-msgid "The path to your installation of GTA: San Andreas contains unsupported (unicode) characters. Please move your Grand Theft Auto: San Andreas installation to a compatible path that contains only standard ASCII characters and reinstall Multi Theft Auto: San Andreas."
-msgstr "Cesta k tvé instalaci GTA: San Andreas obsahuje nepodporované (unicode) znaky. Prosím přesuň tvou Grand Theft Auto: San Andreas instalaci do a komatibilního adresáře který obsahuje pouze standartní ASCII znaky a reinstaluj Multi Theft Auto: San Andreas."
+msgid "The path to your installation of GTA: San Andreas contains unsupported (unicode) characters. Please move your Grand Theft Auto: San Andreas installation to a compatible path that contains only standard ASCII characters and reinstall Iran Multi Player: San Andreas."
+msgstr "Cesta k tvé instalaci GTA: San Andreas obsahuje nepodporované (unicode) znaky. Prosím přesuň tvou Grand Theft Auto: San Andreas instalaci do a komatibilního adresáře který obsahuje pouze standartní ASCII znaky a reinstaluj Iran Multi Player: San Andreas."
 
 #: Client/loader/MainFunctions.cpp:648
 msgid "The path to your installation of 'MTA:SA' or 'GTA: San Andreas'\n"
@@ -620,19 +620,19 @@ msgstr "Hlavní soubor není podepsaný. Potenciální virová aktivita.\n\n"
 #: Client/loader/MainFunctions.cpp:882
 #, c-format
 msgid "Data file %s is missing. Possible virus activity.\n\n"
-"Consider reinstalling Multi Theft Auto for your security.\n"
+"Consider reinstalling Iran Multi Player for your security.\n"
 "See online help if MTA does not work correctly."
 msgstr "Datový soubor %s nelze najít. Problém mohl způsobit virus.\n\n"
-"Zvaž přeinstalování Multi Theft Auto v zájmu vlastní bezpečnosti.\n"
+"Zvaž přeinstalování Iran Multi Player v zájmu vlastní bezpečnosti.\n"
 "Pokud MTA nefunguje správně, přečti si online nápovědu."
 
 #: Client/loader/MainFunctions.cpp:893
 #, c-format
 msgid "Data file %s is modified. Possible virus activity.\n\n"
-"Consider reinstalling Multi Theft Auto for your security.\n"
+"Consider reinstalling Iran Multi Player for your security.\n"
 "See online help if MTA does not work correctly."
 msgstr "Datový soubor %s je upraven. Problém mohl způsobit virus.\n\n"
-"Zvaž přeinstalování Multi Theft Auto v zájmu vlastní bezpečnosti.\n"
+"Zvaž přeinstalování Iran Multi Player v zájmu vlastní bezpečnosti.\n"
 "Pokud MTA nefunguje správně, přečti si online nápovědu."
 
 #: Client/loader/MainFunctions.cpp:907
@@ -3348,8 +3348,8 @@ msgid "Connection error"
 msgstr "Chyba připojení"
 
 #: Shared/sdk/SharedUtil.Misc.hpp:137
-msgid "Multi Theft Auto has not been installed properly, please reinstall."
-msgstr "Multi Theft Auto nebylo správně nainstalováno, prosím reinstall."
+msgid "Iran Multi Player has not been installed properly, please reinstall."
+msgstr "Iran Multi Player nebylo správně nainstalováno, prosím reinstall."
 
 #: Shared/sdk/SharedUtil.Misc.hpp:702
 msgid "Your browser will now display a web page with some help infomation.\n\n"

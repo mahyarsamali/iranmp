@@ -18,7 +18,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Client\launch\Multi Theft Auto.h">
+    <ClInclude Include="..\Client\launch\Iran Multi Player.h">
       <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="..\Client\launch\StdInc.h">
@@ -37,10 +37,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Client\launch\Multi Theft Auto.manifest">
+    <None Include="..\Client\launch\Iran Multi Player.manifest">
       <Filter>Resources</Filter>
     </None>
-    <None Include="..\Client\launch\NEU\Multi Theft Auto.gdf.xml">
+    <None Include="..\Client\launch\NEU\Iran Multi Player.gdf.xml">
       <Filter>Resources\NEU</Filter>
     </None>
     <None Include="..\Client\launch\NEU\gameicon_NEU.ico">
@@ -52,7 +52,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="..\Client\launch\Multi Theft Auto.rc">
+    <ResourceCompile Include="..\Client\launch\Iran Multi Player.rc">
       <Filter>Resources</Filter>
     </ResourceCompile>
     <ResourceCompile Include="..\Client\launch\launch.rc">

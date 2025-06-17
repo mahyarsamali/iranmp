@@ -38,7 +38,7 @@ Var Install_Dir
 !define PRODUCT_NAME "MTA:SA ${0.0}"
 !define PRODUCT_NAME_NO_VER "MTA:SA"
 
-!define PRODUCT_PUBLISHER "Multi Theft Auto"
+!define PRODUCT_PUBLISHER "Iran Multi Player"
 !define PRODUCT_WEB_SITE "https://www.multitheftauto.com"
 
 ; MUI 1.67 compatible ------
@@ -72,7 +72,7 @@ Var Install_Dir
 
 ; Language files
 !insertmacro MUI_LANGUAGE							"English"
-LangString DESC_Section1 ${LANG_ENGLISH}			"The data files required to run Multi Theft Auto."
+LangString DESC_Section1 ${LANG_ENGLISH}			"The data files required to run Iran Multi Player."
 
 
 Function .OnInstFailed
@@ -83,9 +83,9 @@ Function .onInit
 	Call DoRightsElevation
 
 	; Try to find previously saved MTA:SA install path
-	ReadRegStr $Install_Dir HKLM "SOFTWARE\Multi Theft Auto: San Andreas All\${0.0}" "Last Install Location"
+	ReadRegStr $Install_Dir HKLM "SOFTWARE\Iran Multi Player: San Andreas All\${0.0}" "Last Install Location"
 	${If} $Install_Dir == "" 
-		ReadRegStr $Install_Dir HKLM "SOFTWARE\Multi Theft Auto: San Andreas ${0.0}" "Last Install Location"
+		ReadRegStr $Install_Dir HKLM "SOFTWARE\Iran Multi Player: San Andreas ${0.0}" "Last Install Location"
 	${EndIf}
 	${If} $Install_Dir == "" 
 		strcpy $Install_Dir "$PROGRAMFILES\MTA San Andreas ${0.0}"
@@ -97,7 +97,7 @@ Function .onInit
 FunctionEnd
 
 Function .onInstSuccess
-	WriteRegStr HKLM "SOFTWARE\Multi Theft Auto: San Andreas All\${0.0}" "Last Install Location" $INSTDIR
+	WriteRegStr HKLM "SOFTWARE\Iran Multi Player: San Andreas All\${0.0}" "Last Install Location" $INSTDIR
 
 	;UAC::Unload ;Must call unload!
 FunctionEnd
@@ -111,13 +111,13 @@ InstType /NOCUSTOM
 Name "${PRODUCT_NAME_NO_VER} ${PRODUCT_VERSION}"
 OutFile "${INSTALL_OUTPUT}"
 
-InstallDirRegKey HKLM "SOFTWARE\Multi Theft Auto: San Andreas All\${0.0}" "Last Install Location"
+InstallDirRegKey HKLM "SOFTWARE\Iran Multi Player: San Andreas All\${0.0}" "Last Install Location"
 ShowInstDetails show
 
 Section "Data files" SEC01
 	SectionIn 1 RO ; section is required
 
-	WriteRegStr HKLM "SOFTWARE\Multi Theft Auto: San Andreas All\${0.0}" "Last Install Location" $INSTDIR
+	WriteRegStr HKLM "SOFTWARE\Iran Multi Player: San Andreas All\${0.0}" "Last Install Location" $INSTDIR
 
 	SetOverwrite on
 

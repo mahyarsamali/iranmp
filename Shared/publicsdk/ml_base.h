@@ -1,6 +1,6 @@
 /*********************************************************
  *
- *  Multi Theft Auto: San Andreas - Deathmatch
+ *  Iran Multi Player: San Andreas - Deathmatch
  *
  *  ml_base, External lua add-on module
  *

@@ -1,11 +1,11 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto
+ *  PROJECT:     Iran Multi Player
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        Shared/sdk/net/rpc_enums.h
  *  PURPOSE:     Lua RPC enums
  *
- *  Multi Theft Auto is available from http://www.multitheftauto.com/
+ *  Iran Multi Player is available from http://www.multitheftauto.com/
  *
  *****************************************************************************/
 

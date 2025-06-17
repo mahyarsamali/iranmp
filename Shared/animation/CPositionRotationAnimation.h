@@ -1,6 +1,6 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto v1.1
+ *  PROJECT:     Iran Multi Player v1.1
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        animation/CPositionRotationAnimation.h
  *  PURPOSE:     Shared (server/client) way of performing position & rotation interpolation.

@@ -1,10 +1,10 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto
+ *  PROJECT:     Iran Multi Player
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        SharedUtil.Memory.hpp
  *
- *  Multi Theft Auto is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://multitheftauto.com/
  *
  *****************************************************************************/
 

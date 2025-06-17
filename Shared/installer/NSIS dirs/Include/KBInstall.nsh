@@ -24,7 +24,7 @@
             ${IsKBInstalled} ${ID} $0
             ${If} $0 == 0
                 DetailPrint "* Some error occured installing ${ID}"
-                DetailPrint "* It is required in order to run Multi Theft Auto : San Andreas"
+                DetailPrint "* It is required in order to run Iran Multi Player : San Andreas"
                 DetailPrint "* Installation continuing anyway"
             ${EndIf}
         ${EndIf}

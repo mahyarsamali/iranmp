@@ -93,8 +93,8 @@ msgstr "ثبت أو حدث DirectX (إن كان ضروريا)."
 
 #. DESC_Section1
 #: Shared/installer/nightly.nsi:222
-msgid "The core components required to run Multi Theft Auto."
-msgstr "العناصراللازمة لـ تشغيل برنامج Multi Theft Auto."
+msgid "The core components required to run Iran Multi Player."
+msgstr "العناصراللازمة لـ تشغيل برنامج Iran Multi Player."
 
 #. DESC_Section2
 #: Shared/installer/nightly.nsi:223
@@ -103,12 +103,12 @@ msgstr "في MTA:SA التعديل , يسمح لك اللعب اون لاين ."
 
 #. DESC_SectionGroupServer
 #: Shared/installer/nightly.nsi:226
-msgid "The Multi Theft Auto Server. This allows you to host games from your computer. This requires a fast internet connection."
+msgid "The Iran Multi Player Server. This allows you to host games from your computer. This requires a fast internet connection."
 msgstr "يمكنك استضافة سيرفر MTA من جهازك * يتطلب اتصال انترنت سريع ."
 
 #. DESC_Section4
 #: Shared/installer/nightly.nsi:227
-msgid "The Multi Theft Auto server. This is a required component."
+msgid "The Iran Multi Player server. This is a required component."
 msgstr "الشيء المطلوب من MTA هو انشاء سيرفر و التمكن من اللعب فية اون لاين ."
 
 #. DESC_Section5
@@ -138,13 +138,13 @@ msgstr "  SDK لـ انشاء وحدات ثنائية للخادم الخاص ب
 
 #. DESC_SectionGroupDev
 #: Shared/installer/nightly.nsi:234
-msgid "Development code and tools that aid in the creation of mods for Multi Theft Auto"
+msgid "Development code and tools that aid in the creation of mods for Iran Multi Player"
 msgstr "كود التطوير و الادوات تساعد الاعبين على الدخول لـ MTA ."
 
 #. DESC_SectionGroupClient
 #: Shared/installer/nightly.nsi:235
-msgid "The client is the program you run to play on a Multi Theft Auto server"
-msgstr "التطبيق هو البرنامج الذي تشلغه من اجل اللعب في خادم في Multi Theft Auto"
+msgid "The client is the program you run to play on a Iran Multi Player server"
+msgstr "التطبيق هو البرنامج الذي تشلغه من اجل اللعب في خادم في Iran Multi Player"
 
 #. INST_CLIENTSERVER
 #: Shared/installer/nightly.nsi:444

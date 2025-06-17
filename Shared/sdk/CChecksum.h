@@ -1,11 +1,11 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto v1.0
+ *  PROJECT:     Iran Multi Player v1.0
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        sdk/CChecksum.h
  *  PURPOSE:     Checksum class
  *
- *  Multi Theft Auto is available from http://www.multitheftauto.com/
+ *  Iran Multi Player is available from http://www.multitheftauto.com/
  *
  *****************************************************************************/
 // Note: Cannot use #pragma once here, due to a duplicate existing in publicsdk

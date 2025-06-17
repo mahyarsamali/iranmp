@@ -1,6 +1,6 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto v1.0
+ *  PROJECT:     Iran Multi Player v1.0
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        Enums.cpp
  *  PURPOSE:     Client/server shared enum definitions

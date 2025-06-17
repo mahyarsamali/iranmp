@@ -95,8 +95,8 @@ msgstr "Установите или обновите DirectX (если треб�
 
 #. DESC_Section1
 #: Shared/installer/nightly.nsi:222
-msgid "The core components required to run Multi Theft Auto."
-msgstr "Основные компоненты, необходимые для запуска Multi Theft Auto."
+msgid "The core components required to run Iran Multi Player."
+msgstr "Основные компоненты, необходимые для запуска Iran Multi Player."
 
 #. DESC_Section2
 #: Shared/installer/nightly.nsi:223
@@ -105,13 +105,13 @@ msgstr "Модификация MTA:SA, позволяющая играть по 
 
 #. DESC_SectionGroupServer
 #: Shared/installer/nightly.nsi:226
-msgid "The Multi Theft Auto Server. This allows you to host games from your computer. This requires a fast internet connection."
-msgstr "Сервер Multi Theft Auto. Позволяет запустить свой сервер для подключения к нему других игроков. Требуется быстрое интернет-соединение."
+msgid "The Iran Multi Player Server. This allows you to host games from your computer. This requires a fast internet connection."
+msgstr "Сервер Iran Multi Player. Позволяет запустить свой сервер для подключения к нему других игроков. Требуется быстрое интернет-соединение."
 
 #. DESC_Section4
 #: Shared/installer/nightly.nsi:227
-msgid "The Multi Theft Auto server. This is a required component."
-msgstr "Сервер Multi Theft Auto. Это необходимый компонент."
+msgid "The Iran Multi Player server. This is a required component."
+msgstr "Сервер Iran Multi Player. Это необходимый компонент."
 
 #. DESC_Section5
 #: Shared/installer/nightly.nsi:228
@@ -140,13 +140,13 @@ msgstr "SDK для создания модулей для MTA сервера. У
 
 #. DESC_SectionGroupDev
 #: Shared/installer/nightly.nsi:234
-msgid "Development code and tools that aid in the creation of mods for Multi Theft Auto"
-msgstr "Программный код и средства, которые помогут в создании модификаций для Multi Theft Auto"
+msgid "Development code and tools that aid in the creation of mods for Iran Multi Player"
+msgstr "Программный код и средства, которые помогут в создании модификаций для Iran Multi Player"
 
 #. DESC_SectionGroupClient
 #: Shared/installer/nightly.nsi:235
-msgid "The client is the program you run to play on a Multi Theft Auto server"
-msgstr "Клиент - это программа, которую вы запускаете для игры на Multi Theft Auto серверах"
+msgid "The client is the program you run to play on a Iran Multi Player server"
+msgstr "Клиент - это программа, которую вы запускаете для игры на Iran Multi Player серверах"
 
 #. INST_CLIENTSERVER
 #: Shared/installer/nightly.nsi:444

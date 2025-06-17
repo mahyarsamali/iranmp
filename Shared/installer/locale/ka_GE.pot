@@ -86,7 +86,7 @@ msgstr ""
 
 #. DESC_Section1
 #: Shared/installer/nightly.nsi:222
-msgid "The core components required to run Multi Theft Auto."
+msgid "The core components required to run Iran Multi Player."
 msgstr ""
 
 #. DESC_Section2
@@ -96,12 +96,12 @@ msgstr ""
 
 #. DESC_SectionGroupServer
 #: Shared/installer/nightly.nsi:226
-msgid "The Multi Theft Auto Server. This allows you to host games from your computer. This requires a fast internet connection."
+msgid "The Iran Multi Player Server. This allows you to host games from your computer. This requires a fast internet connection."
 msgstr ""
 
 #. DESC_Section4
 #: Shared/installer/nightly.nsi:227
-msgid "The Multi Theft Auto server. This is a required component."
+msgid "The Iran Multi Player server. This is a required component."
 msgstr ""
 
 #. DESC_Section5
@@ -131,12 +131,12 @@ msgstr ""
 
 #. DESC_SectionGroupDev
 #: Shared/installer/nightly.nsi:234
-msgid "Development code and tools that aid in the creation of mods for Multi Theft Auto"
+msgid "Development code and tools that aid in the creation of mods for Iran Multi Player"
 msgstr ""
 
 #. DESC_SectionGroupClient
 #: Shared/installer/nightly.nsi:235
-msgid "The client is the program you run to play on a Multi Theft Auto server"
+msgid "The client is the program you run to play on a Iran Multi Player server"
 msgstr ""
 
 #. INST_CLIENTSERVER

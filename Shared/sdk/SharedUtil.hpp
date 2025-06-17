@@ -1,12 +1,12 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto v1.0
+ *  PROJECT:     Iran Multi Player v1.0
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        SharedUtil.hpp
  *  PURPOSE:     Solution wide utility functions.
  *               Include this file once per dll.
  *
- *  Multi Theft Auto is available from http://www.multitheftauto.com/
+ *  Iran Multi Player is available from http://www.multitheftauto.com/
  *
  *****************************************************************************/
 

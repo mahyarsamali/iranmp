@@ -1,6 +1,6 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto v1.1
+ *  PROJECT:     Iran Multi Player v1.1
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        animation/CEasingCurve.cpp
  *  PURPOSE:     Easing curves for non-linear time interpolation

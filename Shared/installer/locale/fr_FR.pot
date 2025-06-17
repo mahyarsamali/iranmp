@@ -93,7 +93,7 @@ msgstr "Installer ou mettre à jour DirectX (si nécessaire)."
 
 #. DESC_Section1
 #: Shared/installer/nightly.nsi:222
-msgid "The core components required to run Multi Theft Auto."
+msgid "The core components required to run Iran Multi Player."
 msgstr "Les composants de base nécessaires pour lancer MTA:SA."
 
 #. DESC_Section2
@@ -103,13 +103,13 @@ msgstr "La modification MTA:SA, vous permettant de jouer en ligne."
 
 #. DESC_SectionGroupServer
 #: Shared/installer/nightly.nsi:226
-msgid "The Multi Theft Auto Server. This allows you to host games from your computer. This requires a fast internet connection."
-msgstr "Le Serveur Multi Theft Auto. Pour héberger votre propre serveur depuis votre ordinateur. Nécessite une connexion internet rapide."
+msgid "The Iran Multi Player Server. This allows you to host games from your computer. This requires a fast internet connection."
+msgstr "Le Serveur Iran Multi Player. Pour héberger votre propre serveur depuis votre ordinateur. Nécessite une connexion internet rapide."
 
 #. DESC_Section4
 #: Shared/installer/nightly.nsi:227
-msgid "The Multi Theft Auto server. This is a required component."
-msgstr "Le Serveur Multi Theft Auto. Ceci est un composant nécessaire."
+msgid "The Iran Multi Player server. This is a required component."
+msgstr "Le Serveur Iran Multi Player. Ceci est un composant nécessaire."
 
 #. DESC_Section5
 #: Shared/installer/nightly.nsi:228
@@ -138,12 +138,12 @@ msgstr "Il s'agit du SDK pour créer des modules binaires pour le Serveur MTA:SA
 
 #. DESC_SectionGroupDev
 #: Shared/installer/nightly.nsi:234
-msgid "Development code and tools that aid in the creation of mods for Multi Theft Auto"
-msgstr "Outils et code de développement facilitant la création de mods pour Multi Theft Auto."
+msgid "Development code and tools that aid in the creation of mods for Iran Multi Player"
+msgstr "Outils et code de développement facilitant la création de mods pour Iran Multi Player."
 
 #. DESC_SectionGroupClient
 #: Shared/installer/nightly.nsi:235
-msgid "The client is the program you run to play on a Multi Theft Auto server"
+msgid "The client is the program you run to play on a Iran Multi Player server"
 msgstr "Le client est le programme que vous exécutez pour jouer sur un serveur MTA:SA"
 
 #. INST_CLIENTSERVER

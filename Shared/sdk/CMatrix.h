@@ -1,11 +1,11 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto v1.0
+ *  PROJECT:     Iran Multi Player v1.0
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        sdk/CMatrix.h
  *  PURPOSE:     4x3 GTA matrix class
  *
- *  Multi Theft Auto is available from http://www.multitheftauto.com/
+ *  Iran Multi Player is available from http://www.multitheftauto.com/
  *
  *****************************************************************************/
 

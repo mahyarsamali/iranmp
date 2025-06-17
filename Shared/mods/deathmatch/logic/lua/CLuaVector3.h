@@ -1,11 +1,11 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto
+ *  PROJECT:     Iran Multi Player
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        Shared/mods/logic/lua/CLuaVector3.h
  *  PURPOSE:     Lua vector3 class
  *
- *  Multi Theft Auto is available from http://www.multitheftauto.com/
+ *  Iran Multi Player is available from http://www.multitheftauto.com/
  *
  *****************************************************************************/
 

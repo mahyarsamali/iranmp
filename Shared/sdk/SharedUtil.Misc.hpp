@@ -1,11 +1,11 @@
 /*****************************************************************************
  *
- *  PROJECT:     Multi Theft Auto v1.0
+ *  PROJECT:     Iran Multi Player v1.0
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        SharedUtil.Misc.hpp
  *  PURPOSE:
  *
- *  Multi Theft Auto is available from http://www.multitheftauto.com/
+ *  Iran Multi Player is available from http://www.multitheftauto.com/
  *
  *****************************************************************************/
 
@@ -57,7 +57,7 @@ CDuplicateLineFilter<SReportLine> ms_ReportLineFilter;
 
 #ifdef MTA_CLIENT
 
-#define PRODUCT_REGISTRY_PATH       "Software\\Multi Theft Auto: San Andreas All"       // HKLM
+#define PRODUCT_REGISTRY_PATH       "Software\\Iran Multi Player: San Andreas All"       // HKLM
 #define PRODUCT_COMMON_DATA_DIR     "MTA San Andreas All"                               // C:\ProgramData
 #define TROUBLE_URL1 "https://help.multitheftauto.com/sa/trouble/?v=_VERSION_&id=_ID_&tr=_TROUBLE_"
 
@@ -134,7 +134,7 @@ SString SharedUtil::GetMTASABaseDir()
             strInstallRoot = GetRegistryValue("", "Last Run Location");
             if (strInstallRoot.empty())
             {
-                MessageBoxUTF8(0, _("Multi Theft Auto has not been installed properly, please reinstall."), _("Error") + _E("U01"),
+                MessageBoxUTF8(0, _("Iran Multi Player has not been installed properly, please reinstall."), _("Error") + _E("U01"),
                                MB_OK | MB_ICONERROR | MB_TOPMOST);
                 TerminateProcess(GetCurrentProcess(), 9);
             }
@@ -241,9 +241,9 @@ SString SharedUtil::GetSystemRegistryValue(uint hKey, const SString& strPath, co
 
 //
 // New layout:
-//              HKLM Software\\Multi Theft Auto: San Andreas All\\Common    - For all versions
-//              HKLM Software\\Multi Theft Auto: San Andreas All\\1.1       - For 1.1
-//              HKLM Software\\Multi Theft Auto: San Andreas All\\1.2       - For 1.2
+//              HKLM Software\\Iran Multi Player: San Andreas All\\Common    - For all versions
+//              HKLM Software\\Iran Multi Player: San Andreas All\\1.1       - For 1.1
+//              HKLM Software\\Iran Multi Player: San Andreas All\\1.2       - For 1.2
 //
 static SString MakeVersionRegistryPath(const SString& strVersion, const SString& strPath)
 {

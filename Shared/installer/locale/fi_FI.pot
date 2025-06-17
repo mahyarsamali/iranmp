@@ -92,8 +92,8 @@ msgstr "Asenna tai päivitä DirectX (jos vaaditaan)."
 
 #. DESC_Section1
 #: Shared/installer/nightly.nsi:222
-msgid "The core components required to run Multi Theft Auto."
-msgstr "Multi Theft Auton suorittamiseen vaaditut ydinkomponentit."
+msgid "The core components required to run Iran Multi Player."
+msgstr "Iran Multi Playern suorittamiseen vaaditut ydinkomponentit."
 
 #. DESC_Section2
 #: Shared/installer/nightly.nsi:223
@@ -102,13 +102,13 @@ msgstr "MTA:SA-modi, mahdollistaa moninpelin pelaamisen."
 
 #. DESC_SectionGroupServer
 #: Shared/installer/nightly.nsi:226
-msgid "The Multi Theft Auto Server. This allows you to host games from your computer. This requires a fast internet connection."
-msgstr "Multi Theft Auto -palvelin. Tämä mahdollistaa pelien isännöinnin tietokoneeltasi. Vaatii nopean internet-yhteyden."
+msgid "The Iran Multi Player Server. This allows you to host games from your computer. This requires a fast internet connection."
+msgstr "Iran Multi Player -palvelin. Tämä mahdollistaa pelien isännöinnin tietokoneeltasi. Vaatii nopean internet-yhteyden."
 
 #. DESC_Section4
 #: Shared/installer/nightly.nsi:227
-msgid "The Multi Theft Auto server. This is a required component."
-msgstr "Multi Theft Auto -palvelin. Tämä on vaadittu komponentti."
+msgid "The Iran Multi Player server. This is a required component."
+msgstr "Iran Multi Player -palvelin. Tämä on vaadittu komponentti."
 
 #. DESC_Section5
 #: Shared/installer/nightly.nsi:228
@@ -137,13 +137,13 @@ msgstr "Tämä SDK on hyödyllinen moduulien rakentamisessa MTA pelipalvelimeen.
 
 #. DESC_SectionGroupDev
 #: Shared/installer/nightly.nsi:234
-msgid "Development code and tools that aid in the creation of mods for Multi Theft Auto"
+msgid "Development code and tools that aid in the creation of mods for Iran Multi Player"
 msgstr "Modien kehitystyökalut"
 
 #. DESC_SectionGroupClient
 #: Shared/installer/nightly.nsi:235
-msgid "The client is the program you run to play on a Multi Theft Auto server"
-msgstr "Pelisovellusta käytetään pelaamiseen Multi Theft Auto pelipalvelimilla."
+msgid "The client is the program you run to play on a Iran Multi Player server"
+msgstr "Pelisovellusta käytetään pelaamiseen Iran Multi Player pelipalvelimilla."
 
 #. INST_CLIENTSERVER
 #: Shared/installer/nightly.nsi:444

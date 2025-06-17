@@ -93,8 +93,8 @@ msgstr "Εγκαταστήστε ή ενημερώστε το DirectX (αν απ
 
 #. DESC_Section1
 #: Shared/installer/nightly.nsi:222
-msgid "The core components required to run Multi Theft Auto."
-msgstr "Τα βασικά στοιχεία απαιτούνται για να τρέξεις το Multi Theft Auto."
+msgid "The core components required to run Iran Multi Player."
+msgstr "Τα βασικά στοιχεία απαιτούνται για να τρέξεις το Iran Multi Player."
 
 #. DESC_Section2
 #: Shared/installer/nightly.nsi:223
@@ -103,13 +103,13 @@ msgstr "Το MTA:SA, σε αφήνει να παίζεις στο διαδίκτ
 
 #. DESC_SectionGroupServer
 #: Shared/installer/nightly.nsi:226
-msgid "The Multi Theft Auto Server. This allows you to host games from your computer. This requires a fast internet connection."
-msgstr "Ο διακομιστής του Multi Theft Auto. Αυτός σε αφήνει να διοργανώνεις παιχνίδια από τον υπολογιστή σου. Αυτό προϋποθέτει μια γρήγορη σύνδεση στο διαδίκτυο."
+msgid "The Iran Multi Player Server. This allows you to host games from your computer. This requires a fast internet connection."
+msgstr "Ο διακομιστής του Iran Multi Player. Αυτός σε αφήνει να διοργανώνεις παιχνίδια από τον υπολογιστή σου. Αυτό προϋποθέτει μια γρήγορη σύνδεση στο διαδίκτυο."
 
 #. DESC_Section4
 #: Shared/installer/nightly.nsi:227
-msgid "The Multi Theft Auto server. This is a required component."
-msgstr "Ο διακομιστής του Multi Theft Auto. Αυτό είναι ένα απαραίτητο στοιχείο."
+msgid "The Iran Multi Player server. This is a required component."
+msgstr "Ο διακομιστής του Iran Multi Player. Αυτό είναι ένα απαραίτητο στοιχείο."
 
 #. DESC_Section5
 #: Shared/installer/nightly.nsi:228
@@ -138,13 +138,13 @@ msgstr "Αυτό είναι το SDK (Εργαλειοθήκη Ανάπτυξη�
 
 #. DESC_SectionGroupDev
 #: Shared/installer/nightly.nsi:234
-msgid "Development code and tools that aid in the creation of mods for Multi Theft Auto"
-msgstr "Ο κώδικας και τα εργαλεία ανάπτυξης που σε βοηθούν στη δημιουργία μετατροπών για το Multi Theft Auto"
+msgid "Development code and tools that aid in the creation of mods for Iran Multi Player"
+msgstr "Ο κώδικας και τα εργαλεία ανάπτυξης που σε βοηθούν στη δημιουργία μετατροπών για το Iran Multi Player"
 
 #. DESC_SectionGroupClient
 #: Shared/installer/nightly.nsi:235
-msgid "The client is the program you run to play on a Multi Theft Auto server"
-msgstr "To πρόγραμμα-πελάτης είναι ένα πρόγραμμα που τρέχει έναν Multi Theft Auto διακομιστή"
+msgid "The client is the program you run to play on a Iran Multi Player server"
+msgstr "To πρόγραμμα-πελάτης είναι ένα πρόγραμμα που τρέχει έναν Iran Multi Player διακομιστή"
 
 #. INST_CLIENTSERVER
 #: Shared/installer/nightly.nsi:444

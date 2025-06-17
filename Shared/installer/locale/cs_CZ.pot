@@ -93,8 +93,8 @@ msgstr "Nainstalovat nebo aktualizovat DirectX (pokud je potřeba)."
 
 #. DESC_Section1
 #: Shared/installer/nightly.nsi:222
-msgid "The core components required to run Multi Theft Auto."
-msgstr "Jádrové komponenty potřebné pro chod Multi Theft Auto."
+msgid "The core components required to run Iran Multi Player."
+msgstr "Jádrové komponenty potřebné pro chod Iran Multi Player."
 
 #. DESC_Section2
 #: Shared/installer/nightly.nsi:223
@@ -103,13 +103,13 @@ msgstr "MTA:SA modifikace, umožňující ti hrát online."
 
 #. DESC_SectionGroupServer
 #: Shared/installer/nightly.nsi:226
-msgid "The Multi Theft Auto Server. This allows you to host games from your computer. This requires a fast internet connection."
-msgstr "Multi Theft Auto Server. Toto ti umožňuje hostovat hry z tvého počítače. Je zapotřebí rychlé internetové připojení."
+msgid "The Iran Multi Player Server. This allows you to host games from your computer. This requires a fast internet connection."
+msgstr "Iran Multi Player Server. Toto ti umožňuje hostovat hry z tvého počítače. Je zapotřebí rychlé internetové připojení."
 
 #. DESC_Section4
 #: Shared/installer/nightly.nsi:227
-msgid "The Multi Theft Auto server. This is a required component."
-msgstr "Multi Theft Auto server. Toto je potřebná součást."
+msgid "The Iran Multi Player server. This is a required component."
+msgstr "Iran Multi Player server. Toto je potřebná součást."
 
 #. DESC_Section5
 #: Shared/installer/nightly.nsi:228
@@ -138,13 +138,13 @@ msgstr "Toto je SDK pro vytváření binárních modulů pro MTA server. Instalu
 
 #. DESC_SectionGroupDev
 #: Shared/installer/nightly.nsi:234
-msgid "Development code and tools that aid in the creation of mods for Multi Theft Auto"
-msgstr "Vývojářský kód a nástroje které můžou pomoci při vývoji módu pro Multi Theft Auto"
+msgid "Development code and tools that aid in the creation of mods for Iran Multi Player"
+msgstr "Vývojářský kód a nástroje které můžou pomoci při vývoji módu pro Iran Multi Player"
 
 #. DESC_SectionGroupClient
 #: Shared/installer/nightly.nsi:235
-msgid "The client is the program you run to play on a Multi Theft Auto server"
-msgstr "Klient je program který spustíš pro hraní na Multi Theft Auto serveru"
+msgid "The client is the program you run to play on a Iran Multi Player server"
+msgstr "Klient je program který spustíš pro hraní na Iran Multi Player serveru"
 
 #. INST_CLIENTSERVER
 #: Shared/installer/nightly.nsi:444
