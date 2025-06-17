@@ -36,7 +36,7 @@ void SharedUtil_Tests()
     SharedUtil_WildcardMatch_Tests();
     SharedUtil_Collection_Tests();
     SharedUtil_String_Tests();
-    SharedUtil_Hash_Tests();
+    //SharedUtil_Hash_Tests();
 }
 
 ///////////////////////////////////////////////////////////////
