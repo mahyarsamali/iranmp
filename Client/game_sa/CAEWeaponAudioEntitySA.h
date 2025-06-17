@@ -5,7 +5,7 @@
  *  FILE:        game_sa/CAEWeaponAudioEntitySA.h
  *  PURPOSE:     Weapon audio entity header
  *
- *  Multi Theft Auto is available from https://www.multitheftauto.com/
+ *  Iran Multi Player is available from https://www.multitheftauto.com/
  *
  *****************************************************************************/
 

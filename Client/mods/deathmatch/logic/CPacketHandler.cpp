@@ -5,7 +5,7 @@
  *  FILE:        Client/mods/deathmatch/logic/CPacketHandler.cpp
  *  PURPOSE:     Packet handling and processing
  *
- *  Multi Theft Auto is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://multitheftauto.com/
  *
  *****************************************************************************/
 

@@ -74,7 +74,7 @@ newaction {
 		if os.host() == "windows" then
 			local success = http.download_print_errors(NET_PATH_X86_WIN, BIN_DIR.."/server/net.dll")
 			success = success and http.download_print_errors(NET_PATH_X64_WIN, BIN_DIR.."/server/x64/net.dll")
-			success = success and http.download_print_errors(NET_PATH_ARM64_WIN, BIN_DIR.."/server/arm64/net.dll")
+			-- success = success and http.download_print_errors(NET_PATH_ARM64_WIN, BIN_DIR.."/server/arm64/net.dll")
 			success = success and http.download_print_errors(NETC_PATH_WIN, BIN_DIR.."/MTA/netc.dll")
 			
 			-- A download failed
@@ -101,11 +101,11 @@ newaction {
 				return
 			end
 
-			if not os.copyfile(BIN_DIR.."/server/arm64/net.dll", BIN_DIR.."/server/arm64/net_d.dll") then
-				errormsg("ERROR: Could not copy server/arm64/net.dll")
-				os.exit(1)
-				return
-			end
+			-- if not os.copyfile(BIN_DIR.."/server/arm64/net.dll", BIN_DIR.."/server/arm64/net_d.dll") then
+				-- errormsg("ERROR: Could not copy server/arm64/net.dll")
+				-- os.exit(1)
+				-- return
+			-- end
 		elseif os.host() == "macosx" then
 			local c = string.char(27)
 			print(string.format("Listen, I ain't leaving here till you tell me where the macOS net builds are.\n       " ..

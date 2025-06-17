@@ -5,7 +5,7 @@
  *  FILE:        Client/loader/Install.cpp
  *  PURPOSE:     Handles the installation of updates for MTA
  *
- *  Multi Theft Auto is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://multitheftauto.com/
  *
  *****************************************************************************/
 
@@ -477,7 +477,7 @@ static auto RunRollback(std::vector<InstallableFile>& files) -> size_t
     {
         MessageBoxUTF8(nullptr,
                        SString(_("Your installation may be corrupt now.\n\n%zu out of %zu files could not be restored from the backup.\n\nYou should "
-                                 "reinstall Multi Theft Auto from www.multitheftauto.com\nor try running the update with administrator rights."),
+                                 "reinstall Iran Multi Player from www.multitheftauto.com\nor try running the update with administrator rights."),
                                disasterCounter, files.size()),
                        "MTA: San Andreas", MB_OK | MB_ICONERROR | MB_TOPMOST);
 
@@ -561,7 +561,7 @@ static bool CompletePendingRollback(const SString& sourceRoot, const SString& ta
 }
 
 /**
- * @brief Installs files from the current temporary directory to the Multi Theft Auto installation directory.
+ * @brief Installs files from the current temporary directory to the Iran Multi Player installation directory.
  * @return Zero on success, otherwise the step number the installation failed at
  */
 static int RunInstall()
@@ -951,7 +951,7 @@ SString CheckOnRestartCommand()
 
             deleteSourceRoot.Release();
 
-            // If a new "Multi Theft Auto.exe" exists, let that complete the install
+            // If a new "Iran Multi Player.exe" exists, let that complete the install
             if (FileExists(MTA_EXE_NAME_RELEASE))
                 return "install from far " + strOperation + " " + strParameters;
 

@@ -5,7 +5,7 @@
  *  FILE:        Client/game_sa/CTasksSA.cpp
  *  PURPOSE:     Task creation
  *
- *  Multi Theft Auto is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://multitheftauto.com/
  *
  *****************************************************************************/
 

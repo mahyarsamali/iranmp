@@ -5,7 +5,7 @@
  *  FILE:        ceflauncher/Main.cpp
  *  PURPOSE:     CEF launcher entry point
  *
- *  Multi Theft Auto is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://multitheftauto.com/
  *
  *****************************************************************************/
 

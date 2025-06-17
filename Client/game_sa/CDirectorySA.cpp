@@ -4,7 +4,7 @@
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        game_sa/CDirectorySA.cpp
  *
- *  Multi Theft Auto is available from https://www.multitheftauto.com/
+ *  Iran Multi Player is available from https://www.multitheftauto.com/
  *
  *****************************************************************************/
 

@@ -8,7 +8,7 @@
  *               created and rendered on a separate thread to avoid blocking
                  the main thread.
  *
- *  Multi Theft Auto is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://multitheftauto.com/
  *
  *****************************************************************************/
 
@@ -120,7 +120,7 @@ bool Splash::CreateSplashWindow(HINSTANCE instance)
             return false;
     }
 
-    HWND window = CreateWindow(windowClass.lpszClassName, "Multi Theft Auto Launcher", WS_POPUP, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT,
+    HWND window = CreateWindow(windowClass.lpszClassName, "Iran Multi Player Launcher", WS_POPUP, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT,
                                NULL, NULL, instance, NULL);
 
     if (window == nullptr)

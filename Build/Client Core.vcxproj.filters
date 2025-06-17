@@ -282,6 +282,9 @@
     <ClInclude Include="..\Client\core\StdInc.h">
       <Filter>Headers</Filter>
     </ClInclude>
+    <ClInclude Include="..\Client\core\languages.generated.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
     <ClInclude Include="..\Client\core\resource.h">
       <Filter>Headers</Filter>
     </ClInclude>

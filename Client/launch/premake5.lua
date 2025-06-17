@@ -1,7 +1,7 @@
 project "Client Launcher"
 	language "C++"
 	kind "WindowedApp"
-	targetname "Multi Theft Auto"
+	targetname "Iran Multi Player"
 	targetdir(buildpath("."))
 	debugdir(buildpath("."))
 
@@ -32,10 +32,10 @@ project "Client Launcher"
 		staticruntime "On"
 		files {
 			"NEU/gameicon_NEU.ico",
-			"NEU/Multi Theft Auto.gdf.xml",
+			"NEU/Iran Multi Player.gdf.xml",
 			"launch.rc",
-			"Multi Theft Auto.rc",
-			"Multi Theft Auto.manifest",
+			"Iran Multi Player.rc",
+			"Iran Multi Player.manifest",
 			"resource/mtaicon.ico"
 		}
 

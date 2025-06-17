@@ -5,7 +5,7 @@
  *  FILE:        Client/loader/Install.h
  *  PURPOSE:     Handles the installation of updates for MTA
  *
- *  Multi Theft Auto is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://multitheftauto.com/
  *
  *****************************************************************************/
 

@@ -603,6 +603,7 @@
     <ClInclude Include="..\Client\core\ServerBrowser\CServerInfo.h" />
     <ClInclude Include="..\Client\core\ServerBrowser\CServerList.h" />
     <ClInclude Include="..\Client\core\StdInc.h" />
+    <ClInclude Include="..\Client\core\languages.generated.h" />
     <ClInclude Include="..\Client\core\resource.h" />
   </ItemGroup>
   <ItemGroup>

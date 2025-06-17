@@ -3,7 +3,7 @@
  *  PROJECT:     IRan Multi Player
  *  LICENSE:     See LICENSE in the top level directory
  *
- *  Multi Theft Auto is available from https://www.multitheftauto.com/
+ *  Iran Multi Player is available from https://www.multitheftauto.com/
  *
  *****************************************************************************/
 

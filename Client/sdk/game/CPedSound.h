@@ -5,7 +5,7 @@
  *  FILE:        sdk/game/CPedSound.h
  *  PURPOSE:     Header file for ped sound interface
  *
- *  Multi Theft Auto is available from https://www.multitheftauto.com/
+ *  Iran Multi Player is available from https://www.multitheftauto.com/
  *
  *****************************************************************************/
 

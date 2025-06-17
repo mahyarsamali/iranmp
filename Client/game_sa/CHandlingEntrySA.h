@@ -5,7 +5,7 @@
  *  FILE:        Client/game_sa/CHandlingEntrySA.h
  *  PURPOSE:     Header file for vehicle handling data entry class
  *
- *  Multi Theft Auto is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://multitheftauto.com/
  *
  *****************************************************************************/
 

@@ -5,7 +5,7 @@
  *  FILE:        game_sa/CWeaponSA.h
  *  PURPOSE:     Header file for weapon class
  *
- *  Multi Theft Auto is available from https://www.multitheftauto.com/
+ *  Iran Multi Player is available from https://www.multitheftauto.com/
  *
  *****************************************************************************/
 

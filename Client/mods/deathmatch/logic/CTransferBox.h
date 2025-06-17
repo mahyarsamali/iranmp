@@ -5,7 +5,7 @@
  *  FILE:        mods/deathmatch/logic/CTransferBox.h
  *  PURPOSE:     Header for transfer box class
  *
- *  Multi Theft Auto is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://multitheftauto.com/
  *
  *****************************************************************************/
 

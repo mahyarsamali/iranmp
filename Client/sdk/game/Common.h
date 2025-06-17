@@ -5,7 +5,7 @@
  *  FILE:        Client/sdk/game/Common.h
  *  PURPOSE:     Grand Theft Auto: San Andreas game definitions
  *
- *  Multi Theft Auto is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://multitheftauto.com/
  *
  *****************************************************************************/
 

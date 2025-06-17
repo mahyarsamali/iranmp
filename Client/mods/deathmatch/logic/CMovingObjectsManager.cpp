@@ -5,7 +5,7 @@
  *  FILE:        mods/deathmatch/logic/CMovingObjectsManager.cpp
  *  PURPOSE:     Manager for moving objects
  *
- *  Multi Theft Auto is available from https://www.multitheftauto.com/
+ *  Iran Multi Player is available from https://www.multitheftauto.com/
  *
  *****************************************************************************/
 

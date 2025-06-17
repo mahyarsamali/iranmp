@@ -5,7 +5,7 @@
  *  FILE:        Client/loader/Main.cpp
  *  PURPOSE:     MTA loader
  *
- *  Multi Theft Auto is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://multitheftauto.com/
  *
  *****************************************************************************/
 

@@ -31,9 +31,6 @@
     <Filter Include="Headers\client\linux\handler">
       <UniqueIdentifier>{3B472B4B-2702-1BF7-D0B9-9341BC536587}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Headers\client\linux\log">
-      <UniqueIdentifier>{3F91B082-2BB6-FF02-5401-E5924085FE20}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Headers\client\linux\microdump_writer">
       <UniqueIdentifier>{E90C13C9-55D1-11B9-1E37-42838ABAADEE}</UniqueIdentifier>
     </Filter>
@@ -284,9 +281,6 @@
     </ClInclude>
     <ClInclude Include="..\vendor\google-breakpad\src\client\linux\handler\minidump_descriptor.h">
       <Filter>Headers\client\linux\handler</Filter>
-    </ClInclude>
-    <ClInclude Include="..\vendor\google-breakpad\src\client\linux\log\log.h">
-      <Filter>Headers\client\linux\log</Filter>
     </ClInclude>
     <ClInclude Include="..\vendor\google-breakpad\src\client\linux\microdump_writer\microdump_writer.h">
       <Filter>Headers\client\linux\microdump_writer</Filter>

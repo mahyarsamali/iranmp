@@ -5,7 +5,7 @@
  *  FILE:        loader-proxy/main.cpp
  *  PURPOSE:     Acts as a proxy for winmm.dll and loads core.dll into the GTA process
  *
- *  Multi Theft Auto is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://multitheftauto.com/
  *
  *****************************************************************************/
 
@@ -166,7 +166,7 @@ VOID OnGameLaunch()
         return;
     }
 
-    // Check if the name of the launcher process matches Multi Theft Auto.
+    // Check if the name of the launcher process matches Iran Multi Player.
     const std::wstring launcherName = launcherPath.filename().wstring();
 
     if (!IEqual(MTA_EXE_NAME, launcherName))
@@ -631,7 +631,7 @@ void ApplyDpiAwareness()
  */
 void ApplyDirectoryInformation(HMODULE library, const std::wstring& mtaDirectory, const std::wstring& gtaDirectory)
 {
-    // Set the path to the Multi Theft Auto directory.
+    // Set the path to the Iran Multi Player directory.
     void (*SetMTADirectory)(const wchar_t*, size_t) = reinterpret_cast<decltype(SetMTADirectory)>(GetProcAddress(library, "SetMTADirectory"));
 
     if (SetMTADirectory)
@@ -688,7 +688,7 @@ auto MakeLauncherError(std::wstring message) -> std::wstring
         message += L"\n\n";
 
     message +=
-        L"Please launch the game through the Multi Theft Auto launcher executable. "
+        L"Please launch the game through the Iran Multi Player launcher executable. "
         L"You can find the launcher either on your desktop or in the MTA:SA installation directory.";
 
     return message;

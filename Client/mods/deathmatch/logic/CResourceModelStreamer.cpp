@@ -5,7 +5,7 @@
  *  FILE:        mods/deathmatch/logic/CResourceModelStreamer.cpp
  *  PURPOSE:     Resource model manager
  *
- *  Multi Theft Auto is available from https://www.multitheftauto.com/
+ *  Iran Multi Player is available from https://www.multitheftauto.com/
  *
  *****************************************************************************/
 

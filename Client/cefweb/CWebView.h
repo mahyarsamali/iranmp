@@ -28,7 +28,7 @@
 #define GetNextSibling(hwnd) GetWindow(hwnd, GW_HWNDNEXT) // Re-define the conflicting macro
 #define GetFirstChild(hwnd) GetTopWindow(hwnd)
 
-#define MTA_CEF_USERAGENT "Multi Theft Auto: San Andreas Client " MTA_DM_BUILDTAG_LONG
+#define MTA_CEF_USERAGENT "Iran Multi Player: San Andreas Client " MTA_DM_BUILDTAG_LONG
 
 enum class ECefThreadState
 {

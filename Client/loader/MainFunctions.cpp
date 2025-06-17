@@ -4,7 +4,7 @@
  *  LICENSE:     See LICENSE in the top level directory
  *  FILE:        Client/loader/MainFunctions.cpp
  *
- *  Multi Theft Auto is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://multitheftauto.com/
  *
  *****************************************************************************/
 
@@ -247,7 +247,7 @@ void HandleDuplicateLaunching()
                 strMessage +=
                     _("Trouble restarting MTA:SA\n\n"
                       "If the problem persists, open Task Manager and\n"
-                      "stop the 'gta_sa.exe' and 'Multi Theft Auto.exe' processes\n\n\n"
+                      "stop the 'gta_sa.exe' and 'Iran Multi Player.exe' processes\n\n\n"
                       "Try to launch MTA:SA again?");
                 if (MessageBoxUTF8(0, strMessage, _("Error") + _E("CL04"), MB_ICONWARNING | MB_YESNO | MB_TOPMOST) ==
                     IDYES)            // Trouble restarting MTA:SA
@@ -629,14 +629,14 @@ void ValidateGTAPath()
     ePathResult iResult = DiscoverGTAPath(true);
     if (iResult == GAME_PATH_MISSING)
     {
-        DisplayErrorMessageBox(_("Registry entries are missing. Please reinstall Multi Theft Auto: San Andreas."), _E("CL12"), "reg-entries-missing");
+        DisplayErrorMessageBox(_("Registry entries are missing. Please reinstall Iran Multi Player: San Andreas."), _E("CL12"), "reg-entries-missing");
         return ExitProcess(EXIT_ERROR);
     }
     else if (iResult == GAME_PATH_UNICODE_CHARS)
     {
         DisplayErrorMessageBox(
             _("The path to your installation of GTA: San Andreas contains unsupported (unicode) characters. Please move your Grand Theft Auto: San Andreas "
-              "installation to a compatible path that contains only standard ASCII characters and reinstall Multi Theft Auto: San Andreas."),
+              "installation to a compatible path that contains only standard ASCII characters and reinstall Iran Multi Player: San Andreas."),
             _E("CL13"));
         return ExitProcess(EXIT_ERROR);
     }
@@ -879,7 +879,7 @@ void CheckDataFiles()
 
         if (!FileExists(filePath))
         {
-            SString message(_("Data file %s is missing. Possible virus activity.\n\nConsider reinstalling Multi Theft Auto for your security.\nSee online "
+            SString message(_("Data file %s is missing. Possible virus activity.\n\nConsider reinstalling Iran Multi Player for your security.\nSee online "
                               "help if MTA does not work correctly."),
                             item.fileName);
             DisplayErrorMessageBox(message, _E("CL30"), "maybe-virus2");
@@ -890,7 +890,7 @@ void CheckDataFiles()
 
         if (!computed.CompareI(item.expected))
         {
-            SString message(_("Data file %s is modified. Possible virus activity.\n\nConsider reinstalling Multi Theft Auto for your security.\nSee online "
+            SString message(_("Data file %s is modified. Possible virus activity.\n\nConsider reinstalling Iran Multi Player for your security.\nSee online "
                               "help if MTA does not work correctly."),
                             item.fileName);
             DisplayErrorMessageBox(message, _E("CL30"), "maybe-virus2");

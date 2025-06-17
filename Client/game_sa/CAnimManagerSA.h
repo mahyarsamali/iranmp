@@ -5,7 +5,7 @@
  *  FILE:        Client/game_sa/CAnimManagerSA.h
  *  PURPOSE:     Header file for animation manager class
  *
- *  Multi Theft Auto is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://multitheftauto.com/
  *
  *****************************************************************************/
 

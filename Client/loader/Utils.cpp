@@ -5,7 +5,7 @@
  *  FILE:        Client/loader/Utils.cpp
  *  PURPOSE:     Loading utilities
  *
- *  Multi Theft Auto is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://multitheftauto.com/
  *
  *****************************************************************************/
 
@@ -562,7 +562,7 @@ ePathResult GetGamePath(SString& strOutResult, bool bFindIfMissing)
     // Registry places to look
     std::vector<SString> pathList;
 
-    // Try HKLM "SOFTWARE\\Multi Theft Auto: San Andreas All\\Common\\"
+    // Try HKLM "SOFTWARE\\Iran Multi Player: San Andreas All\\Common\\"
     pathList.push_back(GetCommonRegistryValue("", "GTA:SA Path"));
 
     // Unicode character check on first one
@@ -963,7 +963,7 @@ void RelaunchAsAdmin(const SString& strCmdLine, const SString& strReason)
     HideSplash();
     AddReportLog(7115, SString("Loader - Request to elevate privileges (%s)", *strReason));
     MessageBoxUTF8(NULL, SString(_("MTA:SA needs Administrator access for the following task:\n\n  '%s'\n\nPlease confirm in the next window."), *strReason),
-                   "Multi Theft Auto: San Andreas", MB_OK | MB_ICONINFORMATION | MB_TOPMOST);
+                   "Iran Multi Player: San Andreas", MB_OK | MB_ICONINFORMATION | MB_TOPMOST);
     ReleaseSingleInstanceMutex();
     ShellExecuteNonBlocking("runas", PathJoin(GetMTASAPath(), MTA_EXE_NAME), strCmdLine);
 }

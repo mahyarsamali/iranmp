@@ -5,7 +5,7 @@
  *  FILE:        Client/core/Core.cpp
  *  PURPOSE:     Core library entry point
  *
- *  Multi Theft Auto is available from https://multitheftauto.com/
+ *  Iran Multi Player is available from https://multitheftauto.com/
  *
  *****************************************************************************/
 
@@ -90,7 +90,7 @@ CORE_API int InitializeCore()
         return 4;
 
     // Group our processes and windows under a single taskbar button
-    SetCurrentProcessExplicitAppUserModelID(L"Multi Theft Auto");
+    SetCurrentProcessExplicitAppUserModelID(L"Iran Multi Player");
 
     WriteDebugEvent(SString("ModuleFileName: %s", *GetLaunchPathFilename()));
 
